@@ -8,7 +8,7 @@
 }
 
 body{
-  background: url("../imgs/bg.png") repeat-y;
+  background: url("../imgs/bg.png") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -173,10 +173,29 @@ h3.panel-title, .tab-content p{
   filter: drop-shadow(#484848 4px 4px 6px);
 }
 
+.modal-body .container{
+  position: relative;
+  padding-bottom: 60px;
+}
+.modal-body button{
+  width: 120px;
+  height: 50px;
+  background-color: #80392C;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  right: 0 !important;
+}
+.modal-body button::before{
+  content: 'Fechar';
+}
+.modal-body button:hover{
+  background-color: #2A8080;
+  color: #fff;
+}
 
 .painel-ambientes{
   margin: 40px auto;
-  border: #f00 solid 1px;
   text-align: center;
   padding: 0 !important;
 }
@@ -185,14 +204,45 @@ h3.panel-title, .tab-content p{
   border: none;
   width: 156px;
   height: 165px;
-  margin: 0px;
+  margin: 12px;
   transition: all 0.3s;
 }
 .btn-salas_abertas{background-image: url('../imgs/painel/bt01.png');}
 .btn-salas_fechadas{background-image: url('../imgs/painel/bt02.png');}
+.btn-salas_reunioes{background-image: url('../imgs/painel/bt03.png');}
+.btn-recepcao{background-image: url('../imgs/painel/bt04.png');}
+.btn-circulacoes{background-image: url('../imgs/painel/bt05.png');}
+.btn-banheiros{background-image: url('../imgs/painel/bt06.png');}
+.btn-copas{background-image: url('../imgs/painel/bt07.png');}
+.btn-ambientes_descompressao{background-image: url('../imgs/painel/bt08.png');}
+.btn-ambientes_especificos{background-image: url('../imgs/painel/bt09.png');}
 
 .btn-salas_abertas:hover{background-image: url('../imgs/painel/bt01_2.png');}
 .btn-salas_fechadas:hover{background-image: url('../imgs/painel/bt02_2.png');}
+.btn-salas_reunioes:hover{background-image: url('../imgs/painel/bt03_2.png');}
+.btn-recepcao:hover{background-image: url('../imgs/painel/bt04_2.png');}
+.btn-circulacoes:hover{background-image: url('../imgs/painel/bt05_2.png');}
+.btn-banheiros:hover{background-image: url('../imgs/painel/bt06_2.png');}
+.btn-copas:hover{background-image: url('../imgs/painel/bt07_2.png');}
+.btn-ambientes_descompressao:hover{background-image: url('../imgs/painel/bt08_2.png');}
+.btn-ambientes_especificos:hover{background-image: url('../imgs/painel/bt09_2.png');}
+
+.img-zoom{
+  display: table;
+  position: relative;
+  margin: 0px auto;
+  cursor: pointer;
+}
+.img-zoom::after{
+  content: url('../imgs/lupa.png');
+  display: block;
+  width: 95px;
+  height: 95px;
+  right: 5px;
+  bottom: 5px;
+  position: absolute;
+  filter: drop-shadow(#333 3px 3px 4px);
+}
 
 
 
