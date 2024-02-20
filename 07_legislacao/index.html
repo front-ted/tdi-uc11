@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Legislação e normas técnicas: especificidades e representação de projeto</title>
+
+    <!-- Bootstrap -->
+    <link href="../template/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../template/css/tecnicos_senac.css" rel="stylesheet">
+    <link href="../template/css/cores.css" rel="stylesheet">
+    <!--Extras - novas classes para facilitar-->
+    <link rel="stylesheet" href="../template/css/extras.css">
+    <link href="../template/css/sncload.css" rel="stylesheet">
+    <link href="../template/css/magnific-popup.css" rel="stylesheet">
+    <link href="../template/css/atividades_interativas.css" rel="stylesheet">
+    <link href="../template/css/modal-100.css" rel="stylesheet">
+    <link href="../template/css/extras.css" rel="stylesheet">
+    <!-- referencia ao arquivo css com estilos especificos da pagina -->
+    <link href="css/custom.css" type="text/css" rel="stylesheet">
+    <!-- css necessario para o print -->
+    <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="../template/css/print.css" type="text/css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+  
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Bruna Flores de Oliveira</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">46172400.0000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Bruna Flores de Oliveira</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
+    <!-- MARCA D´ÁGUA -->
+    <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo">
+    <!-- /MARCA D´ÁGUA -->
+
+    <div id='sncloader' class='over-loader'><div class="over-cell"><div id="sncload"></div></div></div>
+    <header id="topo" class="senac no-print">
+        <div  class="header-tecnicos container">
+          <h1 id="nome-curso">Design de interiores</h1>
+          <div id="logo-senac"><img src="../template/images/logo-senac.png" alt="logo do senac"></div>
+        </div>
+        <div id="sombra"></div>
+    </header>
+
+
+
+    <!-- Menu -->
+    <input type="checkbox" id="menu" name="menu" class="menu-checkbox no-print">
+    <div class="menu no-print fade-check" aria-hidden="true">
+      <div id="style-2" class="scroll-bar">
+        <div class="force-overflow">
+          <label class="menu-toggle no-print" for="menu"><span>Toggle</span></label>
+          <ul class="eng-item-menu">
+            <li class="item1">
+              <a href="?page=1#t1" class="fundo-item">Introdução</a>
+              <hr>
+            </li>
+            <li class="item2">
+              <a href="?page=1#t2" class="fundo-item">Legislação</a>
+              <hr>
+            </li>
+            <li class="item3">
+              <a href="?page=1#t3" class="fundo-item">Lei nº 13.146/2015</a>
+              <hr>
+            </li>
+            <li class="item4">
+              <a href="?page=1#t4" class="fundo-item">Lei nº 10.098/2000 e Decreto nº 5.296/2004</a>
+              <hr>
+            </li>
+            <li class="item5">
+              <a href="?page=2#t5" class="fundo-item">NR-17</a>
+              <hr>
+            </li>
+            <li class="item6">
+              <a href="?page=2#t6" class="fundo-item">ABNT NBR 9050</a>
+              <hr>
+            </li>
+            <li class="item7">
+              <a href="?page=2#t7" class="fundo-item">ABNT NBR ISO/CIE 8995-1:2013</a>
+              <hr>
+            </li>
+            <li class="item8">
+              <a href="?page=2#t8" class="fundo-item">ABNT NBR 13962:2018</a>
+              <hr>
+            </li>
+            <li class="item9">
+              <a href="?page=2#t9" class="fundo-item">NR-8</a>
+              <hr>
+            </li>
+            <li class="item10">
+              <a href="?page=2#t10" class="fundo-item">NR-24</a>
+              <hr>
+            </li>
+            <li class="item11">
+              <a href="?page=2#t11" class="fundo-item">ABNT NBR 15575-1:2021</a>
+              <hr>
+            </li>
+            <li class="item12">
+              <a href="?page=2#t12" class="fundo-item">ABNT NBR 15575-1:2021</a>
+              <hr>
+            </li>
+            <li class="item13">
+              <a href="?page=2#t13" class="fundo-item">ABNT NBR 16280:2022</a>
+              <hr>
+            </li>
+            <li class="item14">
+              <a href="?page=2#t14" class="fundo-item">Normas para representação de projetos</a>
+              <hr>
+            </li>
+            <li class="item15">
+              <a href="?page=2#t15" class="fundo-item">Encerramento</a>
+              <hr>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <header class="no-print">
+        <!-- BTO IMPRIMIR -->
+        <div class="grupo-imprimir no-print">
+          <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+            <span class="fa fa-print"></span> <span>Imprimir</span>
+          </button>
+        </div>
+        <!-- /BTO IMPRIMIR -->
+      </header>
+    </div>
+
+
+    <div id="booklet">
+        
+      
+      <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+        <section class="paginas">
+
+          <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+          <div class="pagina">
+            <div class="container fundo-tecnicos">
+              <div>
+                <h2>Legislação e normas técnicas: especificidades e representação de projeto</h2>
+
+                <h3 id="t1">Introdução</h3>
+                <p>Um ambiente corporativo é um espaço físico onde atividades profissionais são realizadas e estão associadas a escritórios, nos quais é possível incluir alguns ambientes como: salas de reunião, estações de trabalho, áreas de descanso, copa e outras áreas possíveis dentro de uma empresa. O ambiente corporativo é um local que precisa ser projetado de forma segura, atendendo às normas de segurança, aliando a criatividade e a produtividade às legislações existentes.</p>
+                <p>O universo do <i>design</i> de interiores fica entrelaçado a um conjunto de criatividade, etapas de projeto, legislação e normas técnicas que estabelecem parâmetros e diretrizes, essenciais para a responsabilidade e a segurança da profissão. A compreensão dessas normas é essencial para os profissionais que, além de buscarem estética, harmonização e funcionalidade, buscam a segurança dos padrões da legislação brasileira.</p>
+                <p>No Brasil, a legislação e as normas técnicas trazem informações importantes na garantia da segurança dos projetos. A Associação Brasileira de Normas Técnicas (ABNT) e as normas regulamentadoras (NRs) estabelecem diretrizes que orientam desde a escolha de materiais até as dimensões de mobiliários e a disposição do leiaute dos ambientes. A integração dessas informações, junto à inovação, assegura a conformidade legal.</p>
+                <div class="caixa-destaque icone-para-refletir">
+                  <p>A representação do projeto, que segue a legislação e as normas técnicas, acompanha todas as etapas e fases do processo de <i>design</i> de interiores. A documentação precisa ser detalhada, incluindo plantas baixas, cortes, especificações técnicas e detalhes construtivos, além dos aspectos legais como o leiaute, a iluminação, a acústica e o mobiliário. As normas técnicas de desenhos, representação e documentação de projetos foram abordadas na unidade curricular <b>Representar graficamente o ambiente de forma bidimensional</b>, e você pode retomar se necessário. A <i>expertise</i> em interpretar normas e conseguir aplicá-las é essencial para os profissionais de <i>design</i> de interiores.</p>
+                </div>
+              </div>
+
+              <div id="t2">
+                <h3>Legislação</h3>
+                <p>No trabalho de <i>design</i> de interiores em espaços corporativos, estar em conformidade com a legislação é algo essencial para criar um espaço seguro para quem o utiliza, garantindo uma correspondência de espaços e obtendo um respaldo sobre suas escolhas. Ao embasar suas decisões em regulamentações específicas, você, futuro <i>designer</i>, assegura que o ambiente atenderá aos requisitos legais e normativos, estando relacionados à acessibilidade, segurança, ergonomia, iluminação e a outros aspectos. A aderência às normas reflete no seu profissionalismo, visto que o mercado está cada vez mais consciente.</p>
+                <div class="caixa-destaque icone-atencao">
+                  <p>Antes de abordar a legislação, é importante mencionar que, em 13 de dezembro de 2016, foi sancionada a Lei nº 13.369, a qual reconhece e assegura o exercício da profissão de <i>designer</i> de interiores. Essa legislação ressalta a habilidade do profissional em conceber e realizar obras em ambientes internos. Ela garante também o reconhecimento e a valorização da profissão, garantindo a atuação com mais responsabilidade, dignidade e compromisso. </p>
+                </div>
+                <p>São diversas as leis que fornecem informações completas relacionadas às escolhas do <i>designer</i> de interiores. Para começar, veja algumas leis que citam aspectos importantes sobre acessibilidade e que devem ser considerados em um projeto.</p>
+              </div>
+
+              <div id="t3">
+                <h4>Lei nº 13.146/2015 – Estatuto da Pessoa com Deficiência</h4>
+                <p>É importante que você conheça essa Lei, que define direitos e garantias às pessoas com deficiência, tratando com igualdade o exercício de direitos e liberdade. Veja uma fala presente na Lei:</p>
+
+                <div class="div-lei">
+                  <div class="fundo-lei"></div>
+                  <div class="conteudo-lei">
+                    <p>Art. 3º Para fins de aplicação desta Lei, consideram-se:</p>
+                    <p>I – acessibilidade: possibilidade e condição de alcance para utilização, com segurança e autonomia, de espaços, mobiliários, equipamentos urbanos, edificações, transportes, informação e comunicação, inclusive seus sistemas e tecnologias, bem como de outros serviços e instalações abertos ao público, de uso público ou privados de uso coletivo, tanto na zona urbana como na rural, por pessoa com deficiência ou com mobilidade reduzida;</p>
+                    <p>II – desenho universal: concepção de produtos, ambientes, programas e serviços a serem usados por todas as pessoas, sem necessidade de adaptação ou de projeto específico, incluindo os recursos de tecnologia assistiva;</p>
+                    <p>[...] (Brasil, 2015)</p>
+                  </div>
+                </div>
+                
+                <p>Ao explorar essas normas e legislações, você poderá abordar diferentes aspectos relacionados à segurança, acessibilidade, sustentabilidade e eficiência em projetos de <i>design</i> de interiores. Certifique-se de adaptar as normas escolhidas de acordo com o escopo e os objetivos específicos do seu trabalho.</p>
+              </div>
+
+              <div id="t4">
+                <h4>Lei nº 10.098/2000 e Decreto nº 5.296/2004 – Normas gerais e critérios básicos para a promoção da acessibilidade</h4>
+                <p>Essas legislações tratam da acessibilidade em espaços públicos e privados, sendo essenciais para projetos corporativos inclusivos. Elas apresentam as condições gerais de acessibilidade. </p>
+                <p>Visto, então, o cuidado necessário a ser tomado em seu projeto, veja agora as normas que trazem informações pertinentes.</p>
+              </div>
+
+              <div id="t5">
+                <h4>NR-17 – Ergonomia</h4>
+                <div class="row">
+                  <div class="col-sm-4 col-xs-12">
+                    <br>
+                    <img src="objetos/fig_01.png" class="img-responsive center-block">
+                  </div>
+                  <div class="col-sm-8 col-xs-12">
+                    <p>Essa norma é aplicável em várias situações possíveis de serem exploradas neste estudo, apresentando diretrizes ergonômicas que visam garantir conforto, segurança e um ambiente de trabalho agradável. O uso da NR-17 pelo <i>design</i> de interiores garante condições adequadas para os colaboradores. O ambiente deve ser pensado de forma a atender não apenas critérios estéticos, mas também exigências legais que visam à preservação da saúde e do bem-estar dos trabalhadores, tratando desde a disposição dos móveis e a circulação até a iluminação do ambiente.</p>
+                  </div>
+                </div>
+                <p>O desenvolvimento de projetos para ambientes corporativos deve ser realizado para atender não só a critérios estéticos, mas também a exigências legais, utilizando a norma como guia para a adequação ergonômica. Isso inclui a escolha do mobiliário, a disposição dos espaços, a iluminação e todos os aspectos que possam impactar a produtividade dos colaboradores.</p>
+                <p>Cabe destacar que a NR-17 não trabalha apenas a ergonomia física, mas a ergonomia organizacional e a cognitiva também.</p>
+                
+                <div class="no-print" aria-hidden="true">
+                  <p>Clique ou toque para visualizar o conteúdo.</p>
+                  <div class="painel-ergonomia">
+                    <button type="button" class="btn-ergonomia btn-fisica" data-toggle="modal" data-target="#modal-fisica"></button>
+                    <button type="button" class="btn-ergonomia btn-organizacional" data-toggle="modal" data-target="#modal-organizacional"></button>
+                    <button type="button" class="btn-ergonomia btn-cognitiva" data-toggle="modal" data-target="#modal-cognitiva"></button>
+                  </div>
+                </div>
+                <div class="acessivel print">
+                  <h5>Ergonomia física</h5>
+                  <p>O homem precisa estar em harmonia com o ambiente. A mais conhecida delas trata da adequação do ambiente de trabalho para o trabalhador, atendendo às características da anatomia humana (antropometria). Trata da dimensão de equipamentos e mobiliários, das posturas, do manuseio de materiais, dos movimentos repetitivos e dos distúrbios esqueléticos relacionados ao trabalho.  </p>
+                  <h5>Ergonomia organizacional</h5>
+                  <p>Trata de estrutura, política e processos do ambiente e de bem-estar coletivo. Abrange as relações entre os grupos de trabalho e a estrutura da organização. Envolve a comunicação interna e a distribuição das tarefas. Visa à criação de ambientes que proporcionem o bem-estar, a satisfação e o desempenho coletivo. A gestão do tempo, o ambiente saudável e a adaptação para as necessidades individuais são trabalhados.</p>
+                  <h5>Ergonomia cognitiva</h5>
+                  <p>Está relacionada aos processos mentais. Trabalha com a capacidade mental, a memória, o raciocínio e os processos psicológicos dos trabalhadores, desde a organização do seu trabalho, com as cargas mentais, até a organização de suas tarefas. Reduzir a carga cognitiva e promover a clareza no trabalho e nas instruções facilitam a tomada das decisões, trazendo mais conforto.</p>
+                </div>
+                
+                <p>Em síntese, a aplicação integrada da ergonomia física, cognitiva e organizacional resulta em ambientes de trabalho mais eficientes, seguros e agradáveis. Ao reconhecer as necessidades do corpo, da mente e da dinâmica organizacional, é possível promover um equilíbrio harmonioso que beneficia tanto os indivíduos quanto as empresas, criando condições propícias para o sucesso e a satisfação no trabalho.</p>
+                <p>Alguns cuidados que a norma indica sobre a organização do trabalho (que tratam não só de questões físicas) e que merecem atenção no momento do projeto são:</p>
+
+                <div class="div-lei">
+                  <div class="fundo-lei"></div>
+                  <div class="conteudo-lei">
+                    <p>A organização do trabalho, para efeito desta NR, deve levar em consideração: </p>
+                    <ol type="a">
+                      <li>as normas de produção; </li>
+                      <li>o modo operatório, quando aplicável; </li>
+                      <li>a exigência de tempo; </li>
+                      <li>o ritmo de trabalho; </li>
+                      <li>o conteúdo das tarefas e os instrumentos e meios técnicos disponíveis; e</li>
+                      <li>os aspectos cognitivos que possam comprometer a segurança e a saúde do trabalhador. (Brasil, 2022a)</li>
+                    </ol>
+                  </div>
+                </div>
+
+                <p>Essas informações, extraídas da NR-17, reforçam a importância de cada detalhe no projeto, pois cada elemento contribui de forma fundamental para a qualidade do trabalho e, por consequência, para o bem-estar do colaborador.</p>
+                <p>Outros pontos abordados pela norma determinam que devem ser tomadas medidas de prevenção para diminuir situações como: <b>posturas nocivas ao tronco, ao pescoço, à cabeça, aos membros superiores ou inferiores; movimentos bruscos; uso excessivo da força; frequência dos movimentos (para que não comprometam a segurança do trabalhador)</b>. </p>
+                <p>Como medida de prevenção, seguem alternativas como: <b>pausas para a recuperação psicofisiológica dos trabalhadores (computadas como tempo de trabalho); alternância das atividades ou alternância de postura; alteração na forma de executar a tarefa</b>. A norma ainda indica que, quando as duas últimas medidas não forem possíveis de abordar, é possível realizar pausas.</p>
+                <p>As dimensões dos espaços de trabalho e de circulação devem ser suficientes para que o trabalhador possa se movimentar, reduzindo o esforço e a adoção de posturas nocivas. “O conjunto do mobiliário do posto de trabalho deve apresentar regulagens em um ou mais de seus elementos que permitam adaptá-lo às características antropométricas que atendam ao conjunto dos trabalhadores envolvidos e à natureza do trabalho a ser desenvolvido” (Brasil, 2022a).</p>
+                <p>Além disso, é importante destacar que, em um espaço de trabalho, as mesas individuais devem ter um espaço adequado. </p>
+                <div class="caixa-destaque icone-para-refletir">
+                  <p>Imagine que você está trabalhando e o colega que está na frente estica as pernas e, sem querer, bate em você, ou então que você quer esticar suas pernas e não tem espaço porque há uma parede na sua frente. Com tudo o que viu até aqui, você sabe o porquê de isso acontecer? Se você pensou que a mesa tinha uma profundidade pequena, acertou!</p>
+                </div>
+                <p>Deve haver garantia de boa postura para os trabalhos manuais, garantindo características dimensionais que permitam bom posicionamento e movimentação, altura compatível com o tipo de atividade, distância adequada dos olhos ao campo de trabalho e altura do assento apropriada. Além disso, é preciso que a área de trabalho esteja dentro da zona de alcance manual e que o espaço “sentado” seja suficiente para as pernas, permitindo que o trabalhador se aproxime da mesa de trabalho. Por fim, sempre que o trabalhador não conseguir apoiar os pés no chão, é necessária uma adaptação (apoio de pés).</p>
+                <img src="objetos/img01.png" class="img-responsive center-block img-borda">
+                <p class="legenda-imagem">
+                  Postura correta para o trabalho <br>
+                  Fonte: Adaptado de Pinterest (2023)
+                </p>
+                <p class="acessivel print">Na imagem há uma pessoa sentada de lado, com os pés apoiados no chão, as pernas bem apoiadas na cadeira, bem como a sua lombar. A pessoa está com a coluna reta, de frente para um monitor e a parte de cima do monitor está alinhada com os olhos. O braço está apoiado no apoio de braço e com os punhos retos. Na imagem mostra mais algumas estantes, mas elas apenas complementam a cena.</p>
+                <p>Neste contexto, também deve ser considerado o uso de <i>notebooks</i>. Sabe-se que o <i>notebook</i>, hoje, proporciona uma facilidade em razão de possibilitar que as pessoas realizem seu trabalho de onde quiserem. Mas essa facilidade traz algumas consequências. Ao utilizar um <i>notebook</i> em casa (ou por longos períodos), por exemplo, é interessante que ele tenha um apoio, para que possa ser utilizado como tela (a parte de cima da tela deve estar alinhada com os olhos), garantindo que a altura dele fique adequada para que não se tenha inclinação do pescoço. É importante ter um teclado e um <i>mouse</i> separados, para dar conforto no momento do trabalho, sem inclinações indevidas dos braços e punhos.</p>
+                <img src="objetos/img02.png" class="img-responsive center-block img-borda">
+                <p class="legenda-imagem">
+                  <i>Notebook</i> com teclado e <i>mouse</i> <br>
+                  Fonte: Kalunga <i>Blog</i> (2020)
+                </p>
+                <p class="acessivel print">A imagem apresenta um notebook em um apoio, em cima da mesa, com teclado e mouse separados. A imagem também apresenta um vaso com uma planta e livros para compor o cenário.</p>
+                <p>Ainda, a iluminação, natural ou artificial, deve ser projetada para não haver ofuscamento, reflexos, sombras ou muitos contrastes. Essa iluminação deve ser conforme os níveis mínimos. Em locais com solicitação intelectual e atenção constante, é necessário manter um conforto térmico e acústico.</p>
+                <div class="caixa-destaque icone-dica">
+                  <p>Para evitar ofuscamento, a dica é posicionar as mesas de trabalho de forma que a luz natural não reflita diretamente no monitor ou diretamente nos olhos do colaborador. Preferencialmente, é utilizada a mesa de lado para a janela, mas não se preocupe se não for possível. Sempre trabalhe com cortinas para controlar essa iluminação e adequar o espaço.</p>
+                </div>
+                <img src="objetos/img03.png" class="img-responsive center-block img-borda">
+                <p class="legenda-imagem">
+                  Mesa de trabalho com computador de lado para a janela  <br>
+                  Fonte: Freepik (c2010-2024)
+                </p>
+                <p class="acessivel print">A imagem apresenta um notebook em cima de uma mesa, posicionado de lado para a janela. Em frente ao computador, tem uma pessoa sentada olhando e manuseando um celular.</p>
+                <p>Deve existir o controle da temperatura, da velocidade do ar e da umidade, trazendo conforto. As correntes de ar não podem ser diretas nos colaboradores.</p>
+                <p>A NR-17 também apresenta informações sobre o trabalho em <b>teleatendimento</b>. Embora possa não ser o foco do seu projeto, algumas observações são pertinentes para qualquer trabalho realizado em uma mesa de escritório:</p>
+
+                <div class="div-lei">
+                  <div class="fundo-lei"></div>
+                  <div class="conteudo-lei">
+                    <p>3.1 [...]</p>
+                    <p>c) a bancada sem material de consulta deve ter, no mínimo, profundidade de 75 cm (setenta e cinco centímetros), medidos a partir de sua borda frontal, e largura de 90 cm (noventa centímetros) que proporcionem zonas de alcance manual de, no máximo, 65 cm (sessenta e cinco centímetros) de raio em cada lado, medidas centradas nos ombros do operador em posição de trabalho;</p>
+                    <p>[...]</p>
+                    <p>e) o plano de trabalho deve ter bordas arredondadas;</p>
+                    <p>i) nos casos em que os pés do operador não alcancem o piso, mesmo após a regulagem do assento, deve ser fornecido apoio para os pés que se adapte ao comprimento das pernas do trabalhador, permitindo o apoio das plantas dos pés, com inclinação ajustável e superfície revestida de material antiderrapante; </p>
+                    <p>[...] (Brasil, 2022a)</p>
+                  </div>
+                </div>
+
+                <p>Para as cadeiras, a norma usa as seguintes indicações:</p>
+
+                <div class="div-lei">
+                  <div class="fundo-lei"></div>
+                  <div class="conteudo-lei">
+                    <p>[...]</p>
+                    <p>j) os assentos devem ser dotados de: </p>
+                    <p>
+                      I – apoio em 05 (cinco) pés, com rodízios cuja resistência evite deslocamentos involuntários e que não comprometam a estabilidade do assento; <br>
+                      II – superfícies onde ocorre contato corporal estofadas e revestidas de material que permita a perspiração;  <br>
+                      III – base estofada com material de densidade entre 40 (quarenta) a 50 (cinquenta) kg/m3; <br>
+                      IV – altura da superfície superior ajustável, em relação ao piso, entre 37 cm (trinta e sete centímetros) e 50 cm (cinquenta centímetros), podendo ser adotados até três tipos de cadeiras com alturas diferentes, de forma a atender as necessidades de todos os operadores; <br>
+                      V – profundidade útil de 38 cm (trinta e oito centímetros) a 46 cm (quarenta e seis centímetros);   <br>
+                      VI – borda frontal arredondada; <br>
+                      VII – características de pouca ou nenhuma conformação na base; <br>
+                      VIII - encosto ajustável em altura e em sentido anteroposterior, com forma levemente adaptada ao corpo para proteção da região lombar; <br>
+                      IX – largura de, no mínimo, 40 cm (quarenta centímetros) e, com relação aos encostos, de no mínimo, 30,5 cm (trinta vírgula cinquenta centímetros);<br>
+                      X – apoio de braços regulável em altura de 20 cm (vinte centímetros) a 25 cm (vinte e cinco centímetros) a partir do assento, sendo que seu comprimento não deve interferir no movimento de aproximação da cadeira em relação à mesa, nem nos movimentos inerentes à execução da tarefa. (Brasil, 2022a)
+                    </p>
+                  </div>
+                </div>
+                
+                <img src="objetos/img04.png" class="img-responsive center-block img-borda">
+                <p class="legenda-imagem">
+                  Cadeira para escritório <br>
+                  Fonte: Cavaletti Moov (c2024)
+                </p>
+                <p class="acessivel print">Na imagem há uma cadeira, com rodízio, mostrando que tem a possibilidade de ajuste no assento e ajuste na altura do apoio de braço. A cadeira é cinza e o assento é em tom de cinza-claro.</p>
+                <p>É possível notar, então, que a mesa precisa ter um espaço confortável, permitindo que as pessoas possam permanecer durante seu trabalho de forma tranquila. Ao indicar cadeiras, pesquise sempre pelas ergonômicas, analisando se atendem aos requisitos de apoio de lombar, altura do apoio de braço ajustável, rodízio e ajuste de altura, para ter certeza de que se adequarão a qualquer pessoa que precisar utilizar.</p>
+                <p>Além da NR-17, que aborda especificamente questões ergonômicas, existem diversas normas e legislações que podem ser relevantes para um trabalho no contexto do <i>design</i> de interiores. Veja, agora, uma NBR bastante conhecida: a NBR 9050.</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="pagina">
+            <div class="container fundo-tecnicos">
+              <div id="t6">
+                <h4>ABNT NBR 9050: Acessibilidade a edificações, mobiliário, espaços e equipamentos urbanos</h4>
+                <p>Essa norma estabelece critérios e parâmetros técnicos a serem observados no projeto, na construção, na instalação e na adaptação de edificações, mobiliários, espaços e equipamentos urbanos, visando à acessibilidade de pessoas com deficiência ou com mobilidade reduzida.</p>
+                <div class="caixa-destaque icone-atencao">
+                  <p>Lembre-se de consultar a norma em busca de informações complementares sempre que precisar, conforme seus projetos e suas necessidades. </p>
+                </div>
+
+                <div class="div-lei">
+                  <div class="fundo-lei"></div>
+                  <div class="conteudo-lei">
+                    <p>3.1.1 acessibilidade – possibilidade e condição de alcance, percepção e entendimento para utilização, com segurança e autonomia, de espaços, mobiliários, equipamentos urbanos, edificações, transportes, informação e comunicação, inclusive seus sistemas e tecnologias, bem como outros serviços e instalações abertos ao público, de uso público ou privado de uso coletivo, tanto na zona urbana como na rural, por pessoa com deficiência ou mobilidade reduzida </p>
+                    <p>3.1.2 acessível – espaços, mobiliários, equipamentos urbanos, edificações, transportes, informação e comunicação, inclusive seus sistemas e tecnologias ou elemento que possa ser alcançado, acionado, utilizado e vivenciado por qualquer pessoa</p>
+                    <p>[...]</p>
+                    <p>3.1.7 área de aproximação – espaço sem obstáculos, destinado a garantir manobra, deslocamento e aproximação de todas as pessoas, para utilização de mobiliário ou elemento com autonomia e segurança </p>
+                    <p>3.1.8 área de circulação – espaço livre de obstáculos, destinado ao uso de todas as pessoas (ABNT, 2020d)</p>
+                  </div>
+                </div>
+
+                <p>A norma ainda cita alguns termos como “definição de espaço de descanso”, “desenho universal” e “local de reunião”, que podem ajudar você a trazer algumas definições de forma bem clara quando for trabalhar com essas informações.</p>
+                <p>Relembre medidas importantes:</p>
+                
+                <!-- página 15 (fig 5) -->
+
+
+
+
+
+                <img src="objetos/img01.png" class="img-responsive center-block img-borda">
+                <p class="legenda-imagem">
+                  aaaaaa <br>
+                  aaaaaa
+                </p>
+                <p class="acessivel print">aaaaaa</p>
+
+              </div>
+              
+
+              <div id="t15">
+                <h3>Encerramento</h3>
+                <p>Cada detalhe meticulosamente planejado e cada decisão estratégica tomada durante o processo de <i>design</i> desempenham um papel vital na criação de espaços que transcendem simplesmente a estética. Ao invés disso, essas etapas se convertem em ferramentas poderosas para moldar experiências e influenciar positivamente a funcionalidade dos ambientes corporativos.</p>
+                <p>Você percebeu que a importância das etapas de projeto não se limita à fase de execução. A coordenação eficiente entre profissionais e a comunicação transparente são cruciais para garantir que a visão concebida ganhe vida de maneira coesa e sem contratempos. Essa colaboração contínua não apenas assegura a integridade do <i>design</i>, mas também maximiza o potencial de impacto positivo nos usuários finais.</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+        <!-- Modais -->
+        <div class="modal fade" id="modal-fisica" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-live="polite" aria-atomic="true" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content no-print">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Ergonomia física</h4>
+              </div>
+              <div class="modal-body">
+                <p>O homem precisa estar em harmonia com o ambiente. A mais conhecida delas trata da adequação do ambiente de trabalho para o trabalhador, atendendo às características da anatomia humana (antropometria). Trata da dimensão de equipamentos e mobiliários, das posturas, do manuseio de materiais, dos movimentos repetitivos e dos distúrbios esqueléticos relacionados ao trabalho.  </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-organizacional" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-live="polite" aria-atomic="true" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content no-print">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Ergonomia organizacional</h4>
+              </div>
+              <div class="modal-body">
+                <p>Trata de estrutura, política e processos do ambiente e de bem-estar coletivo. Abrange as relações entre os grupos de trabalho e a estrutura da organização. Envolve a comunicação interna e a distribuição das tarefas. Visa à criação de ambientes que proporcionem o bem-estar, a satisfação e o desempenho coletivo. A gestão do tempo, o ambiente saudável e a adaptação para as necessidades individuais são trabalhados.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-cognitiva" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-live="polite" aria-atomic="true" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content no-print">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Ergonomia cognitiva</h4>
+              </div>
+              <div class="modal-body">
+                <p>Está relacionada aos processos mentais. Trabalha com a capacidade mental, a memória, o raciocínio e os processos psicológicos dos trabalhadores, desde a organização do seu trabalho, com as cargas mentais, até a organização de suas tarefas. Reduzir a carga cognitiva e promover a clareza no trabalho e nas instruções facilitam a tomada das decisões, trazendo mais conforto.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- Modais 100% -->
+
+        
+
+<!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+        <footer class="text-center no-print">
+          
+          <ul class="pagination">
+
+          </ul>
+          
+        </footer>
+
+      </div>
+
+    </div>
+
+
+
+    <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+    <footer>
+    </footer>
+    -->
+    <!-- carrega todas as imagens dos icones nesta div
+    caso queira adicionar mais imagens de novos icones do css,
+    ou qualquer imagem que deva ser contabilizada durante a fase
+    de loading, referenciar aqui.
+    -->
+    <div class="ico-div-loader">
+      <img src="../template/images/atencao.png">
+        <img src="../template/images/bg-content.jpg">
+        <img src="../template/images/bg-topo.jpg">
+        <img src="../template/images/black-zoom-in-256.png">
+        <img src="../template/images/concluindo.png">
+        <img src="../template/images/curtir.png">
+        <img src="../template/images/desafio.png">
+        <img src="../template/images/dica.png">
+        <img src="../template/images/doc.png">
+        <img src="../template/images/fundamental.png">
+        <img src="../template/images/icon-03.png">
+        <img src="../template/images/importante.png">
+        <img src="../template/images/lightbulb.png">
+        <img src="../template/images/link.png">
+        <img src="../template/images/link_pdf_hover.png">
+        <img src="../template/images/link_pdf_normal.png">
+        <img src="../template/images/logo-senac.png">
+        <img src="../template/images/mark-icon.png">
+        <img src="../template/images/mark-icon02.png">
+        <img src="../template/images/midia.png">
+        <img src="../template/images/monitor.png">
+        <img src="../template/images/nao_curtir.png">
+        <img src="../template/images/pergunta.png">
+        <img src="../template/images/pesquisa.png">
+        <img src="../template/images/play.png">
+        <img src="../template/images/radio_flat.png">
+        <img src="../template/images/refletir.png">
+        <img src="../template/images/saiba_mais.png">
+        <img src="../template/images/senac_loader.png">
+        <img src="../template/images/tanamidia.png">
+        <img src="../template/images/transcricao.png">
+        <img src="../template/images/transcricao_small.png">
+        <img src="../template/images/tv.png">
+        <img src="../template/images/tv_bottom.png">
+        <img src="../template/images/zoom.png">
+        <img src="../template/images/zoom_ie.cur">
+        <img src="../template/images/zoom_ie.png">
+        <!-- adicionar as imagens customizadas aqui abaixo -->
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../template/js/jquery.min.js"></script>
+    <script src="../template/js/bootstrap.min.js"></script>
+    <script src="../template/js/jquery.magnific-popup.min.js"></script>
+    <script src="../template/js/print.js"></script>
+    <script src="../template/js/template.config.js"></script>
+    <script src="../template/js/images.loader.js"></script>
+    <script src="../template/js/interativos.js"></script>
+    <script src="js/custom.js"></script>
+    <noscript>
+      <style media="screen">
+        .over-loader { display: none;}    
+      </style>
+    </noscript>
+
+    <script>
+      $(".exercicio1 button.alt-e").click(function(){
+        $('.exercicio1 .feedback-negativo').css('display','block');
+        $('.exercicio1 .feedback-positivo').css('display','none');
+      });
+      $(".exercicio1 button.alt-c").click(function(){
+        $('.exercicio1 .feedback-negativo').css('display','none');
+        $('.exercicio1 .feedback-positivo').css('display','block');
+      });
+
+      $(".exercicio2 button.alt-e").click(function(){
+        $('.exercicio2 .feedback-negativo').css('display','block');
+        $('.exercicio2 .feedback-positivo').css('display','none');
+      });
+      $(".exercicio2 button.alt-c").click(function(){
+        $('.exercicio2 .feedback-negativo').css('display','none');
+        $('.exercicio2 .feedback-positivo').css('display','block');
+      });
+
+      $(".exercicio3 button.alt-e").click(function(){
+        $('.exercicio3 .feedback-negativo').css('display','block');
+        $('.exercicio3 .feedback-positivo').css('display','none');
+      });
+      $(".exercicio3 button.alt-c").click(function(){
+        $('.exercicio3 .feedback-negativo').css('display','none');
+        $('.exercicio3 .feedback-positivo').css('display','block');
+      });
+
+
+    //inicializa popover
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+    //inicializa tooltip
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+
+
+    </script>
+
+     <!-- Versao atual do handtalk -->
+     <script>
+      var scriptElem=document.createElement("script");
+      scriptElem.src="https://plugin.handtalk.me/web/latest/handtalk.min.js",
+      scriptElem.charset="UTF-8",
+      scriptElem.onload=function(){
+            window.ht = new HT({
+                token:"bf5b7efb148a829a126a0e0c9fd533bf",
+                align:"top",
+                videoEnabled: true,
+                ytEmbedReplace: true,           
+                mobileConfig:{align:"right",
+                              actionsAlign:"top",
+                              customButtonStyle:{
+                                    borderRadius:"6px",
+                                    size:"38px",
+                                    horizontalMargin:"13px",
+                                    bottomMargin:"140px",
+                                    rightMargin:"40px"}
+                              }
+              });        
+          $('.ht-skip').attr("aria-hidden","true")
+        },
+    document.body.appendChild(scriptElem);
+
+    </script>
+  </body>
+</html>
