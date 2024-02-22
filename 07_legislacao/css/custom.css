@@ -67,7 +67,7 @@ h5 {
 }
 p, li, a, td {
   font-family: sourcesans-regular;
-  font-size: 16px;
+  font-size: 1.2em;
 }
 h4,
 h5 {
@@ -459,10 +459,22 @@ table.senac td{
 }
 /*-------- /TABELA --------*/
 
-/*-------- BOTÃO FECHAR MODAL --------*/
+/*-------- MODAIS --------*/
+.modal-100 .modal-content{
+  background: url('../objetos/bg_modal.png') no-repeat;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+}
 .modal-100 .modal-body .container{
+  background-color: #fff;
   position: relative;
-  padding-bottom: 80px;
+  margin-bottom: 30px;
+  padding: 0px 60px;
+  border-radius: 20px;
+}
+.modal-100 li{
+  font-size: 16px;
 }
 .btn-fechar, .btn-default{
   width: 120px;
@@ -479,11 +491,11 @@ table.senac td{
   color: #fff;
 }
 .btn-fechar{
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  position: relative;
+  margin: 40px auto;
+  display: block;
 }
-/*-------- /BOTÃO FECHAR MODAL --------*/
+/*-------- /MODAIS --------*/
 
 /*-------- FUNDO LEI --------*/
 .div-lei{
