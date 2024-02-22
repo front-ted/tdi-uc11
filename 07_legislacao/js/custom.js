@@ -63,12 +63,6 @@ $(document).ready(function () {
     btn_normas_04 = localStorage.getItem('btn_normas_04');
     btn_normas_05 = localStorage.getItem('btn_normas_05');
 
-    alert('BTN 1: '+btn_normas_01);
-    alert('BTN 2: '+btn_normas_02);
-    alert('BTN 3: '+btn_normas_03);
-    alert('BTN 4: '+btn_normas_04);
-    alert('BTN 5: '+btn_normas_05);
-
     if (btn_normas_01 == 'check'){
         $(".btn-nbr_16752_2020").css("background-image","url('objetos/painel02/bt_01_3.png')");
     }
