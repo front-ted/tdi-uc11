@@ -22,35 +22,66 @@ $(".fundo-item").click(function(){
     $('.menu').removeClass('fade-check');
 });
 
-//-------- BOTÕES EXERCÍCIO --------\\
-$(".btn-exercicio01").click(function(){
-    $(this).addClass("resposta-errada");
-    FXManager.snd_erro.play();
+
+
+//-------- CHECK PAINEL --------\\
+
+$(document).ready(function () {
+
+    //localStorage.clear()
+
+    var btn_normas_01;
+    var btn_normas_02;
+    var btn_normas_03;
+    var btn_normas_04;
+    var btn_normas_05;
+
+    $(".btn-nbr_16752_2020").on('click', function(){
+        localStorage.setItem('btn_normas_01', 'check');
+        $(this).css("background-image","url('objetos/painel02/bt_01_3.png')");
+    })
+    $(".btn-nbr_16861_2020").on('click', function(){
+        localStorage.setItem('btn_normas_02', 'check');
+        $(this).css("background-image","url('objetos/painel02/bt_02_3.png')");
+    })
+    $(".btn-nbr_6492_2021").on('click', function(){
+        localStorage.setItem('btn_normas_03', 'check');
+        $(this).css("background-image","url('objetos/painel02/bt_03_3.png')");
+    })
+    $(".btn-nbr_17006_2021").on('click', function(){
+        localStorage.setItem('btn_normas_04', 'check');
+        $(this).css("background-image","url('objetos/painel02/bt_04_3.png')");
+    })
+    $(".btn-abnt_nbr_17068_2022").on('click', function(){
+        localStorage.setItem('btn_normas_05', 'check');
+        $(this).css("background-image","url('objetos/painel02/bt_05_3.png')");
+    })
+
+    btn_normas_01 = localStorage.getItem('btn_normas_01');
+    btn_normas_02 = localStorage.getItem('btn_normas_02');
+    btn_normas_03 = localStorage.getItem('btn_normas_03');
+    btn_normas_04 = localStorage.getItem('btn_normas_04');
+    btn_normas_05 = localStorage.getItem('btn_normas_05');
+
+    if (btn_normas_01.includes('check')) {
+        $(".btn-nbr_16752_2020").css("background-image","url('objetos/painel02/bt_01_3.png')");
+    }
+    if (btn_normas_02.includes('check')) {
+        $(".btn-nbr_16861_2020").css("background-image","url('objetos/painel02/bt_02_3.png')");
+    }
+    if (btn_normas_03.includes('check')) {
+        $(".btn-nbr_6492_2021").css("background-image","url('objetos/painel02/bt_03_3.png')");
+    }
+    if (btn_normas_04.includes('check')) {
+        $(".btn-nbr_17006_2021").css("background-image","url('objetos/painel02/bt_04_3.png')");
+    }
+    if (btn_normas_05.includes('check')) {
+        $(".btn-abnt_nbr_17068_2022").css("background-image","url('objetos/painel02/bt_05_3.png')");
+    }
+    
 });
-$(".btn-exercicio02").click(function(){
-    $(this).addClass("resposta-certa");
-    FXManager.snd_certo.play();
-});
-$(".btn-exercicio03").click(function(){
-    $(this).addClass("resposta-certa");
-    FXManager.snd_certo.play();
-});
-$(".btn-exercicio04").click(function(){
-    $(this).addClass("resposta-errada");
-    FXManager.snd_erro.play();
-});
-$(".btn-exercicio05").click(function(){
-    $(this).addClass("resposta-certa");
-    FXManager.snd_certo.play();
-});
-$(".btn-exercicio06").click(function(){
-    $(this).addClass("resposta-certa");
-    FXManager.snd_certo.play();
-});
-$(".btn-exercicio07").click(function(){
-    $(this).addClass("resposta-certa");
-    FXManager.snd_certo.play();
-});
+
+//-------- /CHECK PAINEL --------\\
 
 
 /*

@@ -133,7 +133,7 @@ h5 {
   width: calc(100% - 5px);
   position: relative;
   color: #fff;
-  font-size: 15px;
+  font-size: 14.5px;
   padding: 5px 10px;
   text-align: center;
   height: calc(100% - 10px);
@@ -260,21 +260,38 @@ h5 {
 
 /*--------- SLIDESHOW ---------*/
 .carousel {
-  margin: 60px auto;
+  margin: 40px auto 10px auto;
+  background-color: #2A8080;
+  border-radius: 30px;
+  width: 680px;
+  padding: 40px 0px;
+}
+.carousel-inner{
+  margin: auto;
+}
+.carousel-inner img{
+  margin: 0 auto;
+  filter: none;
+  width: 600px;
+  height: 426px;
+}
+.carousel-inner p{
+  margin-bottom: 0;
+  color: #fff;
 }
 .carousel-control.left {
-  background: url("../imgs/seta_voltar.png") no-repeat center;
-  margin-left: -90px;
+  background: url("../objetos/seta_voltar.png") no-repeat center;
+  margin-left: -100px;
 }
 .carousel-control.left:hover {
-  background: url("../imgs/seta_voltar_hover.png") no-repeat center;
+  background: url("../objetos/seta_voltar_hover.png") no-repeat center;
 }
 .carousel-control.right {
-  background: url("../imgs/seta_avancar.png") no-repeat center;
-  margin-right: -90px;
+  background: url("../objetos/seta_avancar.png") no-repeat center;
+  margin-right: -100px;
 }
 .carousel-control.right:hover {
-  background: url("../imgs/seta_avancar_hover.png") no-repeat center;
+  background: url("../objetos/seta_avancar_hover.png") no-repeat center;
 }
 /*--------- /SLIDESHOW ---------*/
 
@@ -388,7 +405,7 @@ h3.panel-title, .tab-content p{
 }
 
 .img-borda{
-  margin-top: 40px;
+  margin-top: 20px;
   border-radius: 20px;
   filter: drop-shadow(#484848 4px 4px 6px);
 }
@@ -414,6 +431,19 @@ h3.panel-title, .tab-content p{
   margin: 40px auto;
 }
 
+.caixa-destaque-livre{
+  background-color: #2A8080;
+  color: #fff;
+}
+
+.bg-vermelho{
+  background-color: #80392C;
+}
+.bg-verde{
+  background-color: #2A8080;
+}
+
+/*-------- TABELA --------*/
 table.senac{
   border: #80392C solid 2px;
 }
@@ -425,27 +455,35 @@ table.senac td{
   background-color: #EDD3D1;
   color: #80392C;
   border: #80392C solid 2px;
+  vertical-align: top;
 }
+/*-------- /TABELA --------*/
 
-.caixa-destaque-livre{
-  background-color: #2A8080;
-  color: #fff;
+/*-------- BOTÃO FECHAR MODAL --------*/
+.modal-100 .modal-body .container{
+  position: relative;
+  padding-bottom: 80px;
 }
-
-.modal-footer button{
+.btn-fechar, .btn-default{
   width: 120px;
   height: 50px;
   background-color: #80392C;
   color: #fff;
   font-weight: bold;
 }
-.modal-footer button::before{
+.btn-fechar::before, .btn-default::before{
   content: 'Fechar';
 }
-.modal-footer button:hover{
+.btn-fechar:hover, .btn-default:hover{
   background-color: #2A8080;
   color: #fff;
 }
+.btn-fechar{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+/*-------- /BOTÃO FECHAR MODAL --------*/
 
 /*-------- FUNDO LEI --------*/
 .div-lei{
@@ -490,6 +528,11 @@ table.senac td{
 }
 /*-------- /FUNDO LEI --------*/
 
+
+ul.marcador-trena li{
+  list-style-image: url('../objetos/marcador_trena.png');
+}
+
 .painel-ergonomia{
   width: 690px;
   margin: 20px auto;
@@ -505,21 +548,68 @@ table.senac td{
   height: 263px;
   margin: 10px;
 }
+
 .btn-fisica{background: url('../objetos/painel01/bt01.png') no-repeat; background-size: 100%;}
 .btn-organizacional{background: url('../objetos/painel01/bt02.png') no-repeat; background-size: 100%;}
 .btn-cognitiva{background: url('../objetos/painel01/bt03.png') no-repeat; background-size: 100%;}
+
 .btn-fisica:hover{background-image: url('../objetos/painel01/bt01_2.png');}
 .btn-organizacional:hover{background-image: url('../objetos/painel01/bt02_2.png');}
 .btn-cognitiva:hover{background-image: url('../objetos/painel01/bt03_2.png');}
 
 
+.painel-normas{
+  background: url('../objetos/painel02/prancheta.png') no-repeat;
+  background-size: 100%;
+  width: 580px;
+  height: 755px;
+  margin: 20px auto;
+  position: relative;
+  text-align: center;
+  padding: 240px 0px;
+}
+.btn-normas{
+  position: relative;
+  border: none;
+  transition: all 0.2s;
+  background-size: 100%;
+  width: 189px;
+  height: 114px;
+  margin: 5px;
+}
+
+.btn-nbr_16752_2020{background: url('../objetos/painel02/bt_01.png') no-repeat left bottom;}
+.btn-nbr_16861_2020{background: url('../objetos/painel02/bt_02.png') no-repeat left bottom;}
+.btn-nbr_6492_2021{background: url('../objetos/painel02/bt_03.png') no-repeat left bottom;}
+.btn-nbr_17006_2021{background: url('../objetos/painel02/bt_04.png') no-repeat left bottom;}
+.btn-abnt_nbr_17068_2022{background: url('../objetos/painel02/bt_05.png') no-repeat left bottom;}
+
+.btn-nbr_16752_2020:hover{background-image: url('../objetos/painel02/bt_01_2.png');}
+.btn-nbr_16861_2020:hover{background-image: url('../objetos/painel02/bt_02_2.png');}
+.btn-nbr_6492_2021:hover{background-image: url('../objetos/painel02/bt_03_2.png');}
+.btn-nbr_17006_2021:hover{background-image: url('../objetos/painel02/bt_04_2.png');}
+.btn-abnt_nbr_17068_2022:hover{background-image: url('../objetos/painel02/bt_05_2.png');}
+
+/*
+.quebra-col{
+  columns: 3;
+}
+*/
 
 @media screen and (max-width: 820px){
+  .carousel{
+    width: 100%;
+    padding: 30px 0px;
+  }
+  .carousel-inner img{
+    width: 560px;
+    height: 400px;
+  }
   .carousel-control.left {
-    margin-left: 0px;
+    margin-left: -60px;
   }
   .carousel-control.right {
-    margin-right: 0px;
+    margin-right: -60px;
   }
 
   .painel-ergonomia{
