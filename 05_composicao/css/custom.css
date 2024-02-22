@@ -299,6 +299,7 @@ h5 {
 }
 .nav-tabs a{
   color: #fff;
+  font-size: 16px;
 }
 .nav-tabs a:hover{
   color: #333;
@@ -497,6 +498,18 @@ h3.panel-title, .tab-content p{
 }
 .ico-sustentabilidade{
   margin-top: 25px;
+}
+
+
+.btn-primary:active:hover{
+  background-color: #2A8080;
+  color: #fff !important;
+  border: none;
+}
+.btn-primary:visited{
+  background-color: #c5c5c5;
+  color: #f1f1f1 !important;
+  border-color: #f1f1f1 !important;;
 }
 
 

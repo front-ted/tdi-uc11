@@ -424,6 +424,7 @@ h3.panel-title, .tab-content p{
 }
 .btn-moodboard:hover{
   transform: scale(1.06);
+  border: none !important;
 }
 .btn-identidade{
   background: url('../objetos/painel/bt01.png') no-repeat;
@@ -523,10 +524,10 @@ h3.panel-title, .tab-content p{
   margin-top: 5px;
   z-index: 15;
 }
-
 .btn-texturas:hover{z-index: 30;}
 .btn-inspiracao:hover{z-index: 30;}
 .btn-tendencias:hover{z-index: 30;}
+
 
 table.senac{
   border: #80392C solid 2px;
@@ -565,6 +566,18 @@ table.senac td{
 .modal-header button:hover{
   background-color: #2A8080;
   color: #fff;
+}
+
+
+.btn-primary:active:hover{
+  background-color: #2A8080;
+  color: #fff !important;
+  border: none;
+}
+.btn-primary:visited{
+  background-color: #c5c5c5;
+  color: #f1f1f1 !important;
+  border-color: #f1f1f1 !important;;
 }
 
 
