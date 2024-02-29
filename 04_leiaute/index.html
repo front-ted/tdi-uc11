@@ -1,49 +1,39 @@
 <!DOCTYPE html>
-<html
-  lang="pt-br"
-  xmlns:mso="urn:schemas-microsoft-com:office:office"
-  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
->
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Leiaute: ambientes, setores, acessos, fluxos, dimensionamento e funcionalidade</title>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
 
-    <!-- Bootstrap -->
-    <link href="../template/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../template/css/tecnicos_senac.css" rel="stylesheet" />
-    <link href="../template/css/cores.css" rel="stylesheet" />
-    <link href="../template/css/modal-100.css" rel="stylesheet" />
-    <link href="../template/css/devibeans.min.css" rel="stylesheet" />
-    <!--Extras - novas classes para facilitar-->
-    <link rel="stylesheet" href="../template/css/extras.css" />
-    <link href="../template/css/sncload.css" rel="stylesheet" />
-    <link href="../template/css/magnific-popup.css" rel="stylesheet" />
-    <!-- referencia ao arquivo css com estilos especificos da pagina -->
-    <link href="css/custom.css" type="text/css" rel="stylesheet" />
-    <!-- css necessario para o print -->
-    <link
-      href="../template/css/fa/css/font-awesome.min.css"
-      type="text/css"
-      rel="stylesheet"
-    />
-    <link href="../template/css/print.css" type="text/css" rel="stylesheet" />
-    <link
-      href="../template/fonts/roboto.css"
-      type="text/css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Leiaute: ambientes, setores, acessos, fluxos, dimensionamento e funcionalidade</title>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- Bootstrap -->
+  <link href="../template/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../template/css/tecnicos_senac.css" rel="stylesheet" />
+  <link href="../template/css/cores.css" rel="stylesheet" />
+  <link href="../template/css/modal-100.css" rel="stylesheet" />
+  <link href="../template/css/devibeans.min.css" rel="stylesheet" />
+  <!--Extras - novas classes para facilitar-->
+  <link rel="stylesheet" href="../template/css/extras.css" />
+  <link href="../template/css/sncload.css" rel="stylesheet" />
+  <link href="../template/css/magnific-popup.css" rel="stylesheet" />
+  <!-- referencia ao arquivo css com estilos especificos da pagina -->
+  <link href="css/custom.css" type="text/css" rel="stylesheet" />
+  <!-- css necessario para o print -->
+  <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+  <link href="../template/css/print.css" type="text/css" rel="stylesheet" />
+  <link href="../template/fonts/roboto.css" type="text/css" rel="stylesheet" />
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
 
-    <!--[if gte mso 9
+  <!--[if gte mso 9
       ]><xml>
         <mso:CustomDocumentProperties>
           <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor
@@ -63,466 +53,256 @@
         </mso:CustomDocumentProperties>
       </xml><!
     [endif]-->
-  </head>
+</head>
 
-  <body
-    onLoad="Javascript:document.getElementById('sncloader').style.display='none';"
-  >
-    <!-- MARCA D´ÁGUA -->
-    <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo" />
-    <!-- /MARCA D´ÁGUA -->
+<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
+  <!-- MARCA D´ÁGUA -->
+  <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo" />
+  <!-- /MARCA D´ÁGUA -->
 
-    <div id="sncloader" class="over-loader">
-      <div class="over-cell">
-        <div id="sncload"></div>
+  <div id="sncloader" class="over-loader">
+    <div class="over-cell">
+      <div id="sncload"></div>
+    </div>
+  </div>
+  <header id="topo" class="senac no-print ">
+    <div class="header-tecnicos container">
+      <h1 id="nome-curso">Design de Interiores</h1>
+      <div id="logo-senac">
+        <img src="../template/images/logo-senac.png" alt="logo do senac" />
       </div>
     </div>
-    <header id="topo" class="senac no-print ">
-      <div class="header-tecnicos container">
-        <h1 id="nome-curso">Design de interiores</h1>
-        <div id="logo-senac">
-          <img src="../template/images/logo-senac.png" alt="logo do senac" />
-        </div>
+    <div id="sombra"></div>
+  </header>
+  <div id="booklet" class="">
+    <header class="no-print container margem-botao">
+      <!-- BTO IMPRIMIR -->
+      <div class="grupo-imprimir no-print">
+        <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+          <span class="fa fa-print"></span> <span>Imprimir</span>
+        </button>
       </div>
-      <div id="sombra"></div>
+      <!-- /BTO IMPRIMIR -->
     </header>
-    <div id="booklet" class="">
-      <header class="no-print container margem-botao">
-        <!-- BTO IMPRIMIR -->
-        <div class="grupo-imprimir no-print">
-          <button type="button" data-pdf="true" class="bto-imprimir" name="button">
-            <span class="fa fa-print"></span> <span>Imprimir</span>
-          </button>
-        </div>
-        <!-- /BTO IMPRIMIR -->
-      </header>
-      <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+    <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
 
-      <section class="paginas">
+    <section class="paginas">
 
-        <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+      <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
 
-        <div class="pagina">
-          <div class="container">
-            <h2>Leiaute: ambientes, setores, acessos, fluxos, dimensionamento e funcionalidade</h2>
-            <p>Na unidade curricular <b>Projetar <i>design</i> de interiores residencial</b>, você estudou como os conceitos de leiaute são aplicados no <i>design</i> de interiores de uma casa ou um apartamento, vendo as diversas opções de conexões, dimensionamentos, funcionalidades etc. que podem acontecer. Esses conceitos, aplicados de maneira residencial, também podem ser abordados em ambientes corporativos e escritórios. </p>
-            <img src="imgs/img01.png" class="img-responsive center-block img-borda">
-            <p class="legenda-imagem">
-              Escritório da Organização do Tratado de Cooperação Amazônica (CoDA Arquitetura) <br>
-              Fonte: França <i>apud</i> ArchDaily (2020b)
-            </p>
-            <p class="acessivel no-print">Escritório em planta livre. Ao fundo da imagem à esquerda, janelas mostram a cidade. Ao lado da janela, uma série de estações de trabalho branco e cinza com cadeiras pretas. Vegetações estão colocadas em cima da mesa. No teto, vigas em concreto; no piso, trabalho em cerâmica branca e preta.</p>
-            <div class="caixa-destaque icone-atencao">
-              <p>Aqui, na unidade curricular <b>Projetar <i>design</i> de interiores corporativo</b>, os focos serão escritórios, salas, empresas etc. Muitos dos conceitos vistos anteriormente se repetirão aqui, mas tenha cuidado: em ambientes corporativos, o <i>designer</i> deve compreender os aspectos e os objetivos do local de trabalho (Gibbs, 2009), além de se aprofundar em questões ergonômicas. Nesta unidade curricular, discorre-se novamente sobre ambientes, setores, acessos, fluxos, dimensionamento e funcionalidade. </p>
-            </div>
+      <div class="pagina">
+        <div class="container">
+          <h2>Leiaute: ambientes, setores, acessos, fluxos, dimensionamento e funcionalidade</h2>
+          <p>Na unidade curricular <b>Projetar <i>design</i> de interiores residencial</b>, você estudou como os
+            conceitos de leiaute são aplicados no <i>design</i> de interiores de uma casa ou um apartamento, vendo as
+            diversas opções de conexões, dimensionamentos, funcionalidades etc. que podem acontecer. Esses conceitos,
+            aplicados de maneira residencial, também podem ser abordados em ambientes corporativos e escritórios. </p>
+          <img src="imgs/img01.png" class="img-responsive center-block img-borda">
+          <p class="legenda-imagem">
+            Escritório da Organização do Tratado de Cooperação Amazônica (CoDA Arquitetura) <br>
+            Fonte: França <i>apud</i> ArchDaily (2020b)
+          </p>
+          <p class="acessivel no-print">Escritório em planta livre. Ao fundo da imagem à esquerda, janelas mostram a
+            cidade. Ao lado da janela, uma série de estações de trabalho branco e cinza com cadeiras pretas. Vegetações
+            estão colocadas em cima da mesa. No teto, vigas em concreto; no piso, trabalho em cerâmica branca e preta.
+          </p>
+          <div class="caixa-destaque icone-atencao">
+            <p>Aqui, na unidade curricular <b>Projetar <i>design</i> de interiores corporativo</b>, os focos serão
+              escritórios, salas, empresas etc. Muitos dos conceitos vistos anteriormente se repetirão aqui, mas tenha
+              cuidado: em ambientes corporativos, o <i>designer</i> deve compreender os aspectos e os objetivos do local
+              de trabalho (Gibbs, 2009), além de se aprofundar em questões ergonômicas. Nesta unidade curricular,
+              discorre-se novamente sobre ambientes, setores, acessos, fluxos, dimensionamento e funcionalidade. </p>
           </div>
+        </div>
 
-          <div class="parallax" data-parallax="scroll" data-image-src="imgs/transicao01.png"></div>
-          
-          <div class="container">
-            <h3>Setores</h3>
-            <p>Na unidade curricular <b>Estruturar concepção projetual de <i>design</i> de interiores</b>, você viu que uma das maneiras de dividir um ambiente corporativo é por meio setores de trabalho conjunto, trabalho individual, espaços de convívio e assim por diante.</p>
-            <img src="imgs/img02.png" class="img-responsive center-block img-borda acessivel print">
-            <a href="imgs/img02_zoom.jpg" target="_blank" class="img-zoom">
-              <img src="imgs/img02.jpg" class="img-responsive center-block img-borda">
-            </a>
-            <p class="legenda-imagem">
-              Exemplo de setorização – planta baixa do escritório da Organização do Tratado de Cooperação Amazônica <br>
-              Fonte: Adaptado de ArchDaily (2020a)
-            </p>
-            <p class="acessivel no-print">Planta baixa de um escritório de médio porte pintada com as cores amarelo (representando espaços de reuniões), vermelho (representando área de trabalho geral), verde (representando diretoria e salas individuais) e azul (representando recepção, circulação e áreas técnicas). A planta baixa é no formato de um retângulo com um vazio central. Na parte superior esquerda, a área de trabalho geral. À direita, diretoria e salas individuais. Próximo ao vazio central, duas grandes salas de reuniões. Entre a sala de reuniões e os outros espaços, fica a circulação geral. Na esquerda/meio da planta baixa fica a recepção, e as áreas técnicas à direita. </p>
-            <p>Na unidade curricular <b>Estruturar concepção projetual de <i>design</i> de interiores</b>, essa setorização proporcionou um entendimento geral de um funcionamento de um ambiente de trabalho. Meel (2012) aprofunda e atualiza esse conceito, dividindo os ambientes corporativos em três grandes setores:</p>
-            <ol type="1">
-              <li>Espaços de <b>trabalho</b></li>
-              <li>Espaços de <b>reunião</b></li>
-              <li>Espaços de <b>apoio</b></li>
-            </ol>
-            <p>Logo, a setorização desse mesmo escritório ficaria da seguinte maneira:</p>
-            <img src="imgs/img03.jpg" class="img-responsive center-block img-borda acessivel print">
-            <a href="imgs/img03_zoom.jpg" target="_blank" class="img-zoom">
-              <img src="imgs/img03.png" class="img-responsive center-block img-borda">
-            </a>
-            <p class="legenda-imagem">
-              Setorização, segundo a classificação de Meel (2012), do escritório da Organização do Tratado de Cooperação Amazônica <br>
-              Fonte: Adaptado de ArchDaily (2020a)
-            </p>
-            <p class="acessivel no-print">Planta baixa de um escritório de médio porte pintada com as cores verde (representando espaços de trabalho), amarelo (representando espaços de reunião) e azul (representando espaços de apoio). A planta baixa é no formato de um retângulo com um vazio central. Na parte superior esquerda, a área de trabalho geral. À direita, diretoria e salas individuais. Próximo ao vazio central, duas grandes salas de reuniões. Entre a sala de reuniões e os outros espaços, fica a circulação geral. Na esquerda/meio da planta baixa fica a recepção, e as áreas técnicas à direita. </p>
-            <p>Os três setores apresentados podem se subdividir em diversos ambientes, como escritório aberto, estação de trabalho, salas de reunião, banheiros, copa e assim por diante. Essa setorização é importante porque funciona para qualquer escala de escritório: uma pequena sala corporativa acabará tendo essas três funções, mesmo que sem uma separação física. Já grandes empresas e escritórios terão esses setores com tamanhos avantajados, divisões específicas e circulações que comunicam os ambientes.</p>
+        <div class="parallax" data-parallax="scroll" data-image-src="imgs/transicao01.png"></div>
+
+        <div class="container">
+          <h3>Setores</h3>
+          <p>Na unidade curricular <b>Estruturar concepção projetual de <i>design</i> de interiores</b>, você viu que
+            uma das maneiras de dividir um ambiente corporativo é por meio setores de trabalho conjunto, trabalho
+            individual, espaços de convívio e assim por diante.</p>
+          <img src="./imgs/img02.jpg" class="img-responsive center-block img-borda acessivel print img-aumentada">
+          <a href="imgs/img02_zoom.jpg" target="_blank" class="img-zoom no-print">
+            <img src="imgs/img02.jpg" class="img-responsive center-block img-borda no-print">
+          </a>
+          <p class="legenda-imagem">
+            Exemplo de setorização – planta baixa do escritório da Organização do Tratado de Cooperação Amazônica <br>
+            Fonte: Adaptado de ArchDaily (2020a)
+          </p>
+          <p class="acessivel no-print">Planta baixa de um escritório de médio porte pintada com as cores amarelo
+            (representando espaços de reuniões), vermelho (representando área de trabalho geral), verde (representando
+            diretoria e salas individuais) e roxo (representando recepção, circulação e áreas técnicas). A planta baixa
+            é no formato de um retângulo com um vazio central. Na parte superior esquerda, a área de trabalho geral. À
+            direita, diretoria e salas individuais. Próximo ao vazio central, duas grandes salas de reuniões. Entre a
+            sala de reuniões e os outros espaços, fica a circulação geral. Na esquerda/meio da planta baixa fica a
+            recepção, e as áreas técnicas à direita. </p>
+          <p>Na unidade curricular <b>Estruturar concepção projetual de <i>design</i> de interiores</b>, essa
+            setorização proporcionou um entendimento geral de um funcionamento de um ambiente de trabalho. Meel (2012)
+            aprofunda e atualiza esse conceito, dividindo os ambientes corporativos em três grandes setores:</p>
+          <ol type="1">
+            <li>Espaços de <b>trabalho</b></li>
+            <li>Espaços de <b>reunião</b></li>
+            <li>Espaços de <b>apoio</b></li>
+          </ol>
+          <p>Logo, a setorização desse mesmo escritório ficaria da seguinte maneira:</p>
+          <img src="./imgs/img03.png" class="img-responsive center-block img-borda acessivel print img-aumentada">
+          <a href="imgs/img03_zoom.jpg" target="_blank" class="img-zoom no-print">
+            <img src="imgs/img03.png" class="img-responsive center-block img-borda no-print">
+          </a>
+          <p class="legenda-imagem">
+            Setorização, segundo a classificação de Meel (2012), do escritório da Organização do Tratado de Cooperação
+            Amazônica <br>
+            Fonte: Adaptado de ArchDaily (2020a)
+          </p>
+          <p class="acessivel no-print">Planta baixa de um escritório de médio porte pintada com as cores verde
+            (representando espaços de trabalho), amarelo (representando espaços de reunião) e azul (representando
+            espaços de apoio). A planta baixa é no formato de um retângulo com um vazio central. Na parte superior
+            esquerda, a área de trabalho geral. À direita, diretoria e salas individuais. Próximo ao vazio central, duas
+            grandes salas de reuniões. Entre a sala de reuniões e os outros espaços, fica a circulação geral. Na
+            esquerda/meio da planta baixa fica a recepção, e as áreas técnicas à direita. </p>
+          <p>Os três setores apresentados podem se subdividir em diversos ambientes, como escritório aberto, estação de
+            trabalho, salas de reunião, banheiros, copa e assim por diante. Essa setorização é importante porque
+            funciona para qualquer escala de escritório: uma pequena sala corporativa acabará tendo essas três funções,
+            mesmo que sem uma separação física. Já grandes empresas e escritórios terão esses setores com tamanhos
+            avantajados, divisões específicas e circulações que comunicam os ambientes.</p>
+          <div class="no-print" aria-hidden="true">
             <div class="row">
-              <div class="col-sm-3 col-xs-12">
-                <img src="imgs/pensando.png" class="img-responsive center-block">
+              <div class="col-sm-3">
+                <img src="imgs/pensando.png" class="img-responsive center-block no-print hidden-xs">
               </div>
               <div class="col-sm-8 col-xs-12">
                 <br><br>
-                <p>Reflita: faz sentido dividir um escritório de 30 m² em uma sala de reuniões, uma sala individual e uma sala de ambiente de trabalho? Vale a pena setorizar ambientes com paredes quando se quer integração? É possível ter uma sala de reuniões sem fechamento acústico, quando se precisa de privacidade?</p>
-              </div>
-            </div>
-
-            <h3>Ambientes, funcionalidade e dimensionamento</h3>
-            <p>No contexto de leiaute corporativo, aborda-se novamente a organização do ambiente em planta baixa. As opções no mundo corporativo são diversas. Estações de trabalho podem ser abertas ou fechadas; salas de reunião podem ser privadas e sérias ou abertas e modernas; ambientes de apoio têm peculiaridades muito específicas. </p>
-            <p>A seguir, veja como os principais ambientes se organizam com base em sua funcionalidade, além de entender os principais dimensionamentos que devem ser levados em consideração ao projetar cada um desses espaços. </p>
-
-            <div class="no-print" aria-hidden="true">
-              <p>Clique ou toque para visualizar o conteúdo.</p>
-              <div class="painel-ambientes">
-                <button type="button" class="btn-ambientes btn-salas_abertas" data-toggle="modal" data-target="#modal-salas_abertas"></button>
-                <button type="button" class="btn-ambientes btn-salas_fechadas" data-toggle="modal" data-target="#modal-salas_fechadas"></button>
-                <button type="button" class="btn-ambientes btn-salas_reunioes" data-toggle="modal" data-target="#modal-salas_reunioes"></button>
-                <button type="button" class="btn-ambientes btn-recepcao" data-toggle="modal" data-target="#modal-recepcao"></button>
-                <button type="button" class="btn-ambientes btn-circulacoes" data-toggle="modal" data-target="#modal-circulacoes"></button>
-                <button type="button" class="btn-ambientes btn-banheiros" data-toggle="modal" data-target="#modal-banheiros"></button>
-                <button type="button" class="btn-ambientes btn-copas" data-toggle="modal" data-target="#modal-copas"></button>
-                <button type="button" class="btn-ambientes btn-ambientes_descompressao" data-toggle="modal" data-target="#modal-ambientes_descompressao"></button>
-                <button type="button" class="btn-ambientes btn-ambientes_especificos" data-toggle="modal" data-target="#modal-ambientes_especificos"></button>
-              </div>
-            </div>
-            <div class="acessivel print">
-              <div class="">
-                <h3>Salas abertas</h3>
-                <p>As salas de escritórios podem ter configurações abertas ou fechadas, e cada uma delas pode ter configurações diversas. Aqui, serão abordadas as duas separadamente, trazendo as peculiaridades e as similaridades entre elas.</p>
-                <div class="caixa-destaque icone-nota">
-                  <p>Salas abertas são espaços coletivos de trabalho, que permitem comunicação frequente entre os usuários e cuja concentração não necessita ser muito aprofundada. Esses ambientes terão pequenas estações de trabalho, porém sem divisórias rígidas, como paredes. As divisões internas, se existirem, serão demarcadas por diferenças entre pisos, forros e acabamentos, porém não são necessárias. </p>
-                </div>
-                <p>Nesse tipo de ambiente, a configuração das mesas pode ser linear ou em pequenos agrupamentos. Tem como vantagem o uso eficiente do espaço, a flexibilidade espacial (podendo haver alteração de posicionamentos de mesas e móveis facilmente) e a interação entre usuários, pois não há barreiras físicas de altura elevada. Como desvantagens, pode-se citar que a privacidade visual e acústica é limitada, não sendo adequado para conversas confidenciais. Além disso, não há possibilidade de controle do ar-condicionado de maneira individualizada. </p>
-                <p>Aqui, o leiaute deve garantir a circulação adequada na disposição das mesas: uma vez que provavelmente haverá circulação nas “costas” dos usuários, deve garantir que a mesa fique a aproximadamente <b>150 cm da parede ou obstrução</b>. É preciso cuidar também para não criar grandes espaços vazios sem uso nesses ambientes. Com relação às alturas, deve-se dar atenção para a ergonomia das mesas e dos equipamentos: mesas devem estar a aproximadamente <b>75 cm do chão</b>, com o monitor do computador na altura dos olhos.</p>
-                <img src="imgs/img04.png" class="img-responsive center-block img-borda">
-                <p class="legenda-imagem">
-                  Leiaute e imagem de sala coletiva de trabalho <br>
-                  Fonte: Adaptado de Guo <i>apud</i> ArchDaily (2023)
-                </p>
-                <p class="acessivel no-print">Planta baixa e imagem de uma sala coletiva de trabalho com piso em madeira, forro branco com instalações expostas e paredes em branco e madeira. No ambiente, estações de trabalho brancas dispostas em quatro conjuntos, totalizando vinte e dois lugares de trabalho. Ao lado, uma mesa de madeira circunda o pilar de concreto.</p>
-                <ul>
-                  <li><b>Setor</b>: espaços de trabalho.</li>
-                  <li><b>Uso principal</b>: trabalho individual ou coletivo com alta possibilidade de interação entre usuários.</li>
-                  <li><b>Outros usos</b>: pequenas reuniões; socialização.</li>
-                  <li><b>Itens importantes</b>: mesas, cadeiras, computadores, gaveteiros, armários.</li>
-                </ul>
-              </div>
-              <div class="">
-                <h3>Salas fechadas</h3>
-                <div class="caixa-destaque icone-nota">
-                  <p>Ao contrário das salas abertas, as salas fechadas dos escritórios são espaços de trabalho individual ou para poucas pessoas. Normalmente são privativas, fechadas por paredes ou divisórias, e permitem concentração aprofundada e confidencialidade entre as partes. Também permitem pequenas reuniões ou encontros entre os usuários. Por terem uma metragem menor, têm baixa flexibilidade espacial. A interação dos usuários dentro da sala é total, porém fica restrita a esse ambiente, sem comunicação com as outras salas e os outros ambientes do escritório como um todo. Ao mesmo tempo, a privacidade interna é muito grande. A configuração das mesas dependerá muito da circulação planejada, e o ar-condicionado pode ser controlado de maneira individualizada.</p>
-                </div>
-                <p>Aqui, o leiaute dependerá bastante da infraestrutura do local: onde tem paredes, tomadas, janelas etc. A predisposição do espaço ditará como será o leiaute. Na distribuição das mesas, é possível que não exista circulação nas “costas”, portanto <b>o espaço entre mesa e obstrução pode ser menor, com aproximadamente 100 cm</b>. Se for um escritório individual, é importante pensar em cadeiras para atendimento ou um pequeno estar para reuniões rápidas. Além disso, o espaço pode ter também uma área de apoio com um pequeno frigobar e/ou uma cafeteira. </p>
-                <img src="imgs/img05.png" class="img-responsive center-block img-borda">
-                <p class="legenda-imagem">
-                  Leiaute e imagem de sala fechada de trabalho <br>
-                  Fonte: Adaptado de Antonio <i>apud</i> ArchDaily (2021a)
-                </p>
-                <p class="acessivel no-print">Planta baixa e imagem de uma sala de trabalho individual com piso em tons de cinza, forro branco com trilhos de iluminação pretos e paredes em cinza. No ambiente, uma mesa orgânica de madeira para uma pessoa trabalhar e atender outras três. Próximas à mesa, duas poltronas pretas com mesa lateral e tapete marrom.</p>
-                <ul>
-                  <li><b>Setor</b>: espaços de trabalho.</li>
-                <li><b>Uso principal</b>: trabalho individual.</li>
-                <li><b>Outros usos</b>: pequenas reuniões; atendimento.</li>
-                <li><b>Itens importantes</b>: mesas, cadeiras, computadores, gaveteiros, armários, cadeiras de aproximação, poltronas.</li>
-                </ul>
-              </div>
-              <div class="">
-                <h3>Salas de reuniões</h3>
-                <div class="caixa-destaque icone-nota">
-                  <p>As salas de reuniões dos escritórios contemporâneos têm uma grande variedade de leiaute e mobiliário. Como ideia principal, essas salas permitem encontros profissionais entre grupos de pessoas. Porém, dependendo da quantidade de pessoas e do estilo de reunião, podem ser em ambientes fechados ou abertos, mais ou menos formais, com mesas ou apenas com pufes e assim por diante. Dependerá muito do estilo pretendido e do <i>briefing</i> do cliente. </p>
-                </div>
-                <p>Segundo Meel (2012), as áreas recomendadas para reuniões são as seguintes:</p>
-                <ul>
-                  <li>Espaço de reunião aberto: 1,5 m² por pessoa.</li>
-                  <li>Espaço de reunião fechado: 2 m² por pessoa.</li>
-                  <li>Espaço de reunião com equipamento/mobiliário especial: 3 m² por pessoa.</li>
-                  <li>Ponto de reunião: 1 m² por pessoa.</li>
-                </ul>
-                <p>Essa é uma indicação inicial de metragem, mas é muito importante analisar o fluxo geral do escritório, o <i>briefing</i>, as instalações e as possibilidades de circulação para criar o melhor leiaute possível da sala de reuniões.</p>
-                <p>Sobre a disposição do mobiliário, dependerá muito do estilo pretendido. Em reuniões mais descontraídas, mesas baixas de centro e pufes ou poltronas leves podem ser suficientes. Porém, em ambientes mais formais, <b>uma mesa de altura de 75 cm e cadeiras confortáveis são imprescindíveis</b>. Caso as divisórias sejam de vidro, a privacidade pode ser alcançada com cortinas e persianas.</p>
-                <p>Em relação ao leiaute propriamente dito, é importante tomar muito cuidado com a circulação do espaço. Como normalmente é um ambiente fechado por paredes ou divisórias, a circulação por trás das cadeiras é frequente; logo, deve-se pensar em <b>aproximadamente 120 cm da borda da mesa até o ponto de obstrução</b>. Aqui, é preciso lembrar também de que as paredes podem ajudar como ponto de apoio para a projeção de imagens ou tela. Ao mesmo tempo, lembre-se de que não é totalmente necessário que haja uma circulação total em volta da mesa: ela pode estar encostada em uma parede ou divisória, e isso não será um problema.</p>
-                <img src="imgs/img06.png" class="img-responsive center-block img-borda">
-                <p class="legenda-imagem">
-                  Leiaute e imagem de sala de reuniões <br>
-                  Fonte: Adaptado de Lima <i>apud</i> ArchDaily (2022a)
-                </p>
-                <p class="acessivel no-print">Planta baixa e imagem de uma sala de reuniões vista de fora através de esquadria de vidro. Forro em concreto aparente, piso cerâmico cinza a paredes internas brancas e amarelas. No ambiente, uma grande mesa de reuniões para dezesseis pessoas. Sobre a parede amarela, dois monitores para atender às reuniões.</p>
-                <ul>
-                  <li><b>Setor</b>: espaços de reunião.</li>
-                  <li><b>Uso principal</b>: reuniões.</li>
-                  <li><b>Outros usos</b>: trabalho privado, socialização, atendimento.</li>
-                  <li><b>Itens importantes</b>: mesas, cadeiras, monitor, computador, projetor, móveis de apoio.</li>
-                </ul>
-              </div>
-              <div class="">
-                <h3>Recepção</h3>
-                <div class="caixa-destaque icone-nota">
-                  <p>A recepção do escritório é o primeiro contato que os usuários do escritório terão com o ambiente corporativo. É caracterizado por um espaço contíguo ao acesso principal, que pode ser uma porta de entrada, um <i>hall</i> de elevadores ou a rua diretamente. Pode ser mais reservado ou totalmente conectado com os outros ambientes do escritório. </p>
-                </div>
-                <p>Aqui, o leiaute deve garantir um espaço de espera e de atendimento inicial, proporcionando um local exclusivo para que visitantes e outras pessoas não circulem pelo ambiente geral da empresa. </p>
-                <p>Quanto a dimensionamento e mobiliários, é preciso ter muito cuidado para que a circulação seja adequada, pois o espaço ficará “menor” quando for necessário abrir a porta. Além disso, deve-se cuidar para que os assentos de espera (cadeiras, poltronas e bancos) não atrapalhem o fluxo geral de entrada e saída do ambiente. Como bancada de atendimento, é possível pensar em móveis com alturas diversas: <b>75 cm para trabalho de uma pessoa sentada e 90 cm a 110 cm para atendimento de um cliente ou visitante de pé</b>. </p>
-                <img src="imgs/img07.png" class="img-responsive center-block img-borda">
-                <p class="legenda-imagem">
-                  Leiaute e imagem de recepção <br>
-                  Fonte: Adaptado de Lopez <i>apud</i> ArchDaily (2022b)
-                </p>
-                <p class="acessivel no-print">Planta baixa e imagem de uma recepção de escritório. O ambiente é um grande galpão com pé direito alto, divisórias metálicas vazadas laranjas, piso em tom de aço corten. Na recepção, uma bancada de atendimento em tons de laranja e rosa. Em planta baixa aparecem também duas cadeiras com mesa de aproximação.</p>
-                <ul>
-                  <li>Setor: espaços de apoio.</li>
-                  <li>Uso principal: recepção de visitas.</li>
-                  <li>Outros usos: atendimento, socialização.</li>
-                  <li>Itens importantes: escrivaninha, cadeiras, poltronas, bancos, mesas laterais, monitor, computador, impressora.</li>
-                </ul>
-              </div>
-              <div class="">
-                <h3>Circulações</h3>
-                <div class="caixa-destaque icone-nota">
-                  <p>As circulações nos ambientes de trabalhos devem ser pensadas para uma comunicação eficiente entre os espaços. Muitas vezes, a circulação se “misturará” com um espaço de trabalho ou uma área de apoio. Portanto, é importante que esses espaços permitam boa passagem dos usuários. Segundo Meel (2012), <b>a largura mínima em corredores é de 120 cm</b>. </p>
-                </div>
-                <p>Em ambientes corporativos, é importante lembrar de que circulações verticais, como elevadores e escadas, podem fazer parte do leiaute do espaço. Além disso, lembre-se de que as circulações devem atender às normas de segurança para casos de incêndio e outras emergências. Finalmente, as circulações devem ser bem planejadas para que não se tornem espaços improdutivos e “roubem” áreas de trabalho e outros apoios. Ou seja, planeje bem a largura desse espaço!</p>
-                <img src="imgs/img08.png" class="img-responsive center-block img-borda">
-                <p class="legenda-imagem">
-                  Leiaute e imagem de circulações entre mesas e ambientes <br>
-                  Fonte: Adaptado de Finotti <i>apud</i> ArchDaily (2021b)
-                </p>
-                <p class="acessivel no-print">Planta baixa e imagem de uma sala coletiva de trabalho demonstrando as circulações do espaço. Forro aparente branco com instalações expostas, paredes em tons de madeira, verde e branco, piso em tons de cinza. Na planta baixa, é possível ver dispostas mesas de maneira linear em seis conjuntos de dezesseis lugares, um espaço fechado para trabalho e uma pequena área de descanso com pufes. Os móveis e o ambiente fechado demarcam as circulações disponíveis do ambiente.</p>
-                <ul>
-                  <li><b>Setor</b>: espaços de apoio e espaços de trabalho.</li>
-                  <li><b>Uso principal</b>: circulação entre ambientes.</li>
-                  <li><b>Outros usos</b>: socialização.</li>
-                  <li><b>Itens importantes</b>: variável (pode servir de apoio de espera, impressões e reuniões informais).</li>
-                </ul>
-              </div>
-              <div class="">
-                <h3>Banheiros/vestiários</h3>
-                <div class="caixa-destaque icone-nota">
-                  <p>Os banheiros de empresas e escritórios devem ser planejados de acordo com o tamanho e o <i>briefing</i> do local. Muitas vezes, apenas um banheiro é o suficiente. Outras vezes, será necessário ter a separação em mais espaços. Por fim, alguns escritórios necessitarão até de vestiários no local. Tudo dependerá do tamanho da empresa. Portanto, as circulações internas são um ponto importante de atenção.</p>
-                </div>
-                <p>É importante prestar atenção nos materiais e equipamentos de fácil manutenção, pois o uso normalmente é maior do que de um banheiro residencial. Além disso, lembre-se de que é importante, e muitas vezes obrigatório, haver nos projetos banheiros para pessoas com deficiência. Para ter um conhecimento maior sobre o assunto, pesquise nos conteúdos sobre ergonomia e na NBR 9050. </p>
-                <p>Em relação ao dimensionamento, lembrar-se do <b>valor de 90 cm na parte superior das pias</b>. </p>
-                <img src="imgs/img09.png" class="img-responsive center-block img-borda">
-                <p class="legenda-imagem">
-                  Leiaute e imagem de banheiro <br>
-                  Fonte: Adaptado de Mello <i>apud</i> ArchDaily (2022c)
-                </p>
-                <p class="acessivel no-print">Planta baixa e imagem de um banheiro com piso em cerâmica cinza, paredes em cerâmica branca tipo metrô e móveis, pedra e forro em branco.</p>
-                <ul>
-                  <li><b>Setor</b>: espaços de apoio.</li>
-                  <li><b>Uso principal</b>: higiene pessoal.</li>
-                  <li><b>Itens importantes</b>: pia, vaso sanitário, espelho.</li>
-                </ul>
-              </div>
-              <div class="">
-                <h3>Copas/refeições</h3>
-                <div class="caixa-destaque icone-nota">
-                  <p>As copas ou áreas de refeições são ambientes interessantes nos escritórios. Assim como os banheiros, eles variarão em área de acordo com o tamanho da empresa. Podem ser apenas uma parede como um ambiente inteiro com mesas. Normalmente, localizam-se próximo às áreas de descompressão e estações de trabalho, permitindo acesso rápido para lanches e alimentação. </p>
-                </div>
-                <p>Diferentemente de cozinhas residenciais, aqui o foco é em alimentação rápida e semipronta, portanto esqueça o fogão! Geladeira, micro-ondas e cafeteira são os principais eletrodomésticos desse ambiente. Em relação às alturas, devem ser seguidas as que já viu no conteúdo sobre <i>design</i> de interiores residencial: <b>75 cm para uma mesa de alimentação; 90 cm para bancada de trabalho com pia; e armários altos a partir de 150 cm. A profundidade da bancada continua próxima dos 60 cm</b>.</p>
-                <img src="imgs/img10.png" class="img-responsive center-block img-borda">
-                <p class="legenda-imagem">
-                  Leiaute e imagem de copa <br>
-                  Fonte: Adaptado de Netto <i>apud</i> ArchDaily (2021d)
-                </p>
-                <p class="acessivel no-print">Planta baixa e imagem de uma área de refeições de um escritório. Na foto, à direita, há um armário em madeira com espaço para refrigeradores. Em frente, uma bancada de trabalho com pia. Em seguida, mesas de alturas diversas (75 centímetros e 100 centímetros). O ambiente tem um tamanho avantajado, para atender uma grande empresa.</p>
-                <ul>
-                  <li><b>Setor</b>: espaços de apoio.</li>
-                  <li><b>Uso principal</b>: guarda de alimentos e alimentação.</li>
-                  <li><b>Outros usos</b>: alimentação rápida; socialização.</li>
-                  <li><b>Itens importantes</b>: pia, geladeira, cafeteira, micro-ondas, bancada, mesa, cadeira.</li>
-                </ul>
-              </div>
-              <div class="">
-                <h3>Ambientes de descompressão</h3>
-                <div class="caixa-destaque icone-nota">
-                  <p>Os ambientes de descompressão e lazer são espaços coringas em um escritório. Eles permitem socialização, alimentação, reuniões rápidas etc. As possibilidades de leiaute e organização do espaço são diversas. A variedade de estilos é muito grande, assim como o programa de necessidades e o tamanho do espaço. Aqui, assentos confortáveis (sofás, pufes, cadeiras, poltronas etc.) e bancadas de apoio são o ponto forte do ambiente. A circulação pode se misturar com o local, servindo de passagem para outras estações do escritório. Além disso, itens de lazer como videogames, tênis de mesa e jogos diversos ajudam a trazer um ar mais contemporâneo para o espaço.</p>
-                </div>
-                <p>Outra questão que merece atenção diz respeito às possibilidades de integração dos espaços. Hoje em dia, o estar está muito conectado com outros ambientes. Portanto, é importante pensar na disposição do mobiliário para facilitar o fluxo. </p>
-                <img src="imgs/img11.png" class="img-responsive center-block img-borda">
-                <p class="legenda-imagem">
-                  Leiaute e imagem de ambiente de descompressão <br>
-                  Fonte: Adaptado de Lima <i>apud</i> ArchDaily (2022a)
-                </p>
-                <p class="acessivel no-print">Planta baixa e imagem de um ambiente de descompressão. Piso em cerâmica cinza, forro em concreto aparente. Bancada de alimentação e pufes rosas geométricos em alturas diversas completam o espaço.</p>
-                <ul>
-                  <li><b>Setor</b>: espaços de apoio.</li>
-                  <li><b>Uso principal</b>: descanso e descompressão.</li>
-                  <li><b>Outros usos</b>: alimentação, socialização, reuniões, leitura.</li>
-                  <li><b>Itens importantes</b>: assentos diversos e variados, mesas de apoio, jogos.</li>
-                </ul>
-              </div>
-              <div class="">
-                <h3>Ambientes específicos (arquivo, bibliotecas, estúdio, depósito etc.)</h3>
-                <p>Finalmente, você verá as peculiaridades dos diferentes escritórios que existem na atualidade. Por exemplo, um espaço de biblioteca pode fazer sentido em um escritório de advocacia, mas será que ele é necessário em outros ambientes? Uma cabine individual para telecomunicações pode fazer sentido em uma empresa grande, mas será que deve ser projetada em um pequeno escritório de <i>design</i> de interiores? Um espaço para fotografias é um espaço muito específico, mas que pode aparecer em determinados escritórios, por exemplo.</p>
-                <div class="caixa-destaque icone-atencao">
-                  <p>Os ambientes específicos terão um leiaute muito particular, pois esses locais normalmente prezam pela eficiência e funcionalidade. Preste atenção nas diferentes alturas e profundidades necessárias para equipamentos e itens. Espaço de apoio é o setor desses locais, porém usos e itens importantes dependerão de cada um dos locais projetados.</p>
-                </div>
-                <img src="imgs/img12.png" class="img-responsive center-block img-borda">
-                <p class="legenda-imagem">
-                  Leiaute e imagem de estúdio de fotografias <br>
-                  Fonte: Adaptado de Lacaz <i>apud</i> ArchDaily (2021c)
-                </p>
-                <p class="acessivel no-print">Planta baixa e imagem de um estúdio de fotografias. Com pé-direito duplo e paredes, forros, piso e móveis em branco, o espaço tem um pequeno espaço com cortinas pretas para fotografias e à esquerda um espaço aberto de fotos.</p>
-                <img src="imgs/img13.png" class="img-responsive center-block img-borda">
-                <p class="legenda-imagem">
-                  Leiaute e imagem de biblioteca de advocacia <br>
-                  Fonte: Adaptado de Bamberghi <i>apud</i> ArchDaily (2017)
-                </p>
-                <p class="acessivel no-print">Planta baixa e imagem de uma biblioteca de um escritório. Na planta, é possível ver a localização da biblioteca central em um grande corredor. Na foto, é possível ver as prateleiras cinzas iluminadas e diversos livros colocados nas duas laterais.</p>
+                <p>Reflita: faz sentido dividir um escritório de 30 m² em uma sala de reuniões, uma sala individual e
+                  uma sala de ambiente de trabalho? Vale a pena setorizar ambientes com paredes quando se quer
+                  integração? É possível ter uma sala de reuniões sem fechamento acústico, quando se precisa de
+                  privacidade?</p>
               </div>
             </div>
           </div>
-
-          <div class="parallax" data-parallax="scroll" data-image-src="imgs/transicao02.png"></div>
-          
-          <div class="container">
-            <h3>Acessos e fluxos</h3>
-            <p>Os acessos a escritórios são um pouco diferentes dos residenciais. Em razão de haver tamanhos muito diversos, o acesso pode ser realizado por uma porta de um andar de uma edificação e, quando a empresa for maior, também pode ser a partir do <i>hall</i> de elevadores. Isso traz uma diferenciação, pois o caráter do ambiente se dá assim que se chega ao pavimento do local. E é a partir daí que os fluxos devem ser trabalhados e estudados.</p>
-            <p>Aqui, a privacidade de acesso é um pouco diferente das residências. A maioria dos ambientes pode ter conexão entre eles, com exceção das salas privativas. Ao mesmo tempo, corredores e espaços de circulação devem ser pensados para atender a um público muito maior que o de uma residência. Se em uma casa é usual ter menos de dez pessoas, em uma empresa ou um escritório é o contrário: é comum ter muito mais do que dez pessoas locomovendo-se pelo ambiente. </p>
-            <p>A infraestrutura do local normalmente já estabelece onde serão banheiros e copa, porém o resto da planta pode ser ocupado de maneira relativamente livre. Deve-se considerar que os espaços de trabalho e de reuniões devem buscar a luz natural das janelas, enquanto espaços de apoio podem trabalhar com iluminação artificial sem problemas. </p>
-            <p>Outro ponto muito importante para pensar é na acessibilidade dos espaços, com as circulações atendendo pessoas com deficiência de maneira adequada. Finalmente, é preciso relembrar do que se falou sobre a flexibilidade que espaços abertos de trabalho trazem: o mobiliário que definirá tanto os espaços de trabalho quanto as circulações (espaço restante). <b>É nesse trabalho que o <i>designer</i> deve prestar atenção ao projetar um espaço de interiores corporativo</b>! </p>
-            <p>Veja um exemplo prático.</p>
-            <div class="caixa-destaque icone-desafio">
-              <p>Observe o projeto do escritório Macro Arquitetos para uma <i>startup</i>. Na planta baixa, observe como os projetistas definem espaços, fazendo com que a circulação flua por um eixo central, que parte dos elevadores para os dois lados: para a esquerda, os espaços de trabalho; para a direita, os espaços de apoio. Nos extremos opostos, há espaços “fim”, que são as salas de reunião e os banheiros/apoios. Boa parte desse fluxo se dá apenas pela disposição do mobiliário, com paredes e divisórias definindo espaços principalmente nos extremos e na parte central.</p>
-              <img src="imgs/img14.jpg" class="img-responsive center-block img-borda acessivel print">
-              <a href="imgs/img14_zoom.jpg" target="_blank" class="img-zoom">
-                <img src="imgs/img14.png" class="img-responsive center-block img-borda">
-              </a>
-              <p class="legenda-imagem">
-                Planta baixa de <i>startup</i> – escritório Macro Arquitetos <br>
-                Fonte: Adaptado de ArchDaily (2022d)
-              </p>
-              <p class="acessivel no-print">Planta baixa de uma startup. A planta se divide em circulação vertical no centro da edificação, espaços de trabalho e reuniões à esquerda e espaço de descompressão, reuniões e banheiros à direita. A circulação e o fluxo se dão de maneira centralizada ao longo da edificação, atravessando os espaços de lado a lado.</p>
-            </div>
-            <p>Com essas informações em mente, que tal treinar um pouco as questões de circulação, acessos e organização dos espaços de interiores corporativos? </p>
-            <p class="no-print" aria-hidden="true">Clique ou toque no simulador a seguir.</p>
-            
-            <!-- ESPERA ODA -->
-            <div class="espera-video no-print" aria-hidden="true">ESPERA ODA</div>
-            
+          <div class="acessivel print">
+            <p>Reflita: faz sentido dividir um escritório de 30 m² em uma sala de reuniões, uma sala individual e
+              uma sala de ambiente de trabalho? Vale a pena setorizar ambientes com paredes quando se quer
+              integração? É possível ter uma sala de reuniões sem fechamento acústico, quando se precisa de
+              privacidade?</p>
           </div>
 
-          <div class="parallax" data-parallax="scroll" data-image-src="imgs/transicao03.png"></div>
-          
-          <div class="container">
-            <h3>Encerramento</h3>
-            <p>Nos projetos de escritórios contemporâneos, o conceito de “novo escritório” fala sobre como o escritório clássico, separado por pequenas salas, mistura-se ao conceito de espaço aberto. Atualmente, a mescla de espaços abertos e fechados no mundo corporativo faz com que o <i>briefing</i> e as necessidades do cliente sejam atingidos de maneira mais adequada. </p>
-            <p>Meel (2012) faz algumas perguntas interessantes que se deve ter em mente ao analisar o programa de necessidades do cliente:</p>
-            <div class="row">
-              <div class="col-md-3 col-sm-4 col-xs-12">
-                <br class="visible-sm">
-                <img src="imgs/pergunta.png" class="img-responsive center-block">
-              </div>
-              <div class="col-sm-8 col-xs-12">
-                <p>Que equilíbrio deve ser buscado entre comunicação e concentração no ambiente de trabalho? Qual é a necessidade de o ambiente de trabalho ter configurações coletivas e interação frequente? Qual é a necessidade de ter salas de reuniões confidenciais e qual é a necessidade de privacidade?</p>
-              </div>
-            </div>
-            <p>Essas questões farão com que você entenda melhor o que o cliente necessita e como você utilizará essas ideias no lançamento de projeto. </p>
-            <p>Com isso, você chegou ao fim deste material sobre leiaute corporativo. Assim como o material sobre leiaute residencial, o livro de Panero e Zelnik (2002) <i>Dimensionamento Humano para Espaços Interiores</i> é uma excelente fonte de dimensionamentos mais específicos. Ter um projeto e um leiaute adequado do ambiente de trabalho ajudará a alcançar os objetivos da empresa, por exemplo, melhoria de produtividade e estímulo à criatividade e à interação entre as partes.</p>
-          </div>
-          
-        </div>
-      </section>
+          <h3>Ambientes, funcionalidade e dimensionamento</h3>
+          <p>No contexto de leiaute corporativo, aborda-se novamente a organização do ambiente em planta baixa. As
+            opções no mundo corporativo são diversas. Estações de trabalho podem ser abertas ou fechadas; salas de
+            reunião podem ser privadas e sérias ou abertas e modernas; ambientes de apoio têm peculiaridades muito
+            específicas. </p>
+          <p>A seguir, veja como os principais ambientes se organizam com base em sua funcionalidade, além de entender
+            os principais dimensionamentos que devem ser levados em consideração ao projetar cada um desses espaços.
+          </p>
 
-
-      <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
-      <footer class="text-center no-print">
-        <!--
-          <ul class="pagination">
-
-          </ul>
-          -->
-      </footer>
-    </div>
-
-    <!-- Modais -->
-
-    <!-- Modais 100% -->
-    <div class="modal modal-100 fade" id="modal-salas_abertas" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content no-print">
-          <div class="modal-header">
-            <div class="container">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                <div class="ico-fechar"></div>
-              </button>
+          <div class="no-print" aria-hidden="true">
+            <p>Clique ou toque para visualizar o conteúdo.</p>
+            <div class="painel-ambientes">
+              <button type="button" class="btn-ambientes btn-salas_abertas" data-toggle="modal"
+                data-target="#modal-salas_abertas"></button>
+              <button type="button" class="btn-ambientes btn-salas_fechadas" data-toggle="modal"
+                data-target="#modal-salas_fechadas"></button>
+              <button type="button" class="btn-ambientes btn-salas_reunioes" data-toggle="modal"
+                data-target="#modal-salas_reunioes"></button>
+              <button type="button" class="btn-ambientes btn-recepcao" data-toggle="modal"
+                data-target="#modal-recepcao"></button>
+              <button type="button" class="btn-ambientes btn-circulacoes" data-toggle="modal"
+                data-target="#modal-circulacoes"></button>
+              <button type="button" class="btn-ambientes btn-banheiros" data-toggle="modal"
+                data-target="#modal-banheiros"></button>
+              <button type="button" class="btn-ambientes btn-copas" data-toggle="modal"
+                data-target="#modal-copas"></button>
+              <button type="button" class="btn-ambientes btn-ambientes_descompressao" data-toggle="modal"
+                data-target="#modal-ambientes_descompressao"></button>
+              <button type="button" class="btn-ambientes btn-ambientes_especificos" data-toggle="modal"
+                data-target="#modal-ambientes_especificos"></button>
             </div>
           </div>
-          <div class="modal-body">
-            <div class="container">
+          <div class="acessivel print">
+            <div class="">
               <h3>Salas abertas</h3>
-              <p>As salas de escritórios podem ter configurações abertas ou fechadas, e cada uma delas pode ter configurações diversas. Aqui, serão abordadas as duas separadamente, trazendo as peculiaridades e as similaridades entre elas.</p>
+              <p>As salas de escritórios podem ter configurações abertas ou fechadas, e cada uma delas pode ter
+                configurações diversas. Aqui, serão abordadas as duas separadamente, trazendo as peculiaridades e as
+                similaridades entre elas.</p>
               <div class="caixa-destaque icone-nota">
-                <p>Salas abertas são espaços coletivos de trabalho, que permitem comunicação frequente entre os usuários e cuja concentração não necessita ser muito aprofundada. Esses ambientes terão pequenas estações de trabalho, porém sem divisórias rígidas, como paredes. As divisões internas, se existirem, serão demarcadas por diferenças entre pisos, forros e acabamentos, porém não são necessárias. </p>
+                <p>Salas abertas são espaços coletivos de trabalho, que permitem comunicação frequente entre os usuários
+                  e cuja concentração não necessita ser muito aprofundada. Esses ambientes terão pequenas estações de
+                  trabalho, porém sem divisórias rígidas, como paredes. As divisões internas, se existirem, serão
+                  demarcadas por diferenças entre pisos, forros e acabamentos, porém não são necessárias. </p>
               </div>
-              <p>Nesse tipo de ambiente, a configuração das mesas pode ser linear ou em pequenos agrupamentos. Tem como vantagem o uso eficiente do espaço, a flexibilidade espacial (podendo haver alteração de posicionamentos de mesas e móveis facilmente) e a interação entre usuários, pois não há barreiras físicas de altura elevada. Como desvantagens, pode-se citar que a privacidade visual e acústica é limitada, não sendo adequado para conversas confidenciais. Além disso, não há possibilidade de controle do ar-condicionado de maneira individualizada. </p>
-              <p>Aqui, o leiaute deve garantir a circulação adequada na disposição das mesas: uma vez que provavelmente haverá circulação nas “costas” dos usuários, deve garantir que a mesa fique a aproximadamente <b>150 cm da parede ou obstrução</b>. É preciso cuidar também para não criar grandes espaços vazios sem uso nesses ambientes. Com relação às alturas, deve-se dar atenção para a ergonomia das mesas e dos equipamentos: mesas devem estar a aproximadamente <b>75 cm do chão</b>, com o monitor do computador na altura dos olhos.</p>
-              <img src="imgs/img04.jpg" class="img-responsive center-block img-borda acessivel print">
-              <a href="imgs/img04_zoom.jpg" target="_blank" class="img-zoom">
-                <img src="imgs/img04.png" class="img-responsive center-block img-borda">
-              </a>
+              <p>Nesse tipo de ambiente, a configuração das mesas pode ser linear ou em pequenos agrupamentos. Tem como
+                vantagem o uso eficiente do espaço, a flexibilidade espacial (podendo haver alteração de posicionamentos
+                de mesas e móveis facilmente) e a interação entre usuários, pois não há barreiras físicas de altura
+                elevada. Como desvantagens, pode-se citar que a privacidade visual e acústica é limitada, não sendo
+                adequado para conversas confidenciais. Além disso, não há possibilidade de controle do ar-condicionado
+                de maneira individualizada. </p>
+              <p>Aqui, o leiaute deve garantir a circulação adequada na disposição das mesas: uma vez que provavelmente
+                haverá circulação nas “costas” dos usuários, deve garantir que a mesa fique a aproximadamente <b>150 cm
+                  da parede ou obstrução</b>. É preciso cuidar também para não criar grandes espaços vazios sem uso
+                nesses ambientes. Com relação às alturas, deve-se dar atenção para a ergonomia das mesas e dos
+                equipamentos: mesas devem estar a aproximadamente <b>75 cm do chão</b>, com o monitor do computador na
+                altura dos olhos.</p>
+              <img src="imgs/img04.png" class="img-responsive center-block img-borda">
               <p class="legenda-imagem">
                 Leiaute e imagem de sala coletiva de trabalho <br>
                 Fonte: Adaptado de Guo <i>apud</i> ArchDaily (2023)
               </p>
-              <p class="acessivel no-print">Planta baixa e imagem de uma sala coletiva de trabalho com piso em madeira, forro branco com instalações expostas e paredes em branco e madeira. No ambiente, estações de trabalho brancas dispostas em quatro conjuntos, totalizando vinte e dois lugares de trabalho. Ao lado, uma mesa de madeira circunda o pilar de concreto.</p>
+              <p class="acessivel no-print">Planta baixa e imagem de uma sala coletiva de trabalho com piso em madeira,
+                forro branco com instalações expostas e paredes em branco e madeira. No ambiente, estações de trabalho
+                brancas dispostas em quatro conjuntos, totalizando vinte e dois lugares de trabalho. Ao lado, uma mesa
+                de madeira circunda o pilar de concreto.</p>
               <ul>
                 <li><b>Setor</b>: espaços de trabalho.</li>
-                <li><b>Uso principal</b>: trabalho individual ou coletivo com alta possibilidade de interação entre usuários.</li>
+                <li><b>Uso principal</b>: trabalho individual ou coletivo com alta possibilidade de interação entre
+                  usuários.</li>
                 <li><b>Outros usos</b>: pequenas reuniões; socialização.</li>
                 <li><b>Itens importantes</b>: mesas, cadeiras, computadores, gaveteiros, armários.</li>
               </ul>
-
-              <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal modal-100 fade" id="modal-salas_fechadas" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content no-print">
-          <div class="modal-header">
-            <div class="container">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                <div class="ico-fechar"></div>
-              </button>
-            </div>
-          </div>
-          <div class="modal-body">
-            <div class="container">
+            <div class="">
               <h3>Salas fechadas</h3>
               <div class="caixa-destaque icone-nota">
-                <p>Ao contrário das salas abertas, as salas fechadas dos escritórios são espaços de trabalho individual ou para poucas pessoas. Normalmente são privativas, fechadas por paredes ou divisórias, e permitem concentração aprofundada e confidencialidade entre as partes. Também permitem pequenas reuniões ou encontros entre os usuários. Por terem uma metragem menor, têm baixa flexibilidade espacial. A interação dos usuários dentro da sala é total, porém fica restrita a esse ambiente, sem comunicação com as outras salas e os outros ambientes do escritório como um todo. Ao mesmo tempo, a privacidade interna é muito grande. A configuração das mesas dependerá muito da circulação planejada, e o ar-condicionado pode ser controlado de maneira individualizada.</p>
+                <p>Ao contrário das salas abertas, as salas fechadas dos escritórios são espaços de trabalho individual
+                  ou para poucas pessoas. Normalmente são privativas, fechadas por paredes ou divisórias, e permitem
+                  concentração aprofundada e confidencialidade entre as partes. Também permitem pequenas reuniões ou
+                  encontros entre os usuários. Por terem uma metragem menor, têm baixa flexibilidade espacial. A
+                  interação dos usuários dentro da sala é total, porém fica restrita a esse ambiente, sem comunicação
+                  com as outras salas e os outros ambientes do escritório como um todo. Ao mesmo tempo, a privacidade
+                  interna é muito grande. A configuração das mesas dependerá muito da circulação planejada, e o
+                  ar-condicionado pode ser controlado de maneira individualizada.</p>
               </div>
-              <p>Aqui, o leiaute dependerá bastante da infraestrutura do local: onde tem paredes, tomadas, janelas etc. A predisposição do espaço ditará como será o leiaute. Na distribuição das mesas, é possível que não exista circulação nas “costas”, portanto <b>o espaço entre mesa e obstrução pode ser menor, com aproximadamente 100 cm</b>. Se for um escritório individual, é importante pensar em cadeiras para atendimento ou um pequeno estar para reuniões rápidas. Além disso, o espaço pode ter também uma área de apoio com um pequeno frigobar e/ou uma cafeteira. </p>
-              <img src="imgs/img05.jpg" class="img-responsive center-block img-borda acessivel print">
-              <a href="imgs/img05_zoom.jpg" target="_blank" class="img-zoom">
-                <img src="imgs/img05.png" class="img-responsive center-block img-borda">
-              </a>
+              <p>Aqui, o leiaute dependerá bastante da infraestrutura do local: onde tem paredes, tomadas, janelas etc.
+                A predisposição do espaço ditará como será o leiaute. Na distribuição das mesas, é possível que não
+                exista circulação nas “costas”, portanto <b>o espaço entre mesa e obstrução pode ser menor, com
+                  aproximadamente 100 cm</b>. Se for um escritório individual, é importante pensar em cadeiras para
+                atendimento ou um pequeno estar para reuniões rápidas. Além disso, o espaço pode ter também uma área de
+                apoio com um pequeno frigobar e/ou uma cafeteira. </p>
+              <img src="imgs/img05.png" class="img-responsive center-block img-borda">
               <p class="legenda-imagem">
                 Leiaute e imagem de sala fechada de trabalho <br>
                 Fonte: Adaptado de Antonio <i>apud</i> ArchDaily (2021a)
               </p>
-              <p class="acessivel no-print">Planta baixa e imagem de uma sala de trabalho individual com piso em tons de cinza, forro branco com trilhos de iluminação pretos e paredes em cinza. No ambiente, uma mesa orgânica de madeira para uma pessoa trabalhar e atender outras três. Próximas à mesa, duas poltronas pretas com mesa lateral e tapete marrom.</p>
+              <p class="acessivel no-print">Planta baixa e imagem de uma sala de trabalho individual com piso em tons de
+                cinza, forro branco com trilhos de iluminação pretos e paredes em cinza. No ambiente, uma mesa orgânica
+                de madeira para uma pessoa trabalhar e atender outras três. Próximas à mesa, duas poltronas pretas com
+                mesa lateral e tapete marrom.</p>
               <ul>
                 <li><b>Setor</b>: espaços de trabalho.</li>
                 <li><b>Uso principal</b>: trabalho individual.</li>
                 <li><b>Outros usos</b>: pequenas reuniões; atendimento.</li>
-                <li><b>Itens importantes</b>: mesas, cadeiras, computadores, gaveteiros, armários, cadeiras de aproximação, poltronas.</li>
+                <li><b>Itens importantes</b>: mesas, cadeiras, computadores, gaveteiros, armários, cadeiras de
+                  aproximação, poltronas.</li>
               </ul>
-
-              <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal modal-100 fade" id="modal-salas_reunioes" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content no-print">
-          <div class="modal-header">
-            <div class="container">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                <div class="ico-fechar"></div>
-              </button>
-            </div>
-          </div>
-          <div class="modal-body">
-            <div class="container">
+            <div class="">
               <h3>Salas de reuniões</h3>
               <div class="caixa-destaque icone-nota">
-                <p>As salas de reuniões dos escritórios contemporâneos têm uma grande variedade de leiaute e mobiliário. Como ideia principal, essas salas permitem encontros profissionais entre grupos de pessoas. Porém, dependendo da quantidade de pessoas e do estilo de reunião, podem ser em ambientes fechados ou abertos, mais ou menos formais, com mesas ou apenas com pufes e assim por diante. Dependerá muito do estilo pretendido e do <i>briefing</i> do cliente. </p>
+                <p>As salas de reuniões dos escritórios contemporâneos têm uma grande variedade de leiaute e mobiliário.
+                  Como ideia principal, essas salas permitem encontros profissionais entre grupos de pessoas. Porém,
+                  dependendo da quantidade de pessoas e do estilo de reunião, podem ser em ambientes fechados ou
+                  abertos, mais ou menos formais, com mesas ou apenas com pufes e assim por diante. Dependerá muito do
+                  estilo pretendido e do <i>briefing</i> do cliente. </p>
               </div>
               <p>Segundo Meel (2012), as áreas recomendadas para reuniões são as seguintes:</p>
               <ul>
@@ -531,339 +311,884 @@
                 <li>Espaço de reunião com equipamento/mobiliário especial: 3 m² por pessoa.</li>
                 <li>Ponto de reunião: 1 m² por pessoa.</li>
               </ul>
-              <p>Essa é uma indicação inicial de metragem, mas é muito importante analisar o fluxo geral do escritório, o <i>briefing</i>, as instalações e as possibilidades de circulação para criar o melhor leiaute possível da sala de reuniões.</p>
-              <p>Sobre a disposição do mobiliário, dependerá muito do estilo pretendido. Em reuniões mais descontraídas, mesas baixas de centro e pufes ou poltronas leves podem ser suficientes. Porém, em ambientes mais formais, <b>uma mesa de altura de 75 cm e cadeiras confortáveis são imprescindíveis</b>. Caso as divisórias sejam de vidro, a privacidade pode ser alcançada com cortinas e persianas.</p>
-              <p>Em relação ao leiaute propriamente dito, é importante tomar muito cuidado com a circulação do espaço. Como normalmente é um ambiente fechado por paredes ou divisórias, a circulação por trás das cadeiras é frequente; logo, deve-se pensar em <b>aproximadamente 120 cm da borda da mesa até o ponto de obstrução</b>. Aqui, é preciso lembrar também de que as paredes podem ajudar como ponto de apoio para a projeção de imagens ou tela. Ao mesmo tempo, lembre-se de que não é totalmente necessário que haja uma circulação total em volta da mesa: ela pode estar encostada em uma parede ou divisória, e isso não será um problema.</p>
-              <img src="imgs/img06.jpg" class="img-responsive center-block img-borda acessivel print">
-              <a href="imgs/img06_zoom.jpg" target="_blank" class="img-zoom">
-                <img src="imgs/img06.png" class="img-responsive center-block img-borda">
-              </a>
+              <p>Essa é uma indicação inicial de metragem, mas é muito importante analisar o fluxo geral do escritório,
+                o <i>briefing</i>, as instalações e as possibilidades de circulação para criar o melhor leiaute possível
+                da sala de reuniões.</p>
+              <p>Sobre a disposição do mobiliário, dependerá muito do estilo pretendido. Em reuniões mais descontraídas,
+                mesas baixas de centro e pufes ou poltronas leves podem ser suficientes. Porém, em ambientes mais
+                formais, <b>uma mesa de altura de 75 cm e cadeiras confortáveis são imprescindíveis</b>. Caso as
+                divisórias sejam de vidro, a privacidade pode ser alcançada com cortinas e persianas.</p>
+              <p>Em relação ao leiaute propriamente dito, é importante tomar muito cuidado com a circulação do espaço.
+                Como normalmente é um ambiente fechado por paredes ou divisórias, a circulação por trás das cadeiras é
+                frequente; logo, deve-se pensar em <b>aproximadamente 120 cm da borda da mesa até o ponto de
+                  obstrução</b>. Aqui, é preciso lembrar também de que as paredes podem ajudar como ponto de apoio para
+                a projeção de imagens ou tela. Ao mesmo tempo, lembre-se de que não é totalmente necessário que haja uma
+                circulação total em volta da mesa: ela pode estar encostada em uma parede ou divisória, e isso não será
+                um problema.</p>
+              <img src="imgs/img06.png" class="img-responsive center-block img-borda">
               <p class="legenda-imagem">
                 Leiaute e imagem de sala de reuniões <br>
                 Fonte: Adaptado de Lima <i>apud</i> ArchDaily (2022a)
               </p>
-              <p class="acessivel no-print">Planta baixa e imagem de uma sala de reuniões vista de fora através de esquadria de vidro. Forro em concreto aparente, piso cerâmico cinza a paredes internas brancas e amarelas. No ambiente, uma grande mesa de reuniões para dezesseis pessoas. Sobre a parede amarela, dois monitores para atender às reuniões.</p>
+              <p class="acessivel no-print">Planta baixa e imagem de uma sala de reuniões vista de fora através de
+                esquadria de vidro. Forro em concreto aparente, piso cerâmico cinza a paredes internas brancas e
+                amarelas. No ambiente, uma grande mesa de reuniões para dezesseis pessoas. Sobre a parede amarela, dois
+                monitores para atender às reuniões.</p>
               <ul>
                 <li><b>Setor</b>: espaços de reunião.</li>
                 <li><b>Uso principal</b>: reuniões.</li>
                 <li><b>Outros usos</b>: trabalho privado, socialização, atendimento.</li>
                 <li><b>Itens importantes</b>: mesas, cadeiras, monitor, computador, projetor, móveis de apoio.</li>
               </ul>
-
-              <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal modal-100 fade" id="modal-recepcao" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content no-print">
-          <div class="modal-header">
-            <div class="container">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                <div class="ico-fechar"></div>
-              </button>
-            </div>
-          </div>
-          <div class="modal-body">
-            <div class="container">
+            <div class="">
               <h3>Recepção</h3>
               <div class="caixa-destaque icone-nota">
-                <p>A recepção do escritório é o primeiro contato que os usuários do escritório terão com o ambiente corporativo. É caracterizado por um espaço contíguo ao acesso principal, que pode ser uma porta de entrada, um <i>hall</i> de elevadores ou a rua diretamente. Pode ser mais reservado ou totalmente conectado com os outros ambientes do escritório. </p>
+                <p>A recepção do escritório é o primeiro contato que os usuários do escritório terão com o ambiente
+                  corporativo. É caracterizado por um espaço contíguo ao acesso principal, que pode ser uma porta de
+                  entrada, um <i>hall</i> de elevadores ou a rua diretamente. Pode ser mais reservado ou totalmente
+                  conectado com os outros ambientes do escritório. </p>
               </div>
-              <p>Aqui, o leiaute deve garantir um espaço de espera e de atendimento inicial, proporcionando um local exclusivo para que visitantes e outras pessoas não circulem pelo ambiente geral da empresa. </p>
-              <p>Quanto a dimensionamento e mobiliários, é preciso ter muito cuidado para que a circulação seja adequada, pois o espaço ficará “menor” quando for necessário abrir a porta. Além disso, deve-se cuidar para que os assentos de espera (cadeiras, poltronas e bancos) não atrapalhem o fluxo geral de entrada e saída do ambiente. Como bancada de atendimento, é possível pensar em móveis com alturas diversas: <b>75 cm para trabalho de uma pessoa sentada e 90 cm a 110 cm para atendimento de um cliente ou visitante de pé</b>. </p>
-              <img src="imgs/img07.jpg" class="img-responsive center-block img-borda acessivel print">
-              <a href="imgs/img07_zoom.jpg" target="_blank" class="img-zoom">
-                <img src="imgs/img07.png" class="img-responsive center-block img-borda">
-              </a>
+              <p>Aqui, o leiaute deve garantir um espaço de espera e de atendimento inicial, proporcionando um local
+                exclusivo para que visitantes e outras pessoas não circulem pelo ambiente geral da empresa. </p>
+              <p>Quanto a dimensionamento e mobiliários, é preciso ter muito cuidado para que a circulação seja
+                adequada, pois o espaço ficará “menor” quando for necessário abrir a porta. Além disso, deve-se cuidar
+                para que os assentos de espera (cadeiras, poltronas e bancos) não atrapalhem o fluxo geral de entrada e
+                saída do ambiente. Como bancada de atendimento, é possível pensar em móveis com alturas diversas: <b>75
+                  cm para trabalho de uma pessoa sentada e 90 cm a 110 cm para atendimento de um cliente ou visitante de
+                  pé</b>. </p>
+              <img src="imgs/img07.png" class="img-responsive center-block img-borda">
               <p class="legenda-imagem">
                 Leiaute e imagem de recepção <br>
                 Fonte: Adaptado de Lopez <i>apud</i> ArchDaily (2022b)
               </p>
-              <p class="acessivel no-print">Planta baixa e imagem de uma recepção de escritório. O ambiente é um grande galpão com pé direito alto, divisórias metálicas vazadas laranjas, piso em tom de aço corten. Na recepção, uma bancada de atendimento em tons de laranja e rosa. Em planta baixa aparecem também duas cadeiras com mesa de aproximação.</p>
+              <p class="acessivel no-print">Planta baixa e imagem de uma recepção de escritório. O ambiente é um grande
+                galpão com pé direito alto, divisórias metálicas vazadas laranjas, piso em tom de aço corten. Na
+                recepção, uma bancada de atendimento em tons de laranja e rosa. Em planta baixa aparecem também duas
+                cadeiras com mesa de aproximação.</p>
               <ul>
-                <li>Setor: espaços de apoio.</li>
-                <li>Uso principal: recepção de visitas.</li>
-                <li>Outros usos: atendimento, socialização.</li>
-                <li>Itens importantes: escrivaninha, cadeiras, poltronas, bancos, mesas laterais, monitor, computador, impressora.</li>
+                <li><b>Setor</b>: espaços de apoio.</li>
+                <li><b>Uso principal</b>: recepção de visitas.</li>
+                <li><b>Outros usos</b>: atendimento, socialização.</li>
+                <li><b>Itens importantes</b>: escrivaninha, cadeiras, poltronas, bancos, mesas laterais, monitor,
+                  computador, impressora.</li>
               </ul>
-
-              <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal modal-100 fade" id="modal-circulacoes" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content no-print">
-          <div class="modal-header">
-            <div class="container">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                <div class="ico-fechar"></div>
-              </button>
-            </div>
-          </div>
-          <div class="modal-body">
-            <div class="container">
+            <div class="">
               <h3>Circulações</h3>
               <div class="caixa-destaque icone-nota">
-                <p>As circulações nos ambientes de trabalhos devem ser pensadas para uma comunicação eficiente entre os espaços. Muitas vezes, a circulação se “misturará” com um espaço de trabalho ou uma área de apoio. Portanto, é importante que esses espaços permitam boa passagem dos usuários. Segundo Meel (2012), <b>a largura mínima em corredores é de 120 cm</b>. </p>
+                <p>As circulações nos ambientes de trabalhos devem ser pensadas para uma comunicação eficiente entre os
+                  espaços. Muitas vezes, a circulação se “misturará” com um espaço de trabalho ou uma área de apoio.
+                  Portanto, é importante que esses espaços permitam boa passagem dos usuários. Segundo Meel (2012), <b>a
+                    largura mínima em corredores é de 120 cm</b>. </p>
               </div>
-              <p>Em ambientes corporativos, é importante lembrar de que circulações verticais, como elevadores e escadas, podem fazer parte do leiaute do espaço. Além disso, lembre-se de que as circulações devem atender às normas de segurança para casos de incêndio e outras emergências. Finalmente, as circulações devem ser bem planejadas para que não se tornem espaços improdutivos e “roubem” áreas de trabalho e outros apoios. Ou seja, planeje bem a largura desse espaço!</p>
-              <img src="imgs/img08.jpg" class="img-responsive center-block img-borda acessivel print">
-              <a href="imgs/img08_zoom.jpg" target="_blank" class="img-zoom">
-                <img src="imgs/img08.png" class="img-responsive center-block img-borda">
-              </a>
+              <p>Em ambientes corporativos, é importante lembrar de que circulações verticais, como elevadores e
+                escadas, podem fazer parte do leiaute do espaço. Além disso, lembre-se de que as circulações devem
+                atender às normas de segurança para casos de incêndio e outras emergências. Finalmente, as circulações
+                devem ser bem planejadas para que não se tornem espaços improdutivos e “roubem” áreas de trabalho e
+                outros apoios. Ou seja, planeje bem a largura desse espaço!</p>
+              <img src="imgs/img08.png" class="img-responsive center-block img-borda">
               <p class="legenda-imagem">
                 Leiaute e imagem de circulações entre mesas e ambientes <br>
                 Fonte: Adaptado de Finotti <i>apud</i> ArchDaily (2021b)
               </p>
-              <p class="acessivel no-print">Planta baixa e imagem de uma sala coletiva de trabalho demonstrando as circulações do espaço. Forro aparente branco com instalações expostas, paredes em tons de madeira, verde e branco, piso em tons de cinza. Na planta baixa, é possível ver dispostas mesas de maneira linear em seis conjuntos de dezesseis lugares, um espaço fechado para trabalho e uma pequena área de descanso com pufes. Os móveis e o ambiente fechado demarcam as circulações disponíveis do ambiente.</p>
+              <p class="acessivel no-print">Planta baixa e imagem de uma sala coletiva de trabalho demonstrando as
+                circulações do espaço. Forro aparente branco com instalações expostas, paredes em tons de madeira, verde
+                e branco, piso em tons de cinza. Na planta baixa, é possível ver dispostas mesas de maneira linear em
+                seis conjuntos de dezesseis lugares, um espaço fechado para trabalho e uma pequena área de descanso com
+                pufes. Os móveis e o ambiente fechado demarcam as circulações disponíveis do ambiente.</p>
               <ul>
                 <li><b>Setor</b>: espaços de apoio e espaços de trabalho.</li>
                 <li><b>Uso principal</b>: circulação entre ambientes.</li>
                 <li><b>Outros usos</b>: socialização.</li>
-                <li><b>Itens importantes</b>: variável (pode servir de apoio de espera, impressões e reuniões informais).</li>
+                <li><b>Itens importantes</b>: variável (pode servir de apoio de espera, impressões e reuniões
+                  informais).</li>
               </ul>
-              
-              <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal modal-100 fade" id="modal-banheiros" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content no-print">
-          <div class="modal-header">
-            <div class="container">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                <div class="ico-fechar"></div>
-              </button>
-            </div>
-          </div>
-          <div class="modal-body">
-            <div class="container">
+            <div class="">
               <h3>Banheiros/vestiários</h3>
               <div class="caixa-destaque icone-nota">
-                <p>Os banheiros de empresas e escritórios devem ser planejados de acordo com o tamanho e o <i>briefing</i> do local. Muitas vezes, apenas um banheiro é o suficiente. Outras vezes, será necessário ter a separação em mais espaços. Por fim, alguns escritórios necessitarão até de vestiários no local. Tudo dependerá do tamanho da empresa. Portanto, as circulações internas são um ponto importante de atenção.</p>
+                <p>Os banheiros de empresas e escritórios devem ser planejados de acordo com o tamanho e o
+                  <i>briefing</i> do local. Muitas vezes, apenas um banheiro é o suficiente. Outras vezes, será
+                  necessário ter a separação em mais espaços. Por fim, alguns escritórios necessitarão até de vestiários
+                  no local. Tudo dependerá do tamanho da empresa. Portanto, as circulações internas são um ponto
+                  importante de atenção.
+                </p>
               </div>
-              <p>É importante prestar atenção nos materiais e equipamentos de fácil manutenção, pois o uso normalmente é maior do que de um banheiro residencial. Além disso, lembre-se de que é importante, e muitas vezes obrigatório, haver nos projetos banheiros para pessoas com deficiência. Para ter um conhecimento maior sobre o assunto, pesquise nos conteúdos sobre ergonomia e na NBR 9050. </p>
+              <p>É importante prestar atenção nos materiais e equipamentos de fácil manutenção, pois o uso normalmente é
+                maior do que de um banheiro residencial. Além disso, lembre-se de que é importante, e muitas vezes
+                obrigatório, haver nos projetos banheiros para pessoas com deficiência. Para ter um conhecimento maior
+                sobre o assunto, pesquise nos conteúdos sobre ergonomia e na NBR 9050. </p>
               <p>Em relação ao dimensionamento, lembrar-se do <b>valor de 90 cm na parte superior das pias</b>. </p>
-              <img src="imgs/img09.jpg" class="img-responsive center-block img-borda acessivel print">
-              <a href="imgs/img09_zoom.jpg" target="_blank" class="img-zoom">
-                <img src="imgs/img09.png" class="img-responsive center-block img-borda">
-              </a>
+              <img src="imgs/img09.png" class="img-responsive center-block img-borda">
               <p class="legenda-imagem">
                 Leiaute e imagem de banheiro <br>
                 Fonte: Adaptado de Mello <i>apud</i> ArchDaily (2022c)
               </p>
-              <p class="acessivel no-print">Planta baixa e imagem de um banheiro com piso em cerâmica cinza, paredes em cerâmica branca tipo metrô e móveis, pedra e forro em branco.</p>
+              <p class="acessivel no-print">Planta baixa e imagem de um banheiro com piso em cerâmica cinza, paredes em
+                cerâmica branca tipo metrô e móveis, pedra e forro em branco.</p>
               <ul>
                 <li><b>Setor</b>: espaços de apoio.</li>
                 <li><b>Uso principal</b>: higiene pessoal.</li>
                 <li><b>Itens importantes</b>: pia, vaso sanitário, espelho.</li>
               </ul>
-              
-              <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal modal-100 fade" id="modal-copas" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content no-print">
-          <div class="modal-header">
-            <div class="container">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                <div class="ico-fechar"></div>
-              </button>
-            </div>
-          </div>
-          <div class="modal-body">
-            <div class="container">
+            <div class="">
               <h3>Copas/refeições</h3>
               <div class="caixa-destaque icone-nota">
-                <p>As copas ou áreas de refeições são ambientes interessantes nos escritórios. Assim como os banheiros, eles variarão em área de acordo com o tamanho da empresa. Podem ser apenas uma parede como um ambiente inteiro com mesas. Normalmente, localizam-se próximo às áreas de descompressão e estações de trabalho, permitindo acesso rápido para lanches e alimentação. </p>
+                <p>As copas ou áreas de refeições são ambientes interessantes nos escritórios. Assim como os banheiros,
+                  eles variarão em área de acordo com o tamanho da empresa. Podem ser apenas uma parede como um ambiente
+                  inteiro com mesas. Normalmente, localizam-se próximo às áreas de descompressão e estações de trabalho,
+                  permitindo acesso rápido para lanches e alimentação. </p>
               </div>
-              <p>Diferentemente de cozinhas residenciais, aqui o foco é em alimentação rápida e semipronta, portanto esqueça o fogão! Geladeira, micro-ondas e cafeteira são os principais eletrodomésticos desse ambiente. Em relação às alturas, devem ser seguidas as que já viu no conteúdo sobre <i>design</i> de interiores residencial: <b>75 cm para uma mesa de alimentação; 90 cm para bancada de trabalho com pia; e armários altos a partir de 150 cm. A profundidade da bancada continua próxima dos 60 cm</b>.</p>
-              <img src="imgs/img10.jpg" class="img-responsive center-block img-borda acessivel print">
-              <a href="imgs/img10_zoom.jpg" target="_blank" class="img-zoom">
-                <img src="imgs/img10.png" class="img-responsive center-block img-borda">
-              </a>
+              <p>Diferentemente de cozinhas residenciais, aqui o foco é em alimentação rápida e semipronta, portanto
+                esqueça o fogão! Geladeira, micro-ondas e cafeteira são os principais eletrodomésticos desse ambiente.
+                Em relação às alturas, devem ser seguidas as que já viu no conteúdo sobre <i>design</i> de interiores
+                residencial: <b>75 cm para uma mesa de alimentação; 90 cm para bancada de trabalho com pia; e armários
+                  altos a partir de 150 cm. A profundidade da bancada continua próxima dos 60 cm</b>.</p>
+              <img src="imgs/img10.png" class="img-responsive center-block img-borda">
               <p class="legenda-imagem">
                 Leiaute e imagem de copa <br>
                 Fonte: Adaptado de Netto <i>apud</i> ArchDaily (2021d)
               </p>
-              <p class="acessivel no-print">Planta baixa e imagem de uma área de refeições de um escritório. Na foto, à direita, há um armário em madeira com espaço para refrigeradores. Em frente, uma bancada de trabalho com pia. Em seguida, mesas de alturas diversas (75 centímetros e 100 centímetros). O ambiente tem um tamanho avantajado, para atender uma grande empresa.</p>
+              <p class="acessivel no-print">Planta baixa e imagem de uma área de refeições de um escritório. Na foto, à
+                direita, há um armário em madeira com espaço para refrigeradores. Em frente, uma bancada de trabalho com
+                pia. Em seguida, mesas de alturas diversas (75 centímetros e 100 centímetros). O ambiente tem um tamanho
+                avantajado, para atender uma grande empresa.</p>
               <ul>
                 <li><b>Setor</b>: espaços de apoio.</li>
                 <li><b>Uso principal</b>: guarda de alimentos e alimentação.</li>
                 <li><b>Outros usos</b>: alimentação rápida; socialização.</li>
                 <li><b>Itens importantes</b>: pia, geladeira, cafeteira, micro-ondas, bancada, mesa, cadeira.</li>
               </ul>
-              
-              <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal modal-100 fade" id="modal-ambientes_descompressao" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content no-print">
-          <div class="modal-header">
-            <div class="container">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                <div class="ico-fechar"></div>
-              </button>
-            </div>
-          </div>
-          <div class="modal-body">
-            <div class="container">
+            <div class="">
               <h3>Ambientes de descompressão</h3>
               <div class="caixa-destaque icone-nota">
-                <p>Os ambientes de descompressão e lazer são espaços coringas em um escritório. Eles permitem socialização, alimentação, reuniões rápidas etc. As possibilidades de leiaute e organização do espaço são diversas. A variedade de estilos é muito grande, assim como o programa de necessidades e o tamanho do espaço. Aqui, assentos confortáveis (sofás, pufes, cadeiras, poltronas etc.) e bancadas de apoio são o ponto forte do ambiente. A circulação pode se misturar com o local, servindo de passagem para outras estações do escritório. Além disso, itens de lazer como videogames, tênis de mesa e jogos diversos ajudam a trazer um ar mais contemporâneo para o espaço.</p>
+                <p>Os ambientes de descompressão e lazer são espaços coringas em um escritório. Eles permitem
+                  socialização, alimentação, reuniões rápidas etc. As possibilidades de leiaute e organização do espaço
+                  são diversas. A variedade de estilos é muito grande, assim como o programa de necessidades e o tamanho
+                  do espaço. Aqui, assentos confortáveis (sofás, pufes, cadeiras, poltronas etc.) e bancadas de apoio
+                  são o ponto forte do ambiente. A circulação pode se misturar com o local, servindo de passagem para
+                  outras estações do escritório. Além disso, itens de lazer como videogames, tênis de mesa e jogos
+                  diversos ajudam a trazer um ar mais contemporâneo para o espaço.</p>
               </div>
-              <p>Outra questão que merece atenção diz respeito às possibilidades de integração dos espaços. Hoje em dia, o estar está muito conectado com outros ambientes. Portanto, é importante pensar na disposição do mobiliário para facilitar o fluxo. </p>
-              <img src="imgs/img11.jpg" class="img-responsive center-block img-borda acessivel print">
-              <a href="imgs/img11_zoom.jpg" target="_blank" class="img-zoom">
-                <img src="imgs/img11.png" class="img-responsive center-block img-borda">
-              </a>
+              <p>Outra questão que merece atenção diz respeito às possibilidades de integração dos espaços. Hoje em dia,
+                o estar está muito conectado com outros ambientes. Portanto, é importante pensar na disposição do
+                mobiliário para facilitar o fluxo. </p>
+              <img src="imgs/img11.png" class="img-responsive center-block img-borda">
               <p class="legenda-imagem">
                 Leiaute e imagem de ambiente de descompressão <br>
                 Fonte: Adaptado de Lima <i>apud</i> ArchDaily (2022a)
               </p>
-              <p class="acessivel no-print">Planta baixa e imagem de um ambiente de descompressão. Piso em cerâmica cinza, forro em concreto aparente. Bancada de alimentação e pufes rosas geométricos em alturas diversas completam o espaço.</p>
+              <p class="acessivel no-print">Planta baixa e imagem de um ambiente de descompressão. Piso em cerâmica
+                cinza, forro em concreto aparente. Bancada de alimentação e pufes rosas geométricos em alturas diversas
+                completam o espaço.</p>
               <ul>
                 <li><b>Setor</b>: espaços de apoio.</li>
                 <li><b>Uso principal</b>: descanso e descompressão.</li>
                 <li><b>Outros usos</b>: alimentação, socialização, reuniões, leitura.</li>
                 <li><b>Itens importantes</b>: assentos diversos e variados, mesas de apoio, jogos.</li>
               </ul>
-              
-              <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal modal-100 fade" id="modal-ambientes_especificos" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content no-print">
-          <div class="modal-header">
-            <div class="container">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                <div class="ico-fechar"></div>
-              </button>
-            </div>
-          </div>
-          <div class="modal-body">
-            <div class="container">
+            <div class="">
               <h3>Ambientes específicos (arquivo, bibliotecas, estúdio, depósito etc.)</h3>
-              <p>Finalmente, você verá as peculiaridades dos diferentes escritórios que existem na atualidade. Por exemplo, um espaço de biblioteca pode fazer sentido em um escritório de advocacia, mas será que ele é necessário em outros ambientes? Uma cabine individual para telecomunicações pode fazer sentido em uma empresa grande, mas será que deve ser projetada em um pequeno escritório de <i>design</i> de interiores? Um espaço para fotografias é um espaço muito específico, mas que pode aparecer em determinados escritórios, por exemplo.</p>
+              <p>Finalmente, você verá as peculiaridades dos diferentes escritórios que existem na atualidade. Por
+                exemplo, um espaço de biblioteca pode fazer sentido em um escritório de advocacia, mas será que ele é
+                necessário em outros ambientes? Uma cabine individual para telecomunicações pode fazer sentido em uma
+                empresa grande, mas será que deve ser projetada em um pequeno escritório de <i>design</i> de interiores?
+                Um espaço para fotografias é um espaço muito específico, mas que pode aparecer em determinados
+                escritórios, por exemplo.</p>
               <div class="caixa-destaque icone-atencao">
-                <p>Os ambientes específicos terão um leiaute muito particular, pois esses locais normalmente prezam pela eficiência e funcionalidade. Preste atenção nas diferentes alturas e profundidades necessárias para equipamentos e itens. Espaço de apoio é o setor desses locais, porém usos e itens importantes dependerão de cada um dos locais projetados.</p>
+                <p>Os ambientes específicos terão um leiaute muito particular, pois esses locais normalmente prezam pela
+                  eficiência e funcionalidade. Preste atenção nas diferentes alturas e profundidades necessárias para
+                  equipamentos e itens. Espaço de apoio é o setor desses locais, porém usos e itens importantes
+                  dependerão de cada um dos locais projetados.</p>
               </div>
-              <img src="imgs/img12.jpg" class="img-responsive center-block img-borda acessivel print">
-              <a href="imgs/img12_zoom.jpg" target="_blank" class="img-zoom">
-                <img src="imgs/img12.png" class="img-responsive center-block img-borda">
-              </a>
+              <img src="imgs/img12.png" class="img-responsive center-block img-borda">
               <p class="legenda-imagem">
                 Leiaute e imagem de estúdio de fotografias <br>
                 Fonte: Adaptado de Lacaz <i>apud</i> ArchDaily (2021c)
               </p>
-              <p class="acessivel no-print">Planta baixa e imagem de um estúdio de fotografias. Com pé-direito duplo e paredes, forros, piso e móveis em branco, o espaço tem um pequeno espaço com cortinas pretas para fotografias e à esquerda um espaço aberto de fotos.</p>
-              <img src="imgs/img13.jpg" class="img-responsive center-block img-borda acessivel print">
-              <a href="imgs/img13_zoom.jpg" target="_blank" class="img-zoom">
-                <img src="imgs/img13.png" class="img-responsive center-block img-borda">
-              </a>
+              <p class="acessivel no-print">Planta baixa e imagem de um estúdio de fotografias. Com pé-direito duplo e
+                paredes, forros, piso e móveis em branco, o espaço tem um pequeno espaço com cortinas pretas para
+                fotografias e à esquerda um espaço aberto de fotos.</p>
+              <img src="imgs/img13.png" class="img-responsive center-block img-borda">
               <p class="legenda-imagem">
                 Leiaute e imagem de biblioteca de advocacia <br>
                 Fonte: Adaptado de Bamberghi <i>apud</i> ArchDaily (2017)
               </p>
-              <p class="acessivel no-print">Planta baixa e imagem de uma biblioteca de um escritório. Na planta, é possível ver a localização da biblioteca central em um grande corredor. Na foto, é possível ver as prateleiras cinzas iluminadas e diversos livros colocados nas duas laterais.</p>
-
-              <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
+              <p class="acessivel no-print">Planta baixa e imagem de uma biblioteca de um escritório. Na planta, é
+                possível ver a localização da biblioteca central em um grande corredor. Na foto, é possível ver as
+                prateleiras cinzas iluminadas e diversos livros colocados nas duas laterais.</p>
             </div>
+          </div>
+        </div>
+
+        <div class="parallax" data-parallax="scroll" data-image-src="imgs/transicao02.png"></div>
+
+        <div class="container">
+          <h3>Acessos e fluxos</h3>
+          <p>Os acessos a escritórios são um pouco diferentes dos residenciais. Em razão de haver tamanhos muito
+            diversos, o acesso pode ser realizado por uma porta de um andar de uma edificação e, quando a empresa for
+            maior, também pode ser a partir do <i>hall</i> de elevadores. Isso traz uma diferenciação, pois o caráter do
+            ambiente se dá assim que se chega ao pavimento do local. E é a partir daí que os fluxos devem ser
+            trabalhados e estudados.</p>
+          <p>Aqui, a privacidade de acesso é um pouco diferente das residências. A maioria dos ambientes pode ter
+            conexão entre eles, com exceção das salas privativas. Ao mesmo tempo, corredores e espaços de circulação
+            devem ser pensados para atender a um público muito maior que o de uma residência. Se em uma casa é usual ter
+            menos de dez pessoas, em uma empresa ou um escritório é o contrário: é comum ter muito mais do que dez
+            pessoas locomovendo-se pelo ambiente. </p>
+          <p>A infraestrutura do local normalmente já estabelece onde serão banheiros e copa, porém o resto da planta
+            pode ser ocupado de maneira relativamente livre. Deve-se considerar que os espaços de trabalho e de reuniões
+            devem buscar a luz natural das janelas, enquanto espaços de apoio podem trabalhar com iluminação artificial
+            sem problemas. </p>
+          <p>Outro ponto muito importante para pensar é na acessibilidade dos espaços, com as circulações atendendo
+            pessoas com deficiência de maneira adequada. Finalmente, é preciso relembrar do que se falou sobre a
+            flexibilidade que espaços abertos de trabalho trazem: o mobiliário que definirá tanto os espaços de trabalho
+            quanto as circulações (espaço restante). <b>É nesse trabalho que o <i>designer</i> deve prestar atenção ao
+              projetar um espaço de interiores corporativo</b>! </p>
+          <p>Veja um exemplo prático.</p>
+          <div class="caixa-destaque icone-desafio">
+            <p>Observe o projeto do escritório Macro Arquitetos para uma <i>startup</i>. Na planta baixa, observe como
+              os projetistas definem espaços, fazendo com que a circulação flua por um eixo central, que parte dos
+              elevadores para os dois lados: para a esquerda, os espaços de trabalho; para a direita, os espaços de
+              apoio. Nos extremos opostos, há espaços “fim”, que são as salas de reunião e os banheiros/apoios. Boa
+              parte desse fluxo se dá apenas pela disposição do mobiliário, com paredes e divisórias definindo espaços
+              principalmente nos extremos e na parte central.</p>
+            <img src="./imgs/img14.png" class="img-responsive center-block img-borda acessivel print">
+            <a href="imgs/img14_zoom.jpg" target="_blank" class="img-zoom">
+              <img src="imgs/img14.png" class="img-responsive center-block img-borda">
+            </a>
+            <p class="legenda-imagem">
+              Planta baixa de <i>startup</i> – escritório Macro Arquitetos <br>
+              Fonte: Adaptado de ArchDaily (2022d)
+            </p>
+            <p class="acessivel no-print">Planta baixa de uma startup. A planta se divide em circulação vertical no
+              centro da edificação, espaços de trabalho e reuniões à esquerda e espaço de descompressão, reuniões e
+              banheiros à direita. A circulação e o fluxo se dão de maneira centralizada ao longo da edificação,
+              atravessando os espaços de lado a lado.</p>
+          </div>
+          <p class="no-print" aria-hidden="true">Com essas informações em mente, que tal treinar um pouco as questões de circulação,
+            acessos e organização
+            dos espaços de interiores corporativos? </p>
+          <p class="no-print" aria-hidden="true">Clique ou toque no simulador a seguir.</p>
+
+          <!-- ESPERA ODA -->
+          <div class="espera-video no-print" aria-hidden="true">ESPERA ODA</div>
+
+        </div>
+
+        <div class="parallax" data-parallax="scroll" data-image-src="imgs/transicao03.png"></div>
+
+        <div class="container">
+          <h3>Encerramento</h3>
+          <p>Nos projetos de escritórios contemporâneos, o conceito de “novo escritório” fala sobre como o escritório
+            clássico, separado por pequenas salas, mistura-se ao conceito de espaço aberto. Atualmente, a mescla de
+            espaços abertos e fechados no mundo corporativo faz com que o <i>briefing</i> e as necessidades do cliente
+            sejam atingidos de maneira mais adequada. </p>
+          <p>Meel (2012) faz algumas perguntas interessantes que se deve ter em mente ao analisar o programa de
+            necessidades do cliente:</p>
+          <div class="no-print" aria-hidden="true">
+            <div class="row">
+              <div class="col-md-3 col-sm-4 col-xs-12">
+                <br class="visible-sm">
+                <img src="imgs/pergunta.png" class="img-responsive center-block">
+              </div>
+              <div class="col-sm-8 col-xs-12">
+                <p>Que equilíbrio deve ser buscado entre comunicação e concentração no ambiente de trabalho? Qual é a
+                  necessidade de o ambiente de trabalho ter configurações coletivas e interação frequente? Qual é a
+                  necessidade de ter salas de reuniões confidenciais e qual é a necessidade de privacidade?</p>
+              </div>
+            </div>
+          </div>
+          <div class="acessivel print">
+            <p>Que equilíbrio deve ser buscado entre comunicação e concentração no ambiente de trabalho? Qual é a
+              necessidade de o ambiente de trabalho ter configurações coletivas e interação frequente? Qual é a
+              necessidade de ter salas de reuniões confidenciais e qual é a necessidade de privacidade?</p>
+          </div>
+          <p>Essas questões farão com que você entenda melhor o que o cliente necessita e como você utilizará essas
+            ideias no lançamento de projeto. </p>
+          <p>Com isso, você chegou ao fim deste material sobre leiaute corporativo. Assim como o material sobre leiaute
+            residencial, o livro de Panero e Zelnik (2002) <i>Dimensionamento Humano para Espaços Interiores</i> é uma
+            excelente fonte de dimensionamentos mais específicos. Ter um projeto e um leiaute adequado do ambiente de
+            trabalho ajudará a alcançar os objetivos da empresa, por exemplo, melhoria de produtividade e estímulo à
+            criatividade e à interação entre as partes.</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+    <footer class="text-center no-print">
+      <!--
+          <ul class="pagination">
+
+          </ul>
+          -->
+    </footer>
+  </div>
+
+  <!-- Modais -->
+
+  <!-- Modais 100% -->
+  <div class="modal modal-100 fade" id="modal-salas_abertas" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content no-print">
+        <div class="modal-header">
+          <div class="container">
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <div class="ico-fechar">X</div>
+            </button>
+            <h3>Salas abertas</h3>
+            <p>As salas de escritórios podem ter configurações abertas ou fechadas, e cada uma delas pode ter
+              configurações diversas. Aqui, serão abordadas as duas separadamente, trazendo as peculiaridades e as
+              similaridades entre elas.</p>
+            <div class="caixa-destaque icone-nota">
+              <p>Salas abertas são espaços coletivos de trabalho, que permitem comunicação frequente entre os usuários e
+                cuja concentração não necessita ser muito aprofundada. Esses ambientes terão pequenas estações de
+                trabalho, porém sem divisórias rígidas, como paredes. As divisões internas, se existirem, serão
+                demarcadas por diferenças entre pisos, forros e acabamentos, porém não são necessárias. </p>
+            </div>
+            <p>Nesse tipo de ambiente, a configuração das mesas pode ser linear ou em pequenos agrupamentos. Tem como
+              vantagem o uso eficiente do espaço, a flexibilidade espacial (podendo haver alteração de posicionamentos
+              de mesas e móveis facilmente) e a interação entre usuários, pois não há barreiras físicas de altura
+              elevada. Como desvantagens, pode-se citar que a privacidade visual e acústica é limitada, não sendo
+              adequado para conversas confidenciais. Além disso, não há possibilidade de controle do ar-condicionado de
+              maneira individualizada. </p>
+            <p>Aqui, o leiaute deve garantir a circulação adequada na disposição das mesas: uma vez que provavelmente
+              haverá circulação nas “costas” dos usuários, deve garantir que a mesa fique a aproximadamente <b>150 cm da
+                parede ou obstrução</b>. É preciso cuidar também para não criar grandes espaços vazios sem uso nesses
+              ambientes. Com relação às alturas, deve-se dar atenção para a ergonomia das mesas e dos equipamentos:
+              mesas devem estar a aproximadamente <b>75 cm do chão</b>, com o monitor do computador na altura dos olhos.
+            </p>
+            <img src="imgs/img04.jpg" class="img-responsive center-block img-borda acessivel print">
+            <a href="imgs/img04_zoom.jpg" target="_blank" class="img-zoom">
+              <img src="imgs/img04.png" class="img-responsive center-block img-borda">
+            </a>
+            <p class="legenda-imagem">
+              Leiaute e imagem de sala coletiva de trabalho <br>
+              Fonte: Adaptado de Guo <i>apud</i> ArchDaily (2023)
+            </p>
+            <p class="acessivel no-print">Planta baixa e imagem de uma sala coletiva de trabalho com piso em madeira,
+              forro branco com instalações expostas e paredes em branco e madeira. No ambiente, estações de trabalho
+              brancas dispostas em quatro conjuntos, totalizando vinte e dois lugares de trabalho. Ao lado, uma mesa de
+              madeira circunda o pilar de concreto.</p>
+            <ul>
+              <li><b>Setor</b>: espaços de trabalho.</li>
+              <li><b>Uso principal</b>: trabalho individual ou coletivo com alta possibilidade de interação entre
+                usuários.</li>
+              <li><b>Outros usos</b>: pequenas reuniões; socialização.</li>
+              <li><b>Itens importantes</b>: mesas, cadeiras, computadores, gaveteiros, armários.</li>
+            </ul>
+
+            <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  <div class="modal modal-100 fade" id="modal-salas_fechadas" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content no-print">
+        <div class="modal-header">
+          <div class="container">
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <div class="ico-fechar">X</div>
+            </button>
+            <h3>Salas fechadas</h3>
+            <div class="caixa-destaque icone-nota">
+              <p>Ao contrário das salas abertas, as salas fechadas dos escritórios são espaços de trabalho individual ou
+                para poucas pessoas. Normalmente são privativas, fechadas por paredes ou divisórias, e permitem
+                concentração aprofundada e confidencialidade entre as partes. Também permitem pequenas reuniões ou
+                encontros entre os usuários. Por terem uma metragem menor, têm baixa flexibilidade espacial. A interação
+                dos usuários dentro da sala é total, porém fica restrita a esse ambiente, sem comunicação com as outras
+                salas e os outros ambientes do escritório como um todo. Ao mesmo tempo, a privacidade interna é muito
+                grande. A configuração das mesas dependerá muito da circulação planejada, e o ar-condicionado pode ser
+                controlado de maneira individualizada.</p>
+            </div>
+            <p>Aqui, o leiaute dependerá bastante da infraestrutura do local: onde tem paredes, tomadas, janelas etc. A
+              predisposição do espaço ditará como será o leiaute. Na distribuição das mesas, é possível que não exista
+              circulação nas “costas”, portanto <b>o espaço entre mesa e obstrução pode ser menor, com aproximadamente
+                100 cm</b>. Se for um escritório individual, é importante pensar em cadeiras para atendimento ou um
+              pequeno estar para reuniões rápidas. Além disso, o espaço pode ter também uma área de apoio com um pequeno
+              frigobar e/ou uma cafeteira. </p>
+            <img src="imgs/img05.jpg" class="img-responsive center-block img-borda acessivel print">
+            <a href="imgs/img05_zoom.jpg" target="_blank" class="img-zoom">
+              <img src="imgs/img05.png" class="img-responsive center-block img-borda">
+            </a>
+            <p class="legenda-imagem">
+              Leiaute e imagem de sala fechada de trabalho <br>
+              Fonte: Adaptado de Antonio <i>apud</i> ArchDaily (2021a)
+            </p>
+            <p class="acessivel no-print">Planta baixa e imagem de uma sala de trabalho individual com piso em tons de
+              cinza, forro branco com trilhos de iluminação pretos e paredes em cinza. No ambiente, uma mesa orgânica de
+              madeira para uma pessoa trabalhar e atender outras três. Próximas à mesa, duas poltronas pretas com mesa
+              lateral e tapete marrom.</p>
+            <ul>
+              <li><b>Setor</b>: espaços de trabalho.</li>
+              <li><b>Uso principal</b>: trabalho individual.</li>
+              <li><b>Outros usos</b>: pequenas reuniões; atendimento.</li>
+              <li><b>Itens importantes</b>: mesas, cadeiras, computadores, gaveteiros, armários, cadeiras de
+                aproximação, poltronas.</li>
+            </ul>
 
-    <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+            <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-100 fade" id="modal-salas_reunioes" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content no-print">
+        <div class="modal-header">
+          <div class="container">
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <div class="ico-fechar">X</div>
+            </button>
+            <h3>Salas de reuniões</h3>
+            <div class="caixa-destaque icone-nota">
+              <p>As salas de reuniões dos escritórios contemporâneos têm uma grande variedade de leiaute e mobiliário.
+                Como ideia principal, essas salas permitem encontros profissionais entre grupos de pessoas. Porém,
+                dependendo da quantidade de pessoas e do estilo de reunião, podem ser em ambientes fechados ou abertos,
+                mais ou menos formais, com mesas ou apenas com pufes e assim por diante. Dependerá muito do estilo
+                pretendido e do <i>briefing</i> do cliente. </p>
+            </div>
+            <p>Segundo Meel (2012), as áreas recomendadas para reuniões são as seguintes:</p>
+            <ul>
+              <li>Espaço de reunião aberto: 1,5 m² por pessoa.</li>
+              <li>Espaço de reunião fechado: 2 m² por pessoa.</li>
+              <li>Espaço de reunião com equipamento/mobiliário especial: 3 m² por pessoa.</li>
+              <li>Ponto de reunião: 1 m² por pessoa.</li>
+            </ul>
+            <p>Essa é uma indicação inicial de metragem, mas é muito importante analisar o fluxo geral do escritório, o
+              <i>briefing</i>, as instalações e as possibilidades de circulação para criar o melhor leiaute possível da
+              sala de reuniões.
+            </p>
+            <p>Sobre a disposição do mobiliário, dependerá muito do estilo pretendido. Em reuniões mais descontraídas,
+              mesas baixas de centro e pufes ou poltronas leves podem ser suficientes. Porém, em ambientes mais formais,
+              <b>uma mesa de altura de 75 cm e cadeiras confortáveis são imprescindíveis</b>. Caso as divisórias sejam
+              de vidro, a privacidade pode ser alcançada com cortinas e persianas.
+            </p>
+            <p>Em relação ao leiaute propriamente dito, é importante tomar muito cuidado com a circulação do espaço.
+              Como normalmente é um ambiente fechado por paredes ou divisórias, a circulação por trás das cadeiras é
+              frequente; logo, deve-se pensar em <b>aproximadamente 120 cm da borda da mesa até o ponto de
+                obstrução</b>. Aqui, é preciso lembrar também de que as paredes podem ajudar como ponto de apoio para a
+              projeção de imagens ou tela. Ao mesmo tempo, lembre-se de que não é totalmente necessário que haja uma
+              circulação total em volta da mesa: ela pode estar encostada em uma parede ou divisória, e isso não será um
+              problema.</p>
+            <img src="imgs/img06.jpg" class="img-responsive center-block img-borda acessivel print">
+            <a href="imgs/img06_zoom.jpg" target="_blank" class="img-zoom">
+              <img src="imgs/img06.png" class="img-responsive center-block img-borda">
+            </a>
+            <p class="legenda-imagem">
+              Leiaute e imagem de sala de reuniões <br>
+              Fonte: Adaptado de Lima <i>apud</i> ArchDaily (2022a)
+            </p>
+            <p class="acessivel no-print">Planta baixa e imagem de uma sala de reuniões vista de fora através de
+              esquadria de vidro. Forro em concreto aparente, piso cerâmico cinza a paredes internas brancas e amarelas.
+              No ambiente, uma grande mesa de reuniões para dezesseis pessoas. Sobre a parede amarela, dois monitores
+              para atender às reuniões.</p>
+            <ul>
+              <li><b>Setor</b>: espaços de reunião.</li>
+              <li><b>Uso principal</b>: reuniões.</li>
+              <li><b>Outros usos</b>: trabalho privado, socialização, atendimento.</li>
+              <li><b>Itens importantes</b>: mesas, cadeiras, monitor, computador, projetor, móveis de apoio.</li>
+            </ul>
+
+            <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-100 fade" id="modal-recepcao" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content no-print">
+        <div class="modal-header">
+          <div class="container">
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <div class="ico-fechar">X</div>
+            </button>
+            <h3>Recepção</h3>
+            <div class="caixa-destaque icone-nota">
+              <p>A recepção do escritório é o primeiro contato que os usuários do escritório terão com o ambiente
+                corporativo. É caracterizado por um espaço contíguo ao acesso principal, que pode ser uma porta de
+                entrada, um <i>hall</i> de elevadores ou a rua diretamente. Pode ser mais reservado ou totalmente
+                conectado com os outros ambientes do escritório. </p>
+            </div>
+            <p>Aqui, o leiaute deve garantir um espaço de espera e de atendimento inicial, proporcionando um local
+              exclusivo para que visitantes e outras pessoas não circulem pelo ambiente geral da empresa. </p>
+            <p>Quanto a dimensionamento e mobiliários, é preciso ter muito cuidado para que a circulação seja adequada,
+              pois o espaço ficará “menor” quando for necessário abrir a porta. Além disso, deve-se cuidar para que os
+              assentos de espera (cadeiras, poltronas e bancos) não atrapalhem o fluxo geral de entrada e saída do
+              ambiente. Como bancada de atendimento, é possível pensar em móveis com alturas diversas: <b>75 cm para
+                trabalho de uma pessoa sentada e 90 cm a 110 cm para atendimento de um cliente ou visitante de pé</b>.
+            </p>
+            <img src="imgs/img07.jpg" class="img-responsive center-block img-borda acessivel print">
+            <a href="imgs/img07_zoom.jpg" target="_blank" class="img-zoom">
+              <img src="imgs/img07.png" class="img-responsive center-block img-borda">
+            </a>
+            <p class="legenda-imagem">
+              Leiaute e imagem de recepção <br>
+              Fonte: Adaptado de Lopez <i>apud</i> ArchDaily (2022b)
+            </p>
+            <p class="acessivel no-print">Planta baixa e imagem de uma recepção de escritório. O ambiente é um grande
+              galpão com pé direito alto, divisórias metálicas vazadas laranjas, piso em tom de aço corten. Na recepção,
+              uma bancada de atendimento em tons de laranja e rosa. Em planta baixa aparecem também duas cadeiras com
+              mesa de aproximação.</p>
+            <ul>
+              <li><b>Setor:</b> espaços de apoio.</li>
+              <li><b>Uso principal</b>: recepção de visitas.</li>
+              <li><b>Outros usos</b>: atendimento, socialização.</li>
+              <li><b>Itens importantes</b>: escrivaninha, cadeiras, poltronas, bancos, mesas laterais, monitor,
+                computador, impressora.</li>
+            </ul>
+
+            <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-100 fade" id="modal-circulacoes" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content no-print">
+        <div class="modal-header">
+          <div class="container">
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <div class="ico-fechar">X</div>
+            </button>
+            <h3>Circulações</h3>
+            <div class="caixa-destaque icone-nota">
+              <p>As circulações nos ambientes de trabalhos devem ser pensadas para uma comunicação eficiente entre os
+                espaços. Muitas vezes, a circulação se “misturará” com um espaço de trabalho ou uma área de apoio.
+                Portanto, é importante que esses espaços permitam boa passagem dos usuários. Segundo Meel (2012), <b>a
+                  largura mínima em corredores é de <br> 120 cm</b>. </p>
+            </div>
+            <p>Em ambientes corporativos, é importante lembrar de que circulações verticais, como elevadores e escadas,
+              podem fazer parte do leiaute do espaço. Além disso, lembre-se de que as circulações devem atender às
+              normas de segurança para casos de incêndio e outras emergências. Finalmente, as circulações devem ser bem
+              planejadas para que não se tornem espaços improdutivos e “roubem” áreas de trabalho e outros apoios. Ou
+              seja, planeje bem a largura desse espaço!</p>
+            <img src="imgs/img08.jpg" class="img-responsive center-block img-borda acessivel print">
+            <a href="imgs/img08_zoom.jpg" target="_blank" class="img-zoom">
+              <img src="imgs/img08.png" class="img-responsive center-block img-borda">
+            </a>
+            <p class="legenda-imagem">
+              Leiaute e imagem de circulações entre mesas e ambientes <br>
+              Fonte: Adaptado de Finotti <i>apud</i> ArchDaily (2021b)
+            </p>
+            <p class="acessivel no-print">Planta baixa e imagem de uma sala coletiva de trabalho demonstrando as
+              circulações do espaço. Forro aparente branco com instalações expostas, paredes em tons de madeira, verde e
+              branco, piso em tons de cinza. Na planta baixa, é possível ver dispostas mesas de maneira linear em seis
+              conjuntos de dezesseis lugares, um espaço fechado para trabalho e uma pequena área de descanso com pufes.
+              Os móveis e o ambiente fechado demarcam as circulações disponíveis do ambiente.</p>
+            <ul>
+              <li><b>Setor</b>: espaços de apoio e espaços de trabalho.</li>
+              <li><b>Uso principal</b>: circulação entre ambientes.</li>
+              <li><b>Outros usos</b>: socialização.</li>
+              <li><b>Itens importantes</b>: variável (pode servir de apoio de espera, impressões e reuniões informais).
+              </li>
+            </ul>
+
+            <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-100 fade" id="modal-banheiros" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content no-print">
+        <div class="modal-header">
+          <div class="container">
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <div class="ico-fechar">X</div>
+            </button>
+            <h3>Banheiros/vestiários</h3>
+            <div class="caixa-destaque icone-nota">
+              <p>Os banheiros de empresas e escritórios devem ser planejados de acordo com o tamanho e o <i>briefing</i>
+                do local. Muitas vezes, apenas um banheiro é o suficiente. Outras vezes, será necessário ter a separação
+                em mais espaços. Por fim, alguns escritórios necessitarão até de vestiários no local. Tudo dependerá do
+                tamanho da empresa. Portanto, as circulações internas são um ponto importante de atenção.</p>
+            </div>
+            <p>É importante prestar atenção nos materiais e equipamentos de fácil manutenção, pois o uso normalmente é
+              maior do que de um banheiro residencial. Além disso, lembre-se de que é importante, e muitas vezes
+              obrigatório, haver nos projetos banheiros para pessoas com deficiência. Para ter um conhecimento maior
+              sobre o assunto, pesquise nos conteúdos sobre ergonomia e na NBR 9050. </p>
+            <p>Em relação ao dimensionamento, lembrar-se do <b>valor de 90 cm na parte superior das pias</b>. </p>
+            <img src="imgs/img09.jpg" class="img-responsive center-block img-borda acessivel print">
+            <a href="imgs/img09_zoom.jpg" target="_blank" class="img-zoom">
+              <img src="imgs/img09.png" class="img-responsive center-block img-borda">
+            </a>
+            <p class="legenda-imagem">
+              Leiaute e imagem de banheiro <br>
+              Fonte: Adaptado de Mello <i>apud</i> ArchDaily (2022c)
+            </p>
+            <p class="acessivel no-print">Planta baixa e imagem de um banheiro com piso em cerâmica cinza, paredes em
+              cerâmica branca tipo metrô e móveis, pedra e forro em branco.</p>
+            <ul>
+              <li><b>Setor</b>: espaços de apoio.</li>
+              <li><b>Uso principal</b>: higiene pessoal.</li>
+              <li><b>Itens importantes</b>: pia, vaso sanitário, espelho.</li>
+            </ul>
+
+            <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-100 fade" id="modal-copas" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content no-print">
+        <div class="modal-header">
+          <div class="container">
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <div class="ico-fechar">X</div>
+            </button>
+            <h3>Copas/refeições</h3>
+            <div class="caixa-destaque icone-nota">
+              <p>As copas ou áreas de refeições são ambientes interessantes nos escritórios. Assim como os banheiros,
+                eles variarão em área de acordo com o tamanho da empresa. Podem ser apenas uma parede como um ambiente
+                inteiro com mesas. Normalmente, localizam-se próximo às áreas de descompressão e estações de trabalho,
+                permitindo acesso rápido para lanches e alimentação. </p>
+            </div>
+            <p>Diferentemente de cozinhas residenciais, aqui o foco é em alimentação rápida e semipronta, portanto
+              esqueça o fogão! Geladeira, micro-ondas e cafeteira são os principais eletrodomésticos desse ambiente. Em
+              relação às alturas, devem ser seguidas as que já viu no conteúdo sobre <i>design</i> de interiores
+              residencial: <b>75 cm para uma mesa de alimentação; 90 cm para bancada de trabalho com pia; e armários
+                altos a partir de 150 cm. A profundidade da bancada continua próxima dos 60 cm</b>.</p>
+            <img src="imgs/img10.jpg" class="img-responsive center-block img-borda acessivel print">
+            <a href="imgs/img10_zoom.jpg" target="_blank" class="img-zoom">
+              <img src="imgs/img10.png" class="img-responsive center-block img-borda">
+            </a>
+            <p class="legenda-imagem">
+              Leiaute e imagem de copa <br>
+              Fonte: Adaptado de Netto <i>apud</i> ArchDaily (2021d)
+            </p>
+            <p class="acessivel no-print">Planta baixa e imagem de uma área de refeições de um escritório. Na foto, à
+              direita, há um armário em madeira com espaço para refrigeradores. Em frente, uma bancada de trabalho com
+              pia. Em seguida, mesas de alturas diversas (75 centímetros e 100 centímetros). O ambiente tem um tamanho
+              avantajado, para atender uma grande empresa.</p>
+            <ul>
+              <li><b>Setor</b>: espaços de apoio.</li>
+              <li><b>Uso principal</b>: guarda de alimentos e alimentação.</li>
+              <li><b>Outros usos</b>: alimentação rápida; socialização.</li>
+              <li><b>Itens importantes</b>: pia, geladeira, cafeteira, micro-ondas, bancada, mesa, cadeira.</li>
+            </ul>
+
+            <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-100 fade" id="modal-ambientes_descompressao" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content no-print">
+        <div class="modal-header">
+          <div class="container">
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <div class="ico-fechar">X</div>
+            </button>
+            <h3>Ambientes de descompressão</h3>
+            <div class="caixa-destaque icone-nota">
+              <p>Os ambientes de descompressão e lazer são espaços coringas em um escritório. Eles permitem
+                socialização, alimentação, reuniões rápidas etc. As possibilidades de leiaute e organização do espaço
+                são diversas. A variedade de estilos é muito grande, assim como o programa de necessidades e o tamanho
+                do espaço. Aqui, assentos confortáveis (sofás, pufes, cadeiras, poltronas etc.) e bancadas de apoio são
+                o ponto forte do ambiente. A circulação pode se misturar com o local, servindo de passagem para outras
+                estações do escritório. Além disso, itens de lazer como videogames, tênis de mesa e jogos diversos
+                ajudam a trazer um ar mais contemporâneo para o espaço.</p>
+            </div>
+            <p>Outra questão que merece atenção diz respeito às possibilidades de integração dos espaços. Hoje em dia, o
+              estar está muito conectado com outros ambientes. Portanto, é importante pensar na disposição do mobiliário
+              para facilitar o fluxo. </p>
+            <img src="imgs/img11.jpg" class="img-responsive center-block img-borda acessivel print">
+            <a href="imgs/img11_zoom.jpg" target="_blank" class="img-zoom">
+              <img src="imgs/img11.png" class="img-responsive center-block img-borda">
+            </a>
+            <p class="legenda-imagem">
+              Leiaute e imagem de ambiente de descompressão <br>
+              Fonte: Adaptado de Lima <i>apud</i> ArchDaily (2022a)
+            </p>
+            <p class="acessivel no-print">Planta baixa e imagem de um ambiente de descompressão. Piso em cerâmica cinza,
+              forro em concreto aparente. Bancada de alimentação e pufes rosas geométricos em alturas diversas completam
+              o espaço.</p>
+            <ul>
+              <li><b>Setor</b>: espaços de apoio.</li>
+              <li><b>Uso principal</b>: descanso e descompressão.</li>
+              <li><b>Outros usos</b>: alimentação, socialização, reuniões, leitura.</li>
+              <li><b>Itens importantes</b>: assentos diversos e variados, mesas de apoio, jogos.</li>
+            </ul>
+
+            <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-100 fade" id="modal-ambientes_especificos" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content no-print">
+        <div class="modal-header">
+          <div class="container">
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <div class="ico-fechar">X</div>
+            </button>
+            <h3>Ambientes específicos (arquivo, bibliotecas, estúdio, depósito etc.)</h3>
+            <p>Finalmente, você verá as peculiaridades dos diferentes escritórios que existem na atualidade. Por
+              exemplo, um espaço de biblioteca pode fazer sentido em um escritório de advocacia, mas será que ele é
+              necessário em outros ambientes? Uma cabine individual para telecomunicações pode fazer sentido em uma
+              empresa grande, mas será que deve ser projetada em um pequeno escritório de <i>design</i> de interiores?
+              Um espaço para fotografias é um espaço muito específico, mas que pode aparecer em determinados
+              escritórios, por exemplo.</p>
+            <div class="caixa-destaque icone-atencao">
+              <p>Os ambientes específicos terão um leiaute muito particular, pois esses locais normalmente prezam pela
+                eficiência e funcionalidade. Preste atenção nas diferentes alturas e profundidades necessárias para
+                equipamentos e itens. Espaço de apoio é o setor desses locais, porém usos e itens importantes dependerão
+                de cada um dos locais projetados.</p>
+            </div>
+            <img src="imgs/img12.jpg" class="img-responsive center-block img-borda acessivel print">
+            <a href="imgs/img12_zoom.jpg" target="_blank" class="img-zoom">
+              <img src="imgs/img12.png" class="img-responsive center-block img-borda">
+            </a>
+            <p class="legenda-imagem">
+              Leiaute e imagem de estúdio de fotografias <br>
+              Fonte: Adaptado de Lacaz <i>apud</i> ArchDaily (2021c)
+            </p>
+            <p class="acessivel no-print">Planta baixa e imagem de um estúdio de fotografias. Com pé-direito duplo e
+              paredes, forros, piso e móveis em branco, o espaço tem um pequeno espaço com cortinas pretas para
+              fotografias e à esquerda um espaço aberto de fotos.</p>
+            <img src="imgs/img13.jpg" class="img-responsive center-block img-borda acessivel print">
+            <a href="imgs/img13_zoom.jpg" target="_blank" class="img-zoom">
+              <img src="imgs/img13.png" class="img-responsive center-block img-borda">
+            </a>
+            <p class="legenda-imagem">
+              Leiaute e imagem de biblioteca de advocacia <br>
+              Fonte: Adaptado de Bamberghi <i>apud</i> ArchDaily (2017)
+            </p>
+            <p class="acessivel no-print">Planta baixa e imagem de uma biblioteca de um escritório. Na planta, é
+              possível ver a localização da biblioteca central em um grande corredor. Na foto, é possível ver as
+              prateleiras cinzas iluminadas e diversos livros colocados nas duas laterais.</p>
+
+            <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
     <footer>
     </footer>
 	-->
-    <!-- carrega todas as imagens dos icones nesta div
+  <!-- carrega todas as imagens dos icones nesta div
  caso queira adicionar mais imagens de novos icones do css,
  ou qualquer imagem que deva ser contabilizada durante a fase
  de loading, referenciar aqui.
  -->
-    <div class="ico-div-loader">
-      <img src="../template/images/atencao.png" />
-      <img src="../template/images/bg-content.jpg" />
-      <img src="../template/images/bg-topo.jpg" />
-      <img src="../template/images/black-zoom-in-256.png" />
-      <img src="../template/images/concluindo.png" />
-      <img src="../template/images/curtir.png" />
-      <img src="../template/images/desafio.png" />
-      <img src="../template/images/dica.png" />
-      <img src="../template/images/doc.png" />
-      <img src="../template/images/fundamental.png" />
-      <img src="../template/images/icon-03.png" />
-      <img src="../template/images/importante.png" />
-      <img src="../template/images/lightbulb.png" />
-      <img src="../template/images/link.png" />
-      <img src="../template/images/link_pdf_hover.png" />
-      <img src="../template/images/link_pdf_normal.png" />
-      <img src="../template/images/logo-senac.png" />
-      <img src="../template/images/mark-icon.png" />
-      <img src="../template/images/mark-icon02.png" />
-      <img src="../template/images/midia.png" />
-      <img src="../template/images/monitor.png" />
-      <img src="../template/images/nao_curtir.png" />
-      <img src="../template/images/pergunta.png" />
-      <img src="../template/images/pesquisa.png" />
-      <img src="../template/images/play.png" />
-      <img src="../template/images/radio_flat.png" />
-      <img src="../template/images/refletir.png" />
-      <img src="../template/images/saiba_mais.png" />
-      <img src="../template/images/senac_loader.png" />
-      <img src="../template/images/tanamidia.png" />
-      <img src="../template/images/transcricao.png" />
-      <img src="../template/images/transcricao_small.png" />
-      <img src="../template/images/tv.png" />
-      <img src="../template/images/tv_bottom.png" />
-      <img src="../template/images/zoom.png" />
-      <img src="../template/images/zoom_ie.cur" />
-      <img src="../template/images/zoom_ie.png" />
-      <!-- adicionar as imagens customizadas aqui abaixo -->
-    </div>
+  <div class="ico-div-loader">
+    <img src="../template/images/atencao.png" />
+    <img src="../template/images/bg-content.jpg" />
+    <img src="../template/images/bg-topo.jpg" />
+    <img src="../template/images/black-zoom-in-256.png" />
+    <img src="../template/images/concluindo.png" />
+    <img src="../template/images/curtir.png" />
+    <img src="../template/images/desafio.png" />
+    <img src="../template/images/dica.png" />
+    <img src="../template/images/doc.png" />
+    <img src="../template/images/fundamental.png" />
+    <img src="../template/images/icon-03.png" />
+    <img src="../template/images/importante.png" />
+    <img src="../template/images/lightbulb.png" />
+    <img src="../template/images/link.png" />
+    <img src="../template/images/link_pdf_hover.png" />
+    <img src="../template/images/link_pdf_normal.png" />
+    <img src="../template/images/logo-senac.png" />
+    <img src="../template/images/mark-icon.png" />
+    <img src="../template/images/mark-icon02.png" />
+    <img src="../template/images/midia.png" />
+    <img src="../template/images/monitor.png" />
+    <img src="../template/images/nao_curtir.png" />
+    <img src="../template/images/pergunta.png" />
+    <img src="../template/images/pesquisa.png" />
+    <img src="../template/images/play.png" />
+    <img src="../template/images/radio_flat.png" />
+    <img src="../template/images/refletir.png" />
+    <img src="../template/images/saiba_mais.png" />
+    <img src="../template/images/senac_loader.png" />
+    <img src="../template/images/tanamidia.png" />
+    <img src="../template/images/transcricao.png" />
+    <img src="../template/images/transcricao_small.png" />
+    <img src="../template/images/tv.png" />
+    <img src="../template/images/tv_bottom.png" />
+    <img src="../template/images/zoom.png" />
+    <img src="../template/images/zoom_ie.cur" />
+    <img src="../template/images/zoom_ie.png" />
+    <!-- adicionar as imagens customizadas aqui abaixo -->
+  </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="../template/js/jquery.min.js"></script>
-    <script src="../template/js/bootstrap.min.js"></script>
-    <script src="../template/js/jquery.magnific-popup.min.js"></script>
-    <script src="../template/js/print.js"></script>
-    <script src="../template/js/template.config.js"></script>
-    <script src="../template/js/images.loader.js"></script>
-    <script src="../template/js/highlight.min.js"></script>
-    <script src="../template/js/parallax.min.js"></script>
-    <script src="js/custom.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../template/js/jquery.min.js"></script>
+  <script src="../template/js/bootstrap.min.js"></script>
+  <script src="../template/js/jquery.magnific-popup.min.js"></script>
+  <script src="../template/js/print.js"></script>
+  <script src="../template/js/template.config.js"></script>
+  <script src="../template/js/images.loader.js"></script>
+  <script src="../template/js/highlight.min.js"></script>
+  <script src="../template/js/parallax.min.js"></script>
+  <script src="js/custom.js"></script>
 
-    <noscript>
-      <style media="screen">
-        .over-loader {
-          display: none;
-        }
-      </style>
-    </noscript>
-  </body>
+  <noscript>
+    <style media="screen">
+      .over-loader {
+        display: none;
+      }
+    </style>
+  </noscript>
+</body>
+
 </html>
 <script>
   document.addEventListener("DOMContentLoaded", (event) => {
