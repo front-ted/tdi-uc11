@@ -388,22 +388,7 @@ h3.panel-title, .tab-content p{
   filter: drop-shadow(#484848 4px 4px 6px);
 }
 
-.img-zoom{
-  display: table;
-  position: relative;
-  margin: 0px auto;
-  cursor: pointer;
-}
-.img-zoom::after{
-  content: url('../objetos/lupa.png');
-  display: block;
-  width: 95px;
-  height: 95px;
-  right: 5px;
-  bottom: 5px;
-  position: absolute;
-  filter: drop-shadow(#333 3px 3px 4px);
-}
+
 
 .img-margin{
   margin: 40px auto;
@@ -578,6 +563,25 @@ table.senac td{
   background-color: #c5c5c5;
   color: #f1f1f1 !important;
   border-color: #f1f1f1 !important;;
+}
+
+@media screen and (max-width: 1000px){
+.img-zoom{
+  display: table;
+  position: relative;
+  margin: 0px auto;
+  cursor: pointer;
+}
+.img-zoom::after{
+  content: url('../objetos/lupa.png');
+  display: block;
+  width: 95px;
+  height: 95px;
+  right: 5px;
+  bottom: 5px;
+  position: absolute;
+  filter: drop-shadow(#333 3px 3px 4px);
+}
 }
 
 
