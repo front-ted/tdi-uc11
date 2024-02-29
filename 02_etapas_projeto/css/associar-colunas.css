@@ -167,6 +167,9 @@ button:hover{
     gap: 20px;
 }
 
+.coluna1{ 
+margin-top: 106px;}
+
 .modal#associar_colulas_errou .modal-dialog .modal-content .modal-header{
     background-color: rgb(235, 175, 175) !important;
     color: darkred;

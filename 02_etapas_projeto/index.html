@@ -1,40 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Etapas do projeto corporativo: moodboard, estudo preliminar, anteprojeto, projeto</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Etapas do projeto corporativo: moodboard, estudo preliminar, anteprojeto, projeto</title>
 
-    <!-- Bootstrap -->
-    <link href="../template/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../template/css/tecnicos_senac.css" rel="stylesheet">
-    <link href="../template/css/cores.css" rel="stylesheet">
-    <!--Extras - novas classes para facilitar-->
-    <link rel="stylesheet" href="../template/css/extras.css">
-    <link href="../template/css/sncload.css" rel="stylesheet">
-    <link href="../template/css/magnific-popup.css" rel="stylesheet">
-    <link href="../template/css/atividades_interativas.css" rel="stylesheet">
-    <link href="../template/css/modal-100.css" rel="stylesheet">
-    <link href="../template/css/extras.css" rel="stylesheet">
-    <!-- referencia ao arquivo css com estilos especificos da pagina -->
-    <link href="css/custom.css" type="text/css" rel="stylesheet">
-    <link href="css/associar-colunas.css" type="text/css" rel="stylesheet">
-    <!-- css necessario para o print -->
-    <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
-    <link href="../template/css/print.css" type="text/css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="../template/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../template/css/tecnicos_senac.css" rel="stylesheet">
+  <link href="../template/css/cores.css" rel="stylesheet">
+  <!--Extras - novas classes para facilitar-->
+  <link rel="stylesheet" href="../template/css/extras.css">
+  <link href="../template/css/sncload.css" rel="stylesheet">
+  <link href="../template/css/magnific-popup.css" rel="stylesheet">
+  <link href="../template/css/atividades_interativas.css" rel="stylesheet">
+  <link href="../template/css/modal-100.css" rel="stylesheet">
+  <link href="../template/css/extras.css" rel="stylesheet">
+  <!-- referencia ao arquivo css com estilos especificos da pagina -->
+  <link href="css/custom.css" type="text/css" rel="stylesheet">
+  <link href="css/associar-colunas.css" type="text/css" rel="stylesheet">
+  <!-- css necessario para o print -->
+  <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+  <link href="../template/css/print.css" type="text/css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
 
-  
-<!--[if gte mso 9]><xml>
+
+  <!--[if gte mso 9]><xml>
 <mso:CustomDocumentProperties>
 <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Bruna Flores de Oliveira</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
 <mso:Order msdt:dt="string">46172400.0000000</mso:Order>
@@ -45,718 +46,1062 @@
 </head>
 
 <body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
-    <!-- MARCA D´ÁGUA -->
-    <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo">
-    <!-- /MARCA D´ÁGUA -->
+  <!-- MARCA D´ÁGUA -->
+  <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo">
+  <!-- /MARCA D´ÁGUA -->
 
-    <div id='sncloader' class='over-loader'><div class="over-cell"><div id="sncload"></div></div></div>
-    <header id="topo" class="senac no-print">
-        <div  class="header-tecnicos container">
-          <h1 id="nome-curso">Design de interiores</h1>
-          <div id="logo-senac"><img src="../template/images/logo-senac.png" alt="logo do senac"></div>
-        </div>
-        <div id="sombra"></div>
+  <div id='sncloader' class='over-loader'>
+    <div class="over-cell">
+      <div id="sncload"></div>
+    </div>
+  </div>
+  <header id="topo" class="senac no-print">
+    <div class="header-tecnicos container">
+      <h1 id="nome-curso">Design de Interiores</h1>
+      <div id="logo-senac"><img src="../template/images/logo-senac.png" alt="logo do senac"></div>
+    </div>
+    <div id="sombra"></div>
+  </header>
+
+
+
+  <!-- Menu -->
+  <input type="checkbox" id="menu" name="menu" class="menu-checkbox no-print">
+  <div class="menu no-print fade-check" aria-hidden="true">
+    <div id="style-2" class="scroll-bar">
+      <div class="force-overflow">
+        <label class="menu-toggle no-print" for="menu"><span>Toggle</span></label>
+        <ul class="eng-item-menu">
+          <li class="item1">
+            <a href="?page=1#t1" class="fundo-item">Introdução</a>
+            <hr>
+          </li>
+          <li class="item2">
+            <a href="?page=1#t2" class="fundo-item"><i>Moodboard</i></a>
+            <hr>
+          </li>
+          <li class="item3">
+            <a href="?page=1#t3" class="fundo-item">Estudo preliminar</a>
+            <hr>
+          </li>
+          <li class="item4">
+            <a href="?page=1#t4" class="fundo-item">Anteprojeto</a>
+            <hr>
+          </li>
+          <li class="item5">
+            <a href="?page=2#t5" class="fundo-item">Projeto</a>
+            <hr>
+          </li>
+          <li class="item6">
+            <a href="?page=2#t6" class="fundo-item">Encerramento</a>
+            <hr>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <header class="no-print">
+      <!-- BTO IMPRIMIR -->
+      <div class="grupo-imprimir no-print">
+        <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+          <span class="fa fa-print"></span> <span>Imprimir</span>
+        </button>
+      </div>
+      <!-- /BTO IMPRIMIR -->
     </header>
+  </div>
 
 
-
-    <!-- Menu -->
-    <input type="checkbox" id="menu" name="menu" class="menu-checkbox no-print">
-    <div class="menu no-print fade-check" aria-hidden="true">
-      <div id="style-2" class="scroll-bar">
-        <div class="force-overflow">
-          <label class="menu-toggle no-print" for="menu"><span>Toggle</span></label>
-          <ul class="eng-item-menu">
-            <li class="item1">
-              <a href="?page=1#t1" class="fundo-item">Introdução</a>
-              <hr>
-            </li>
-            <li class="item2">
-              <a href="?page=1#t2" class="fundo-item"><i>Moodboard</i></a>
-              <hr>
-            </li>
-            <li class="item3">
-              <a href="?page=1#t3" class="fundo-item">Estudo preliminar</a>
-              <hr>
-            </li>
-            <li class="item4">
-              <a href="?page=1#t4" class="fundo-item">Anteprojeto</a>
-              <hr>
-            </li>
-            <li class="item5">
-              <a href="?page=2#t5" class="fundo-item">Projeto</a>
-              <hr>
-            </li>
-            <li class="item6">
-              <a href="?page=2#t6" class="fundo-item">Encerramento</a>
-              <hr>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <header class="no-print">
-        <!-- BTO IMPRIMIR -->
-        <div class="grupo-imprimir no-print">
-          <button type="button" data-pdf="true" class="bto-imprimir" name="button">
-            <span class="fa fa-print"></span> <span>Imprimir</span>
-          </button>
-        </div>
-        <!-- /BTO IMPRIMIR -->
-      </header>
-    </div>
+  <div id="booklet">
 
 
-    <div id="booklet">
-        
-      
-      <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
-        <section class="paginas">
+    <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+    <section class="paginas">
 
-          <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
-          <div class="pagina">
-            <div class="container fundo-tecnicos">
-              <div>
-                <h2>Etapas do projeto corporativo: <i>moodboard</i>, estudo preliminar, anteprojeto, projeto</h2>
+      <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+      <div class="pagina">
+        <div class="container fundo-tecnicos">
+          <div>
+            <h2>Etapas do projeto corporativo: <i>moodboard</i>, estudo preliminar, anteprojeto, projeto</h2>
 
-                <h3 id="t1">Introdução</h3>
-                <p>Projetar espaços corporativos eficientes e esteticamente atraentes é um desafio que envolve uma cuidadosa combinação de criatividade, funcionalidade e compreensão das necessidades específicas do ambiente e da empresa. Seja para um novo estabelecimento, seja para a renovação de um espaço existente, as etapas de projeto desempenham um papel fundamental na criação de ambientes que não apenas impressionam os clientes, mas também otimizam a operação interna. </p>
-                <div class="caixa-destaque icone-importante">
-                  <p>Você já estudou sobre etapas de projeto aplicadas a outros contextos. Neste conteúdo, serão exploradas as principais fases que compõem o processo de <i>design</i> para ambientes corporativos, desde a concepção inicial até a fase de projeto. Ao compreender essas etapas, os <i>designers</i> podem colaborar de maneira mais eficaz, assegurando que cada projeto alcance seu potencial máximo em termos de estética, funcionalidade e sucesso empresarial. </p>
-                </div>
-                <p>Confira agora cada uma das etapas.</p>
+            <h3 id="t1">Introdução</h3>
+            <p>Projetar espaços corporativos eficientes e esteticamente atraentes é um desafio que envolve uma cuidadosa
+              combinação de criatividade, funcionalidade e compreensão das necessidades específicas do ambiente e da
+              empresa. Seja para um novo estabelecimento, seja para a renovação de um espaço existente, as etapas de
+              projeto desempenham um papel fundamental na criação de ambientes que não apenas impressionam os clientes,
+              mas também otimizam a operação interna. </p>
+            <div class="caixa-destaque icone-importante">
+              <p>Você já estudou sobre etapas de projeto aplicadas a outros contextos. Neste conteúdo, serão exploradas
+                as principais fases que compõem o processo de <i>design</i> para ambientes corporativos, desde a
+                concepção inicial até a fase de projeto. Ao compreender essas etapas, os <i>designers</i> podem
+                colaborar de maneira mais eficaz, assegurando que cada projeto alcance seu potencial máximo em termos de
+                estética, funcionalidade e sucesso empresarial. </p>
+            </div>
+            <p>Confira agora cada uma das etapas.</p>
+          </div>
+
+          <div id="t2">
+            <h3><i>Moodboard</i></h3>
+            <p>Você já viu o que é e qual é a importância do <i>moodboard</i> em projetos de interiores. Neste
+              conhecimento, você conhecerá as especificidades da construção do <i>moodboard</i> em projetos de
+              interiores corporativos. </p>
+            <p>A construção de um <i>moodboard</i> para esse tipo de projeto é uma etapa crucial, já que definirá a
+              direção estética e conceitual do espaço. Veja alguns elementos importantes que devem ser levados em
+              consideração ao criar um <i>moodboard</i> para esses projetos.</p>
+
+            <div class="no-print" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <div class="painel-moodboard">
+                <button type="button" class="btn-moodboard btn-identidade" data-html="true" data-toggle="popover"
+                  data-trigger="focus" data-placement="top" title="Identidade da marca"
+                  data-content="Cores, fontes e elementos visuais associados à identidade da marca devem ser incorporados ao <i>moodboard</i> para garantir consistência com a imagem da empresa."></button>
+                <button type="button" class="btn-moodboard btn-publico_alvo" data-html="true" data-toggle="popover"
+                  data-trigger="focus" data-placement="top" title="Público-alvo"
+                  data-content="Leve em consideração o perfil do público-alvo do negócio. Os elementos visuais devem atrair e ressoar com o gosto e as preferências do público que a empresa pretende alcançar."></button>
+                <button type="button" class="btn-moodboard btn-estilo" data-html="true" data-toggle="popover"
+                  data-trigger="focus" data-placement="top" title="Estilo e tema"
+                  data-content="Defina o estilo geral do projeto, seja ele moderno, seja clássico, minimalista, industrial etc. Escolha um tema que se alinhe aos valores e ao propósito da empresa."></button>
+                <button type="button" class="btn-moodboard btn-texturas" data-html="true" data-toggle="popover"
+                  data-trigger="focus" data-placement="top" title="Texturas e materiais"
+                  data-content="Inclua amostras ou imagens representativas de texturas e materiais que serão utilizados no espaço corporativo. Isso ajuda a visualizar como esses elementos contribuirão para a atmosfera geral."></button>
+                <button type="button" class="btn-moodboard btn-inspiracao" data-html="true" data-toggle="popover"
+                  data-trigger="focus" data-placement="top" title="Inspiração de <i>design</i> de interiores"
+                  data-content="Adicione imagens que sirvam de inspiração para o <i>design</i> de interiores. Isso pode incluir mobiliário, leiautes de espaços, soluções de armazenamento etc."></button>
+                <button type="button" class="btn-moodboard btn-iluminacao" data-html="true" data-toggle="popover"
+                  data-trigger="focus" data-placement="top" title="Iluminação"
+                  data-content="Considere a iluminação uma parte integrante do <i>moodboard</i>. Inclua imagens que representem o tipo de iluminação desejada para criar a atmosfera esperada no espaço."></button>
+                <button type="button" class="btn-moodboard btn-paleta_cores" data-html="true" data-toggle="popover"
+                  data-trigger="focus" data-placement="top" title="Paleta de cores"
+                  data-content="Selecione uma paleta de cores que esteja alinhada com a estética desejada. Certifique-se de que as cores escolhidas reflitam a identidade da marca e criem a atmosfera pretendida."></button>
+                <button type="button" class="btn-moodboard btn-elementos" data-html="true" data-toggle="popover"
+                  data-trigger="focus" data-placement="top" title="Elementos gráficos e visuais"
+                  data-content="Adicione elementos gráficos, como padrões, formas e imagens, que complementem o estilo geral do projeto. Isso pode incluir gráficos relacionados ao setor da empresa."></button>
+                <button type="button" class="btn-moodboard btn-tendencias" data-html="true" data-toggle="popover"
+                  data-trigger="focus" data-placement="top" title="Tendências atuais"
+                  data-content="Considere tendências de <i>design</i> atuais, mas certifique-se de que elas se alinhem à longevidade e à intemporalidade do projeto corporativo."></button>
+                <button type="button" class="btn-moodboard btn-flexibilidade" data-html="true" data-toggle="popover"
+                  data-trigger="focus" data-placement="top" title="Flexibilidade e adaptabilidade"
+                  data-content="Lembre-se de que o <i>moodboard</i> é uma ferramenta flexível. Deve ser adaptável para permitir ajustes conforme o projeto evolui."></button>
+                <button type="button" class="btn-moodboard btn-feedback" data-html="true" data-toggle="popover"
+                  data-trigger="focus" data-placement="top" title="<i>Feedback</i> e colaboração"
+                  data-content="Envolver as partes interessadas no processo e incorporar <i>feedback</i> é essencial. O <i>moodboard</i> deve refletir uma visão compartilhada do projeto."></button>
               </div>
+            </div>
+            <div class="acessivel print">
+              <h4>Identidade da marca</h4>
+              <p>Cores, fontes e elementos visuais associados à identidade da marca devem ser incorporados ao
+                <i>moodboard</i> para garantir consistência com a imagem da empresa.
+              </p>
+              <h4>Público-alvo</h4>
+              <p>Leve em consideração o perfil do público-alvo do negócio. Os elementos visuais devem atrair e ressoar
+                com o gosto e as preferências do público que a empresa pretende alcançar.</p>
+              <h4>Estilo e tema</h4>
+              <p>Defina o estilo geral do projeto, seja ele moderno, seja clássico, minimalista, industrial etc. Escolha
+                um tema que se alinhe aos valores e ao propósito da empresa.</p>
+              <h4>Texturas e materiais</h4>
+              <p>Inclua amostras ou imagens representativas de texturas e materiais que serão utilizados no espaço
+                corporativo. Isso ajuda a visualizar como esses elementos contribuirão para a atmosfera geral.</p>
+              <h4>Inspiração de <i>design</i> de interiores</h4>
+              <p>Adicione imagens que sirvam de inspiração para o <i>design</i> de interiores. Isso pode incluir
+                mobiliário, leiautes de espaços, soluções de armazenamento etc.</p>
+              <h4>Iluminação</h4>
+              <p>Considere a iluminação uma parte integrante do <i>moodboard</i>. Inclua imagens que representem o tipo
+                de iluminação desejada para criar a atmosfera esperada no espaço.</p>
+              <h4>Paleta de cores</h4>
+              <p>Selecione uma paleta de cores que esteja alinhada com a estética desejada. Certifique-se de que as
+                cores escolhidas reflitam a identidade da marca e criem a atmosfera pretendida.</p>
+              <h4>Elementos gráficos e visuais</h4>
+              <p>Adicione elementos gráficos, como padrões, formas e imagens, que complementem o estilo geral do
+                projeto. Isso pode incluir gráficos relacionados ao setor da empresa.</p>
+              <h4>Tendências atuais</h4>
+              <p>Considere tendências de <i>design</i> atuais, mas certifique-se de que elas se alinhem à longevidade e
+                à intemporalidade do projeto corporativo.</p>
+              <h4>Flexibilidade e adaptabilidade</h4>
+              <p>Lembre-se de que o <i>moodboard</i> é uma ferramenta flexível. Deve ser adaptável para permitir ajustes
+                conforme o projeto evolui.</p>
+              <h4><i>Feedback</i> e colaboração</h4>
+              <p>Envolver as partes interessadas no processo e incorporar <i>feedback</i> é essencial. O
+                <i>moodboard</i> deve refletir uma visão compartilhada do projeto.
+              </p>
+            </div>
 
-              <div id="t2">
-                <h3><i>Moodboard</i></h3>
-                <p>Você já viu o que é e qual é a importância do <i>moodboard</i> em projetos de interiores. Neste conhecimento, você conhecerá as especificidades da construção do <i>moodboard</i> em projetos de interiores corporativos. </p>
-                <p>A construção de um <i>moodboard</i> para esse tipo de projeto é uma etapa crucial, já que definirá a direção estética e conceitual do espaço. Veja alguns elementos importantes que devem ser levados em consideração ao criar um <i>moodboard</i> para esses projetos.</p>
-                
-                <div class="no-print" aria-hidden="true">
-                  <p>Clique ou toque para visualizar o conteúdo.</p>
-                  <div class="painel-moodboard">
-                    <button type="button" class="btn-moodboard btn-identidade" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="top" title="Identidade da marca" data-content="Cores, fontes e elementos visuais associados à identidade da marca devem ser incorporados ao <i>moodboard</i> para garantir consistência com a imagem da empresa."></button>
-                    <button type="button" class="btn-moodboard btn-publico_alvo" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="top" title="Público-alvo" data-content="Leve em consideração o perfil do público-alvo do negócio. Os elementos visuais devem atrair e ressoar com o gosto e as preferências do público que a empresa pretende alcançar."></button>
-                    <button type="button" class="btn-moodboard btn-estilo" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="top" title="Estilo e tema" data-content="Defina o estilo geral do projeto, seja ele moderno, seja clássico, minimalista, industrial etc. Escolha um tema que se alinhe aos valores e ao propósito da empresa."></button>
-                    <button type="button" class="btn-moodboard btn-texturas" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="top" title="Texturas e materiais" data-content="Inclua amostras ou imagens representativas de texturas e materiais que serão utilizados no espaço corporativo. Isso ajuda a visualizar como esses elementos contribuirão para a atmosfera geral."></button>
-                    <button type="button" class="btn-moodboard btn-inspiracao" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="top" title="Inspiração de <i>design</i> de interiores" data-content="Adicione imagens que sirvam de inspiração para o <i>design</i> de interiores. Isso pode incluir mobiliário, leiautes de espaços, soluções de armazenamento etc."></button>
-                    <button type="button" class="btn-moodboard btn-iluminacao" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="top" title="Iluminação" data-content="Considere a iluminação uma parte integrante do <i>moodboard</i>. Inclua imagens que representem o tipo de iluminação desejada para criar a atmosfera esperada no espaço."></button>
-                    <button type="button" class="btn-moodboard btn-paleta_cores" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="top" title="Paleta de cores" data-content="Selecione uma paleta de cores que esteja alinhada com a estética desejada. Certifique-se de que as cores escolhidas reflitam a identidade da marca e criem a atmosfera pretendida."></button>
-                    <button type="button" class="btn-moodboard btn-elementos" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="top" title="Elementos gráficos e visuais" data-content="Adicione elementos gráficos, como padrões, formas e imagens, que complementem o estilo geral do projeto. Isso pode incluir gráficos relacionados ao setor da empresa."></button>
-                    <button type="button" class="btn-moodboard btn-tendencias" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="top" title="Tendências atuais" data-content="Considere tendências de <i>design</i> atuais, mas certifique-se de que elas se alinhem à longevidade e à intemporalidade do projeto corporativo."></button>
-                    <button type="button" class="btn-moodboard btn-flexibilidade" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="top" title="Flexibilidade e adaptabilidade" data-content="Lembre-se de que o <i>moodboard</i> é uma ferramenta flexível. Deve ser adaptável para permitir ajustes conforme o projeto evolui."></button>
-                    <button type="button" class="btn-moodboard btn-feedback" data-html="true" data-toggle="popover" data-trigger="focus" data-placement="top" title="<i>Feedback</i> e colaboração" data-content="Envolver as partes interessadas no processo e incorporar <i>feedback</i> é essencial. O <i>moodboard</i> deve refletir uma visão compartilhada do projeto."></button>
-                  </div>
-                </div>
-                <div class="acessivel print">
-                  <h4>Identidade da marca</h4>
-                  <p>Cores, fontes e elementos visuais associados à identidade da marca devem ser incorporados ao <i>moodboard</i> para garantir consistência com a imagem da empresa.</p>
-                  <h4>Público-alvo</h4>
-                  <p>Leve em consideração o perfil do público-alvo do negócio. Os elementos visuais devem atrair e ressoar com o gosto e as preferências do público que a empresa pretende alcançar.</p>
-                  <h4>Estilo e tema</h4>
-                  <p>Defina o estilo geral do projeto, seja ele moderno, seja clássico, minimalista, industrial etc. Escolha um tema que se alinhe aos valores e ao propósito da empresa.</p>
-                  <h4>Texturas e materiais</h4>
-                  <p>Inclua amostras ou imagens representativas de texturas e materiais que serão utilizados no espaço corporativo. Isso ajuda a visualizar como esses elementos contribuirão para a atmosfera geral.</p>
-                  <h4>Inspiração de <i>design</i> de interiores</h4>
-                  <p>Adicione imagens que sirvam de inspiração para o <i>design</i> de interiores. Isso pode incluir mobiliário, leiautes de espaços, soluções de armazenamento etc.</p>
-                  <h4>Iluminação</h4>
-                  <p>Considere a iluminação uma parte integrante do <i>moodboard</i>. Inclua imagens que representem o tipo de iluminação desejada para criar a atmosfera esperada no espaço.</p>
-                  <h4>Paleta de cores</h4>
-                  <p>Selecione uma paleta de cores que esteja alinhada com a estética desejada. Certifique-se de que as cores escolhidas reflitam a identidade da marca e criem a atmosfera pretendida.</p>
-                  <h4>Elementos gráficos e visuais</h4>
-                  <p>Adicione elementos gráficos, como padrões, formas e imagens, que complementem o estilo geral do projeto. Isso pode incluir gráficos relacionados ao setor da empresa.</p>
-                  <h4>Tendências atuais</h4>
-                  <p>Considere tendências de <i>design</i> atuais, mas certifique-se de que elas se alinhem à longevidade e à intemporalidade do projeto corporativo.</p>
-                  <h4>Flexibilidade e adaptabilidade</h4>
-                  <p>Lembre-se de que o <i>moodboard</i> é uma ferramenta flexível. Deve ser adaptável para permitir ajustes conforme o projeto evolui.</p>
-                  <h4><i>Feedback</i> e colaboração</h4>
-                  <p>Envolver as partes interessadas no processo e incorporar <i>feedback</i> é essencial. O <i>moodboard</i> deve refletir uma visão compartilhada do projeto.</p>
-                </div>
-                
-                <p>Ao levar em consideração esses elementos, o <i>moodboard</i> torna-se uma ferramenta valiosa para comunicar e visualizar a visão do projeto corporativo, proporcionando uma base sólida para o desenvolvimento do <i>design</i> de interiores.</p>
-                <p>Veja alguns exemplos:</p>
-                <p>Na figura, você pode ver o exemplo de um <i>moodboard</i> inicial do projeto de uma clínica de dermatologia. Nele, foi definida desde a paleta de cores das paredes até os móveis e objetos de decoração que devem ser adquiridos.</p>
-                <img src="objetos/img01.png" class="img-responsive center-block img-borda">
-                <p class="legenda-imagem">
-                  <i>Moodboard</i> espaços comerciais <br>
-                  Fonte: Freepik (c2010-2024)
-                </p>
-                <p class="acessivel print">Na imagem em vista superior, alguns elementos são apresentados em uma composição. São amostras em cores rosé e alguns tipos de pedras, em cores claras, escuras e texturas variadas. Uma amostra de madeira clara ripada e um tecido em algodão cru.</p>
-                <p>Sabe-se que o <i>moodboard</i> é uma ferramenta pessoal na criação de um <i>designer</i>, e os métodos de criação podem variar bastante de profissional para profissional. De todo modo, é possível ver quanto esse tipo de ferramenta é eficiente, especialmente quando se tem imagens organizadas, que sustentam uma linha de pensamento e ilustram, com certa exatidão, quais são os caminhos a serem seguidos.</p>
-              </div>
-                
-              <div id="t3">
-                <h4>Estudo preliminar</h4>
-                <p>Você já viu em outras unidades curriculares que o estudo preliminar é o momento em que o <i>designer</i> se envolve com a criação e a busca por alternativas conceituais para o seu projeto. No desenvolvimento de projetos de interiores corporativos, o processo de criação é similar. Os conceitos dos ambientes são apresentados em plantas baixas ou diagramas, para que o cliente entenda a proposta de intervenção do <i>designer</i>. </p>
-                <p>Existem muitas normas a serem seguidas em todas as etapas de projeto de interiores, e o estudo preliminar, sendo a primeira etapa de desenho, deve tentar abarcar as mais importantes. O estudo preliminar deverá: </p>
-                <img src="objetos/lista.png" class="img-responsive center-block img-borda img-margin">
-                <div class="acessivel no-print">
-                  <ul>
-                    <li>Examinar os planos do cliente existentes e os requerimentos do espaço (é importante discutir com o cliente o que é viável ou não).</li>
-                    <li>Identificar as necessidades do cliente e os requerimentos baseados na pesquisa.</li>
-                    <li>Determinar os requerimentos, ampliando-os, permanecendo com eles ou sugerindo novos.</li>
-                    <li>Conduzir um inventário dos móveis, eletrônicos e eletrodomésticos a serem reutilizados.</li>
-                    <li>Conduzir uma pesquisa sobre produtos e novos materiais que serão utilizados.</li>
-                    <li>Encontrar-se, periodicamente, com outros profissionais durante o processo para coordenar o trabalho enquanto ele se materializa (é importante estabelecer essas vistorias com o cliente e definir se a obra será coordenada pelo <i>designer</i>).</li>
-                    <li>Proporcionar leiautes preliminares e planos de setorização.</li>
-                    <li>Criar um conceito preliminar em duas ou três dimensões para ser discutido com o cliente (incluir desenhos, perspectivas, elevações e seções).</li>
-                    <li>Proporcionar uma figura do orçamento preliminar (talvez seja necessário o desenvolvimento de um protocolo que estabeleça quantos orçamentos serão entregues e quantas modificações no projeto preliminar poderão ser feitas mediante os orçamentos apresentados)</li>
-                  </ul>
-                </div>
-                <p>Karlen (2010) traz algumas recomendações interessantes para o início dos estudos conceituais em projetos corporativos. Para o autor, o processo de esboço deve ser, desde o início, <b>realista e não diagramático, ou seja, deve apresentar um dimensionamento próximo ao da realidade do espaço que projetará. Do contrário, é provável que imprecisões nas dimensões façam com que ele se revele pouco prático ou inviável em etapas posteriores</b>.</p>
-                <p>Segundo o mesmo autor, você deve iniciar desenhando as paredes, com uma espessura adequada, próxima a 10 cm, que é uma dimensão nominal apropriada para a maioria dos esboços de planta baixa, mas atribua uma espessura de 20 cm para as paredes com tubulações de águas embutidas.</p>
-                <p>Com o processo de diagramação das paredes concluído, o ponto de entrada do espaço provavelmente já foi definido, além do percurso básico da circulação. Para Karlen (2010), o próximo passo é indicar os espaços menores do ambiente corporativo e que são condicionados pelos sistemas de tubulação, como cozinhas, banheiros e toaletes, já que seus tamanhos e suas possíveis localizações dentro da planta baixa são os menos flexíveis. </p>
-                
-                <img src="./objetos/img02.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                <a href="./objetos/img02_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                    src="./objetos/img02.png" class="center-block img-responsive"></a>
-                <p class="legenda-imagem">
-                  Esboço de planta baixa (primeira etapa) – zoneamento preliminar e locação dos pontos hidrossanitários <br>
-                  Fonte: Karlen (2010)
-                </p>
-                <p class="acessivel print">Na imagem, um espaço comercial é esboçado. As paredes estão desenhadas e algumas áreas são zoneadas. São elas: espaço da diretoria, de entrevistas, sala de espera, recepção, sala de reuniões, copa, sala de apoio, banheiros e apartamento.</p>
-                <p>A seguir, o <i>designer</i> poderá pensar os espaços principais. Na maioria dos casos, existem um ou dois espaços bem maiores ou dominantes em termos funcionais em um ambiente corporativo. O ideal é trabalhar com eles a seguir, pois sua importância é fundamental para o funcionamento do todo e, em razão de condições estruturais ou de configuração preexistentes, talvez possam ser encaixados somente em pontos limitados na planta baixa do prédio. O tamanho e o formato razoavelmente precisos do compartimento, bem como a localização das portas de acesso e outros detalhes do planejamento (como equipamentos, acessórios fixos e armários necessários), precisam ser estabelecidos nessa etapa inicial (Karlen, 2010, p. 92).</p>
-                <img src="./objetos/img03.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                <a href="./objetos/img03.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                    src="./objetos/img03_zoom.png" class="center-block img-responsive"></a>
-                <p class="legenda-imagem">
-                  Esboço de planta (segunda etapa) – inclusão dos espaços principais <br>
-                  Fonte: Karlen (2010)
-                </p>
-                <p class="acessivel print">Nesta imagem, muito similar à anterior, os espaços principais estão zoneados e há um caminho riscado com caneta delimitando o espaço para a circulação. Esse espaço parte da porta de acesso, passa entre as salas de entrevista, apoio e copa e chega aos banheiros masculino e feminino.</p>
-                <p>Para o autor, o próximo passo é dedicar-se aos espaços para circulação; aqueles definidos por paredes internas obrigatórias (os corredores e as saídas de emergência necessárias) e os que são áreas de passagem dentro de espaços maiores. Em geral, as rotas de circulação não são bem definidas nos organogramas ou nas plantas baixas esquemáticas e podem ocupar um espaço maior do que o previsto. </p>
-                <p>Nessa etapa, é importante verificar se na planta baixa, especificamente, há duas saídas de emergência afastadas e conferir o percurso máximo até uma saída, as larguras dos corredores, os corredores sem saída e as obstruções dos corredores, entre outros fatores. Nesse ponto, também é importante conferir a eficiência do espaço de circulação e determinar o percentual de espaço que será ocupado por corredores e outros caminhos. </p>
-                <p>Ainda nessa etapa, vale prosseguir distribuindo os demais compartimentos básicos. O projetista continua considerando as exigências do programa de necessidades, priorizando de maneira adequada os espaços que exigem luz natural e ar fresco, privacidade e controle acústico (as zonas íntimas ou de silêncio). Nessa fase de planejamento, ainda de acordo com Karlen (2010), não se esqueça dos conflitos de abertura de portas, uma vez que, à medida que a planta baixa se concretiza, torna-se mais difícil corrigi-los. </p>
-                <p>A melhor maneira de evitar esse problema é desenhar a abertura das portas enquanto a planta baixa se desenvolve, em vez de lidar com ele mais tarde.</p>
-                <img src="./objetos/img04.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                <a href="./objetos/img04_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                    src="./objetos/img04.png" class="center-block img-responsive"></a>
-                <p class="legenda-imagem">
-                  Esboço de planta baixa (terceira etapa) – inclua os espaços de circulação <br>
-                  Fonte: Karlen (2010)
-                </p>
-                <p class="acessivel print">Nesta imagem, a mesma planta baixa segue sendo trabalhada. Aqui o autor desenvolveu melhor os espaços de circulação, estudou as larguras dos corredores e eliminou possíveis obstruções. O desenho segue sendo esquemático.</p>
-                <div class="caixa-destaque icone-atencao">
-                  <p>Um erro frequentemente cometido por projetistas inexperientes, de acordo com Karlen (2010), é a continuação desnecessária de corredores sem saída, conforme mostrado nos esboços “certo” e “errado”. </p>
-                  <img src="./objetos/img05.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                  <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                  <a href="./objetos/img05_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                      src="./objetos/img05.png" class="center-block img-responsive"></a>
-                  <p class="legenda-imagem">
-                    “Certo” e “errado” no projeto de corredores <br>
-                    Fonte: Karlen (2010)
-                  </p>
-                  <p class="acessivel print">A imagem é dividida em um eixo vertical. No lado esquerdo, há na parte superior uma planta baixa na qual constam três ambientes, dentre eles uma área residual, com um corredor que vai até a parede dos fundos. Na imagem abaixo desta, o desenho é corrigido, uma vez que o corredor é minimizado, não indo mais até a parede dos fundos. No lado direito, outra situação similar é apresentada. Na parte superior da imagem, há uma planta baixa, com cinco ambientes e um pequeno corredor entre os ambientes centrais. Na imagem abaixo desta, a situação é corrigida, sendo o corredor residual eliminado e os espaços dos ambientes ampliados.</p>
-                </div>
-                <p>Em geral, o uso eficiente dos espaços para circulação deve ser um critério prioritário de planejamento, a fim de que áreas de piso importantes não sejam desperdiçadas e que os padrões de deslocamento sejam convenientes para os usuários.</p>
-                <p>Após tomar as decisões iniciais sobre a disposição das paredes internas para configurar os compartimentos e espaços, é crucial avançar rapidamente para a organização dos móveis e equipamentos essenciais. Com o tempo, pode-se descobrir que, em razão do tamanho e/ou da configuração (como o formato do compartimento, a localização de portas e janelas etc.), pode ser impossível atender plenamente às exigências do programa de necessidades em um ou mais espaços. </p>
-                <div class="caixa-destaque icone-atencao">
-                  <p>Não é necessário nem recomendável finalizar a distribuição do mobiliário nessa fase, mas é de extrema importância avaliar se o leiaute inicial dos móveis básicos será funcional.</p>
-                </div>
-                <img src="./objetos/img06.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                <a href="./objetos/img06_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                    src="./objetos/img06.png" class="center-block img-responsive"></a>
-                <p class="legenda-imagem">
-                  Esboço de planta baixa – inclusão do mobiliário <br>
-                  Fonte: Karlen (2010)
-                </p>
-                <p class="acessivel print">Na continuidade e no melhoramento da planta baixa das imagens anteriores, os móveis são alocados em seus devidos lugares. Desse modo, o desenho fica mais claro e compreensível. Após a entrada principal, há um vestíbulo. Há direita, há uma sala de espera com uma mesa central e seis cadeiras. À frente dessa sala está a recepção. À direita do vestíbulo, há uma sala de entrevistas com uma bancada e três cadeiras. Ao lado esquerdo desse espaço está a sala do diretor, com mesa de escritório, poltronas, armários e duas cadeiras à frente da mesa do diretor. No centro da planta baixa há a sala dos funcionários, a sala de apoio e a copa. No canto superior esquerdo estão os banheiros masculino e feminino. Ao lado, um corredor. Ao lado do corredor, um pequeno apartamento integrado. Ao lado direito do apartamento, há uma sala de reuniões.</p>
-                <p>Quando a planta baixa se torna visualmente compreensível em sua totalidade, independentemente da qualidade do desenho, torna-se crucial realizar uma revisão básica. Essa etapa envolve uma autorrevisão, na qual as habilidades de autocrítica objetiva do projetista precisam ser exercitadas. <b>Utilize um lápis grosso ou colorido, uma caneta e uma folha de papel-manteiga para sobrepor (ou uma cópia da planta baixa), destacando todas as características que não atendem plenamente às exigências estabelecidas na matriz de critérios ou que apresentam deficiências</b>.</p>
-                <img src="./objetos/img07.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                <a href="./objetos/img07_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                    src="./objetos/img07.png" class="center-block img-responsive"></a>
-                <p class="legenda-imagem">
-                  Esboço de planta baixa – correções a fazer <br>
-                  Fonte: Karlen (2010)
-                </p>
-                <p class="acessivel print">A mesma planta baixa é trabalhada e, nesta figura, algumas correções são feitas, como a redução do banheiro masculino, a ampliação da sala dos funcionários. No apartamento, foi identificado que faltava uma sala de jantar, e o espaço do dormitório estava muito apertado. Entre as salas de apoio e a copa, uma bancada foi unida; na sala de reuniões, viu-se a necessidade de incorporar um carrinho para a equipe de audiovisual e ampliar o número de mesas e cadeiras. Na sala de recepção, foi percebida a necessidade de arredondar os cantos dos móveis e incluir ganchos para os casacos.</p>
-                <p>Depois de passar pelo processo longo e frequentemente complexo que resultou em um esboço de planta baixa revisado, é possível que o projetista olhe para o resultado e conclua que a solução atual está muito longe de ser a melhor solução possível, considerando que não é aceitável. A única saída é reiniciar o processo, partindo do aperfeiçoamento de outro organograma ou outra planta baixa esquemática. Embora seja uma decisão difícil, um segundo esboço de planta baixa é muito mais rápido de ser elaborado. No início da segunda tentativa, o desenvolvimento da planta baixa original já terá agregado <i>insights</i> sobre o que funcionará ou não (Karlen, 2010, p. 101).</p>
-                <p>Na imagem, é possível ver o esboço da planta baixa revisado com base nas correções feitas anteriormente:</p>
-                <img src="./objetos/img08.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                <a href="./objetos/img08_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                    src="./objetos/img08.png" class="center-block img-responsive"></a>
-                <p class="legenda-imagem">
-                  Esboço de planta baixa revisado (com base nas correções marcadas anteriormente) <br>
-                  Fonte: Karlen (2010)
-                </p>
-                <p class="acessivel print">A planta é passada a limpo com base nos ajustes feitos, restando elementos como paredes, aberturas e mobiliário.</p>
-                <div class="caixa-destaque icone-importante">
-                  <p>Em síntese, o estudo preliminar revela-se como um componente fundamental no processo de concepção de projetos de interiores corporativos. Ao estabelecer as bases iniciais, considerando a disposição de paredes, a distribuição de espaços e a seleção de mobiliário, esse estágio proporciona uma visão holística do ambiente a ser criado. Além disso, ao permitir ajustes antes da etapa final, o estudo preliminar capacita os <i>designers</i> a antecipar desafios, otimizar funcionalidades e assegurar que o leiaute atenda de maneira eficaz às necessidades do cliente. Assim, a diligência investida nessa fase inicial não apenas reflete na eficiência do projeto, mas também contribui significativamente para a satisfação do cliente e o sucesso do empreendimento corporativo como um todo. </p>
-                </div>
-              </div>
+            <p>Ao levar em consideração esses elementos, o <i>moodboard</i> torna-se uma ferramenta valiosa para
+              comunicar e visualizar a visão do projeto corporativo, proporcionando uma base sólida para o
+              desenvolvimento do <i>design</i> de interiores.</p>
+            <p>Veja alguns exemplos:</p>
+            <p>Na figura, você pode ver o exemplo de um <i>moodboard</i> inicial do projeto de uma clínica de
+              dermatologia. Nele, foi definida desde a paleta de cores das paredes até os móveis e objetos de decoração
+              que devem ser adquiridos.</p>
+            <img src="objetos/img01.png" class="img-responsive center-block img-borda">
+            <p class="legenda-imagem">
+              <i>Moodboard</i> espaços comerciais <br>
+              Fonte: Freepik (c2010-2024)
+            </p>
+            <p class="acessivel no-print">Na imagem em vista superior, alguns elementos são apresentados em uma
+              composição. São amostras em cores verde e alguns tipos de pedras, em cores claras, escuras e texturas
+              variadas. Uma amostra de madeira escura ripada e um tecido em algodão verde.</p>
+            <p>Sabe-se que o <i>moodboard</i> é uma ferramenta pessoal na criação de um <i>designer</i>, e os métodos de
+              criação podem variar bastante de profissional para profissional. De todo modo, é possível ver quanto esse
+              tipo de ferramenta é eficiente, especialmente quando se tem imagens organizadas, que sustentam uma linha
+              de pensamento e ilustram, com certa exatidão, quais são os caminhos a serem seguidos.</p>
+          </div>
 
-              <div id="t4">
-                <h4>Anteprojeto</h4>
-                <p>O anteprojeto representa uma fase intermediária crucial no desenvolvimento de projetos de interiores. Essa etapa tem início com a aprovação do esquema inicial durante o estudo preliminar e avança para a elaboração dos documentos essenciais que serão posteriormente utilizados na execução da obra. Dessa forma, é essencial garantir um elevado nível de precisão e qualidade no material apresentado tanto para o cliente quanto para a equipe encarregada da execução, a fim de assegurar uma execução eficiente e satisfatória do projeto.</p>
-                <p>Você já estudou em unidades curriculares anteriores que a etapa de anteprojeto é aquela na qual o cliente emitirá sua aprovação final do projeto, permitindo o encaminhamento das aprovações aos órgãos responsáveis pela fiscalização, como prefeitura municipal, corpo de bombeiros e demais secretarias. Para tanto, a NBR 6492, que trata da representação gráfica de projetos de arquitetura, estipula uma série de documentos necessários para o correto entendimento do trabalho nessa etapa. Veja quais são esses documentos:</p>
-                <div class='table-responsive'>
-                  <table class='senac'>
-                    <tbody>
-                      <tr>
-                        <th>Documentos típicos</th>
-                        <td>
-                          <ul class="cor01">
-                            <li>Situação (geralmente não aplicável a projetos de interiores)</li>
-                            <li>Plantas, cortes e fachadas</li>
-                            <li>Memorial justificativo, abrangendo aspectos construtivos</li>
-                            <li>Discriminação técnica</li>
-                            <li>Quadro geral de acabamento (facultativo)</li>
-                            <li>Documentos para aprovação em órgãos públicos</li>
-                            <li>Lista preliminar de materiais</li>
-                          </ul>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>Documentos eventuais</th>
-                        <td>
-                          <ul class="cor01">
-                            <li>Desenvolvimento de elementos de interesse, em casos especiais</li>
-                            <li>Maquete</li>
-                            <li>Estimativa de custo (é importante ressaltar que, embora a ABNT tenha esse documento como facultativo nesta etapa, ele se mostra de grande importância ao cliente, que pode ter uma boa perspectiva dos principais custos envolvidos em seu projeto e, com base nisso, ponderar as soluções de projeto que podem ou não ser levadas adiante no projeto executivo)</li>
-                          </ul>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <p class="legenda-imagem">
-                  Documentos necessários no anteprojeto <br>
-                  Fonte: Adaptado de ABNT (1994) <i>apud</i> Giambastini <i>et al</i>. (2020)
-                </p>
-                <p class="acessivel print">Quadro dividido entre duas linhas e duas colunas. Na coluna da esquerda, há uma divisão entre documentos típicos e documentos eventuais. São os documentos típicos descritos: situação (geralmente não aplicável a projetos de interiores); plantas, cortes e fachadas; memorial justificativo, abrangendo aspectos construtivos; discriminação técnica; quadro geral de acabamento (facultativo); documentos para aprovação em órgãos públicos; lista preliminar de materiais. São os documentos eventuais descritos: desenvolvimento de elementos de interesse, em casos especiais; maquete; estimativa de custo. É importante ressaltar que, embora a ANBT tenha esse documento como facultativo nesta etapa, ele se mostra de grande importância ao cliente, que pode ter uma boa perspectiva dos principais custos envolvidos em seu projeto e, com base nisso, ponderar as soluções de projeto que podem ou não ser levadas adiante no projeto executivo.</p>
-                <p>Para Giambastini et al. (2020), nos projetos de <i>design</i> de interiores corporativo, orçamento e cronograma são dois dos itens mais importantes, uma vez que o cliente que contrata um projeto dessa natureza visa à obtenção de lucro com seu empreendimento. Portanto, no anteprojeto, é necessário que o arquiteto elabore propostas que garantam a correta orçamentação de materiais e serviços, além de permitirem a elaboração de um cronograma preliminar da obra, para que o cliente possa se programar financeiramente. </p>
-                <div class="caixa-destaque icone-importante">
-                  <p>O anteprojeto representa a fase em que o <i>designer</i> trabalha em estreita colaboração com o cliente para estabelecer uma série significativa de atributos para o projeto, abrangendo desde a seleção de materiais até a elaboração do orçamento. Essa etapa é crucial para a produção subsequente da documentação da obra. O anteprojeto evolui com base nas definições fundamentais delineadas no estudo preliminar, como a distribuição espacial, e alcança sua conclusão somente com a aprovação final do cliente, desempenhando, assim, um papel de grande relevância no conjunto do projeto de arquitetura.</p>
-                </div>
-                <p>Com base na apresentação de desenhos técnicos, o cliente emitirá o seu aceite para o prosseguimento da obra. Desse modo, o <i>designer</i> precisa apresentar informações claras e completas que permitam a total compreensão por parte do contratante.</p>
-                <div class="caixa-destaque-livre">
-                  <p>Veja exemplos práticos de como um anteprojeto de interiores corporativo é apresentado para os clientes. Na figura, é apresentado o anteprojeto de uma academia localizada na cidade de Porto Alegre, no Rio Grande do Sul.</p>
-                  <img src="./objetos/img09.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                  <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                  <a href="./objetos/img09_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                      src="./objetos/img09.png" class="center-block img-responsive"></a>
-                  <p class="legenda-imagem">
-                    Planta de leiaute <br>
-                    Fonte: Giambastini <i>et al</i>. (2020)
-                  </p>
-                  <p class="acessivel print">Na imagem, é apresentado anteprojeto para uma academia localizada na cidade de Porto Alegre. No leiaute há um grande espaço central para zona de treino. À esquerda está a recepção da loja. No canto esquerdo há um depósito e um espaço kids. Na parte inferior da planta existem dois banheiros, um feminino e outro masculino.</p>
-                  <p>Nesse documento, estão presentes as principais informações para que o cliente compreenda o espaço, como a posição da recepção, dos banheiros, das circulações, as verticais e a quantidade de alunos que podem ocupar o espaço ao mesmo tempo. Ou seja, para quem está interessado no funcionamento de uma academia, todas as informações necessárias estão contidas no desenho. Para o construtor, no entanto, faltam elementos essenciais, como dimensões das paredes, áreas de piso e indicação dos revestimentos das paredes. </p>
-                  <p>Agora, imagine que o desenho inclua, além das informações que já estão presentes, aquelas destinadas ao construtor. O resultado seria uma representação confusa, tanto para o cliente quanto para o construtor. Desse exemplo, é possível depreender um princípio da representação arquitetônica: <b>não há desenho absoluto</b> (Giambastini <i>et. al.</i>, 2020, p. 106).</p>
-                  <p>Além do leiaute, pode ser essencial desenvolver uma planta específica que destaque exclusivamente as paredes do ambiente. Essa planta, conhecida como “planta de paredes”, é crucial para que a empresa encarregada da construção possa estimar com precisão a quantidade de trabalho e os materiais necessários para a execução da obra. Nessa representação, são apresentadas cotas que indicam as medidas dos elementos construídos, proporcionando uma visão detalhada para o planejamento e a execução do projeto.</p>
-                  <img src="./objetos/img10.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                  <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                  <a href="./objetos/img10_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                      src="./objetos/img10.png" class="center-block img-responsive"></a>
-                  <p class="legenda-imagem">
-                    Planta de paredes <br>
-                    Fonte: Giambastini <i>et al</i>. (2020)
-                  </p>
-                  <p class="acessivel print">Na imagem a planta baixa do espaço é redesenhada, porém apenas com os desenhos das paredes, aberturas e cotas de dimensionamento. </p>
-                  <p>No que se refere aos desenhos técnicos, os cortes desempenham um papel crucial nessa fase, permitindo que tanto o cliente quanto o construtor compreendam as relações de altura entre os elementos construtivos. </p>
-                  <p>A imagem do corte longitudinal ilustra um corte do espaço em questão, revelando as variações de pé-direito entre o térreo e o segundo pavimento, além de destacar a imponente escada embutida na parede.</p>
-                  <img src="./objetos/img11.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                  <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                  <a href="./objetos/img11_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                      src="./objetos/img11.png" class="center-block img-responsive"></a>
-                  <p class="legenda-imagem">
-                    Corte longitudinal <br>
-                    Fonte: Giambastini <i>et al</i>. (2020)
-                  </p>
-                  <p class="acessivel print">A imagem apresenta um corte do espaço que está sendo acompanhado, no qual se revela as diferenças de pé-direito entre o térreo e o segundo pavimento, além da grande escada engastada na parede.</p>
-                  <p>Já a utilização de perspectivas cônicas possibilita a representação da forma como os espaços são percebidos pelos observadores, tornando-se ferramentas particularmente valiosas para a compreensão do projeto, especialmente por parte daqueles menos familiarizados com desenhos técnicos.</p>
-                  <img src="./objetos/img12.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                  <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                  <a href="./objetos/img12_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                      src="./objetos/img12.png" class="center-block img-responsive"></a>
-                  <p class="legenda-imagem">
-                    Perspectiva cônica <br>
-                    Fonte: Ching (2012)
-                  </p>
-                  <p class="acessivel print">A figura apresenta uma perspectiva cônica de um espaço de interiores, com aberturas, um mezanino e grande porta de vidro. A imagem oferece um método de distribuição correta dos objetos no espaço, ilustrando a forma como eles diminuem de tamanho à medida que se distanciam, proporcionando, assim, uma visão experimental do espaço.</p>
-                  <p>Finalmente, visando à aprovação do projeto pelo cliente, é possível criar imagens renderizadas com diversos níveis de fotorrealismo. Na imagem, é exibida uma renderização do projeto da academia que foi apresentada aos clientes, com a intenção de proporcionar uma visão realista de materiais e texturas planejados para o projeto.</p>
-                  <img src="./objetos/img13.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                  <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                  <a href="./objetos/img13_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                      src="./objetos/img13.png" class="center-block img-responsive"></a>
-                  <p class="legenda-imagem">
-                    Renderização do espaço <br>
-                    Fonte: Giambastini <i>et al</i>. (2020)
-                  </p>
-                  <p class="acessivel print">A imagem apresenta uma visualização renderizada do espaço que está sendo acompanhado: a academia. Nele, vê-se a produção de uma imagem, de cunho digital, em que o objetivo é mostrar aos clientes os materiais e as texturas do projeto. Nesta visualização, vê-se parte do primeiro nível da edificação, com alguns aparelhos de academia, parte da escada e parte do mezanino.</p>
-                </div>
-                <p>No anteprojeto de interiores corporativos, você viu que é essencial que o <i>designer</i> consiga adequar a sua linguagem, seja para se comunicar com seu cliente, seja para se comunicar com seus colaboradores. </p>
-                <p>Segundo Giambastini <i>et. al</i> (2020), as imagens renderizadas são um dos elementos mais facilmente entendidos pelos clientes. Com esse tipo de trabalho, é possível simular em ambiente computacional os materiais e as texturas do projeto com um nível alto de fotorrealismo, sendo possível, inclusive, inserir iluminação análoga àquela que será instalada no local. Desse modo, o cliente poderá compreender como o espaço ficará após a finalização da obra.</p>
-                <img src="./objetos/img14.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                <a href="./objetos/img14_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                    src="./objetos/img14.png" class="center-block img-responsive"></a>
-                <p class="legenda-imagem">
-                  Espaço renderizado <br>
-                  Fonte: Giambastini <i>et al</i>. (2020)
-                </p>
-                <p class="acessivel print">Na imagem é possível ver o ambiente da academia renderizado, com aplicação de materiais, texturas e iluminação. É possível identificar o primeiro pavimento da academia e o mezanino, além dos equipamentos para atividade física disponibilizados.</p>
-                <p>No entanto, ainda segundo Giambastini <i>et al</i>., é muito difícil discutir soluções de projeto específicas sem a presença de uma planta baixa, visto que é o desenho perfeito para o cliente entender a distribuição espacial ao longo do projeto. Deve ser dada especial atenção à graficação das peças, para que não fique muito difícil de entendê-las. </p>
-                <p>Observe, na imagem da planta baixa, como foram destacados em vermelho os espaços corporativos que o cliente deveria aprovar nesta entrega.</p>
-                <img src="./objetos/img15.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                <a href="./objetos/img15_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                    src="./objetos/img15.png" class="center-block img-responsive"></a>
-                </a>
-                <p class="legenda-imagem">
-                  Planta baixa com destaques <br>
-                  Fonte: Giambastini <i>et al</i>. (2020)
-                </p>
-                <p class="acessivel print">A imagem apresenta a planta baixa de um espaço corporativo com alguns espaços destacados para aprovação do cliente.</p>
-                <p>Diferentemente da ênfase dada ao cliente, para a mão de obra, a ênfase recai principalmente na precisão e na clareza das informações. Nesse sentido, é comum fornecer conjuntos de plantas, cada uma focada em sua especificidade, evidenciando elementos do projeto, como pisos, luminárias e instalações elétricas. </p>
-                <p>Veja, na figura, um conjunto de plantas fornecido à mão de obra, destacando detalhes específicos, como pisos e procedimentos de demolição.</p>
-                <img src="./objetos/img16.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                <a href="./objetos/img16_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                    src="./objetos/img16.png" class="center-block img-responsive"></a>
-                <p class="legenda-imagem">
-                  Planta de piso e demolições <br>
-                  Fonte: Giambastini <i>et al</i>. (2020)
-                </p>
-                <p class="acessivel print">A figura apresenta um conjunto de plantas entregues para a mão de obra, destacando pisos e demolições.</p>
-                <div class="caixa-destaque icone-nota">
-                  <p>Assegurar uma estimativa de custos precisa requer a elaboração de desenhos não apenas para os responsáveis pela construção civil, mas também para todos os fornecedores envolvidos. Não hesite em fazer contatos com seus parceiros de obra sempre que for necessário. </p>
-                </div>
-                <p>Em resumo, o anteprojeto desempenha um papel crucial tanto em projetos de arquitetura de edificações quanto de interiores. É por meio dessa fase que o cliente obtém uma compreensão clara do espaço projetado, visualizando o resultado final. Além disso, é durante o anteprojeto que os orçamentos são apresentados às equipes de execução, proporcionando ao cliente uma visão precisa do que esperar em termos de aparência e custo da obra. Portanto, na etapa do anteprojeto, <b>é imperativo que os arquitetos dominem as ferramentas disponíveis para representar adequadamente os aspectos relevantes do projeto</b>.</p>
-                <p>A seguir, confira a etapa de projeto.</p>
-              </div>
+          <div id="t3">
+            <h4>Estudo preliminar</h4>
+            <p>Você já viu em outras unidades curriculares que o estudo preliminar é o momento em que o <i>designer</i>
+              se envolve com a criação e a busca por alternativas conceituais para o seu projeto. No desenvolvimento de
+              projetos de interiores corporativos, o processo de criação é similar. Os conceitos dos ambientes são
+              apresentados em plantas baixas ou diagramas, para que o cliente entenda a proposta de intervenção do
+              <i>designer</i>.
+            </p>
+            <p>Existem muitas normas a serem seguidas em todas as etapas de projeto de interiores, e o estudo
+              preliminar, sendo a primeira etapa de desenho, deve tentar abarcar as mais importantes. O estudo
+              preliminar deverá: </p>
+            <img src="./objetos/lista.png"
+              class="center-block img-responsive img-borda img-margin hidden-sm hidden-xs no-print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/lista.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/lista.png" class="center-block img-margin img-responsive"></a>
+
+            <div class="acessivel print">
+              <ul>
+                <li>Examinar os planos do cliente existentes e os requerimentos do espaço (é importante discutir com o
+                  cliente o que é viável ou não).</li>
+                <li>Identificar as necessidades do cliente e os requerimentos baseados na pesquisa.</li>
+                <li>Determinar os requerimentos, ampliando-os, permanecendo com eles ou sugerindo novos.</li>
+                <li>Conduzir um inventário dos móveis, eletrônicos e eletrodomésticos a serem reutilizados.</li>
+                <li>Conduzir uma pesquisa sobre produtos e novos materiais que serão utilizados.</li>
+                <li>Encontrar-se, periodicamente, com outros profissionais durante o processo para coordenar o trabalho
+                  enquanto ele se materializa (é importante estabelecer essas vistorias com o cliente e definir se a
+                  obra será coordenada pelo <i>designer</i>).</li>
+                <li>Proporcionar leiautes preliminares e planos de setorização.</li>
+                <li>Criar um conceito preliminar em duas ou três dimensões para ser discutido com o cliente (incluir
+                  desenhos, perspectivas, elevações e seções).</li>
+                <li>Proporcionar uma figura do orçamento preliminar (talvez seja necessário o desenvolvimento de um
+                  protocolo que estabeleça quantos orçamentos serão entregues e quantas modificações no projeto
+                  preliminar poderão ser feitas mediante os orçamentos apresentados)</li>
+              </ul>
+            </div>
+            <p>Karlen (2010) traz algumas recomendações interessantes para o início dos estudos conceituais em projetos
+              corporativos. Para o autor, o processo de esboço deve ser, desde o início, <b>realista e não diagramático,
+                ou seja, deve apresentar um dimensionamento próximo ao da realidade do espaço que projetará. Do
+                contrário, é provável que imprecisões nas dimensões façam com que ele se revele pouco prático ou
+                inviável em etapas posteriores</b>.</p>
+            <p>Segundo o mesmo autor, você deve iniciar desenhando as paredes, com uma espessura adequada, próxima a 10
+              cm, que é uma dimensão nominal apropriada para a maioria dos esboços de planta baixa, mas atribua uma
+              espessura de 20 cm para as paredes com tubulações de águas embutidas.</p>
+            <p>Com o processo de diagramação das paredes concluído, o ponto de entrada do espaço provavelmente já foi
+              definido, além do percurso básico da circulação. Para Karlen (2010), o próximo passo é indicar os espaços
+              menores do ambiente corporativo e que são condicionados pelos sistemas de tubulação, como cozinhas,
+              banheiros e toaletes, já que seus tamanhos e suas possíveis localizações dentro da planta baixa são os
+              menos flexíveis. </p>
+
+            <img src="./objetos/img02.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img02_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img02.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Esboço de planta baixa (primeira etapa) – zoneamento preliminar e locação dos pontos hidrossanitários <br>
+              Fonte: Karlen (2010)
+            </p>
+            <p class="acessivel no-print">Na imagem, um espaço comercial é esboçado. As paredes estão desenhadas e
+              algumas
+              áreas são zoneadas. São elas: espaço da diretoria, de entrevistas, sala de espera, recepção, sala de
+              reuniões, copa, sala de apoio, banheiros e apartamento.</p>
+            <p>A seguir, o <i>designer</i> poderá pensar os espaços principais. Na maioria dos casos, existem um ou dois
+              espaços bem maiores ou dominantes em termos funcionais em um ambiente corporativo. O ideal é trabalhar
+              com eles a seguir, pois sua importância é fundamental para o funcionamento do todo e, em razão de
+              condições estruturais ou de configuração preexistentes, talvez possam ser encaixados somente em pontos
+              limitados na planta baixa do prédio. O tamanho e o formato razoavelmente precisos do compartimento, bem
+              como a localização das portas de acesso e outros detalhes do planejamento (como equipamentos, acessórios
+              fixos e armários necessários), precisam ser estabelecidos nessa etapa inicial (Karlen, 2010, p. 92).</p>
+            <img src="./objetos/img03.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img03.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img03_zoom.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Esboço de planta (segunda etapa) – inclusão dos espaços principais <br>
+              Fonte: Karlen (2010)
+            </p>
+            <p class="acessivel no-print">Nesta imagem, muito similar à anterior, os espaços principais estão zoneados e
+              há
+              um caminho riscado com caneta delimitando o espaço para a circulação. Esse espaço parte da porta de
+              acesso, passa entre as salas de entrevista, apoio e copa e chega aos banheiros masculino e feminino.</p>
+            <p>Para o autor, o próximo passo é dedicar-se aos espaços para circulação; aqueles definidos por paredes
+              internas obrigatórias (os corredores e as saídas de emergência necessárias) e os que são áreas de passagem
+              dentro de espaços maiores. Em geral, as rotas de circulação não são bem definidas nos organogramas ou nas
+              plantas baixas esquemáticas e podem ocupar um espaço maior do que o previsto. </p>
+            <p>Nessa etapa, é importante verificar se na planta baixa, especificamente, há duas saídas de emergência
+              afastadas e conferir o percurso máximo até uma saída, as larguras dos corredores, os corredores sem saída
+              e as obstruções dos corredores, entre outros fatores. Nesse ponto, também é importante conferir a
+              eficiência do espaço de circulação e determinar o percentual de espaço que será ocupado por corredores e
+              outros caminhos. </p>
+            <p>Ainda nessa etapa, vale prosseguir distribuindo os demais compartimentos básicos. O projetista continua
+              considerando as exigências do programa de necessidades, priorizando de maneira adequada os espaços que
+              exigem luz natural e ar fresco, privacidade e controle acústico (as zonas íntimas ou de silêncio). Nessa
+              fase de planejamento, ainda de acordo com Karlen (2010), não se esqueça dos conflitos de abertura de
+              portas, uma vez que, à medida que a planta baixa se concretiza, torna-se mais difícil corrigi-los. </p>
+            <p>A melhor maneira de evitar esse problema é desenhar a abertura das portas enquanto a planta baixa se
+              desenvolve, em vez de lidar com ele mais tarde.</p>
+            <img src="./objetos/img04.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img04_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img04.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Esboço de planta baixa (terceira etapa) – inclua os espaços de circulação <br>
+              Fonte: Karlen (2010)
+            </p>
+            <p class="acessivel no-print">Nesta imagem, a mesma planta baixa segue sendo trabalhada. Aqui o autor
+              desenvolveu melhor os espaços de circulação, estudou as larguras dos corredores e eliminou possíveis
+              obstruções. O desenho segue sendo esquemático.</p>
+            <div class="caixa-destaque icone-atencao">
+              <p>Um erro frequentemente cometido por projetistas inexperientes, de acordo com Karlen (2010), é a
+                continuação desnecessária de corredores sem saída, conforme mostrado nos esboços “certo” e “errado”.
+              </p>
+            </div>
+            <img src="./objetos/img05.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img05_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img05.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              “Certo” e “errado” no projeto de corredores <br>
+              Fonte: Karlen (2010)
+            </p>
+            <p class="acessivel no-print">A imagem é dividida em um eixo vertical. No lado esquerdo, há na parte
+              superior
+              uma planta baixa na qual constam três ambientes, dentre eles uma área residual, com um corredor que vai
+              até a parede dos fundos. Na imagem abaixo desta, o desenho é corrigido, uma vez que o corredor é
+              minimizado, não indo mais até a parede dos fundos. No lado direito, outra situação similar é apresentada.
+              Na parte superior da imagem, há uma planta baixa, com cinco ambientes e um pequeno corredor entre os
+              ambientes centrais. Na imagem abaixo desta, a situação é corrigida, sendo o corredor residual eliminado e
+              os espaços dos ambientes ampliados.</p>
+
+            <p>Em geral, o uso eficiente dos espaços para circulação deve ser um critério prioritário de planejamento, a
+              fim de que áreas de piso importantes não sejam desperdiçadas e que os padrões de deslocamento sejam
+              convenientes para os usuários.</p>
+            <p>Após tomar as decisões iniciais sobre a disposição das paredes internas para configurar os compartimentos
+              e espaços, é crucial avançar rapidamente para a organização dos móveis e equipamentos essenciais. Com o
+              tempo, pode-se descobrir que, em razão do tamanho e/ou da configuração (como o formato do compartimento, a
+              localização de portas e janelas etc.), pode ser impossível atender plenamente às exigências do programa de
+              necessidades em um ou mais espaços. </p>
+            <div class="caixa-destaque icone-atencao">
+              <p>Não é necessário nem recomendável finalizar a distribuição do mobiliário nessa fase, mas é de extrema
+                importância avaliar se o leiaute inicial dos móveis básicos será funcional.</p>
+            </div>
+            <img src="./objetos/img06.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img06_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img06.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Esboço de planta baixa – inclusão do mobiliário <br>
+              Fonte: Karlen (2010)
+            </p>
+            <p class="acessivel no-print">Na continuidade e no melhoramento da planta baixa das imagens anteriores, os
+              móveis são alocados em seus devidos lugares. Desse modo, o desenho fica mais claro e compreensível. Após a
+              entrada principal, há um vestíbulo. Há direita, há uma sala de espera com uma mesa central e seis
+              cadeiras. À frente dessa sala está a recepção. À esquerda do vestíbulo, há uma sala de entrevistas com uma
+              bancada e três cadeiras. Ao lado esquerdo desse espaço está a sala do diretor, com mesa de escritório,
+              poltronas, armários e duas cadeiras à frente da mesa do diretor. No centro da planta baixa há a sala dos
+              funcionários, a sala de apoio e a copa. No canto superior esquerdo estão os banheiros masculino e
+              feminino. Ao lado, um corredor. Ao lado do corredor, um pequeno apartamento integrado. Ao lado direito do
+              apartamento, há uma sala de reuniões. </p>
+            <p>Quando a planta baixa se torna visualmente compreensível em sua totalidade, independentemente da
+              qualidade do desenho, torna-se crucial realizar uma revisão básica. Essa etapa envolve uma autorrevisão,
+              na qual as habilidades de autocrítica objetiva do projetista precisam ser exercitadas. <b>Utilize um lápis
+                grosso ou colorido, uma caneta e uma folha de papel-manteiga para sobrepor (ou uma cópia da planta
+                baixa), destacando todas as características que não atendem plenamente às exigências estabelecidas na
+                matriz de critérios ou que apresentam deficiências</b>.</p>
+            <img src="./objetos/img07.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img07_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img07.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Esboço de planta baixa – correções a fazer <br>
+              Fonte: Karlen (2010)
+            </p>
+            <p class="acessivel no-print">A mesma planta baixa é trabalhada e, nesta figura, algumas correções são
+              feitas,
+              como a redução do banheiro masculino, a ampliação da sala dos funcionários. No apartamento, foi
+              identificado que faltava uma sala de jantar, e o espaço do dormitório estava muito apertado. Entre as
+              salas de apoio e a copa, uma bancada foi unida; na sala de reuniões, viu-se a necessidade de incorporar um
+              carrinho para a equipe de audiovisual e ampliar o número de mesas e cadeiras. Na sala de recepção, foi
+              percebida a necessidade de arredondar os cantos dos móveis e incluir ganchos para os casacos.</p>
+            <p>Depois de passar pelo processo longo e frequentemente complexo que resultou em um esboço de planta baixa
+              revisado, é possível que o projetista olhe para o resultado e conclua que a solução atual está muito
+              longe de ser a melhor solução possível, considerando que não é aceitável. A única saída é reiniciar o
+              processo, partindo do aperfeiçoamento de outro organograma ou outra planta baixa esquemática. Embora seja
+              uma decisão difícil, um segundo esboço de planta baixa é muito mais rápido de ser elaborado. No início da
+              segunda tentativa, o desenvolvimento da planta baixa original já terá agregado <i>insights</i> sobre o que
+              funcionará ou não (Karlen, 2010, p. 101).</p>
+            <p>Na imagem, é possível ver o esboço da planta baixa revisado com base nas correções feitas anteriormente:
+            </p>
+            <img src="./objetos/img08.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img08_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img08.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Esboço de planta baixa revisado (com base nas correções marcadas anteriormente) <br>
+              Fonte: Karlen (2010)
+            </p>
+            <p class="acessivel no-print">A planta é passada a limpo com base nos ajustes feitos, restando elementos
+              como
+              paredes, aberturas e mobiliário.</p>
+            <div class="caixa-destaque icone-importante">
+              <p>Em síntese, o estudo preliminar revela-se como um componente fundamental no processo de concepção de
+                projetos de interiores corporativos. Ao estabelecer as bases iniciais, considerando a disposição de
+                paredes, a distribuição de espaços e a seleção de mobiliário, esse estágio proporciona uma visão
+                holística do ambiente a ser criado. Além disso, ao permitir ajustes antes da etapa final, o estudo
+                preliminar capacita os <i>designers</i> a antecipar desafios, otimizar funcionalidades e assegurar que o
+                leiaute atenda de maneira eficaz às necessidades do cliente. Assim, a diligência investida nessa fase
+                inicial não apenas reflete na eficiência do projeto, mas também contribui significativamente para a
+                satisfação do cliente e o sucesso do empreendimento corporativo como um todo. </p>
             </div>
           </div>
 
-          <div class="pagina">
-            <div class="container fundo-tecnicos">
-              <div id="t5">
-                <h4>Projeto</h4>
-                <p>Com os itens anteriores definidos, passa-se à etapa de projeto. Neste momento, o cliente do projeto corporativo já compreendeu os principais aspectos da obra no anteprojeto e, eventualmente, pode ter solicitado algumas modificações, realizadas pelo <i>designer</i>. <b>Então, é chegada a fase de projeto em que o <i>designer</i> produz o material necessário para a correta execução da obra</b>.</p>
-                <p>Conforme observado, os desenhos variam em cada fase do projeto, e essa distinção é atribuída a dois motivos fundamentais:</p>
-                <div class="no-print" aria-hidden="true">
-                  <p>Passe o <i>mouse</i> ou toque para visualizar o conteúdo.</p>
+          <div id="t4">
+            <h4>Anteprojeto</h4>
+            <p>O anteprojeto representa uma fase intermediária crucial no desenvolvimento de projetos de interiores.
+              Essa etapa tem início com a aprovação do esquema inicial durante o estudo preliminar e avança para a
+              elaboração dos documentos essenciais que serão posteriormente utilizados na execução da obra. Dessa forma,
+              é essencial garantir um elevado nível de precisão e qualidade no material apresentado tanto para o cliente
+              quanto para a equipe encarregada da execução, a fim de assegurar uma execução eficiente e satisfatória do
+              projeto.</p>
+            <p>Você já estudou em unidades curriculares anteriores que a etapa de anteprojeto é aquela na qual o cliente
+              emitirá sua aprovação final do projeto, permitindo o encaminhamento das aprovações aos órgãos responsáveis
+              pela fiscalização, como prefeitura municipal, corpo de bombeiros e demais secretarias. Para tanto, a NBR
+              6492, que trata da representação gráfica de projetos de arquitetura, estipula uma série de documentos
+              necessários para o correto entendimento do trabalho nessa etapa. Veja quais são esses documentos:</p>
+            <div class='table-responsive'>
+              <table class='senac'>
+                <tbody>
+                  <tr>
+                    <th>Documentos típicos</th>
+                    <td>
+                      <ul class="cor01">
+                        <li>Situação (geralmente não aplicável a projetos de interiores)</li>
+                        <li>Plantas, cortes e fachadas</li>
+                        <li>Memorial justificativo, abrangendo aspectos construtivos</li>
+                        <li>Discriminação técnica</li>
+                        <li>Quadro geral de acabamento (facultativo)</li>
+                        <li>Documentos para aprovação em órgãos públicos</li>
+                        <li>Lista preliminar de materiais</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Documentos eventuais</th>
+                    <td>
+                      <ul class="cor01">
+                        <li>Desenvolvimento de elementos de interesse, em casos especiais</li>
+                        <li>Maquete</li>
+                        <li>Estimativa de custo (é importante ressaltar que, embora a ABNT tenha esse documento como
+                          facultativo nesta etapa, ele se mostra de grande importância ao cliente, que pode ter uma boa
+                          perspectiva dos principais custos envolvidos em seu projeto e, com base nisso, ponderar as
+                          soluções de projeto que podem ou não ser levadas adiante no projeto executivo)</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="legenda-imagem">
+              Documentos necessários no anteprojeto <br>
+              Fonte: Adaptado de ABNT (1994) <i>apud</i> Giambastini <i>et al</i>. (2020)
+            </p>
+            <p class="acessivel no-print">Quadro dividido entre duas linhas e duas colunas. Na coluna da esquerda, há
+              uma
+              divisão entre documentos típicos e documentos eventuais. São os documentos típicos descritos: situação
+              (geralmente não aplicável a projetos de interiores); plantas, cortes e fachadas; memorial justificativo,
+              abrangendo aspectos construtivos; discriminação técnica; quadro geral de acabamento (facultativo);
+              documentos para aprovação em órgãos públicos; lista preliminar de materiais. São os documentos eventuais
+              descritos: desenvolvimento de elementos de interesse, em casos especiais; maquete; estimativa de custo. É
+              importante ressaltar que, embora a ANBT tenha esse documento como facultativo nesta etapa, ele se mostra
+              de grande importância ao cliente, que pode ter uma boa perspectiva dos principais custos envolvidos em seu
+              projeto e, com base nisso, ponderar as soluções de projeto que podem ou não ser levadas adiante no projeto
+              executivo.</p>
+            <p>Para Giambastini <i>et al.</i> (2020), nos projetos de <i>design</i> de interiores corporativo, orçamento
+              e
+              cronograma são dois dos itens mais importantes, uma vez que o cliente que contrata um projeto dessa
+              natureza visa à obtenção de lucro com seu empreendimento. Portanto, no anteprojeto, é necessário que o
+              arquiteto elabore propostas que garantam a correta orçamentação de materiais e serviços, além de
+              permitirem a elaboração de um cronograma preliminar da obra, para que o cliente possa se programar
+              financeiramente. </p>
+            <div class="caixa-destaque icone-importante">
+              <p>O anteprojeto representa a fase em que o <i>designer</i> trabalha em estreita colaboração com o cliente
+                para estabelecer uma série significativa de atributos para o projeto, abrangendo desde a seleção de
+                materiais até a elaboração do orçamento. Essa etapa é crucial para a produção subsequente da
+                documentação da obra. O anteprojeto evolui com base nas definições fundamentais delineadas no estudo
+                preliminar, como a distribuição espacial, e alcança sua conclusão somente com a aprovação final do
+                cliente, desempenhando, assim, um papel de grande relevância no conjunto do projeto de arquitetura.</p>
+            </div>
+            <p>Com base na apresentação de desenhos técnicos, o cliente emitirá o seu aceite para o prosseguimento da
+              obra. Desse modo, o <i>designer</i> precisa apresentar informações claras e completas que permitam a total
+              compreensão por parte do contratante.</p>
+            <div class="caixa-destaque-livre">
+              <p>Veja exemplos práticos de como um anteprojeto de interiores corporativo é apresentado para os clientes.
+                Na figura, é apresentado o anteprojeto de uma academia localizada na cidade de Porto Alegre, no Rio
+                Grande do Sul.</p>
+              <img src="./objetos/img09.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="./objetos/img09_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="./objetos/img09.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Planta de leiaute <br>
+                Fonte: Giambastini <i>et al</i>. (2020)
+              </p>
+              <p class="acessivel no-print">Na imagem, é apresentado anteprojeto para uma academia localizada na cidade
+                de
+                Porto Alegre. No leiaute há um grande espaço central para zona de treino. À esquerda está a recepção da
+                loja. No canto esquerdo há um depósito e um espaço kids. Na parte inferior da planta existem dois
+                banheiros, um feminino e outro masculino.</p>
+              <p>Nesse documento, estão presentes as principais informações para que o cliente compreenda o espaço, como
+                a posição da recepção, dos banheiros, das circulações, as verticais e a quantidade de alunos que podem
+                ocupar o espaço ao mesmo tempo. Ou seja, para quem está interessado no funcionamento de uma academia,
+                todas as informações necessárias estão contidas no desenho. Para o construtor, no entanto, faltam
+                elementos essenciais, como dimensões das paredes, áreas de piso e indicação dos revestimentos das
+                paredes. </p>
+              <p>Agora, imagine que o desenho inclua, além das informações que já estão presentes, aquelas destinadas ao
+                construtor. O resultado seria uma representação confusa, tanto para o cliente quanto para o construtor.
+                Desse exemplo, é possível depreender um princípio da representação arquitetônica: <b>não há desenho
+                  absoluto</b> (Giambastini <i>et. al.</i>, 2020, p. 106).</p>
+              <p>Além do leiaute, pode ser essencial desenvolver uma planta específica que destaque exclusivamente as
+                paredes do ambiente. Essa planta, conhecida como “planta de paredes”, é crucial para que a empresa
+                encarregada da construção possa estimar com precisão a quantidade de trabalho e os materiais necessários
+                para a execução da obra. Nessa representação, são apresentadas cotas que indicam as medidas dos
+                elementos construídos, proporcionando uma visão detalhada para o planejamento e a execução do projeto.
+              </p>
+              <img src="./objetos/img10.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="./objetos/img10_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="./objetos/img10.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Planta de paredes <br>
+                Fonte: Giambastini <i>et al</i>. (2020)
+              </p>
+              <p class="acessivel no-print">Na imagem a planta baixa do espaço é redesenhada, porém apenas com os
+                desenhos
+                das paredes, aberturas e cotas de dimensionamento. </p>
+              <p>No que se refere aos desenhos técnicos, os cortes desempenham um papel crucial nessa fase, permitindo
+                que tanto o cliente quanto o construtor compreendam as relações de altura entre os elementos
+                construtivos. </p>
+              <p>A imagem do corte longitudinal ilustra um corte do espaço em questão, revelando as variações de
+                pé-direito entre o térreo e o segundo pavimento, além de destacar a imponente escada embutida na parede.
+              </p>
+              <img src="./objetos/img11.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="./objetos/img11_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="./objetos/img11.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Corte longitudinal <br>
+                Fonte: Giambastini <i>et al</i>. (2020)
+              </p>
+              <p class="acessivel no-print">A imagem apresenta um corte do espaço que está sendo acompanhado, no qual se
+                revela as diferenças de pé-direito entre o térreo e o segundo pavimento, além da grande escada engastada
+                na parede.</p>
+              <p>Já a utilização de perspectivas cônicas possibilita a representação da forma como os espaços são
+                percebidos pelos observadores, tornando-se ferramentas particularmente valiosas para a compreensão do
+                projeto, especialmente por parte daqueles menos familiarizados com desenhos técnicos.</p>
+              <img src="./objetos/img12.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="./objetos/img12_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="./objetos/img12.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Perspectiva cônica <br>
+                Fonte: Ching (2012)
+              </p>
+              <p class="acessivel no-print">A figura apresenta uma perspectiva cônica de um espaço de interiores, com
+                aberturas, um mezanino e grande porta de vidro. A imagem oferece um método de distribuição correta dos
+                objetos no espaço, ilustrando a forma como eles diminuem de tamanho à medida que se distanciam,
+                proporcionando, assim, uma visão experimental do espaço.</p>
+              <p>Finalmente, visando à aprovação do projeto pelo cliente, é possível criar imagens renderizadas com
+                diversos níveis de fotorrealismo. Na imagem, é exibida uma renderização do projeto da academia que foi
+                apresentada aos clientes, com a intenção de proporcionar uma visão realista de materiais e texturas
+                planejados para o projeto.</p>
+              <img src="./objetos/img13.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+              <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+              <a href="./objetos/img13_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+                aria-hidden="true"><img src="./objetos/img13.png" class="center-block img-responsive"></a>
+              <p class="legenda-imagem">
+                Renderização do espaço <br>
+                Fonte: Giambastini <i>et al</i>. (2020)
+              </p>
+              <p class="acessivel no-print">A imagem apresenta uma visualização renderizada do espaço que está sendo
+                acompanhado: a academia. Nele, vê-se a produção de uma imagem, de cunho digital, em que o objetivo é
+                mostrar aos clientes os materiais e as texturas do projeto. Nesta visualização, vê-se parte do primeiro
+                nível da edificação, com alguns aparelhos de academia, parte da escada e parte do mezanino.</p>
+            </div>
+            <p>No anteprojeto de interiores corporativos, você viu que é essencial que o <i>designer</i> consiga adequar
+              a sua linguagem, seja para se comunicar com seu cliente, seja para se comunicar com seus colaboradores.
+            </p>
+            <p>Segundo Giambastini <i>et al.</i> (2020), as imagens renderizadas são um dos elementos mais facilmente
+              entendidos pelos clientes. Com esse tipo de trabalho, é possível simular em ambiente computacional os
+              materiais e as texturas do projeto com um nível alto de fotorrealismo, sendo possível, inclusive, inserir
+              iluminação análoga àquela que será instalada no local. Desse modo, o cliente poderá compreender como o
+              espaço ficará após a finalização da obra.</p>
+            <img src="./objetos/img14.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img14_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img14.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Espaço renderizado <br>
+              Fonte: Giambastini <i>et al</i>. (2020)
+            </p>
+            <p class="acessivel no-print">Na imagem é possível ver o ambiente da academia renderizado, com aplicação de
+              materiais, texturas e iluminação. É possível identificar o primeiro pavimento da academia e o mezanino,
+              além dos equipamentos para atividade física disponibilizados.</p>
+            <p>No entanto, ainda segundo Giambastini <i>et al</i>., é muito difícil discutir soluções de projeto
+              específicas sem a presença de uma planta baixa, visto que é o desenho perfeito para o cliente entender a
+              distribuição espacial ao longo do projeto. Deve ser dada especial atenção à graficação das peças, para que
+              não fique muito difícil de entendê-las. </p>
+            <p>Observe, na imagem da planta baixa, como foram destacados em vermelho os espaços corporativos que o
+              cliente deveria aprovar nesta entrega.</p>
+            <img src="./objetos/img15.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img15_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img15.png" class="center-block img-responsive"></a>
+            </a>
+            <p class="legenda-imagem">
+              Planta baixa com destaques <br>
+              Fonte: Giambastini <i>et al</i>. (2020)
+            </p>
+            <p class="acessivel no-print">A imagem apresenta a planta baixa de um espaço corporativo com alguns espaços
+              destacados para aprovação do cliente.</p>
+            <p>Diferentemente da ênfase dada ao cliente, para a mão de obra, a ênfase recai principalmente na precisão e
+              na clareza das informações. Nesse sentido, é comum fornecer conjuntos de plantas, cada uma focada em sua
+              especificidade, evidenciando elementos do projeto, como pisos, luminárias e instalações elétricas. </p>
+            <p>Veja, na figura, um conjunto de plantas fornecido à mão de obra, destacando detalhes específicos, como
+              pisos e procedimentos de demolição.</p>
+            <img src="./objetos/img16.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img16_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img16.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Planta de piso e demolições <br>
+              Fonte: Giambastini <i>et al</i>. (2020)
+            </p>
+            <p class="acessivel no-print">A figura apresenta um conjunto de plantas entregues para a mão de obra,
+              destacando pisos e demolições.</p>
+            <div class="caixa-destaque icone-nota">
+              <p>Assegurar uma estimativa de custos precisa requer a elaboração de desenhos não apenas para os
+                responsáveis pela construção civil, mas também para todos os fornecedores envolvidos. Não hesite em
+                fazer contatos com seus parceiros de obra sempre que for necessário. </p>
+            </div>
+            <p>Em resumo, o anteprojeto desempenha um papel crucial tanto em projetos de arquitetura de edificações
+              quanto de interiores. É por meio dessa fase que o cliente obtém uma compreensão clara do espaço projetado,
+              visualizando o resultado final. Além disso, é durante o anteprojeto que os orçamentos são apresentados às
+              equipes de execução, proporcionando ao cliente uma visão precisa do que esperar em termos de aparência e
+              custo da obra. Portanto, na etapa do anteprojeto, <b>é imperativo que os arquitetos dominem as ferramentas
+                disponíveis para representar adequadamente os aspectos relevantes do projeto</b>.</p>
+            <p>A seguir, confira a etapa de projeto.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pagina">
+        <div class="container fundo-tecnicos">
+          <div id="t5">
+            <h4>Projeto</h4>
+            <p>Com os itens anteriores definidos, passa-se à etapa de projeto. Neste momento, o cliente do projeto
+              corporativo já compreendeu os principais aspectos da obra no anteprojeto e, eventualmente, pode ter
+              solicitado algumas modificações, realizadas pelo <i>designer</i>. <b>Então, é chegada a fase de projeto em
+                que o <i>designer</i> produz o material necessário para a correta execução da obra</b>.</p>
+            <p>Conforme observado, os desenhos variam em cada fase do projeto, e essa distinção é atribuída a dois
+              motivos fundamentais:</p>
+            <div class="no-print" aria-hidden="true">
+              <p>Passe o <i>mouse</i> ou toque para visualizar o conteúdo.</p>
+              <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                  <div class="flip-card mx-auto my-5" aria-hidden="true">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="objetos/card01.png">
+                      </div>
+                      <div class="flip-card-back">
+                        <img src="objetos/card01_2.png">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                  <div class="flip-card mx-auto my-5" aria-hidden="true">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="objetos/card02.png">
+                      </div>
+                      <div class="flip-card-back">
+                        <img src="objetos/card02_2.png">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <ol type="1">
+                <li>A natureza diversificada dos desenhos, que desempenham funções distintas, desde a apresentação de um
+                  conceito inicial no estudo preliminar até a elaboração da documentação no projeto.</li>
+                <li>O público-alvo que receberá esses materiais, sendo este frequentemente o cliente, cujo entendimento
+                  técnico pode ser limitado.</li>
+              </ol>
+            </div>
+            <p>No projeto, os desenhos, as planilhas e os detalhes apresentados aos fornecedores são esmiuçados,
+              servindo de base para a execução. Nessa etapa, apresentam-se os desenhos para os clientes, com a
+              finalidade de mostrar as soluções definitivas que serão adotadas, bem como as alterações que podem ser
+              feitas em virtude de outras variáveis, como tempo e custos (Giambastini <i>et al.</i>, 2020, p. 153).</p>
+            <p>No projeto de <i>design</i> de interiores corporativos, algumas documentações específicas são
+              fundamentais:</p>
+            <ul>
+              <li>Instalações</li>
+              <li>Condicionamento acústico</li>
+              <li>Climatização</li>
+              <li>Estrutura</li>
+              <li>Acabamentos</li>
+              <li>Luminotécnica</li>
+              <li>Comunicação visual</li>
+              <li>Cores</li>
+              <li>Mobiliários</li>
+              <li>Equipamentos</li>
+              <li>Coordenação de projetos complementares</li>
+              <li>Proteção e segurança</li>
+            </ul>
+            <p>As plantas do projeto, normalmente, serão as mesmas apresentadas no anteprojeto, porém mais detalhadas,
+              com as especificações e os acabamentos necessários para a produção de cada componente do projeto. </p>
+            <p>As plantas provenientes do anteprojeto receberão mais informações importantes, como plantas baixas e
+              cortes, com a descrição dos acabamentos e revestimentos que comporão o quadro geral de acabamentos. </p>
+            <p>Perceba, na figura da planta baixa executiva, o projeto da disposição interna de uma loja, destacando
+              todas as indicações dos cortes essenciais para a construção, com a identificação das pranchas em que foram
+              desenhados. Todas as dimensões cruciais para a construção da loja estão devidamente representadas.</p>
+            <img src="./objetos/img17.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img17_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img17.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Planta baixa executiva <br>
+              Fonte: Souza (2011)
+            </p>
+            <p class="acessivel no-print">Na imagem há uma planta baixa executiva de uma loja contendo todas as
+              marcações
+              dos cortes necessários para a construção, com a identificação das pranchas em que estão desenhados. Todas
+              as cotas necessárias à construção da loja estão ali representadas.</p>
+            <p>Na fase de projeto, os detalhes são elementos muito importantes, pois mostrarão em maior escala todos os
+              itens de construção que necessitam de atenção. De acordo com Rodrigues e Scopel (2018), esses detalhes
+              ampliados podem corresponder, por exemplo: a componentes do mobiliário escolhido ou das bancadas a serem
+              construídas; a um projeto de forro que tenha recortes e luminárias a serem instaladas internamente; ou a
+              outros elementos de construção mais complexa e que demandem um desenho específico. Conforme aponta Kubba
+              (2014), os detalhes precisam ser desenhados em escala, sendo mais comuns as de 1:10, 1:5 e 1:2.</p>
+            <p>Veja, por exemplo, no detalhamento da figura do detalhe mobiliário, que conta com a planta baixa
+              principal, uma vista em corte expondo a parte interna do mobiliário e elevações que apresentam as
+              projeções das portas e a aparência exterior do móvel:</p>
+            <img src="./objetos/img18.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img18_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img18.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Exemplo de detalhe de mobiliário <br>
+              Fonte: Rodrigues (2018)
+            </p>
+            <p class="acessivel no-print">Na imagem é visto o detalhamento de um móvel. Há uma planta baixa mostrando
+              suas
+              dimensões horizontais, cortes expondo a parte interna do mobiliário, com a espessura de prateleiras, e
+              elevações que apresentem as projeções de portas e a aparência exterior do móvel.</p>
+            <p>Neste outro detalhamento apresentado por Rodrigues e Scopel (2018), é detalhada uma bancada. Essa
+              estrutura receberá a colocação de um móvel no granito, que também precisa ser detalhada, sendo o corte o
+              tipo de desenho que melhor transmite essa informação, trazendo as dimensões de alturas e especificações
+              importantes para a construção desse elemento.</p>
+            <img src="./objetos/img19.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img19_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img19.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Exemplo de detalhamento de móvel <br>
+              Fonte: Rodrigues e Scopel (2018)
+            </p>
+            <p class="acessivel no-print">A imagem é subdividida em duas partes. À esquerda há um corte típico em um
+              armário de cozinha, mostrando espaço para tubulação, painel de metal, estrutura de perfis tubulares,
+              contendo todas as cotas de altura necessárias para compreensão do móvel. Na imagem da direita há uma
+              perspectiva cônica do mesmo móvel mostrando detalhes como pernas, espelho, fundo de metal e estrutura
+              ajustável.</p>
+            <p>Observe, de acordo com o que apresentam Rodrigues e Scopel (2018) nesse exemplo de elevação, como todos
+              os componentes do mobiliário contam com informações pertinentes à sua elaboração. Observe também que os
+              detalhes são marcados. Nas elevações, todas as medidas gerais são demonstradas em uma vista. Já na planta,
+              estão presentes as medidas horizontais de larguras e profundidades, bem como as projeções das portas.</p>
+            <p>Outra documentação importante nesta fase é o detalhamento luminotécnico. Em um contexto corporativo, a
+              iluminação desempenha um papel fundamental na criação de uma atmosfera atraente e convidativa para
+              funcionários e clientes. Por meio da planta luminotécnica, é possível determinar a disposição estratégica
+              de luminárias, focos de luz e pontos de destaque, garantindo uma visibilidade adequada dos produtos e uma
+              experiência agradável para os usuários do espaço.</p>
+            <p>Perceba que, na planta baixa luminotécnica, a distribuição das lâmpadas está organizada por meio de cotas
+              de localização, enquanto as quantidades e os tipos estão apresentados em legenda lateral. Para realizar
+              essas escolhas e quantificar os itens, o <i>designer</i> deverá dominar os cálculos luminotécnicos, que,
+              em um ambiente corporativo, serão distintos dos ambientes residenciais. </p>
+            <img src="./objetos/img20.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img20_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img20.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Planta luminotécnica <br>
+              Fonte: Salles (s. d.)
+            </p>
+            <p class="acessivel no-print">A imagem apresenta uma planta baixa de um espaço corporativo, em formato
+              retangular, em que constam os elementos de iluminação e suas devidas simbologias. Na legenda constam
+              lâmpada led spot, lâmpada pendente, arandelas e lâmpadas tubulares.</p>
+            <p>Outro documento essencial em um projeto corporativo é <b>a elaboração e o detalhamento da planta
+                elétrica</b>. Independentemente de ser um projeto elétrico residencial, corporativo ou industrial, ele é
+              desenvolvido com base em uma planta baixa civil (arquitetônica). Se necessário, é possível realizar o
+              levantamento da planta baixa do local de instalação.</p>
+            <img src="./objetos/img21.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img21_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img21.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Planta baixa elétrica <br>
+              Fonte: Desterro Eletricidade (2017)
+            </p>
+            <p class="acessivel print">A imagem apresenta uma planta baixa, com oito ambientes distintos, em que constam
+              as paredes e simbologias elétricas.</p>
+            <div class="caixa-destaque icone-importante">
+              <p>Nesta etapa do projeto, é fundamental que o <i>designer</i> faça também o detalhamento da planta de
+                forro do espaço corporativo, na qual detalhes como tipo de forro, sancas e cortineiros sejam
+                compreendidos.</p>
+            </div>
+            <p>Se as plantas baixas tratam de demonstrar tudo o que está abaixo do plano imaginário colocado por
+              convenção a 1,5 m do piso, as plantas de forro – ou de teto rebatido, como são chamadas em algumas
+              publicações – representam a camada mais alta do projeto. Em outras palavras, o seu plano de vista está
+              acima do forro, olhando para baixo. </p>
+            <p>Observe como os elementos móveis que estão abaixo do forro, como cadeiras, mesas e sofás, não aparecem
+              nesses desenhos, enquanto elementos fixos, como armários e escadas, são representados. O motivo dessa
+              diferença é que, ao contrário da maioria dos móveis soltos, os armários exercem influência no
+              posicionamento de luminárias e nos acabamentos do forro (Giambastini <i>et al.</i>, 2020, p. 219).</p>
+            <div class="caixa-destaque icone-importante">
+              <p>Além do detalhamento técnico, apresentar as especificidades da planta de forro é fundamental. Essas
+                especificidades incluem tanto a estética do forro quanto elementos que terão impacto na iluminação e na
+                acústica do espaço. Ao fornecer uma representação clara do forro, os profissionais de construção podem
+                entender melhor os requisitos, minimizando erros e retrabalho.</p>
+            </div>
+            <img src="./objetos/img22.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
+            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+            <a href="./objetos/img22_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs"
+              aria-hidden="true"><img src="./objetos/img22.png" class="center-block img-responsive"></a>
+            <p class="legenda-imagem">
+              Planta de forro <br>
+              Fonte: Giambastini <i>et al</i>. (2020)
+            </p>
+            <p class="acessivel no-print">Na imagem há a representação de uma planta de forro. Além de forros novos,
+              forros
+              a serem demolidos e forros existentes, constam as luminárias do espaço. O espaço é subdivido em oito
+              ambientes, os quais têm demarcação em cores como cinza-claro, cinza-médio, alaranjado e vermelho.</p>
+
+            <div class="no-print" aria-hidden="true">
+              <div class="caixa-destaque icone-desafio no-print">
+                <p>Para finalizar, que tal praticar um pouco o que você aprendeu?</p>
+              </div>
+
+              <div class="caixa-destaque-livre div-associar_colunas">
+                <div class="game-associar-colunas no-print nao-imprimir">
+                  <p><strong>Clique</strong> ou <strong>toque</strong> em um botão da coluna numerada e depois
+                    escolha um botão da coluna com o símbolo de <i class="fa fa-question"></i> com a opção
+                    que achar a mais correta. </p>
                   <div class="row">
-                    <div class="col-sm-6 col-xs-12">
-                      <div class="flip-card mx-auto my-5" aria-hidden="true">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="objetos/card01.png">
-                          </div>
-                          <div class="flip-card-back">
-                            <img src="objetos/card01_2.png">
-                          </div>
-                        </div>
-                      </div>
+                    <div class="col-12 col-sm-4 flexs coluna1">
+                      <button data-resp="1" class="item item1">
+                        <p><b>Estudo preliminar</b></p>
+                      </button>
+                      <button data-resp="2" class="item item2">
+                        <p><b>Anteprojeto</b></p>
+                      </button>
+                      <button data-resp="3" class="item item3">
+                        <p><b>Projeto</b></p>
+                      </button>
                     </div>
-                    <div class="col-sm-6 col-xs-12">
-                      <div class="flip-card mx-auto my-5" aria-hidden="true">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="objetos/card02.png">
-                          </div>
-                          <div class="flip-card-back">
-                            <img src="objetos/card02_2.png">
-                          </div>
-                        </div>
-                      </div>
+                    <div class="col-12 col-sm-8 flexs mt-3 coluna2">
+                      <button type="button" data-resp="1" class="resp resp1">
+                        <div class="txtacao"><i class="fa fa-question"></i></div>
+                        <p>É o momento em que o <i>designer</i> se envolve com a criação e a busca por alternativas
+                          conceituais para o seu projeto.</p>
+                      </button>
+                      <button type="button" data-resp="2" class="resp resp2">
+                        <div class="txtacao"><i class="fa fa-question"></i></div>
+                        <p>Ao estabelecer as bases iniciais, considerando a disposição de paredes, a distribuição de
+                          espaços e a seleção de mobiliário, proporciona uma visão holística do ambiente a ser criado.
+                        </p>
+                      </button>
+                      <button type="button" data-resp="3" class="resp resp3">
+                        <div class="txtacao"><i class="fa fa-question"></i></div>
+                        <p>É a fase de projeto em que o <i>designer</i> produz o material necessário para a correta
+                          execução da obra.</p>
+                      </button>
                     </div>
                   </div>
-                </div>
-                <div class="acessivel print">
-                  <ol type="1">
-                    <li>A natureza diversificada dos desenhos, que desempenham funções distintas, desde a apresentação de um conceito inicial no estudo preliminar até a elaboração da documentação no projeto.</li>
-                    <li>O público-alvo que receberá esses materiais, sendo este frequentemente o cliente, cujo entendimento técnico pode ser limitado.</li>
-                  </ol>
-                </div>
-                <p>No projeto, os desenhos, as planilhas e os detalhes apresentados aos fornecedores são esmiuçados, servindo de base para a execução. Nessa etapa, apresentam-se os desenhos para os clientes, com a finalidade de mostrar as soluções definitivas que serão adotadas, bem como as alterações que podem ser feitas em virtude de outras variáveis, como tempo e custos (Giambastini <i>et.al</i>, 2020, p. 153).</p>
-                <p>No projeto de <i>design</i> de interiores corporativos, algumas documentações específicas são fundamentais:</p>
-                <ul>
-                  <li>Instalações</li>
-                  <li>Condicionamento acústico</li>
-                  <li>Climatização</li>
-                  <li>Estrutura</li>
-                  <li>Acabamentos</li>
-                  <li>Luminotécnica</li>
-                  <li>Comunicação visual</li>
-                  <li>Cores</li>
-                  <li>Mobiliários</li>
-                  <li>Equipamentos</li>
-                  <li>Coordenação de projetos complementares</li>
-                  <li>Proteção e segurança</li>
-                </ul>
-                <p>As plantas do projeto, normalmente, serão as mesmas apresentadas no anteprojeto, porém mais detalhadas, com as especificações e os acabamentos necessários para a produção de cada componente do projeto. </p>
-                <p>As plantas provenientes do anteprojeto receberão mais informações importantes, como plantas baixas e cortes, com a descrição dos acabamentos e revestimentos que comporão o quadro geral de acabamentos. </p>
-                <p>Perceba, na figura da planta baixa executiva, o projeto da disposição interna de uma loja, destacando todas as indicações dos cortes essenciais para a construção, com a identificação das pranchas em que foram desenhados. Todas as dimensões cruciais para a construção da loja estão devidamente representadas.</p>
-                <img src="./objetos/img17.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                <a href="./objetos/img17_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                    src="./objetos/img17.png" class="center-block img-responsive"></a>
-                <p class="legenda-imagem">
-                  Planta baixa executiva <br>
-                  Fonte: Souza (2011)
-                </p>
-                <p class="acessivel print">Na imagem há uma planta baixa executiva de uma loja contendo todas as marcações dos cortes necessários para a construção, com a identificação das pranchas em que estão desenhados. Todas as cotas necessárias à construção da loja estão ali representadas.</p>
-                <p>Na fase de projeto, os detalhes são elementos muito importantes, pois mostrarão em maior escala todos os itens de construção que necessitam de atenção. De acordo com Rodrigues e Scopel (2018), esses detalhes ampliados podem corresponder, por exemplo: a componentes do mobiliário escolhido ou das bancadas a serem construídas; a um projeto de forro que tenha recortes e luminárias a serem instaladas internamente; ou a outros elementos de construção mais complexa e que demandem um desenho específico. Conforme aponta Kubba (2014), os detalhes precisam ser desenhados em escala, sendo mais comuns as de 1:10, 1:5 e 1:2.</p>
-                <p>Veja, por exemplo, no detalhamento da figura do detalhe mobiliário, que conta com a planta baixa principal, uma vista em corte expondo a parte interna do mobiliário e elevações que apresentam as projeções das portas e a aparência exterior do móvel:</p>
-                <img src="./objetos/img18.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                <a href="./objetos/img18_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                    src="./objetos/img18.png" class="center-block img-responsive"></a>
-                <p class="legenda-imagem">
-                  Exemplo de detalhe de mobiliário <br>
-                  Fonte: Rodrigues (2018)
-                </p>
-                <p class="acessivel print">Na imagem é visto o detalhamento de um móvel. Há uma planta baixa mostrando suas dimensões horizontais, cortes expondo a parte interna do mobiliário, com a espessura de prateleiras, e elevações que apresentem as projeções de portas e a aparência exterior do móvel.</p>
-                <p>Neste outro detalhamento apresentado por Rodrigues e Scopel (2018), é detalhada uma bancada. Essa estrutura receberá a colocação de um móvel no granito, que também precisa ser detalhada, sendo o corte o tipo de desenho que melhor transmite essa informação, trazendo as dimensões de alturas e especificações importantes para a construção desse elemento.</p>
-                <img src="./objetos/img19.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                <a href="./objetos/img19_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                    src="./objetos/img19.png" class="center-block img-responsive"></a>
-                <p class="legenda-imagem">
-                  Exemplo de detalhamento de móvel <br>
-                  Fonte: Rodrigues e Scopel (2018)
-                </p>
-                <p class="acessivel print">A imagem é subdividida em duas partes. À esquerda há um corte típico em um armário de cozinha, mostrando espaço para tubulação, painel de metal, estrutura de perfis tubulares, contendo todas as cotas de altura necessárias para compreensão do móvel. Na imagem da direita há uma perspectiva cônica do mesmo móvel mostrando detalhes como pernas, espelho, fundo de metal e estrutura ajustável.</p>
-                <p>Observe, de acordo com o que apresentam Rodrigues e Scopel (2018) nesse exemplo de elevação, como todos os componentes do mobiliário contam com informações pertinentes à sua elaboração. Observe também que os detalhes são marcados. Nas elevações, todas as medidas gerais são demonstradas em uma vista. Já na planta, estão presentes as medidas horizontais de larguras e profundidades, bem como as projeções das portas.</p>
-                <p>Outra documentação importante nesta fase é o detalhamento luminotécnico. Em um contexto corporativo, a iluminação desempenha um papel fundamental na criação de uma atmosfera atraente e convidativa para funcionários e clientes. Por meio da planta luminotécnica, é possível determinar a disposição estratégica de luminárias, focos de luz e pontos de destaque, garantindo uma visibilidade adequada dos produtos e uma experiência agradável para os usuários do espaço.</p>
-                <p>Perceba que, na planta baixa luminotécnica, a distribuição das lâmpadas está organizada por meio de cotas de localização, enquanto as quantidades e os tipos estão apresentados em legenda lateral. Para realizar essas escolhas e quantificar os itens, o <i>designer</i> deverá dominar os cálculos luminotécnicos, que, em um ambiente corporativo, serão distintos dos ambientes residenciais. </p>
-                <img src="./objetos/img20.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                <a href="./objetos/img20_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                    src="./objetos/img20.png" class="center-block img-responsive"></a>
-                <p class="legenda-imagem">
-                  Planta luminotécnica <br>
-                  Fonte: Salles (s. d.)
-                </p>
-                <p class="acessivel print">A imagem apresenta uma planta baixa de um espaço corporativo, em formato retangular, em que constam os elementos de iluminação e suas devidas simbologias. Na legenda constam lâmpada led spot, lâmpada pendente, arandelas e lâmpadas tubulares.</p>
-                <p>Outro documento essencial em um projeto corporativo é <b>a elaboração e o detalhamento da planta elétrica</b>. Independentemente de ser um projeto elétrico residencial, corporativo ou industrial, ele é desenvolvido com base em uma planta baixa civil (arquitetônica). Se necessário, é possível realizar o levantamento da planta baixa do local de instalação.</p>
-                <img src="./objetos/img21.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                <a href="./objetos/img21_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                    src="./objetos/img21.png" class="center-block img-responsive"></a>
-                <p class="legenda-imagem">
-                  Planta baixa elétrica <br>
-                  Fonte: Desterro Eletricidade (2017)
-                </p>
-                <p class="acessivel print">A imagem apresenta uma planta baixa, com oito ambientes distintos, em que constam as paredes e simbologias elétricas.</p>
-                <div class="caixa-destaque icone-importante">
-                  <p>Nesta etapa do projeto, é fundamental que o <i>designer</i> faça também o detalhamento da planta de forro do espaço corporativo, na qual detalhes como tipo de forro, sancas e cortineiros sejam compreendidos.</p>
-                </div>
-                <p>Se as plantas baixas tratam de demonstrar tudo o que está abaixo do plano imaginário colocado por convenção a 1,5 m do piso, as plantas de forro – ou de teto rebatido, como são chamadas em algumas publicações – representam a camada mais alta do projeto. Em outras palavras, o seu plano de vista está acima do forro, olhando para baixo. </p>
-                <p>Observe como os elementos móveis que estão abaixo do forro, como cadeiras, mesas e sofás, não aparecem nesses desenhos, enquanto elementos fixos, como armários e escadas, são representados. O motivo dessa diferença é que, ao contrário da maioria dos móveis soltos, os armários exercem influência no posicionamento de luminárias e nos acabamentos do forro (Giambastini <i>et.al</i>, 2020, p. 219).</p>
-                <div class="caixa-destaque icone-importante">
-                  <p>Além do detalhamento técnico, apresentar as especificidades da planta de forro é fundamental. Essas especificidades incluem tanto a estética do forro quanto elementos que terão impacto na iluminação e na acústica do espaço. Ao fornecer uma representação clara do forro, os profissionais de construção podem entender melhor os requisitos, minimizando erros e retrabalho.</p>
-                </div>
-                <img src="./objetos/img22.png" class="center-block img-responsive img-borda hidden-sm hidden-xs print">
-                <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                <a href="./objetos/img22_zoom.png" target="_blank" class="img-zoom no-print visible-sm visible-xs" aria-hidden="true"><img
-                    src="./objetos/img22.png" class="center-block img-responsive"></a>
-                <p class="legenda-imagem">
-                  Planta de forro <br>
-                  Fonte: Giambastini <i>et al</i>. (2020)
-                </p>
-                <p class="acessivel print">Na imagem há a representação de uma planta de forro. Além de forros novos, forros a serem demolidos e forros existentes, constam as luminárias do espaço. O espaço é subdivido em oito ambientes, os quais têm demarcação em cores como cinza-claro, cinza-médio, alaranjado e vermelho.</p>
 
-                <div class="caixa-destaque icone-desafio">
-                  <p>Para finalizar, que tal praticar um pouco o que você aprendeu?</p>
                 </div>
-
-                <div class="caixa-destaque-livre div-associar_colunas">
-                  <div class="game-associar-colunas no-print nao-imprimir">
-                    <p><strong>Clique</strong> ou <strong>toque</strong> em um botão da coluna numerada e depois
-                        escolha um botão da coluna com o símbolo de <i class="fa fa-question"></i> com a opção
-                        que achar a mais correta. </p>
-                    <div class="row">
-                      <div class="col-12 col-sm-4 flexs">
-                        <button data-resp="1" class="item item1">
-                          <p><b>Estudo preliminar</b></p>
-                        </button>
-                        <button data-resp="2" class="item item2">
-                          <p><b>Anteprojeto</b></p>
-                        </button>
-                        <button data-resp="3" class="item item3">
-                          <p><b>Projeto</b></p>
-                        </button>
-                      </div>
-                      <div class="col-12 col-sm-8 flexs mt-3">
-                        <button type="button" data-resp="1" class="resp resp1">
-                          <div class="txtacao"><i class="fa fa-question"></i></div>
-                          <p>É o momento em que o <i>designer</i> se envolve com a criação e a busca por alternativas conceituais para o seu projeto.</p>
-                        </button>
-                        <button type="button" data-resp="2" class="resp resp2">
-                          <div class="txtacao"><i class="fa fa-question"></i></div>
-                          <p>Ao estabelecer as bases iniciais, considerando a disposição de paredes, a distribuição de espaços e a seleção de mobiliário, proporciona uma visão holística do ambiente a ser criado.</p>
-                        </button>
-                        <button type="button" data-resp="3" class="resp resp3">
-                          <div class="txtacao"><i class="fa fa-question"></i></div>
-                          <p>É a fase de projeto em que o <i>designer</i> produz o material necessário para a correta execução da obra.</p>
-                        </button>
-                      </div>
-                    </div>                  
-  
-                  </div>
-                </div>
-
               </div>
-
-
-              <div id="t6">
-                <h3>Encerramento</h3>
-                <p>Cada detalhe meticulosamente planejado e cada decisão estratégica tomada durante o processo de <i>design</i> desempenham um papel vital na criação de espaços que transcendem simplesmente a estética. Ao invés disso, essas etapas se convertem em ferramentas poderosas para moldar experiências e influenciar positivamente a funcionalidade dos ambientes corporativos.</p>
-                <p>Você percebeu que a importância das etapas de projeto não se limita à fase de execução. A coordenação eficiente entre profissionais e a comunicação transparente são cruciais para garantir que a visão concebida ganhe vida de maneira coesa e sem contratempos. Essa colaboração contínua não apenas assegura a integridade do <i>design</i>, mas também maximiza o potencial de impacto positivo nos usuários finais.</p>
-              </div>
-
             </div>
 
           </div>
 
-        </section>
 
-
-        <!-- Modais -->
-        <div class="modal fade associar_colunas_modal no-print" id="associar_colulas_errou" tabindex="-1" aria-labelledby="associarColunasErrou" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered animate__animated animate__bounceIn">
-            <div class="modal-content no-print">
-              <div class="modal-header">
-                <h5 class="modal-title" id="associarColunasErrou">Tente novamente! Essa não é resposta correta.</h5>
-                <button type="button" class="btn btn-default" data-dismiss="modal"></button>
-              </div>
-            </div>
+          <div id="t6">
+            <h3>Encerramento</h3>
+            <p>Cada detalhe meticulosamente planejado e cada decisão estratégica tomada durante o processo de
+              <i>design</i> desempenham um papel vital na criação de espaços que transcendem simplesmente a estética. Ao
+              invés disso, essas etapas se convertem em ferramentas poderosas para moldar experiências e influenciar
+              positivamente a funcionalidade dos ambientes corporativos.
+            </p>
+            <p>Você percebeu que a importância das etapas de projeto não se limita à fase de execução. A coordenação
+              eficiente entre profissionais e a comunicação transparente são cruciais para garantir que a visão
+              concebida ganhe vida de maneira coesa e sem contratempos. Essa colaboração contínua não apenas assegura a
+              integridade do <i>design</i>, mas também maximiza o potencial de impacto positivo nos usuários finais.</p>
           </div>
+
         </div>
-        <div class="modal fade associar_colunas_modal no-print" id="associar_colulas_acertou" tabindex="-1" aria-labelledby="associarColunasAcertou" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered  animate__animated animate__zoomIn animate__faster">
-            <div class="modal-content no-print">
-              <div class="modal-header">
-                <h5 class="modal-title" id="associarColunasAcertou">Parabéns! Sua resposta está correta.</h5>
-                <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-
-        <!-- Modais 100% -->
-
-        
-
-<!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
-        <footer class="text-center no-print">
-          
-          <ul class="pagination">
-
-          </ul>
-          
-        </footer>
 
       </div>
 
+    </section>
+
+
+    <!-- Modais -->
+    <div class="modal fade associar_colunas_modal no-print" id="associar_colulas_errou" tabindex="-1"
+      aria-labelledby="associarColunasErrou" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered animate__animated animate__bounceIn">
+        <div class="modal-content no-print">
+          <div class="modal-header">
+            <h5 class="modal-title" id="associarColunasErrou">Tente novamente! Essa não é resposta correta.</h5>
+            <button type="button" class="btn btn-default" data-dismiss="modal"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade associar_colunas_modal no-print" id="associar_colulas_acertou" tabindex="-1"
+      aria-labelledby="associarColunasAcertou" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered  animate__animated animate__zoomIn animate__faster">
+        <div class="modal-content no-print">
+          <div class="modal-header">
+            <h5 class="modal-title" id="associarColunasAcertou">Parabéns! Sua resposta está correta.</h5>
+            <button type="button" class="btn btn-fechar" data-dismiss="modal"></button>
+          </div>
+        </div>
+      </div>
     </div>
 
 
+    <!-- Modais 100% -->
 
-    <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+
+
+    <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+    <footer class="text-center no-print">
+
+      <ul class="pagination">
+
+      </ul>
+
+    </footer>
+
+  </div>
+
+  </div>
+
+
+
+  <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
     <footer>
     </footer>
     -->
-    <!-- carrega todas as imagens dos icones nesta div
+  <!-- carrega todas as imagens dos icones nesta div
     caso queira adicionar mais imagens de novos icones do css,
     ou qualquer imagem que deva ser contabilizada durante a fase
     de loading, referenciar aqui.
     -->
-    <div class="ico-div-loader">
-      <img src="../template/images/atencao.png">
-        <img src="../template/images/bg-content.jpg">
-        <img src="../template/images/bg-topo.jpg">
-        <img src="../template/images/black-zoom-in-256.png">
-        <img src="../template/images/concluindo.png">
-        <img src="../template/images/curtir.png">
-        <img src="../template/images/desafio.png">
-        <img src="../template/images/dica.png">
-        <img src="../template/images/doc.png">
-        <img src="../template/images/fundamental.png">
-        <img src="../template/images/icon-03.png">
-        <img src="../template/images/importante.png">
-        <img src="../template/images/lightbulb.png">
-        <img src="../template/images/link.png">
-        <img src="../template/images/link_pdf_hover.png">
-        <img src="../template/images/link_pdf_normal.png">
-        <img src="../template/images/logo-senac.png">
-        <img src="../template/images/mark-icon.png">
-        <img src="../template/images/mark-icon02.png">
-        <img src="../template/images/midia.png">
-        <img src="../template/images/monitor.png">
-        <img src="../template/images/nao_curtir.png">
-        <img src="../template/images/pergunta.png">
-        <img src="../template/images/pesquisa.png">
-        <img src="../template/images/play.png">
-        <img src="../template/images/radio_flat.png">
-        <img src="../template/images/refletir.png">
-        <img src="../template/images/saiba_mais.png">
-        <img src="../template/images/senac_loader.png">
-        <img src="../template/images/tanamidia.png">
-        <img src="../template/images/transcricao.png">
-        <img src="../template/images/transcricao_small.png">
-        <img src="../template/images/tv.png">
-        <img src="../template/images/tv_bottom.png">
-        <img src="../template/images/zoom.png">
-        <img src="../template/images/zoom_ie.cur">
-        <img src="../template/images/zoom_ie.png">
-        <!-- adicionar as imagens customizadas aqui abaixo -->
-    </div>
+  <div class="ico-div-loader">
+    <img src="../template/images/atencao.png">
+    <img src="../template/images/bg-content.jpg">
+    <img src="../template/images/bg-topo.jpg">
+    <img src="../template/images/black-zoom-in-256.png">
+    <img src="../template/images/concluindo.png">
+    <img src="../template/images/curtir.png">
+    <img src="../template/images/desafio.png">
+    <img src="../template/images/dica.png">
+    <img src="../template/images/doc.png">
+    <img src="../template/images/fundamental.png">
+    <img src="../template/images/icon-03.png">
+    <img src="../template/images/importante.png">
+    <img src="../template/images/lightbulb.png">
+    <img src="../template/images/link.png">
+    <img src="../template/images/link_pdf_hover.png">
+    <img src="../template/images/link_pdf_normal.png">
+    <img src="../template/images/logo-senac.png">
+    <img src="../template/images/mark-icon.png">
+    <img src="../template/images/mark-icon02.png">
+    <img src="../template/images/midia.png">
+    <img src="../template/images/monitor.png">
+    <img src="../template/images/nao_curtir.png">
+    <img src="../template/images/pergunta.png">
+    <img src="../template/images/pesquisa.png">
+    <img src="../template/images/play.png">
+    <img src="../template/images/radio_flat.png">
+    <img src="../template/images/refletir.png">
+    <img src="../template/images/saiba_mais.png">
+    <img src="../template/images/senac_loader.png">
+    <img src="../template/images/tanamidia.png">
+    <img src="../template/images/transcricao.png">
+    <img src="../template/images/transcricao_small.png">
+    <img src="../template/images/tv.png">
+    <img src="../template/images/tv_bottom.png">
+    <img src="../template/images/zoom.png">
+    <img src="../template/images/zoom_ie.cur">
+    <img src="../template/images/zoom_ie.png">
+    <!-- adicionar as imagens customizadas aqui abaixo -->
+  </div>
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="../template/js/jquery.min.js"></script>
-    <script src="../template/js/bootstrap.min.js"></script>
-    <script src="../template/js/jquery.magnific-popup.min.js"></script>
-    <script src="../template/js/print.js"></script>
-    <script src="../template/js/template.config.js"></script>
-    <script src="../template/js/images.loader.js"></script>
-    <script src="../template/js/interativos.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/associar-colunas.js"></script>
-    <noscript>
-      <style media="screen">
-        .over-loader { display: none;}    
-      </style>
-    </noscript>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../template/js/jquery.min.js"></script>
+  <script src="../template/js/bootstrap.min.js"></script>
+  <script src="../template/js/jquery.magnific-popup.min.js"></script>
+  <script src="../template/js/print.js"></script>
+  <script src="../template/js/template.config.js"></script>
+  <script src="../template/js/images.loader.js"></script>
+  <script src="../template/js/interativos.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/associar-colunas.js"></script>
+  <noscript>
+    <style media="screen">
+      .over-loader {
+        display: none;
+      }
+    </style>
+  </noscript>
 
-    <script>
-      $(".exercicio1 button.alt-e").click(function(){
-        $('.exercicio1 .feedback-negativo').css('display','block');
-        $('.exercicio1 .feedback-positivo').css('display','none');
-      });
-      $(".exercicio1 button.alt-c").click(function(){
-        $('.exercicio1 .feedback-negativo').css('display','none');
-        $('.exercicio1 .feedback-positivo').css('display','block');
-      });
+  <script>
+    $(".exercicio1 button.alt-e").click(function () {
+      $('.exercicio1 .feedback-negativo').css('display', 'block');
+      $('.exercicio1 .feedback-positivo').css('display', 'none');
+    });
+    $(".exercicio1 button.alt-c").click(function () {
+      $('.exercicio1 .feedback-negativo').css('display', 'none');
+      $('.exercicio1 .feedback-positivo').css('display', 'block');
+    });
 
-      $(".exercicio2 button.alt-e").click(function(){
-        $('.exercicio2 .feedback-negativo').css('display','block');
-        $('.exercicio2 .feedback-positivo').css('display','none');
-      });
-      $(".exercicio2 button.alt-c").click(function(){
-        $('.exercicio2 .feedback-negativo').css('display','none');
-        $('.exercicio2 .feedback-positivo').css('display','block');
-      });
+    $(".exercicio2 button.alt-e").click(function () {
+      $('.exercicio2 .feedback-negativo').css('display', 'block');
+      $('.exercicio2 .feedback-positivo').css('display', 'none');
+    });
+    $(".exercicio2 button.alt-c").click(function () {
+      $('.exercicio2 .feedback-negativo').css('display', 'none');
+      $('.exercicio2 .feedback-positivo').css('display', 'block');
+    });
 
-      $(".exercicio3 button.alt-e").click(function(){
-        $('.exercicio3 .feedback-negativo').css('display','block');
-        $('.exercicio3 .feedback-positivo').css('display','none');
-      });
-      $(".exercicio3 button.alt-c").click(function(){
-        $('.exercicio3 .feedback-negativo').css('display','none');
-        $('.exercicio3 .feedback-positivo').css('display','block');
-      });
+    $(".exercicio3 button.alt-e").click(function () {
+      $('.exercicio3 .feedback-negativo').css('display', 'block');
+      $('.exercicio3 .feedback-positivo').css('display', 'none');
+    });
+    $(".exercicio3 button.alt-c").click(function () {
+      $('.exercicio3 .feedback-negativo').css('display', 'none');
+      $('.exercicio3 .feedback-positivo').css('display', 'block');
+    });
 
 
     //inicializa popover
@@ -769,33 +1114,36 @@
     })
 
 
-    </script>
+  </script>
 
-     <!-- Versao atual do handtalk -->
-     <script>
-      var scriptElem=document.createElement("script");
-      scriptElem.src="https://plugin.handtalk.me/web/latest/handtalk.min.js",
-      scriptElem.charset="UTF-8",
-      scriptElem.onload=function(){
-            window.ht = new HT({
-                token:"bf5b7efb148a829a126a0e0c9fd533bf",
-                align:"top",
-                videoEnabled: true,
-                ytEmbedReplace: true,           
-                mobileConfig:{align:"right",
-                              actionsAlign:"top",
-                              customButtonStyle:{
-                                    borderRadius:"6px",
-                                    size:"38px",
-                                    horizontalMargin:"13px",
-                                    bottomMargin:"140px",
-                                    rightMargin:"40px"}
-                              }
-              });        
-          $('.ht-skip').attr("aria-hidden","true")
-        },
-    document.body.appendChild(scriptElem);
+  <!-- Versao atual do handtalk -->
+  <script>
+    var scriptElem = document.createElement("script");
+    scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+      scriptElem.charset = "UTF-8",
+      scriptElem.onload = function () {
+        window.ht = new HT({
+          token: "bf5b7efb148a829a126a0e0c9fd533bf",
+          align: "top",
+          videoEnabled: true,
+          ytEmbedReplace: true,
+          mobileConfig: {
+            align: "right",
+            actionsAlign: "top",
+            customButtonStyle: {
+              borderRadius: "6px",
+              size: "38px",
+              horizontalMargin: "13px",
+              bottomMargin: "140px",
+              rightMargin: "40px"
+            }
+          }
+        });
+        $('.ht-skip').attr("aria-hidden", "true")
+      },
+      document.body.appendChild(scriptElem);
 
-    </script>
-  </body>
+  </script>
+</body>
+
 </html>
