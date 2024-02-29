@@ -64,7 +64,7 @@ h4 {
 h5 {
   font-size: 20px;
 }
-p, li, a, td {
+li, a, td {
   font-family: sourcesans-regular;
   font-size: 1.2em;
 }
