@@ -31,6 +31,7 @@
   width: 230%;
 }
 
+
 .img-aumentada{width: 200%;}
 
 .grupo-imprimir button.bto-imprimir {
@@ -560,4 +561,10 @@ p.legenda-imagem {
   /* FIM-/TAGS .print e .no-print */
 
   /*------------------------------*/
+}
+
+@media print {
+  .paginas {
+    page-break-inside: avoid;
+  }
 }

@@ -413,3 +413,9 @@ header.senac{
   .no-print, .nao-imprimir {
   display: none !important;
 }
+
+@media print {
+  .paginas {
+    page-break-inside: avoid;
+  }
+}

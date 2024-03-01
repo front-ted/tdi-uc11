@@ -64,13 +64,13 @@ h4 {
 h5 {
   font-size: 20px;
 }
-p,
+/* p,
 li,
 a,
 td {
   font-family: sourcesans-regular;
   font-size: 1.2em;
-}
+} */
 h4,
 h5 {
   font-family: sourcesans-bold;
@@ -236,7 +236,7 @@ h5 {
 }
 .panel-heading h3 {
   color: #fff !important;
-  font-size: 20px;
+  font-size: 16px;
 }
 .panel-group .panel-heading+.panel-collapse>.list-group,
 .panel-group .panel-heading+.panel-collapse>.panel-body {
@@ -347,7 +347,7 @@ h3.panel-title, .tab-content p{
 }
 
 
-.painel-mesa{
+ .painel-mesa{
   background: url('../objetos/painel_mesa/fundo.png') no-repeat;
   background-size: 100%;
   width: 750px;
@@ -355,13 +355,13 @@ h3.panel-title, .tab-content p{
   margin: 40px auto;
   position: relative;
 }
-.btn-principios{
+.btn_principios{
   position: absolute;
   border: none;
   transition: all 0.2s;
   background-size: 100%;
 }
-.btn-principios:hover{
+.btn_principios:hover{
   transform: scale(1.06);
 }
 .btn-harmonia{
@@ -427,6 +427,7 @@ h3.panel-title, .tab-content p{
   margin-top: 530px;
   margin-left: 502px;
 }
+ 
 
 
 .painel-cores{
@@ -562,4 +563,27 @@ h3.panel-title, .tab-content p{
     border: none;
     margin: 10px;
   }
+
+  .caixa-destaque, .caixa-destaque-livre{
+    width: 100%;
+    padding: 10px;
+  }
+  .panel .panel-default {
+    width: 100%;
+    padding: 10px;
+  }
+  .container{width: 100%;}
+  .fundo-tecnicos {padding-left: 5%;
+  padding-right: 5%;}
+  .img-zoom::after {
+    content: url(../objetos/lupa.png);
+    display: block;
+    width: 95px;
+    height: 95px;
+    right: 0px;
+    bottom: -10px;
+    position: absolute;
+    filter: drop-shadow(#333 3px 3px 4px);
+    scale: 0.6;
+}
 }
