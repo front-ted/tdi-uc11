@@ -53,7 +53,6 @@ $(".btn-exercicio07").click(function(){
 });
 
 
-
 jQuery("document").ready(function($){
 
     var pg_number = parseInt(window.location.href.split('?')[1].split('=')[1]);
@@ -65,3 +64,115 @@ jQuery("document").ready(function($){
     }
     
 });
+
+
+//-------- CHECK PAINEL --------\\
+$(document).ready(function () {
+
+    //localStorage.clear()
+
+    var btn_moodboard_01;
+    var btn_moodboard_02;
+    var btn_moodboard_03;
+    var btn_moodboard_04;
+    var btn_moodboard_05;
+    var btn_moodboard_06;
+    var btn_moodboard_07;
+    var btn_moodboard_08;
+    var btn_moodboard_09;
+    var btn_moodboard_10;
+    var btn_moodboard_11;
+
+    $(".btn-identidade").on('click', function(){
+        localStorage.setItem('btn_moodboard_01', 'check');
+        $(this).css("background-image","url('objetos/painel/bt01_3.png')");
+    })
+    $(".btn-publico_alvo").on('click', function(){
+        localStorage.setItem('btn_moodboard_02', 'check');
+        $(this).css("background-image","url('objetos/painel/bt02_3.png')");
+    })
+    $(".btn-estilo").on('click', function(){
+        localStorage.setItem('btn_moodboard_03', 'check');
+        $(this).css("background-image","url('objetos/painel/bt03_3.png')");
+    })
+    $(".btn-texturas").on('click', function(){
+        localStorage.setItem('btn_moodboard_04', 'check');
+        $(this).css("background-image","url('objetos/painel/bt04_3.png')");
+    })
+    $(".btn-inspiracao").on('click', function(){
+        localStorage.setItem('btn_moodboard_05', 'check');
+        $(this).css("background-image","url('objetos/painel/bt05_3.png')");
+    })
+    $(".btn-iluminacao").on('click', function(){
+        localStorage.setItem('btn_moodboard_06', 'check');
+        $(this).css("background-image","url('objetos/painel/bt06_3.png')");
+    })
+    $(".btn-paleta_cores").on('click', function(){
+        localStorage.setItem('btn_moodboard_07', 'check');
+        $(this).css("background-image","url('objetos/painel/bt07_3.png')");
+    })
+    $(".btn-elementos").on('click', function(){
+        localStorage.setItem('btn_moodboard_08', 'check');
+        $(this).css("background-image","url('objetos/painel/bt08_3.png')");
+    })
+    $(".btn-tendencias").on('click', function(){
+        localStorage.setItem('btn_moodboard_09', 'check');
+        $(this).css("background-image","url('objetos/painel/bt09_3.png')");
+    })
+    $(".btn-flexibilidade").on('click', function(){
+        localStorage.setItem('btn_moodboard_10', 'check');
+        $(this).css("background-image","url('objetos/painel/bt10_3.png')");
+    })
+    $(".btn-feedback").on('click', function(){
+        localStorage.setItem('btn_moodboard_11', 'check');
+        $(this).css("background-image","url('objetos/painel/bt11_3.png')");
+    })
+
+    btn_moodboard_01 = localStorage.getItem('btn_moodboard_01');
+    btn_moodboard_02 = localStorage.getItem('btn_moodboard_02');
+    btn_moodboard_03 = localStorage.getItem('btn_moodboard_03');
+    btn_moodboard_04 = localStorage.getItem('btn_moodboard_04');
+    btn_moodboard_05 = localStorage.getItem('btn_moodboard_05');
+    btn_moodboard_06 = localStorage.getItem('btn_moodboard_06');
+    btn_moodboard_07 = localStorage.getItem('btn_moodboard_07');
+    btn_moodboard_08 = localStorage.getItem('btn_moodboard_08');
+    btn_moodboard_09 = localStorage.getItem('btn_moodboard_09');
+    btn_moodboard_10 = localStorage.getItem('btn_moodboard_10');
+    btn_moodboard_11 = localStorage.getItem('btn_moodboard_11');
+
+    if (btn_moodboard_01 == 'check'){
+        $(".btn-identidade").css("background-image","url('objetos/painel/bt01_3.png')");
+    }
+    if (btn_moodboard_02 == 'check'){
+        $(".btn-publico_alvo").css("background-image","url('objetos/painel/bt02_3.png')");
+    }
+    if (btn_moodboard_03 == 'check'){
+        $(".btn-estilo").css("background-image","url('objetos/painel/bt03_3.png')");
+    }
+    if (btn_moodboard_04 == 'check'){
+        $(".btn-texturas").css("background-image","url('objetos/painel/bt04_3.png')");
+    }
+    if (btn_moodboard_05 == 'check'){
+        $(".btn-inspiracao").css("background-image","url('objetos/painel/bt05_3.png')");
+    }
+    if (btn_moodboard_06 == 'check'){
+        $(".btn-iluminacao").css("background-image","url('objetos/painel/bt06_3.png')");
+    }
+    if (btn_moodboard_07 == 'check'){
+        $(".btn-paleta_cores").css("background-image","url('objetos/painel/bt07_3.png')");
+    }
+    if (btn_moodboard_08 == 'check'){
+        $(".btn-elementos").css("background-image","url('objetos/painel/bt08_3.png')");
+    }
+    if (btn_moodboard_09 == 'check'){
+        $(".btn-tendencias").css("background-image","url('objetos/painel/bt09_3.png')");
+    }
+    if (btn_moodboard_10 == 'check'){
+        $(".btn-flexibilidade").css("background-image","url('objetos/painel/bt10_3.png')");
+    }
+    if (btn_moodboard_11 == 'check'){
+        $(".btn-feedback").css("background-image","url('objetos/painel/bt11_3.png')");
+    }
+    
+});
+//-------- /CHECK PAINEL --------\\
