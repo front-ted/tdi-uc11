@@ -129,6 +129,8 @@ p.legenda-imagem {
   page-break-before: always;
 }
 
+
+
 /* FIM-/ESTRUTURA PARA ELEMENTOS RELACIONADOS AOS BOTÕES E AJUDA DA IMPRESSÃO */
 
 /*------------------------------*/
@@ -565,17 +567,10 @@ p.legenda-imagem {
   /* FIM-/TAGS .print e .no-print */
 
   /*------------------------------*/
-}
 
-@media print {
   .paginas {
     page-break-inside: avoid;
     page-break-after:avoid;
   }
-/*   .no-page-break{
-    page-break-before:avoid;
-    page-break-after:avoid;
-    page-break-inside: avoid;
-  }
- */
+
 }
