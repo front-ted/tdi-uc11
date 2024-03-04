@@ -570,5 +570,12 @@ p.legenda-imagem {
 @media print {
   .paginas {
     page-break-inside: avoid;
+    page-break-after:avoid;
   }
+/*   .no-page-break{
+    page-break-before:avoid;
+    page-break-after:avoid;
+    page-break-inside: avoid;
+  }
+ */
 }

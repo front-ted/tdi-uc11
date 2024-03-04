@@ -444,7 +444,7 @@ button.close{
   transition: all 0.2s;
   position: relative;
   float: right;
-  margin-top: 35px;
+  margin-top: 20%;
 }
 .ico-transcricao:hover {
   transform: scale(1.06);
@@ -452,7 +452,7 @@ button.close{
 
 .controle-audio
 {
-  margin-top: 40px;
+  margin-top: 20%;
 }
 /*--------- /PODCAST ---------*/
 

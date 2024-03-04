@@ -130,6 +130,15 @@ li{
 ol li{
 	list-style-image:none;
 }
+
+.video1 li{
+ margin-bottom: 2em; 
+ margin-left: unset; 
+
+}
+
+.video1 ol{margin-left: unset;}
+
 table.senac {
 	margin:0 1.5em 2em;
 	width: 92% !important;

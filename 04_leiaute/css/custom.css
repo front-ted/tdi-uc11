@@ -27,6 +27,10 @@ li::marker {
   /* margin-left: 1.7em; */
 }
 
+.img-maior2 {
+  width: auto !important;
+}
+
 h2, h3, h4 {
   color: #2A8080;
   font-family: 'robotoregular', Arial , Verdana, Helvetica !important;
