@@ -42,11 +42,11 @@ $(document).ready(function () {
 
     $(".btn-salas_abertas").on('click', function(){
         localStorage.setItem('btn_ambientes_01', 'check');
-        $(this).css("background-image","url('imgs/painel/bt01_2.png')");
+        $(this).css("background-image","url('imgs/painel/bt01_3.png')");
     })
     $(".btn-salas_fechadas").on('click', function(){
         localStorage.setItem('btn_ambientes_02', 'check');
-        $(this).css("background-image","url('imgs/painel/bt02_2.png')");
+        $(this).css("background-image","url('imgs/painel/bt02_3.png')");
     })
     $(".btn-salas_reunioes").on('click', function(){
         localStorage.setItem('btn_ambientes_03', 'check');
