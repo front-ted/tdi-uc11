@@ -207,7 +207,11 @@ p.legenda-imagem {
     /* page-break-after: always; */
     padding: 0px;
   }
-
+  .paginas{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: 0;
+  }
   h2 {
     font-size: 22pt;
   }
@@ -289,7 +293,9 @@ p.legenda-imagem {
     padding-bottom: 0px;
     width: auto !important;
   }
-
+  .sem-margem{
+    margin-bottom: 0;
+  }
   .postit {
     padding: 0px;
     border-top: unset;
@@ -570,7 +576,8 @@ p.legenda-imagem {
 
   .paginas {
     page-break-inside: avoid;
-    page-break-after:avoid;
   }
-
+  .hidden-print {
+    display: none !important;
+  }
 }
