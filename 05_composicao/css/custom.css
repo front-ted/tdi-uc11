@@ -696,7 +696,6 @@ h3.panel-title,
     padding-left: 5%;
     padding-right: 5%;
   }
-
   .img-zoom::after {
     content: url(../objetos/lupa.png);
     display: block;
