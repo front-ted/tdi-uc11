@@ -36,6 +36,7 @@ header {
   margin-top: -80px;
   position: absolute;
   z-index: 4;
+  filter: saturate(300%);
 }
 .divisoria_2{
   height: 300px;
@@ -424,7 +425,7 @@ button.close{
 /*--------- PODCAST ---------*/
 .div-podcast {
   margin: 50px auto;
-  width: 380px;
+  width: 650px;
 }
 .div-podcast audio {
   filter: drop-shadow(#565656 0px 0px 5px);
@@ -441,9 +442,15 @@ button.close{
   transition: all 0.2s;
   position: relative;
   float: right;
+  margin-top: 35px;
 }
 .ico-transcricao:hover {
   transform: scale(1.06);
+}
+
+.controle-audio
+{
+  margin-top: 40px;
 }
 /*--------- /PODCAST ---------*/
 
@@ -590,5 +597,5 @@ h3.panel-title{
   .subtitulo-destaque h4{
     width: 82%;
   }
-  
+  .personagem-audio{display: none;}
 }

@@ -22,7 +22,9 @@ body {
   overflow-x: hidden;
 }
 
-
+.img-maior2{
+  width: 100% !important;
+}
 html {
   scroll-behavior: smooth;
 }

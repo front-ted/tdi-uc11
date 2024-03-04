@@ -1,48 +1,38 @@
 <!DOCTYPE html>
-<html
-  lang="pt-br"
-  xmlns:mso="urn:schemas-microsoft-com:office:office"
-  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
->
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Automação e tecnologia: conceito, conectividade, integração com dispositivos (Wi-Fi, smart speakers, assistentes virtuais inteligentes e aplicativos) e produtos disponíveis</title>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
 
-    <!-- Bootstrap -->
-    <link href="../template/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../template/css/tecnicos_senac.css" rel="stylesheet" />
-    <link href="../template/css/cores.css" rel="stylesheet" />
-    <link href="../template/css/modal-100.css" rel="stylesheet" />
-    <!--Extras - novas classes para facilitar-->
-    <link rel="stylesheet" href="../template/css/extras.css" />
-    <link href="../template/css/sncload.css" rel="stylesheet" />
-    <link href="../template/css/magnific-popup.css" rel="stylesheet" />
-    <!-- referencia ao arquivo css com estilos especificos da pagina -->
-    <link href="css/custom.css" type="text/css" rel="stylesheet" />
-    <!-- css necessario para o print -->
-    <link
-      href="../template/css/fa/css/font-awesome.min.css"
-      type="text/css"
-      rel="stylesheet"
-    />
-    <link href="../template/css/print.css" type="text/css" rel="stylesheet" />
-    <link
-      href="../template/fonts/roboto.css"
-      type="text/css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Memorial descritivo: elaboração, especificação, quantificação, compatibilização </title>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- Bootstrap -->
+  <link href="../template/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../template/css/tecnicos_senac.css" rel="stylesheet" />
+  <link href="../template/css/cores.css" rel="stylesheet" />
+  <link href="../template/css/modal-100.css" rel="stylesheet" />
+  <!--Extras - novas classes para facilitar-->
+  <link rel="stylesheet" href="../template/css/extras.css" />
+  <link href="../template/css/sncload.css" rel="stylesheet" />
+  <link href="../template/css/magnific-popup.css" rel="stylesheet" />
+  <!-- referencia ao arquivo css com estilos especificos da pagina -->
+  <link href="css/custom.css" type="text/css" rel="stylesheet" />
+  <!-- css necessario para o print -->
+  <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+  <link href="../template/css/print.css" type="text/css" rel="stylesheet" />
+  <link href="../template/fonts/roboto.css" type="text/css" rel="stylesheet" />
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
 
-    <!--[if gte mso 9
+  <!--[if gte mso 9
       ]><xml>
         <mso:CustomDocumentProperties>
           <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor
@@ -62,281 +52,390 @@
         </mso:CustomDocumentProperties>
       </xml><!
     [endif]-->
-  </head>
+</head>
 
-  <body
-    onLoad="Javascript:document.getElementById('sncloader').style.display='none';"
-  >
-    <!-- MARCA D´ÁGUA -->
-    <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo" />
-    <!-- /MARCA D´ÁGUA -->
+<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
+  <!-- MARCA D´ÁGUA -->
+  <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo" />
+  <!-- /MARCA D´ÁGUA -->
 
-    <div id="sncloader" class="over-loader">
-      <div class="over-cell">
-        <div id="sncload"></div>
+  <div id="sncloader" class="over-loader">
+    <div class="over-cell">
+      <div id="sncload"></div>
+    </div>
+  </div>
+  <header id="topo" class="senac no-print">
+    <div class="header-tecnicos container">
+      <h1 id="nome-curso">Design de Interiores</h1>
+      <div id="logo-senac">
+        <img src="../template/images/logo-senac.png" alt="logo do senac" />
       </div>
     </div>
-    <header id="topo" class="senac no-print">
-      <div class="header-tecnicos container">
-        <h1 id="nome-curso">Design de Interiores</h1>
-        <div id="logo-senac">
-          <img src="../template/images/logo-senac.png" alt="logo do senac" />
-        </div>
+    <div id="sombra"></div>
+  </header>
+  <div id="booklet" class="">
+    <header class="no-print container margem-botao">
+      <!-- BTO IMPRIMIR -->
+      <div class="grupo-imprimir no-print">
+        <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+          <span class="fa fa-print"></span> <span>Imprimir</span>
+        </button>
       </div>
-      <div id="sombra"></div>
+      <!-- /BTO IMPRIMIR -->
     </header>
-    <div id="booklet" class="">
-      <header class="no-print container margem-botao">
-        <!-- BTO IMPRIMIR -->
-        <div class="grupo-imprimir no-print">
-          <button type="button" data-pdf="true" class="bto-imprimir" name="button">
-            <span class="fa fa-print"></span> <span>Imprimir</span>
-          </button>
-        </div>
-        <!-- /BTO IMPRIMIR -->
-      </header>
-      <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
-      <section class="paginas">
-        <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
-        <div class="pagina">
+    <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+    <section class="paginas">
+      <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+      <div class="pagina">
 
-          <div class="bloco bloco1">
-            <div class="container">
-              <h2 class="titulo">Memorial descritivo para espaços corporativos</h2>
-              <p>Na unidade curricular <b>Projetar <i>design</i> de interiores residencial</b>, você viu a importância do memorial descritivo na documentação do projeto de <i>design</i> de interiores. Viu também como elaborar, especificar, quantificar e compatibilizar as informações de projeto no memorial descritivo.
-              <div class="caixa-destaque icone-importante"> 
-                <p>Você se lembra? Caso queira revisar, fique à vontade para fazer uma pausa e voltar ao conteúdo <b>Memorial descritivo: elaboração, especificação, quantificação, compatibilização da unidade curricular Projetar <i>design</i> de interiores residencial</b>.
-                </p>
-              </div>
-              </p>
-              <p>Neste conhecimento, você entenderá mais a importância específica do memorial descritivo para projetos de <i>design</i> de interiores em ambientes corporativos e a responsabilidade técnica em realizar corretamente as especificações para esse tipo de ambiente.
-              </p>
-              <p>Como você viu anteriormente, o memorial descritivo é um importante documento que compõe a entrega final do projeto. É ele quem garante as especificações técnicas feitas no projeto. E quando se trata de projeto de interiores para ambiente corporativo, existe ainda a responsabilidade técnica que vai além do ambiente, pois as especificações impactarão não apenas a comunicação visual da empresa, mas também, de forma direta ou indireta, a saúde do trabalhador, sua produtividade e seus resultados.
+        <div class="bloco bloco1">
+          <div class="container">
+            <h2 class="titulo">Memorial descritivo: elaboração, especificação, quantificação, compatibilização </h2>
+            <p>Na unidade curricular <b>Projetar <i>design</i> de interiores residencial</b>, você viu a importância do
+              memorial descritivo na documentação do projeto de <i>design</i> de interiores. Viu também como elaborar,
+              especificar, quantificar e compatibilizar as informações de projeto no memorial descritivo.
+            <div class="caixa-destaque icone-importante">
+              <p>Você se lembra? Caso queira revisar, fique à vontade para fazer uma pausa e voltar ao conteúdo
+                <b>Memorial descritivo: elaboração, especificação, quantificação, compatibilização </b> da unidade
+                curricular <b>Projetar <i>design</i> de interiores residencial</b>.
               </p>
             </div>
+            </p>
+            <p>Neste conhecimento, você entenderá mais a importância específica do memorial descritivo para projetos de
+              <i>design</i> de interiores em ambientes corporativos e a responsabilidade técnica em realizar
+              corretamente as especificações para esse tipo de ambiente.
+            </p>
+            <p>Como você viu anteriormente, o memorial descritivo é um importante documento que compõe a entrega final
+              do projeto. É ele quem garante as especificações técnicas feitas no projeto. E quando se trata de projeto
+              de interiores para ambiente corporativo, existe ainda a responsabilidade técnica que vai além do ambiente,
+              pois as especificações impactarão não apenas a comunicação visual da empresa, mas também, de forma direta
+              ou indireta, a saúde do trabalhador, sua produtividade e seus resultados.
+            </p>
           </div>
-
-          <div class="bloco bloco2">
-            <div class="container">
-              <div class="container-video no-print" aria-hidden="true">
-                <!--ESPERA VÍDEO-->
-                <div class="espera-video">--ESPERA VÍDEO--</div>
-              </div>
-              <div class="acessivel print">
-                <p><b>Elaboração</b></p>
-                <p>Parte fundamental do processo de elaboração do memorial descritivo no projeto de <i>design</i> de interiores corporativo é a compreensão de todas as atividades que serão desenvolvidas em cada um dos espaços projetados, bem como o entendimento da complexidade de cada uma delas. Logo, é importante entender quais equipamentos serão necessários, como se dá a comunicação entre os espaços e entre os trabalhadores e quais são as necessidades específicas a serem atendidas.
-                </p>
-                <p>Aqui, veja um parêntese para entender a importância que o espaço de trabalho tem no dia a dia e o impacto dele na vida dos seus usuários. Segundo a Pesquisa Nacional de Saúde (IBGE, 2019), um trabalhador passa, em média, mais de 10 horas por dia fora de casa, considerando o tempo gasto no deslocamento e a sua própria jornada laboral. Essa pesquisa revela que o trabalhador passa grande parte do seu dia no ambiente de trabalho.
-                </p>
-                <P>Tendo em vista a influência do ambiente na saúde de todos os seres humanos, quando se fala do ambiente corporativo, é essencial que ele promova um nível mínimo de conforto e segurança aos seus usuários, zelando pela preservação da saúde física e mental, observando as necessidades específicas de cada uma das atividades a serem exercidas. Um trabalhador saudável, em todos os aspectos, impacta positivamente o desempenho e a produtividade das empresas e organizações.
-                </P>
-                <p>No Brasil, há algumas normas e legislações que fixam parâmetros para a promoção e a prevenção da saúde do trabalhador. Essas normas devem ser observadas no momento de realizar as especificações técnicas no memorial descritivo. Para conhecer melhor as normas, recomenda-se que você estude o conteúdo <b>Legislação e normas técnicas: especificidades e representação de projeto</b>.
-                </p>
-                <p>O memorial descritivo, ao guiar escolhas cruciais de <i>design</i> em projetos de interiores corporativos, não apenas molda a estética do ambiente de trabalho, mas também desempenha um papel fundamental na promoção da saúde integral do trabalhador. Considerando aspectos ergonômicos, visuais, psicológicos, respiratórios e emocionais, essa abordagem holística reflete a responsabilidade técnica do <i>designer</i> de interiores na correta especificação de mobiliários, equipamentos, revestimentos e materiais que serão usados na composição de ambientes que estimulam a produtividade e também asseguram a saúde e o bem-estar dos profissionais que ocupam esses espaços.
-                </p>
-                <p><b>Especificação técnica</b></p>
-                <p>Agora que você já entendeu a importância profissional da especificação adequada ao ambiente corporativo, veja alguns pontos de atenção e algumas características que devem ser observadas no processo de escolha e elaboração do memorial descritivo específico para ambientes de trabalho.
-                </p>
-                <p>⦁<b>Ergonomia e bem-estar físico</b></p>
-                <p>O memorial descritivo, ao detalhar as escolhas de mobiliário, a disposição dos espaços e os elementos ergonômicos, desempenha um papel importante na promoção do bem-estar físico do trabalhador. A seleção cuidadosa de móveis ergonomicamente projetados e a configuração adequada dos espaços de trabalho contribuem para a prevenção de problemas posturais e a redução do estresse físico, impactando positivamente a saúde a longo prazo.
-                </p>
-                <p>A ergonomia no ambiente de trabalho é tratada especificamente pela NR-17. Nela, encontram-se as características específicas que devem ser observadas nos mobiliários, nos equipamentos e nas condições ambientais que comporão o posto de trabalho, procurando proporcionar máximo conforto, segurança e eficiência no desempenho das atividades laborais. 
-                </p>
-                <p>Veja algumas dimensões e características que frequentemente precisam de atenção ao projetar ambientes corporativos.
-                </p>
-                <p>⦁  A altura deve ser ajustável, em até 13 cm, à estrutura do trabalhador e à natureza da atividade exercida.
-                </p>
-                <p>⦁	A base do assento deve ter pouca ou nenhuma conformação e ter profundidade útil entre 38 cm e 46 cm, com estofado de densidade entre 40 e 50 kg/m³ e borda frontal arredondada.
-                </p>
-                <p>⦁	Nos casos em que o ajuste de altura não seja suficiente para o adequado apoio dos pés no piso, deve-se prever um suporte que permita o apoio das plantas dos pés, com inclinação ajustável e com superfície antiderrapante.
-                </p>
-                <p>a) <b>Assentos usados nos postos de trabalho (requisitos mínimos)</b>
-                </p>
-                <p>⦁	A altura deve ser ajustável, em até 13 cm, à estrutura do trabalhador e à natureza da atividade exercida.
-                </p>
-                <p>⦁	A base do assento deve ter pouca ou nenhuma conformação e ter profundidade útil entre 38 cm e 46 cm, com estofado de densidade entre 40 e 50 kg/m³ e borda frontal arredondada.
-                </p>
-                <p>⦁	Nos casos em que o ajuste de altura não seja suficiente para o adequado apoio dos pés no piso, deve-se prever um suporte que permita o apoio das plantas dos pés, com inclinação ajustável e com superfície antiderrapante.
-                </p>
-                <p>⦁	O apoio deve ter cinco pés, com rodízios.
-                </p>
-                <p>⦁	As superfícies do assento, que tenham contato corporal, devem ser estofadas e de material que permita a transpiração.
-                </p>
-                <p>⦁	O encosto deve permitir ajuste em altura e no sentido anteroposterior e ter forma levemente adaptada ao corpo, para proteção da lombar, e largura mínima de 40 cm.
-                </p>
-                <p>⦁	O apoio de braço deve permitir regulação de altura de 20 cm a 25 cm a partir do assento. Esse apoio não deve interferir no movimento de aproximação da cadeira em relação à mesa.
-                </p>
-                <p>b) <b>Plano de trabalho (mesas de trabalho)</b>
-                </p>
-                <p>⦁	As bordas devem ser arredondadas.
-                </p>
-                <p>⦁	As mesas utilizadas para realizar tarefas que não requerem material de consulta devem ter profundidade de 75 cm entre as bordas frontal e posterior e largura mínima de 90 cm.
-                </p>
-                <p>⦁	As mesas utilizadas para realizar tarefas que requerem material de consulta devem ter profundidade mínima de 90 cm entre as bordas frontal e posterior e largura mínima de 100 cm.  
-                </p>
-                <p>c) <b>Mecanismo independente</b>
-                </p>
-                <p>⦁	Prever mecanismo independente para apoio e ajuste de altura de telas/monitores, podendo ser mais simples, como uma base para elevar a altura da tela ou um suporte para apoio de <i>notebooks</i> ou <i>tablets</i>, ou, ainda, soluções mais tecnológicas, como braços articulados.
-                </p>
-                <p>⦁	<b>Iluminação e saúde visual</b>
-                </p>
-                <p>Ao abordar aspectos como iluminação natural, artificial e escolhas de cores no memorial descritivo, os profissionais de <i>design</i> podem criar ambientes de trabalho que promovem a saúde visual dos colaboradores. Adequadas condições de iluminação são essenciais para prevenir fadiga ocular, dores de cabeça e outros problemas visuais, impactando diretamente a produtividade e a satisfação no trabalho. Dessa forma, é importante, aqui, que o projeto de iluminação esteja bem pensado, com os cálculos adequados seguindo as normas técnicas de iluminação, observando as atividades especificas a serem exercidas em cada ambiente.
-                </p>
-                <p>É no memorial descritivo que serão documentadas as características técnicas de cada item de iluminação que será usado para a execução do projeto.
-                </p>
-                <p>⦁	<b>Acústica e bem-estar psicológico</b>
-                </p>
-                <p>O memorial descritivo, ao incluir especificações sobre materiais de isolamento acústico e arranjo dos espaços, influencia diretamente o bem-estar psicológico dos trabalhadores. Ambientes corporativos com boa acústica promovem concentração, reduzem o estresse relacionado ao ruído excessivo e melhoram a qualidade do ambiente de trabalho, contribuindo para a saúde mental dos colaboradores. Portanto, é preciso dar especial atenção à escolha de materiais de piso e parede, isolamento do ruído externo (quando necessário) e materiais que não propaguem os ruídos internos. Também é preciso observar atentamente os materiais dos mobiliários e as alturas das divisórias.
-                </p>
-                <p>Por exemplo, divisórias com altura inferior a 1,5 m tem pouco ou nenhum impacto relacionado ao isolamento acústico.
-                </p>
-                <p>O uso de materiais com superfícies absorventes de som ajudará a reduzir a propagação indesejada de ruídos, criando ambientes como melhores condições de comunicação e concentração. Materiais de revestimento com superfícies mais duras e frias, como o porcelanato, contribuirão para a propagação de ruídos, enquanto materiais mais porosos, como a madeira e o carpete, absorverão melhor o ruído, evitando sua propagação indesejada.
-                </p>
-                <p>Quando se precisa de um isolamento acústico mais específico, é preciso buscar por materiais também mais específicos, como as espumas acústicas e, no caso de divisões de ambientes, as divisórias em <i>drywall</i> acústico com o interior preenchido em lã de rocha ou lã de vidro.
-                </p>
-                <p>⦁	<b>Qualidade do ar e saúde respiratória</b>
-                </p>
-                <p>A escolha de materiais, revestimentos e sistemas de ventilação descritos no memorial tem um impacto direto na qualidade do ar interno. A promoção de ambientes bem ventilados e a seleção de materiais de baixa emissão, ou seja, materiais que liberam quantidades reduzidas em compostos voláteis, contribuem para a saúde respiratória dos trabalhadores, prevenindo problemas como alergias e desconfortos relacionados à poluição interna.
-                </p>
-                <p>Veja alguns exemplos de materiais de baixa emissão:
-                </p>
-                <p>⦁	Tintas de baixa emissão: tintas com fórmulas à base de solventes de baixa toxicidade.
-                </p>
-                <p>⦁	Revestimentos de pisos e paredes: revestimentos como carpetes e painéis de madeira, fabricados com adesivos e acabamentos de baixa emissão.
-                </p>
-                <p>⦁	Isolamento térmico e acústico sustentável: materiais de isolamento que são produzidos com foco na redução de emissões prejudiciais.
-                </p>
-                <p>⦁	<b>Personalização e engajamento</b>
-                </p>
-                <p>Ao considerar preferências individuais e permitir a personalização dos espaços de trabalho, o memorial descritivo pode contribuir para o engajamento dos trabalhadores. Ambientes personalizados e adaptados às necessidades individuais fortalecem o sentimento de pertencimento e influenciam positivamente a saúde emocional dos colaboradores.
-                </p>
-                <p>Veja alguns exemplos práticos de como a especificação pode contribuir para a personalização dos espaços de trabalho:
-                </p>
-                <p>⦁	Escolha de móveis ergonômicos e personalizados, como a especificação de mesas ajustáveis em altura e cadeiras ergonômicas para permitir que os funcionários personalizem a disposição e a altura de suas estações de trabalho
-                </p>
-                <p>⦁	Iluminação personalizável, com a inclusão de luminárias individuais que permitem o ajuste personalizado de intensidade e temperatura da cor
-                </p>
-                <p>⦁	Uso de móveis modulares
-                </p>
-                <p>⦁	Mobiliários com espaço para a personalização de decoração individual
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="bloco bloco3">
-            <div class="container">
-              <h3 class="titulo">Encerramento</h3>
-              <p>Neste conhecimento, você viu como o memorial descritivo desempenha uma função essencial ao orientar decisões importantes no <i>design</i> de interiores para ambientes corporativos. Além disso, você viu o cuidado necessário nesse momento de especificação, observando características importantes do ambiente, do mobiliário e dos materiais. 
-              </p>
-              <p>O <i>designer</i> de interiores tem grande responsabilidade técnica. Para além de uma simples definição estética dos espaços de trabalho, as especificações terão impacto na promoção da saúde dos trabalhadores. Ao considerar elementos relacionados à ergonomia, à estética visual, aos aspectos psicológicos, às condições respiratórias e ao bem-estar emocional, essa abordagem completa evidencia a responsabilidade do <i>design</i> de interiores na criação de ambientes que não apenas impulsionam a produtividade, mas também protegem a saúde e o bem-estar dos profissionais que ocupam esses espaços.</p>
-            </div>
-          </div>
-
         </div>
 
-      </section>
-      <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
-      <footer class="text-center no-print">
-        <!--
+        <div class="bloco bloco2">
+          <div class="container">
+            <div class="container-video no-print" aria-hidden="true">
+              <p>Assista ao vídeo a seguir para saber mais. </p>
+              <!--ESPERA VÍDEO-->
+              <div class="espera-video">--ESPERA VÍDEO--</div>
+            </div>
+            <div class="acessivel print">
+              <p><b>Elaboração</b></p>
+              <p>Parte fundamental do processo de elaboração do memorial descritivo no projeto de <i>design</i> de
+                interiores corporativo é a compreensão de todas as atividades que serão desenvolvidas em cada um dos
+                espaços projetados, bem como o entendimento da complexidade de cada uma delas. Logo, é importante
+                entender quais equipamentos serão necessários, como se dá a comunicação entre os espaços e entre os
+                trabalhadores e quais são as necessidades específicas a serem atendidas.
+              </p>
+              <p>Aqui, veja um parêntese para entender a importância que o espaço de trabalho tem no dia a dia e o
+                impacto dele na vida dos seus usuários. Segundo a Pesquisa Nacional de Saúde (IBGE, 2019), um
+                trabalhador passa, em média, mais de 10 horas por dia fora de casa, considerando o tempo gasto no
+                deslocamento e a sua própria jornada laboral. Essa pesquisa revela que o trabalhador passa grande parte
+                do seu dia no ambiente de trabalho.
+              </p>
+              <P>Tendo em vista a influência do ambiente na saúde de todos os seres humanos, quando se fala do ambiente
+                corporativo, é essencial que ele promova um nível mínimo de conforto e segurança aos seus usuários,
+                zelando pela preservação da saúde física e mental, observando as necessidades específicas de cada uma
+                das atividades a serem exercidas. Um trabalhador saudável, em todos os aspectos, impacta positivamente o
+                desempenho e a produtividade das empresas e organizações.
+              </P>
+              <p>No Brasil, há algumas normas e legislações que fixam parâmetros para a promoção e a prevenção da saúde
+                do trabalhador. Essas normas devem ser observadas no momento de realizar as especificações técnicas no
+                memorial descritivo. Para conhecer melhor as normas, recomenda-se que você estude o conteúdo
+                <b>Legislação e normas técnicas: especificidades e representação de projeto</b>.
+              </p>
+              <p>O memorial descritivo, ao guiar escolhas cruciais de <i>design</i> em projetos de interiores
+                corporativos, não apenas molda a estética do ambiente de trabalho, mas também desempenha um papel
+                fundamental na promoção da saúde integral do trabalhador. Considerando aspectos ergonômicos, visuais,
+                psicológicos, respiratórios e emocionais, essa abordagem holística reflete a responsabilidade técnica do
+                <i>designer</i> de interiores na correta especificação de mobiliários, equipamentos, revestimentos e
+                materiais que serão usados na composição de ambientes que estimulam a produtividade e também asseguram a
+                saúde e o bem-estar dos profissionais que ocupam esses espaços.
+              </p>
+              <p><b>Especificação técnica</b></p>
+              <p>Agora que você já entendeu a importância profissional da especificação adequada ao ambiente
+                corporativo, veja alguns pontos de atenção e algumas características que devem ser observadas no
+                processo de escolha e elaboração do memorial descritivo específico para ambientes de trabalho.
+              </p>
+              <ol>
+                <li><b>Ergonomia e bem-estar físico</b>
+                  <p>O memorial descritivo, ao detalhar as escolhas de mobiliário, a disposição dos espaços e os
+                    elementos ergonômicos, desempenha um papel importante na promoção do bem-estar físico do
+                    trabalhador. A seleção cuidadosa de móveis ergonomicamente projetados e a configuração adequada dos
+                    espaços de trabalho contribuem para a prevenção de problemas posturais e a redução do estresse
+                    físico, impactando positivamente a saúde a longo prazo.
+                  </p>
+                  <p>A ergonomia no ambiente de trabalho é tratada especificamente pela NR-17. Nela, encontram-se as
+                    características específicas que devem ser observadas nos mobiliários, nos equipamentos e nas
+                    condições ambientais que comporão o posto de trabalho, procurando proporcionar máximo conforto,
+                    segurança e eficiência no desempenho das atividades laborais.
+                  </p>
+                  <p>Veja algumas dimensões e características que frequentemente precisam de atenção ao projetar
+                    ambientes corporativos.
+                  </p>
+                  <p><b> a) Assentos usados nos postos de trabalho (requisitos mínimos)</b>
+                  </p>
+                  <ul>
+                    <li>A altura deve ser ajustável, em até 13 cm, à estrutura do trabalhador e à natureza da atividade
+                      exercida.</li>
+                    <li>A base do assento deve ter pouca ou nenhuma conformação e ter profundidade útil entre 38 cm e 46
+                      cm,
+                      com estofado de densidade entre 40 e 50 kg/m³ e borda frontal arredondada.</li>
+                    <li>Nos casos em que o ajuste de altura não seja suficiente para o adequado apoio dos pés no piso,
+                      deve-se prever um suporte que permita o apoio das plantas dos pés, com inclinação ajustável e com
+                      superfície antiderrapante.</li>
+                    <li>O apoio deve ter cinco pés, com rodízios.</li>
+                    <li>As superfícies do assento, que tenham contato corporal, devem ser estofadas e de material que
+                      permita
+                      a transpiração.</li>
+                    <li>O encosto deve permitir ajuste em altura e no sentido anteroposterior e ter forma levemente
+                      adaptada
+                      ao corpo, para proteção da lombar, e largura mínima de 40 cm.</li>
+                    <li>O apoio de braço deve permitir regulação de altura de 20 cm a 25 cm a partir do assento. Esse
+                      apoio
+                      não deve interferir no movimento de aproximação da cadeira em relação à mesa.</li>
+                  </ul>
+                  <p><b>b) Plano de trabalho (mesas de trabalho)</b>
+                  </p>
+                  <ul>
+                    <li>As bordas devem ser arredondadas.</li>
+                    <li> As mesas utilizadas para realizar tarefas que não requerem material de consulta devem ter
+                      profundidade de 75 cm entre as bordas frontal e posterior e largura mínima de 90 cm.</li>
+                    <li>As mesas utilizadas para realizar tarefas que requerem material de consulta devem ter
+                      profundidade
+                      mínima de 90 cm entre as bordas frontal e posterior e largura mínima de 100 cm.</li>
+                  </ul>
+                  <p><b> c) Mecanismo independente</b>
+                  </p>
+                  <ul>
+                    <li>Prever mecanismo independente para apoio e ajuste de altura de telas/monitores, podendo ser mais
+                      simples, como uma base para elevar a altura da tela ou um suporte para apoio de <i>notebooks</i> ou
+                      <i>tablets</i>, ou, ainda, soluções mais tecnológicas, como braços articulados.</li>
+                  </ul>
+                </li>
+
+                <li><b>Iluminação e saúde visual</b>
+                  <p>Ao abordar aspectos como iluminação natural, artificial e escolhas de cores no memorial descritivo,
+                    os
+                    profissionais de <i>design</i> podem criar ambientes de trabalho que promovem a saúde visual dos
+                    colaboradores. Adequadas condições de iluminação são essenciais para prevenir fadiga ocular, dores
+                    de
+                    cabeça e outros problemas visuais, impactando diretamente a produtividade e a satisfação no
+                    trabalho.
+                    Dessa forma, é importante, aqui, que o projeto de iluminação esteja bem pensado, com os cálculos
+                    adequados seguindo as normas técnicas de iluminação, observando as atividades especificas a serem
+                    exercidas em cada ambiente.
+                  </p>
+                  <p>É no memorial descritivo que serão documentadas as características técnicas de cada item de
+                    iluminação
+                    que será usado para a execução do projeto.
+                  </p>
+                </li>
+                <li><b>Acústica e bem-estar psicológico</b>
+                  <p>O memorial descritivo, ao incluir especificações sobre materiais de isolamento acústico e arranjo
+                    dos
+                    espaços, influencia diretamente o bem-estar psicológico dos trabalhadores. Ambientes corporativos
+                    com
+                    boa acústica promovem concentração, reduzem o estresse relacionado ao ruído excessivo e melhoram a
+                    qualidade do ambiente de trabalho, contribuindo para a saúde mental dos colaboradores. Portanto, é
+                    preciso dar especial atenção à escolha de materiais de piso e parede, isolamento do ruído externo
+                    (quando necessário) e materiais que não propaguem os ruídos internos. Também é preciso observar
+                    atentamente os materiais dos mobiliários e as alturas das divisórias.
+                  </p>
+                  <p>Por exemplo, divisórias com altura inferior a 1,5 m tem pouco ou nenhum impacto relacionado ao
+                    isolamento acústico.
+                  </p>
+                  <p>O uso de materiais com superfícies absorventes de som ajudará a reduzir a propagação indesejada de
+                    ruídos, criando ambientes como melhores condições de comunicação e concentração. Materiais de
+                    revestimento com superfícies mais duras e frias, como o porcelanato, contribuirão para a propagação
+                    de
+                    ruídos, enquanto materiais mais porosos, como a madeira e o carpete, absorverão melhor o ruído,
+                    evitando
+                    sua propagação indesejada.
+                  </p>
+                  <p>Quando se precisa de um isolamento acústico mais específico, é preciso buscar por materiais também
+                    mais
+                    específicos, como as espumas acústicas e, no caso de divisões de ambientes, as divisórias em
+                    <i>drywall</i> acústico com o interior preenchido em lã de rocha ou lã de vidro.
+                  </p>
+                </li>
+                <li> <b>Qualidade do ar e saúde respiratória</b>
+
+                  <p>A escolha de materiais, revestimentos e sistemas de ventilação descritos no memorial tem um impacto
+                    direto na qualidade do ar interno. A promoção de ambientes bem ventilados e a seleção de materiais
+                    de
+                    baixa emissão, ou seja, materiais que liberam quantidades reduzidas em compostos voláteis,
+                    contribuem
+                    para a saúde respiratória dos trabalhadores, prevenindo problemas como alergias e desconfortos
+                    relacionados à poluição interna.
+                  </p>
+                  <p>Veja alguns exemplos de materiais de baixa emissão:
+                  </p>
+                  <ul>
+                    <li>Tintas de baixa emissão: tintas com fórmulas à base de solventes de baixa toxicidade.</li>
+                    <li>Revestimentos de pisos e paredes: revestimentos como carpetes e painéis de madeira, fabricados
+                      com
+                      adesivos e acabamentos de baixa emissão.</li>
+                    <li>Isolamento térmico e acústico sustentável: materiais de isolamento que são produzidos com foco na
+                      redução de emissões prejudiciais.</li>
+                  </ul>
+                </li>
+                <li> <b>Personalização e engajamento</b>
+
+                  <p>Ao considerar preferências individuais e permitir a personalização dos espaços de trabalho, o
+                    memorial
+                    descritivo pode contribuir para o engajamento dos trabalhadores. Ambientes personalizados e
+                    adaptados às
+                    necessidades individuais fortalecem o sentimento de pertencimento e influenciam positivamente a
+                    saúde
+                    emocional dos colaboradores.
+                  </p>
+                  <p>Veja alguns exemplos práticos de como a especificação pode contribuir para a personalização dos
+                    espaços
+                    de trabalho:
+                  </p>
+                  <ul>
+                    <li>Escolha de móveis ergonômicos e personalizados, como a especificação de mesas ajustáveis em
+                      altura e
+                      cadeiras ergonômicas para permitir que os funcionários personalizem a disposição e a altura de suas
+                      estações de trabalho</li>
+                    <li>Iluminação personalizável, com a inclusão de luminárias individuais que permitem o ajuste
+                      personalizado de intensidade e temperatura da cor</li>
+                    <li>Uso de móveis modulares</li>
+                    <li>Mobiliários com espaço para a personalização de decoração individual</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div class="bloco bloco3">
+          <div class="container">
+            <h3 class="titulo">Encerramento</h3>
+            <p>Neste conhecimento, você viu como o memorial descritivo desempenha uma função essencial ao orientar
+              decisões importantes no <i>design</i> de interiores para ambientes corporativos. Além disso, você viu o
+              cuidado necessário nesse momento de especificação, observando características importantes do ambiente, do
+              mobiliário e dos materiais.
+            </p>
+            <p>O <i>designer</i> de interiores tem grande responsabilidade técnica. Para além de uma simples definição
+              estética dos espaços de trabalho, as especificações terão impacto na promoção da saúde dos trabalhadores.
+              Ao considerar elementos relacionados à ergonomia, à estética visual, aos aspectos psicológicos, às
+              condições respiratórias e ao bem-estar emocional, essa abordagem completa evidencia a responsabilidade do
+              <i>design</i> de interiores na criação de ambientes que não apenas impulsionam a produtividade, mas também
+              protegem a saúde e o bem-estar dos profissionais que ocupam esses espaços.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+    <footer class="text-center no-print">
+      <!--
           <ul class="pagination">
 
           </ul>
           -->
-      </footer>
-    </div>
+    </footer>
+  </div>
 
-    <!-- Modais -->
-    <div class="modal fade" id="modal-transcricao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-live="polite" aria-atomic="true" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content no-print">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <h4 class="modal-title" id="myModalLabel"></h4>
-          </div>
-          <div class="modal-body">
-            
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-          </div>
+  <!-- Modais -->
+  <div class="modal fade" id="modal-transcricao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-live="polite" aria-atomic="true" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content no-print">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Modais 100% -->
-    
+  <!-- Modais 100% -->
 
 
-    <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+
+  <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
     <footer>
     </footer>
     -->
-    <!-- carrega todas as imagens dos icones nesta div
+  <!-- carrega todas as imagens dos icones nesta div
  caso queira adicionar mais imagens de novos icones do css,
  ou qualquer imagem que deva ser contabilizada durante a fase
  de loading, referenciar aqui.
  -->
-    <div class="ico-div-loader">
-      <img src="../template/images/atencao.png" />
-      <img src="../template/images/bg-content.jpg" />
-      <img src="../template/images/bg-topo.jpg" />
-      <img src="../template/images/black-zoom-in-256.png" />
-      <img src="../template/images/concluindo.png" />
-      <img src="../template/images/curtir.png" />
-      <img src="../template/images/desafio.png" />
-      <img src="../template/images/dica.png" />
-      <img src="../template/images/doc.png" />
-      <img src="../template/images/fundamental.png" />
-      <img src="../template/images/icon-03.png" />
-      <img src="../template/images/importante.png" />
-      <img src="../template/images/lightbulb.png" />
-      <img src="../template/images/link.png" />
-      <img src="../template/images/link_pdf_hover.png" />
-      <img src="../template/images/link_pdf_normal.png" />
-      <img src="../template/images/logo-senac.png" />
-      <img src="../template/images/mark-icon.png" />
-      <img src="../template/images/mark-icon02.png" />
-      <img src="../template/images/midia.png" />
-      <img src="../template/images/monitor.png" />
-      <img src="../template/images/nao_curtir.png" />
-      <img src="../template/images/pergunta.png" />
-      <img src="../template/images/pesquisa.png" />
-      <img src="../template/images/play.png" />
-      <img src="../template/images/radio_flat.png" />
-      <img src="../template/images/refletir.png" />
-      <img src="../template/images/saiba_mais.png" />
-      <img src="../template/images/senac_loader.png" />
-      <img src="../template/images/tanamidia.png" />
-      <img src="../template/images/transcricao.png" />
-      <img src="../template/images/transcricao_small.png" />
-      <img src="../template/images/tv.png" />
-      <img src="../template/images/tv_bottom.png" />
-      <img src="../template/images/zoom.png" />
-      <img src="../template/images/zoom_ie.cur" />
-      <img src="../template/images/zoom_ie.png" />
-      <!-- adicionar as imagens customizadas aqui abaixo -->
-    </div>
+  <div class="ico-div-loader">
+    <img src="../template/images/atencao.png" />
+    <img src="../template/images/bg-content.jpg" />
+    <img src="../template/images/bg-topo.jpg" />
+    <img src="../template/images/black-zoom-in-256.png" />
+    <img src="../template/images/concluindo.png" />
+    <img src="../template/images/curtir.png" />
+    <img src="../template/images/desafio.png" />
+    <img src="../template/images/dica.png" />
+    <img src="../template/images/doc.png" />
+    <img src="../template/images/fundamental.png" />
+    <img src="../template/images/icon-03.png" />
+    <img src="../template/images/importante.png" />
+    <img src="../template/images/lightbulb.png" />
+    <img src="../template/images/link.png" />
+    <img src="../template/images/link_pdf_hover.png" />
+    <img src="../template/images/link_pdf_normal.png" />
+    <img src="../template/images/logo-senac.png" />
+    <img src="../template/images/mark-icon.png" />
+    <img src="../template/images/mark-icon02.png" />
+    <img src="../template/images/midia.png" />
+    <img src="../template/images/monitor.png" />
+    <img src="../template/images/nao_curtir.png" />
+    <img src="../template/images/pergunta.png" />
+    <img src="../template/images/pesquisa.png" />
+    <img src="../template/images/play.png" />
+    <img src="../template/images/radio_flat.png" />
+    <img src="../template/images/refletir.png" />
+    <img src="../template/images/saiba_mais.png" />
+    <img src="../template/images/senac_loader.png" />
+    <img src="../template/images/tanamidia.png" />
+    <img src="../template/images/transcricao.png" />
+    <img src="../template/images/transcricao_small.png" />
+    <img src="../template/images/tv.png" />
+    <img src="../template/images/tv_bottom.png" />
+    <img src="../template/images/zoom.png" />
+    <img src="../template/images/zoom_ie.cur" />
+    <img src="../template/images/zoom_ie.png" />
+    <!-- adicionar as imagens customizadas aqui abaixo -->
+  </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="../template/js/jquery.min.js"></script>
-    <script src="../template/js/bootstrap.min.js"></script>
-    <script src="../template/js/jquery.magnific-popup.min.js"></script>
-    <script src="../template/js/print.js"></script>
-    <script src="../template/js/template.config.js"></script>
-    <script src="../template/js/images.loader.js"></script>
-    <script src="../template/js/highlight.min.js"></script>
-    <script src="../template/js/parallax.min.js"></script>
-    <noscript>
-      <style media="screen">
-        .over-loader {
-          display: none;
-        }
-      </style>
-    </noscript>
-  </body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../template/js/jquery.min.js"></script>
+  <script src="../template/js/bootstrap.min.js"></script>
+  <script src="../template/js/jquery.magnific-popup.min.js"></script>
+  <script src="../template/js/print.js"></script>
+  <script src="../template/js/template.config.js"></script>
+  <script src="../template/js/images.loader.js"></script>
+  <script src="../template/js/highlight.min.js"></script>
+  <script src="../template/js/parallax.min.js"></script>
+  <noscript>
+    <style media="screen">
+      .over-loader {
+        display: none;
+      }
+    </style>
+  </noscript>
+</body>
+
 </html>
 <script>
   document.addEventListener("DOMContentLoaded", (event) => {
@@ -394,28 +493,28 @@
   });
 
   $(document).ready(function () {
-    $("#heading01").on('click', function(){
+    $("#heading01").on('click', function () {
       $(this).toggleClass('active');
       $("#heading02").removeClass('active');
       $("#heading03").removeClass('active');
       $("#heading04").removeClass('active');
     })
 
-    $("#heading02").on('click', function(){
+    $("#heading02").on('click', function () {
       $(this).toggleClass('active');
       $("#heading01").removeClass('active');
       $("#heading03").removeClass('active');
       $("#heading04").removeClass('active');
     })
 
-    $("#heading03").on('click', function(){
+    $("#heading03").on('click', function () {
       $(this).toggleClass('active');
       $("#heading01").removeClass('active');
       $("#heading02").removeClass('active');
       $("#heading04").removeClass('active');
     })
 
-    $("#heading04").on('click', function(){
+    $("#heading04").on('click', function () {
       $(this).toggleClass('active');
       $("#heading01").removeClass('active');
       $("#heading02").removeClass('active');
