@@ -48,31 +48,30 @@ html{scroll-behavior: smooth;}
 
 
 h2{
-  font-family: sourcesans-bold;
-  font-size: 32px;
+  font-size: 30px;
   color: #2A8080;
+  font-weight: bold;
 }
 h3 {
-  font-family: sourcesans-bold;
-  font-size: 28px;
+  font-size: 24px;
   margin-top: 60px;
   color: #2A8080;
+  font-weight: bold;
 }
-h4 {
-  font-size: 24px;
-  color: #2A8080;
+h4{
+  font-weight: bold;
 }
 h5 {
   font-size: 20px;
 }
+/*
 p, li, a, td {
   font-family: sourcesans-regular;
   font-size: 1.2em;
 }
-h4,
-h5 {
-  font-family: sourcesans-bold;
-  color: #507f7f;
+*/
+h4, h5 {
+  color: #2A8080;
 }
 .citacao{
   font-size: 14px;
@@ -260,7 +259,7 @@ h5 {
 
 /*--------- SLIDESHOW ---------*/
 .carousel {
-  margin: 40px auto 10px auto;
+  margin: 40px auto;
   background-color: #2A8080;
   border-radius: 30px;
   width: 680px;
@@ -446,6 +445,7 @@ h3.panel-title, .tab-content p{
 /*-------- TABELA --------*/
 table.senac{
   border: #80392C solid 2px;
+  margin-bottom: 0;
 }
 table.senac th{
   width: 30%;
@@ -472,6 +472,7 @@ table.senac td{
   margin-bottom: 30px;
   padding: 0px 60px;
   border-radius: 20px;
+  padding-top: 30px;
 }
 .modal-100 li{
   font-size: 16px;
@@ -495,6 +496,33 @@ table.senac td{
   margin: 40px auto;
   display: block;
 }
+
+.modal-100 .modal-header .container{
+  position: relative;
+}
+.modal-100 .modal-header button{
+  background-color: #80392C !important;
+  color: #fff;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  opacity: 1;
+  position: absolute;
+  z-index: 40;
+  right: 0;
+  margin-top: 50px !important;
+  margin-right: 20px !important;
+}
+.modal-100 .modal-header button::before{
+  content: 'X';
+}
+.modal-100 .modal-header button:hover{
+  background-color: #2A8080 !important;
+  color: #fff;
+  opacity: 1;
+}
+
 /*-------- /MODAIS --------*/
 
 /*-------- FUNDO LEI --------*/
@@ -521,6 +549,7 @@ table.senac td{
   border-radius: 20px;
   background-color: #ffeede;
   padding: 30px 60px;
+  font-size: 13px;
 }
 .conteudo-lei::before{
   content: url('../objetos/asset_lei01.png');
@@ -540,7 +569,12 @@ table.senac td{
 }
 /*-------- /FUNDO LEI --------*/
 
-
+li{
+  font-size: 16px;
+}
+ul{
+  margin-left: 25px;
+}
 ul.marcador-trena li{
   list-style-image: url('../objetos/marcador_trena.png');
 }
@@ -557,7 +591,7 @@ ul.marcador-trena li{
   transition: all 0.2s;
   background-size: 100%;
   width: 180px;
-  height: 263px;
+  height: 321px;
   margin: 10px;
 }
 
@@ -647,6 +681,12 @@ ul.marcador-trena li{
 }
 
 @media screen and (max-width: 480px){
+
+  .pagina .container.fundo-tecnicos{
+    padding-left: 50px;
+    padding-right: 40px;
+  }
+
   .video-youtube, .espera-video {
     width: 320px;
     height: 180px;
@@ -664,6 +704,47 @@ ul.marcador-trena li{
     border: none;
     margin: 20px auto;
     display: block;
+  }
+
+  .painel-normas{
+    background: none;
+    width: 100%;
+    height: 100%;
+    margin: 30px auto;
+    padding: 0px;
+  }
+
+  .caixa-destaque{
+    width: 100%;
+  }
+
+  /*----- FUNDO LEI -----*/
+  .div-lei{
+    width: 100%;
+  }
+  .fundo-lei{
+    display: none;
+  }
+  .conteudo-lei{
+    padding: 30px 30px;
+    box-shadow: #c6ae9f 7px 7px 0px;
+  }
+  .conteudo-lei::before{
+    width: 90px;
+    height: 86px;
+    right: 0;
+    top: -60px;
+  }
+  .conteudo-lei::after{
+    width: 100px;
+    height: 63px;
+    left: -40px;
+    bottom: -25px;
+  }
+  /*-------- /FUNDO LEI --------*/
+
+  table.senac{
+    width: 100%;
   }
 
 }
