@@ -22,9 +22,10 @@ body {
   overflow-x: hidden;
 }
 
- .img-maior2{
+.img-maior2 {
   width: auto !important;
-} 
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -724,7 +725,7 @@ table.senac td {
     transform: scale(0.75);
     margin: -60px -102px;
   }
- 
+
 }
 
 @media screen and (max-width: 480px) {
@@ -756,13 +757,21 @@ table.senac td {
     border-radius: 1em;
   }
 
-  .caixa-destaque, .caixa-destaque-livre {
+  .caixa-destaque,
+  .caixa-destaque-livre {
     width: 100%;
     padding: 10px;
   }
-  .container{width: 100%;}
-  .fundo-tecnicos {padding-left: 5%;
-  padding-right: 5%;}
+
+  .container {
+    width: 100%;
+  }
+
+  .fundo-tecnicos {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
   .img-zoom::after {
     content: url(../objetos/lupa.png);
     display: block;
@@ -773,6 +782,9 @@ table.senac td {
     position: absolute;
     filter: drop-shadow(#333 3px 3px 4px);
     scale: 0.6;
-}
-.coluna2{margin-top: 30px;}
+  }
+
+  .coluna2 {
+    margin-top: 30px;
+  }
 }
