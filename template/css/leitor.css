@@ -245,7 +245,13 @@ header.senac{
   max-width: 150px !important;
 }
 
-.img-responsive{max-width: 100%;}
+.img-responsive{
+  max-width: 100%;
+}
+.center-block{
+  display: block;
+  margin: auto !important;
+}
 .rotaciona{
   display: inline-block;
   transform: rotate(-90deg);
