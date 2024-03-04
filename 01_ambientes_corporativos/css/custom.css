@@ -36,6 +36,7 @@ header {
   margin-top: -80px;
   position: absolute;
   z-index: 4;
+  filter: contrast(95%);
 }
 .divisoria_2{
   height: 300px;
