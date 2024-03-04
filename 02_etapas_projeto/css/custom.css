@@ -521,85 +521,76 @@ ol {
 }
 
 .btn-identidade {
-  background: url('../objetos/painel/bt01.png') no-repeat;
-  background-size: 100%;
-  width: 117px;
-  height: 142px;
+  background: url('../objetos/painel/bt01.png') no-repeat left bottom;
+  width: 128px;
+  height: 155px;
   z-index: 20;
 }
 
 .btn-publico_alvo {
-  background: url('../objetos/painel/bt02.png') no-repeat;
-  background-size: 100%;
-  width: 117px;
-  height: 142px;
+  background: url('../objetos/painel/bt02.png') no-repeat left bottom;
+  width: 129px;
+  height: 151px;
   margin-top: 156px;
   z-index: 18;
 }
 
 .btn-estilo {
-  background: url('../objetos/painel/bt03.png') no-repeat;
-  background-size: 100%;
-  width: 117px;
-  height: 142px;
+  background: url('../objetos/painel/bt03.png') no-repeat left bottom;
+  width: 129px;
+  height: 158px;
   margin-top: 313px;
   z-index: 19;
 }
 
 .btn-texturas {
-  background: url('../objetos/painel/bt04.png') no-repeat;
-  background-size: 100%;
-  width: 284px;
-  height: 173px;
+  background: url('../objetos/painel/bt04.png') no-repeat left bottom;
+  width: 303px;
+  height: 187px;
   margin-top: 76px;
   margin-left: 74px;
   z-index: 16;
 }
 
 .btn-inspiracao {
-  background: url('../objetos/painel/bt05.png') no-repeat;
-  background-size: 100%;
-  width: 284px;
-  height: 158px;
+  background: url('../objetos/painel/bt05.png') no-repeat left bottom;
+  width: 302px;
+  height: 169px;
   margin-top: 258px;
   margin-left: 79px;
   z-index: 17;
 }
 
 .btn-iluminacao {
-  background: url('../objetos/painel/bt06.png') no-repeat;
-  background-size: 100%;
-  width: 143px;
-  height: 144px;
-  margin-top: 5px;
+  background: url('../objetos/painel/bt06.png') no-repeat left bottom;
+  width: 158px;
+  height: 156px;
+  margin-top: 0px;
   margin-left: 379px;
   z-index: 13;
 }
 
 .btn-paleta_cores {
-  background: url('../objetos/painel/bt07.png') no-repeat;
-  background-size: 100%;
-  width: 211px;
-  height: 211px;
+  background: url('../objetos/painel/bt07.png') no-repeat left bottom;
+  width: 223px;
+  height: 220px;
   bottom: 0;
   margin-left: 379px;
   z-index: 11;
 }
 
 .btn-elementos {
-  background: url('../objetos/painel/bt08.png') no-repeat;
-  background-size: 100%;
-  width: 143px;
-  height: 143px;
-  margin-top: 160px;
+  background: url('../objetos/painel/bt08.png') no-repeat left bottom;
+  width: 158px;
+  height: 148px;
+  margin-top: 164px;
   margin-left: 379px;
   z-index: 12;
 }
 
 .btn-tendencias {
-  background: url('../objetos/painel/bt09.png') no-repeat;
-  background-size: 100%;
-  width: 231px;
+  background: url('../objetos/painel/bt09.png') no-repeat left bottom;
+  width: 250px;
   height: 257px;
   right: 0;
   margin-right: 110px;
@@ -608,10 +599,9 @@ ol {
 }
 
 .btn-flexibilidade {
-  background: url('../objetos/painel/bt10.png') no-repeat;
-  background-size: 100%;
-  width: 182px;
-  height: 110px;
+  background: url('../objetos/painel/bt10.png') no-repeat left bottom;
+  width: 204px;
+  height: 125px;
   right: 0;
   bottom: 0;
   margin-bottom: 44px;
@@ -619,11 +609,9 @@ ol {
 }
 
 .btn-feedback {
-  background: url('../objetos/painel/bt11.png') no-repeat;
-  background-size: 100%;
+  background: url('../objetos/painel/bt11.png') no-repeat left bottom;
   width: 165px;
   height: 165px;
-  border-radius: 100%;
   right: 0;
   margin-top: 5px;
   z-index: 15;
