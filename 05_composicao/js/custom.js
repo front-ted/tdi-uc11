@@ -160,3 +160,99 @@ $(document).ready(function () {
 });
 
 //-------- /CHECK PAINEL --------\\
+
+
+//-------- CHECK PAINEL MOBILE --------\\
+
+$(document).ready(function () {
+
+    //localStorage.clear()
+
+    var btn_principios_01mob;
+    var btn_principios_02mob;
+    var btn_principios_03mob;
+    var btn_principios_04mob;
+    var btn_principios_05mob;
+    var btn_principios_06mob;
+    var btn_principios_07mob;
+    var btn_principios_08mob;
+    var btn_principios_09mob;
+
+    $(".btn-harmonia-mob").on('click', function(){
+        localStorage.setItem('btn_principios_01mob', 'check');
+        $(this).css("background-image","url('objetos/painelmob/bt01b.png')");
+    })
+    $(".btn-ordem-mob").on('click', function(){
+        localStorage.setItem('btn_principios_02mob', 'check');
+        $(this).css("background-image","url('objetos/painelmob/bt02b.png')");
+    })
+    $(".btn-peso-mob").on('click', function(){
+        localStorage.setItem('btn_principios_03mob', 'check');
+        $(this).css("background-image","url('objetos/painelmob/bt03b.png')");
+    })
+    $(".btn-simetria-mob").on('click', function(){
+        localStorage.setItem('btn_principios_04mob', 'check');
+        $(this).css("background-image","url('objetos/painelmob/bt04b.png')");
+    })
+    $(".btn-ritmo-mob").on('click', function(){
+        localStorage.setItem('btn_principios_05mob', 'check');
+        $(this).css("background-image","url('objetos/painelmob/bt05b.png')");
+    })
+    $(".btn-ponto_focal-mob").on('click', function(){
+        localStorage.setItem('btn_principios_06mob', 'check');
+        $(this).css("background-image","url('objetos/painelmob/bt06b.png')");
+    })
+    $(".btn-escala-mob").on('click', function(){
+        localStorage.setItem('btn_principios_07mob', 'check');
+        $(this).css("background-image","url('objetos/painelmob/bt07b.png')");
+    })
+    $(".btn-unidade-mob").on('click', function(){
+        localStorage.setItem('btn_principios_08mob', 'check');
+        $(this).css("background-image","url('objetos/painelmob/bt08b.png')");
+    })
+    $(".btn-contraste-mob").on('click', function(){
+        localStorage.setItem('btn_principios_09mob', 'check');
+        $(this).css("background-image","url('objetos/painelmob/bt09b.png')");
+    })
+
+    btn_principios_01mob = localStorage.getItem('btn_principios_01mob');
+    btn_principios_02mob = localStorage.getItem('btn_principios_02mob');
+    btn_principios_03mob = localStorage.getItem('btn_principios_03mob');
+    btn_principios_04mob = localStorage.getItem('btn_principios_04mob');
+    btn_principios_05mob = localStorage.getItem('btn_principios_05mob');
+    btn_principios_06mob = localStorage.getItem('btn_principios_06mob');
+    btn_principios_07mob = localStorage.getItem('btn_principios_07mob');
+    btn_principios_08mob = localStorage.getItem('btn_principios_08mob');
+    btn_principios_09mob = localStorage.getItem('btn_principios_09mob');
+
+    if (btn_principios_01 == 'check'){
+        $(".btn-harmonia-mob").css("background-image","url('objetos/painelmob/bt01b.png')");
+    }
+    if (btn_principios_02 == 'check'){
+        $(".btn-ordem-mob").css("background-image","url('objetos/painelmob/bt02b.png')");
+    }
+    if (btn_principios_03 == 'check'){
+        $(".btn-peso-mob").css("background-image","url('objetos/painelmob/bt03b.png')");
+    }
+    if (btn_principios_04 == 'check'){
+        $(".btn-simetria-mob").css("background-image","url('objetos/painelmob/bt04b.png')");
+    }
+    if (btn_principios_05 == 'check'){
+        $(".btn-ritmo-mob").css("background-image","url('objetos/painelmob/bt05b.png')");
+    }
+    if (btn_principios_06 == 'check'){
+        $(".btn-ponto_focal-mob").css("background-image","url('objetos/painelmob/bt06b.png')");
+    }
+    if (btn_principios_07 == 'check'){
+        $(".btn-escala-mob").css("background-image","url('objetos/painelmob/bt07b.png')");
+    }
+    if (btn_principios_08 == 'check'){
+        $(".btn-unidade-mob").css("background-image","url('objetos/painelmob/bt08b.png')");
+    }
+    if (btn_principios_09 == 'check'){
+        $(".btn-contraste-mob").css("background-image","url('objetos/painelmob/bt09b.png')");
+    }
+    
+});
+
+//-------- /CHECK PAINEL --------\\

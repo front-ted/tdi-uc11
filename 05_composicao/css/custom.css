@@ -523,6 +523,120 @@ h3.panel-title,
 
 
 
+
+
+
+
+
+
+
+
+
+
+.painel-mesa-mobile {
+  background: none;
+  width: 100%;
+  height: 100%;
+  margin: 20px auto;
+  transform: scale(1);
+}
+
+.btn-principios-mob {
+  position: relative;
+  border: none;
+  margin: 10px auto;
+  display: block;
+}
+
+.btn-principios-mob:hover {
+  transform: scale(1.06);
+}
+
+.btn-harmonia-mob {
+  background: url('../objetos/painelmob/bt01.png') no-repeat left bottom;
+  width: 184px;
+  height: 123px;
+
+}
+
+.btn-ordem-mob {
+  background: url('../objetos/painelmob/bt02.png') no-repeat left bottom;
+  width: 184px;
+  height: 125px;
+
+}
+
+.btn-peso-mob {
+  background: url('../objetos/painelmob/bt03.png') no-repeat left bottom;
+  width: 184px;
+  height: 113px;
+
+}
+
+.btn-simetria-mob {
+  background: url('../objetos/painelmob/bt04.png') no-repeat left bottom;
+  width: 184px;
+  height: 124px;
+}
+
+.btn-ritmo-mob {
+  background: url('../objetos/painelmob/bt05.png') no-repeat left bottom;
+  width: 184px;
+  height: 124px;
+
+}
+
+.btn-ponto_focal-mob {
+  background: url('../objetos/painelmob/bt06.png') no-repeat left bottom;
+  width: 184px;
+  height: 124px;
+}
+
+.btn-escala-mob {
+  background: url('../objetos/painelmob/bt07.png') no-repeat left bottom;
+  width: 184px;
+  height: 124px;
+}
+
+.btn-unidade-mob {
+  background: url('../objetos/painelmob/bt08.png') no-repeat left bottom;
+  width: 184px;
+  height: 104px;
+}
+
+.btn-contraste-mob {
+  background: url('../objetos/painelmob/bt09.png') no-repeat left bottom;
+  width: 184px;
+  height: 124px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .painel-cores {
   background: url('../objetos/painel_cores/cerebro.png') no-repeat center;
   width: 520px;
