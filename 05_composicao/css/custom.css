@@ -521,18 +521,7 @@ h3.panel-title,
   margin-left: 502px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* PAINEL MOB */
 .painel-mesa-mobile {
   background: none;
   width: 100%;
@@ -554,89 +543,58 @@ h3.panel-title,
 
 .btn-harmonia-mob {
   background: url('../objetos/painelmob/bt01.png') no-repeat left bottom;
-  width: 184px;
-  height: 123px;
-
+  width: 199px;
+  height: 139px;
 }
 
 .btn-ordem-mob {
   background: url('../objetos/painelmob/bt02.png') no-repeat left bottom;
-  width: 184px;
-  height: 125px;
-
+  width: 186px;
+  height: 140px;
 }
 
 .btn-peso-mob {
   background: url('../objetos/painelmob/bt03.png') no-repeat left bottom;
-  width: 184px;
-  height: 113px;
-
+  width: 197px;
+  height: 127px;
 }
 
 .btn-simetria-mob {
   background: url('../objetos/painelmob/bt04.png') no-repeat left bottom;
-  width: 184px;
-  height: 124px;
+  width: 190px;
+  height: 131px;
 }
 
 .btn-ritmo-mob {
   background: url('../objetos/painelmob/bt05.png') no-repeat left bottom;
   width: 184px;
   height: 124px;
-
 }
 
 .btn-ponto_focal-mob {
   background: url('../objetos/painelmob/bt06.png') no-repeat left bottom;
-  width: 184px;
-  height: 124px;
+  width: 188px;
+  height: 134px;
 }
 
 .btn-escala-mob {
   background: url('../objetos/painelmob/bt07.png') no-repeat left bottom;
-  width: 184px;
-  height: 124px;
+  width: 194px;
+  height: 139px;
 }
 
 .btn-unidade-mob {
   background: url('../objetos/painelmob/bt08.png') no-repeat left bottom;
   width: 184px;
-  height: 104px;
+  height: 133px;
 }
 
 .btn-contraste-mob {
   background: url('../objetos/painelmob/bt09.png') no-repeat left bottom;
-  width: 184px;
-  height: 124px;
+  width: 197px;
+  height: 141px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* FIM PAINEL MOB */
 .painel-cores {
   background: url('../objetos/painel_cores/cerebro.png') no-repeat center;
   width: 520px;
@@ -810,6 +768,7 @@ h3.panel-title,
     padding-left: 5%;
     padding-right: 5%;
   }
+
   .img-zoom::after {
     content: url(../objetos/lupa.png);
     display: block;
