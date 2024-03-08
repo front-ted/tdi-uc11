@@ -19,9 +19,6 @@ header {
 .grupo-imprimir {
   margin-top: 45px;
 }
-.personagem-audio{
-  width: 50%;
-}
 
 .divisoria_bege1{
   width: 100%;
@@ -273,6 +270,7 @@ header {
   box-shadow: #333 5px 5px 6px;
 }
 
+/*--------- PODCAST ---------*/
 .div-podcast {
   margin: 50px auto;
   width: 650px;
@@ -281,7 +279,6 @@ header {
   filter: drop-shadow(#565656 0px 0px 5px);
   position: relative;
 }
-
 .ico-transcricao {
   background: url('../../template/images/transcricao.png') no-repeat;
   background-size: 100%;
@@ -293,11 +290,17 @@ header {
   transition: all 0.2s;
   position: relative;
   float: right;
+  margin-top: 20%;
 }
-
 .ico-transcricao:hover {
   transform: scale(1.06);
 }
+
+.controle-audio
+{
+  margin-top: 20%;
+}
+/*--------- /PODCAST ---------*/
 
 .btn-fechar{
   background: url('../imgs/fechar.png') no-repeat;
