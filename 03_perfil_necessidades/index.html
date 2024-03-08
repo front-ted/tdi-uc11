@@ -1,48 +1,38 @@
 <!DOCTYPE html>
-<html
-  lang="pt-br"
-  xmlns:mso="urn:schemas-microsoft-com:office:office"
-  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
->
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Perfil de necessidades do cliente: técnicas de entrevista e elaboração do <i>briefing</i></title>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
 
-    <!-- Bootstrap -->
-    <link href="../template/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../template/css/tecnicos_senac.css" rel="stylesheet" />
-    <link href="../template/css/cores.css" rel="stylesheet" />
-    <link href="../template/css/modal-100.css" rel="stylesheet" />
-    <!--Extras - novas classes para facilitar-->
-    <link rel="stylesheet" href="../template/css/extras.css" />
-    <link href="../template/css/sncload.css" rel="stylesheet" />
-    <link href="../template/css/magnific-popup.css" rel="stylesheet" />
-    <!-- referencia ao arquivo css com estilos especificos da pagina -->
-    <link href="css/custom.css" type="text/css" rel="stylesheet" />
-    <!-- css necessario para o print -->
-    <link
-      href="../template/css/fa/css/font-awesome.min.css"
-      type="text/css"
-      rel="stylesheet"
-    />
-    <link href="../template/css/print.css" type="text/css" rel="stylesheet" />
-    <link
-      href="../template/fonts/roboto.css"
-      type="text/css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Perfil de necessidades do cliente: técnicas de entrevista e elaboração do <i>briefing</i></title>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- Bootstrap -->
+  <link href="../template/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../template/css/tecnicos_senac.css" rel="stylesheet" />
+  <link href="../template/css/cores.css" rel="stylesheet" />
+  <link href="../template/css/modal-100.css" rel="stylesheet" />
+  <!--Extras - novas classes para facilitar-->
+  <link rel="stylesheet" href="../template/css/extras.css" />
+  <link href="../template/css/sncload.css" rel="stylesheet" />
+  <link href="../template/css/magnific-popup.css" rel="stylesheet" />
+  <!-- referencia ao arquivo css com estilos especificos da pagina -->
+  <link href="css/custom.css" type="text/css" rel="stylesheet" />
+  <!-- css necessario para o print -->
+  <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+  <link href="../template/css/print.css" type="text/css" rel="stylesheet" />
+  <link href="../template/fonts/roboto.css" type="text/css" rel="stylesheet" />
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
 
-    <!--[if gte mso 9
+  <!--[if gte mso 9
       ]><xml>
         <mso:CustomDocumentProperties>
           <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor
@@ -62,313 +52,635 @@
         </mso:CustomDocumentProperties>
       </xml><!
     [endif]-->
-  </head>
+</head>
 
-  <body
-    onLoad="Javascript:document.getElementById('sncloader').style.display='none';"
-  >
-    <!-- MARCA D´ÁGUA -->
-    <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo" />
-    <!-- /MARCA D´ÁGUA -->
+<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
+  <!-- MARCA D´ÁGUA -->
+  <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo" />
+  <!-- /MARCA D´ÁGUA -->
 
-    <div id="sncloader" class="over-loader">
-      <div class="over-cell">
-        <div id="sncload"></div>
+  <div id="sncloader" class="over-loader">
+    <div class="over-cell">
+      <div id="sncload"></div>
+    </div>
+  </div>
+  <header id="topo" class="senac no-print">
+    <div class="header-tecnicos container">
+      <h1 id="nome-curso">Design de Interiores</h1>
+      <div id="logo-senac">
+        <img src="../template/images/logo-senac.png" alt="logo do senac" />
       </div>
     </div>
-    <header id="topo" class="senac no-print">
-      <div class="header-tecnicos container">
-        <h1 id="nome-curso">Design de Interiores</h1>
-        <div id="logo-senac">
-          <img src="../template/images/logo-senac.png" alt="logo do senac" />
-        </div>
+    <div id="sombra"></div>
+  </header>
+  <div id="booklet" class="">
+    <header class="no-print container margem-botao">
+      <!-- BTO IMPRIMIR -->
+      <div class="grupo-imprimir no-print">
+        <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+          <span class="fa fa-print"></span> <span>Imprimir</span>
+        </button>
       </div>
-      <div id="sombra"></div>
+      <!-- /BTO IMPRIMIR -->
     </header>
-    <div id="booklet" class="">
-      <header class="no-print container margem-botao">
-        <!-- BTO IMPRIMIR -->
-        <div class="grupo-imprimir no-print">
-          <button type="button" data-pdf="true" class="bto-imprimir" name="button">
-            <span class="fa fa-print"></span> <span>Imprimir</span>
-          </button>
+    <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+    <section class="paginas">
+      <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+      <div class="pagina">
+
+        <div class="bloco bloco1">
+          <div class="container">
+            <h2 class="titulo">Perfil de necessidades do cliente: técnicas de entrevista e elaboração do <i>briefing</i>
+            </h2>
+            <p>O <i>design</i> de interiores corporativo é uma sinergia entre criatividade, funcionalidade e compreensão
+              profunda das necessidades do cliente. Em um mercado dinâmico e competitivo, é essencial que a criação de
+              espaços vá além da estética e se alinhe estrategicamente com os objetivos e os valores do cliente.</p>
+            <p>No âmago de cada projeto de <i>design</i> de interiores corporativo, reside a arte de compreender e
+              traduzir as aspirações do cliente em ambientes tangíveis e inspiradores. A chave para esse processo está
+              na fase inicial: a técnica de entrevista e a elaboração do <i>briefing</i>.</p>
+            <p>Na unidade curricular <b>Projetar <i>design</i> de interiores residencial </b>, no conteúdo <b>Perfil e
+                necessidades do cliente: técnicas de entrevista e elaboração do <i>briefing</i></b>, você compreendeu
+              que a relação cliente-<i>designer</i> no <i>design</i> de interiores residencial é crucial para
+              estabelecer uma comunicação clara. No conteúdo abordado, foi exemplificado que o <i>briefing</i>,
+              essencial para o sucesso do projeto, abrange elementos desde informações do cliente até cronogramas,
+              necessitando ser claro e organizado para orientar eficazmente o <i>designer</i>. Também como exemplo, foi
+              demonstrado o uso de ferramentas como Google Forms e Refresher, úteis para elaborar um <i>briefing</i>
+              eficaz, contribuindo para um projeto de <i>design</i> de interiores personalizado.</p>
+          </div>
         </div>
-        <!-- /BTO IMPRIMIR -->
-      </header>
-      <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
-      <section class="paginas">
-        <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
-        <div class="pagina">
-
-          <div class="bloco bloco1">
-            <div class="container">
-              <h2 class="titulo">Perfil de necessidades do cliente: técnicas de entrevista e elaboração do <i>briefing</i></h2>
-              <p>O <i>design</i> de interiores corporativo é uma sinergia entre criatividade, funcionalidade e compreensão profunda das necessidades do cliente. Em um mercado dinâmico e competitivo, é essencial que a criação de espaços vá além da estética e se alinhe estrategicamente com os objetivos e os valores do cliente.</p>
-              <p>No âmago de cada projeto de <i>design</i> de interiores corporativo, reside a arte de compreender e traduzir as aspirações do cliente em ambientes tangíveis e inspiradores. A chave para esse processo está na fase inicial: a técnica de entrevista e a elaboração do <i>briefing</i>.</p>
-              <p>Na unidade curricular <b>Projetar <i>design</i> de interiores residencial </b>, no conteúdo <b>Perfil e necessidades do cliente: técnicas de entrevista e elaboração do <i>briefing</i></b>, você compreendeu que a relação cliente-<i>designer</i> no <i>design</i> de interiores residencial é crucial para estabelecer uma comunicação clara. No conteúdo abordado, foi exemplificado que o <i>briefing</i>, essencial para o sucesso do projeto, abrange elementos desde informações do cliente até cronogramas, necessitando ser claro e organizado para orientar eficazmente o <i>designer</i>. Também como exemplo, foi demonstrado o uso de ferramentas como Google Forms e Refresher, úteis para elaborar um <i>briefing</i> eficaz, contribuindo para um projeto de <i>design</i> de interiores personalizado.</p>
-            </div>
-          </div>
-
-          <div class="bloco bloco2">
-            <div class="container">
-              <p class="no-print" aria-hidden="true">Agora, para aprofundar seus conhecimentos, assista ao vídeo a seguir.</p>
-              <div class="container-video no-print" aria-hidden="true">
-                <!--ESPERA VÍDEO-->
-                <div class="espera-video">--ESPERA VÍDEO--</div>
-              </div>
-              <div class="acessivel print">
-                <p>Neste conteúdo, será explorada a importância crucial do perfil de necessidades do cliente no <i>design</i> de interiores corporativo, detalhando as técnicas eficazes de entrevista e como a elaboração cuidadosa do <i>briefing</i> funciona como a “pedra” fundamental para o sucesso de um projeto. Por meio de métodos estruturados de coleta de informações, análise minuciosa das expectativas do cliente e formulação precisa do escopo do projeto, o <i>design</i> de interiores comercial ganha vida ao ser moldado de acordo com as necessidades específicas, transformando espaços em experiências impactantes e funcionais.</p>
-                <p><b>Técnicas de entrevista</b> <p>
-                <p> A essência de um projeto de <i>design</i> de interiores corporativo reside na capacidade de compreender profundamente as expectativas, os desejos e os requisitos específicos do cliente. Nesse cenário, as técnicas de entrevista emergem como um ponto de partida crucial. Elas não apenas fornecem um panorama abrangente das demandas funcionais e estéticas, mas também estabelecem um terreno fértil para a criação de espaços que impressionam visualmente e, ainda, alinham-se estrategicamente com os objetivos e a identidade da empresa. As técnicas de entrevista bem executadas abrem as portas para uma compreensão íntima dos modos de operação, valores culturais e desafios enfrentados pelo cliente, oferecendo um <i>insight</i> valioso para a materialização de um<i>design</i> que não apenas atenda, mas também supere, as expectativas. São elas:</p>
-                <p>• <b>Compreensão profunda</b></p>
-                 <p> Comece entendendo o negócio do cliente, sua cultura corporativa, seus valores e objetivos. Isso ajudará a direcionar o <i>design</i> para atender às necessidades específicas.</p>
-                <p>É crucial que cada profissional demonstre preocupação em compreender as características individuais, as preferências e os desejos de cada cliente ao realizar um projeto.</p>
-                <p>Conforme Pratini (2018), estabelecer uma comunicação eficaz com o cliente e compreender suas necessidades são elementos-chave para alcançar um resultado satisfatório no serviço prestado. O autor destaca que a construção de um projeto não é uma tarefa simples, sendo um processo que frequentemente revela sonhos, desejos e fantasias, muitas vezes conflitantes, gerando discordâncias significativas. </p>
-                <p>• <b>Escuta ativa</b></p>
-                <p>Durante a entrevista, pratique a escuta ativa para entender as preferências, os desejos e as restrições do cliente. Faça perguntas abertas e fechadas para obter informações detalhadas.</p>
-                <p>Esse processo pode ser desafiador e delicado, especialmente se for a primeira interação do cliente com um <i>designer</i>, e vice-versa. O <i>designer</i> precisa compreender essa dinâmica e gerenciar adequadamente o processo. Da mesma forma que em outras áreas, uma comunicação eficaz evita mal-entendidos e permite que o profissional esteja profundamente envolvido na realização dos desejos do cliente.</p>
-                <p>Mesquita (2017) menciona algumas estratégias para melhorar a comunicação entre o profissional e o cliente, como ter conhecimento amplo sobre o assunto em questão, evitar discursos inseguros, manter um vocabulário formal, ser objetivo e demonstrar as ideias claramente, além de saber ouvir atentamente o cliente.</p>
-                <p>Além disso, Pratini (2018) salienta a importância de estabelecer uma comunicação eficaz desde o primeiro contato com o cliente, que, muitas vezes, tem pouca clareza sobre suas necessidades e apresenta dúvidas sobre técnicas, custos e organização. Nesse sentido, uma comunicação eficaz é crucial para colaborar na definição dessas questões fundamentais, que direcionarão a proposta futura.</p>
-                <p>• <b>Exploração de modos de trabalho e programa de necessidades</b></p>
-                <p>Conheça o modo de vida dos funcionários, clientes ou usuários finais do espaço. Isso ajuda a adaptar o design para atender às necessidades práticas e estéticas. </p>
-                <p>Rodrigues e Scopel (2018) afirmam que, no início do processo, é essencial que o profissional solicite ao cliente uma lista detalhada dos ambientes desejados para o espaço comercial, denominada <b>programa de necessidades</b>. Essa lista serve de base para entender as atividades a serem realizadas no local, possibilitando discutir se os ambientes propostos são suficientes, adequados ao orçamento e viáveis de serem incluídos no projeto. Além disso, a comunicação entre profissional e cliente busca compreender outros aspectos, como o estilo de vida do cliente e a finalidade do estabelecimento comercial.</p>
-                <p>• <b>Identificação de problemas e desafios</b> </p>
-                  <p>Descubra quais são os problemas ou desafios enfrentados atualmente no espaço existente – falta de funcionalidade, problemas de fluxo ou questões estéticas.</p>
-                <p>Pratini (2018) enfatiza que o profissional não deve impor seus gostos e suas preferências no resultado do projeto, mas, sim, buscar compreender e resolver os aspectos do problema de forma adequada. O autor destaca que um bom profissional prestará atenção em todos os detalhes e criará um projeto funcional, esteticamente agradável e economicamente viável, zelando pelo investimento do cliente.</p>
-                <p><b>Elaboração do <i>briefing</i></b></p>
-                <p>A elaboração de um <i>briefing</i> para um projeto de <i>design</i> de interiores corporativo é um passo importante que estabelece as bases e direciona todo o processo de criação. Esse documento, de natureza informativa e estratégica, é fundamental para compreender as necessidades, os desejos e as expectativas do cliente em relação ao espaço corporativo a ser projetado.</p>
-                <p>Para a elaboração desse <i>briefing</i>, é essencial conduzir uma abordagem meticulosa e detalhada, buscando capturar não apenas os aspectos estéticos desejados, mas também as funcionalidades práticas e a identidade da empresa. O <i>briefing</i> funciona como um guia que orienta o <i>designer</i> a alinhar sua visão criativa com os objetivos e valores da organização.</p>
-                <p>A criação de um <i>briefing</i> para <i>design</i> de interiores corporativo não apenas delineia as diretrizes do projeto, mas também estabelece uma base sólida para a colaboração entre o cliente e o <i>designer</i>, garantindo que as expectativas sejam claramente comunicadas e compreendidas. É um documento que evolui com as interações entre as partes, refletindo os valores da empresa e moldando-se para atender às suas necessidades específicas ao longo do processo criativo.</p>
-                <p>Nesse contexto, questões pertinentes sobre a cultura empresarial, as atividades realizadas no espaço, o estilo desejado, as restrições orçamentárias e temporais, bem como a preocupação com a sustentabilidade e o bem-estar, são abordadas de forma minuciosa. Por meio de um diálogo aberto e estruturado, busca-se compreender a essência da empresa para traduzi-la em um ambiente físico que harmonize funcionalidade, estética e identidade corporativa.</p>
-                <p>Na condução da coleta de informações, são necessários alguns direcionamentos, os quais você poderá conferir a seguir.</p>
-              </div>
-
-              <p class="no-print" aria-hidden="true">Clique ou toque no botão de <i>play</i> para ouvir o áudio ou no botão de transcrição para ler o conteúdo.</p>
-              <div class="div-podcast no-print" aria-hidden="true">
-                <audio controls class="">
-                  <source src="./podcast/audio-conhec3.mp3" type="audio/mpeg" />
-                </audio>
-                <div class="ico-transcricao" data-toggle="modal" data-target="#modal-transcricao"></div>
-              </div>
-              <div class="acessivel print">
-                <p>• <b>Documentação detalhada</b>: registre todas as informações obtidas durante a entrevista de maneira clara e organizada. Isso se tornará a base para o <i>briefing</i> do projeto.</p>
-                <p>• <b>Objetivos claros e mensuráveis</b>: defina os objetivos do projeto de forma clara e tangível. Por exemplo, aumento de vendas, melhoria da produtividade ou criação de uma atmosfera específica.</p>
-                <p>• <b>Restrições e limitações</b>: identifique restrições orçamentárias, limitações de tempo, regulamentações legais ou quaisquer outras restrições que possam afetar o projeto.</p>
-                <p>• <b>Referências visuais</b>: se possível, peça ao cliente para fornecer referências visuais, como imagens, fotografias ou exemplos de <i>design</i> que eles gostem ou desaprovem. Isso ajuda a entender melhor as preferências estéticas dele.</p>
-                <p>• <b><i>Feedback</i> contínuo</b>: mantenha um canal de comunicação aberto para garantir que o <i>briefing</i> esteja alinhado com as expectativas do cliente. Esteja preparado para ajustar e refinar conforme necessário.</p>
-                <p><b>Modelo de <i>briefing</i> para <i>design</i> de interiores corporativo</b></p>
-                <p>Ao combinar técnicas de entrevista eficazes com uma elaboração minuciosa do <i>briefing</i>, você pode garantir que o projeto atenda precisamente às necessidades e expectativas do cliente. Um <i>briefing</i> bem elaborado é fundamental para entender as necessidades e expectativas do cliente em um projeto de <i>design</i> de interiores corporativo. Aqui estão algumas perguntas e questões essenciais que não devem faltar em um <i>briefing</i> para esse tipo de projeto:</p>
-                <p>1. <b>Informações da empresa</b>
-                <p>• Nome da empresa e setor de atuação</p>
-                <p>• Valores e cultura corporativa que devem ser refletidos no<i> design</i></p>
-                </p>
-                <p>2. <b>Informações de contato</b>
-                <P>• Nome e cargo do responsável pelo projeto na empresa</P>
-                <p>• Informações de contato (<i>e-mail</i>, telefone) para comunicação durante o desenvolvimento do projeto</p>
-                </p>
-                <p>3. <b>Objetivos e visão geral</b>
-                <p>Qual é o objetivo principal do projeto de <i>design</i> de interiores corporativo?</p>
-                <p>Como você visualiza o espaço corporativo após a conclusão do projeto?</p>
-                <p>Há alguma mensagem específica ou imagem que a empresa deseja transmitir por meio do <i>design</i>?</p>
-                <p>Qual é a finalidade do espaço a ser projetado (ex.: escritório, área de recepção, sala de reuniões etc.)?</p>
-                </p>
-                <p>4. <b>Descrição do espaço</b></p>
-                <p>Tem planta baixa ou metragem do espaço a ser projetado?</p>
-                <p>É próprio ou alugado?</p>
-                <p>Há espaço para copa e setor de descompressão?</p>
-                <p>5. <b>Levantamento das preexistências e outras informações dos cômodos</b></p>
-                <p>Há mobiliários, infraestrutura (pontos hidráulicos, elétricos ou de gás), revestimentos, louças e metais de copa e banheiros?</p>
-                <p>Há algo nos espaços que pode ser aproveitado no projeto?</p>
-                <p>6.	<b>Espaços específicos</b></p>
-                <p>Há áreas específicas no espaço corporativo que exigem atenção especial (sala de reuniões, áreas de descanso, escritórios individuais etc.)?</p>
-                <p>Existem requisitos específicos para áreas como recepção, salas de espera ou áreas de convivência?</p>
-                <p>7.	<b>Gestão de espaço e leiaute</b></p>
-                <p>Existe uma preferência em relação ao leiaute do espaço (espaço aberto, leiaute tradicional, espaços colaborativos etc.)?</p>
-                <p>A empresa tem preferências quanto à distribuição de áreas públicas e privadas?</p>
-                <p>8.	<b>Experiência do usuário e fluxo de trabalho</b></p>
-                <p>Como você imagina a jornada dos funcionários e visitantes pelo espaço?</p>
-                <p>Existem áreas de tráfego intenso que precisam ser consideradas para otimizar o fluxo de pessoas?</p>
-                <p>9.	<b>Natureza da colaboração e interação</b></p>
-                <p>Como os diferentes departamentos ou equipes interagem entre si no espaço corporativo?</p>
-                <p>Existe alguma necessidade específica de promover a colaboração entre os funcionários?</p>
-                <p>10. <b>Mobiliário e equipamentos</b></p>
-                <p>Há mobiliário existente que deve ser mantido ou integrado ao novo <i>design</i>?</p>
-                <p>Existe algum equipamento ou alguma tecnologia específica que precisa ser considerado no projeto?</p>
-                <p>11. <b>Necessidades funcionais e práticas</b></p>
-                <p>Quantas pessoas utilizarão esse espaço?</p>
-                <P>Quais são as atividades principais realizadas nesse ambiente corporativo?</P>
-                <P>Existem necessidades específicas de mobiliário, armazenamento, tecnologia ou outras funcionalidades?</P>
-                <P>12. <b>Necessidades técnicas</b></P>
-                <P>Existem requisitos especiais de ergonomia a serem considerados?</P>
-                <P>Quais são as necessidades de conectividade e tecnologia para o espaço (tomadas, cabos, sistemas de comunicação etc.)?</P>
-                <p>13. <b>Acessibilidade e inclusão</b></p>
-                <p>A empresa tem diretrizes específicas para garantir acessibilidade e inclusão no espaço?</p>
-                <p>Há necessidades específicas para tornar o ambiente acessível a todos?</p>
-                <p>14. <b>Iluminação e ambiente</b></p>
-                <p>Existe preferência por iluminação natural ou artificial em determinadas áreas?</p>
-                <p>Há necessidade de controle específico da iluminação para diferentes atividades?</p>
-                <p>15. <b>Acústica e privacidade</b></p>
-                <p>Quais são as preocupações em relação à privacidade e ao isolamento acústico em determinadas áreas?</p>
-                <p>Existem áreas que exigem maior privacidade e isolamento sonoro?</p>
-                <p>16. <b>Experiência do cliente e dos funcionários</b></p>
-                <p>Como a empresa deseja que os clientes se sintam ao entrar no espaço?</p>
-                <p>Quais são as expectativas em relação à experiência dos funcionários ao trabalhar nesse ambiente?</p>
-                <p>Como a empresa gostaria que seus funcionários se sentissem ao entrar nesse espaço?</p>
-                <p>17. <b>Identidade e cultura corporativa</b></p>
-                <p>Quais são os valores e a cultura da empresa?</p>
-                <p>Há elementos de identidade corporativa que devem ser refletidos no <i>design</i> (cores, logotipos, símbolos)?</p>
-                <p>18. <b>Personalização e elementos de destaque</b></p>
-                <p>Existe um conceito ou tema específico que a empresa gostaria de ver refletido no <i>design</i>? Se sim, quais são os detalhes desse conceito?</p>
-                <p>A empresa tem interesse em elementos personalizados ou únicos no <i>design</i> (arte, peças de destaque, elementos decorativos personalizados etc.)?</p>
-                <p>Há algo específico que a empresa deseje destacar no ambiente?</p>
-                <p>19. <b>Mobilidade e flexibilidade</b></p>
-                <p>É necessário que o espaço seja flexível para possíveis mudanças futuras?</p>
-                <p>Existe a necessidade de áreas multifuncionais ou móveis modulares?</p>
-                <p>20. <b>Restrições e orçamento</b></p>
-                <p>Qual é o orçamento disponível para o projeto?</p>
-                <p>Existem limitações de tempo ou restrições de espaço que precisam ser consideradas?</p>
-                <p>Existem regulamentações ou requisitos legais a que o projeto precisa atender?</p>
-                <p>21. <b>Estilo e preferências estéticas</b></p>
-                <p>Existe algum estilo de <i>design</i> preferido (moderno, clássico, minimalista etc.)?</p>
-                <p>Há cores ou paletas específicas que a empresa prefere?</p>
-                <p>Algum tipo de inspiração visual que possa servir de referência para o projeto?</p>
-                <p>Existe um conceito ou tema específico que a empresa gostaria de ver refletido no <i>design</i>? Se sim, quais são os detalhes desse conceito?</p>
-                <p>22. <b>Gerenciamento de cores e materiais</b></p>
-                <p>Há preferência por materiais específicos no <i>design</i> (madeira, metal, vidro etc.)?</p>
-                <p>Existem cores que devem ser enfatizadas ou evitadas no projeto?</p>
-                <p>23. <b>Sustentabilidade e bem-estar</b></p>
-                <p>A empresa tem preocupações ambientais ou deseja incorporar elementos sustentáveis ao projeto?</p>
-                <p>Há considerações específicas de bem-estar e conforto que devem ser levadas em conta?</p>
-                <p>24. <b>Expectativas de prazos e revisões</b></p>
-                <p>Qual é o prazo desejado para a conclusão do projeto?</p>
-                <p>Como será o processo de revisão e aprovação das propostas?</p>
-                <p>25. <b>Após a entrega do projeto</b></p>
-                <p>Existe a expectativa de manutenção ou suporte pós-entrega do projeto?</p>
-                <p>A empresa planeja realizar atualizações ou expansões futuras no espaço?</p>
-                <p>26. <b>Expectativas em relação ao <i>design</i> final</b></p>
-                <p>Como a empresa medirá o sucesso do projeto? Quais são as expectativas em relação aos resultados?</p>
-                <p>Existe alguma área específica em que a empresa deseje que o <i>design</i> se destaque?</p>
-                <p>27. <b>Observações adicionais</b></p>
-                <p>Inclua aqui qualquer outra informação relevante que ainda não tenha sido mencionada, mas que seja importante para o projeto.</p>
-                <p>Essas perguntas ajudarão a criar um <i>briefing</i> abrangente, permitindo ao <i>designer</i> entender profundamente as necessidades e os desejos do cliente para o projeto de <i>design</i> de interiores corporativo.</p>
-                <p>No universo do <i>design</i> de interiores corporativo, a arte de compreender e traduzir as aspirações do cliente em espaços tangíveis e inspiradores é o cerne de todo projeto.</p>
+        <div class="bloco bloco2">
+          <div class="container">
+            <p class="no-print" aria-hidden="true">Agora, para aprofundar seus conhecimentos, assista ao vídeo a seguir.
+            </p>
+            <div class="video-player">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HQ5Wt0zHGEY?si=0QKqSVFVmbR2TVgm"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen=""></iframe>
               </div>
             </div>
-          </div>
-
-          <div class="bloco bloco3">
-            <div class="container">
-              <h3 class="titulo">Encerramento</h3>
-              <p>Ao longo deste conteúdo, você pôde compreender as técnicas de entrevista e a elaboração do <i>briefing</i>, mergulhando na importância do perfil de necessidades do cliente, reconhecendo a base sólida que a técnica de entrevista e a elaboração detalhada do <i>briefing</i> representam para o sucesso de um projeto de <i>design</i> corporativo.</p>
-              <p>A técnica de entrevista e a elaboração cuidadosa do <i>briefing</i> são os pilares iniciais do processo. Ao explorar a grande importância do perfil das necessidades do cliente no <i>design</i> corporativo, destaca-se a relevância de métodos estruturados de coleta de informações, análise precisa das expectativas e formulação do escopo do projeto.</p>
-              <p>Continue a valorizar o poder da escuta ativa e das perguntas pertinentes, pois são habilidades-chave para moldar espaços que atendam às expectativas do cliente.</p>
+            <div class="acessivel print">
+              <p>Neste conteúdo, será explorada a importância crucial do perfil de necessidades do cliente no
+                <i>design</i> de interiores corporativo, detalhando as técnicas eficazes de entrevista e como a
+                elaboração cuidadosa do <i>briefing</i> funciona como a “pedra” fundamental para o sucesso de um
+                projeto. Por meio de métodos estruturados de coleta de informações, análise minuciosa das expectativas
+                do cliente e formulação precisa do escopo do projeto, o <i>design</i> de interiores comercial ganha vida
+                ao ser moldado de acordo com as necessidades específicas, transformando espaços em experiências
+                impactantes e funcionais.
+              </p>
+              <p><b>Técnicas de entrevista</b>
+              <p>
+              <p> A essência de um projeto de <i>design</i> de interiores corporativo reside na capacidade de
+                compreender profundamente as expectativas, os desejos e os requisitos específicos do cliente. Nesse
+                cenário, as técnicas de entrevista emergem como um ponto de partida crucial. Elas não apenas fornecem um
+                panorama abrangente das demandas funcionais e estéticas, mas também estabelecem um terreno fértil para a
+                criação de espaços que impressionam visualmente e, ainda, alinham-se estrategicamente com os objetivos e
+                a identidade da empresa. As técnicas de entrevista bem executadas abrem as portas para uma compreensão
+                íntima dos modos de operação, valores culturais e desafios enfrentados pelo cliente, oferecendo um
+                <i>insight</i> valioso para a materialização de um<i>design</i> que não apenas atenda, mas também
+                supere, as expectativas. São elas:
+              </p>
+              <p>• <b>Compreensão profunda</b></p>
+              <p> Comece entendendo o negócio do cliente, sua cultura corporativa, seus valores e objetivos. Isso
+                ajudará a direcionar o <i>design</i> para atender às necessidades específicas.</p>
+              <p>É crucial que cada profissional demonstre preocupação em compreender as características individuais, as
+                preferências e os desejos de cada cliente ao realizar um projeto.</p>
+              <p>Conforme Pratini (2018), estabelecer uma comunicação eficaz com o cliente e compreender suas
+                necessidades são elementos-chave para alcançar um resultado satisfatório no serviço prestado. O autor
+                destaca que a construção de um projeto não é uma tarefa simples, sendo um processo que frequentemente
+                revela sonhos, desejos e fantasias, muitas vezes conflitantes, gerando discordâncias significativas.
+              </p>
+              <p>• <b>Escuta ativa</b></p>
+              <p>Durante a entrevista, pratique a escuta ativa para entender as preferências, os desejos e as restrições
+                do cliente. Faça perguntas abertas e fechadas para obter informações detalhadas.</p>
+              <p>Esse processo pode ser desafiador e delicado, especialmente se for a primeira interação do cliente com
+                um <i>designer</i>, e vice-versa. O <i>designer</i> precisa compreender essa dinâmica e gerenciar
+                adequadamente o processo. Da mesma forma que em outras áreas, uma comunicação eficaz evita
+                mal-entendidos e permite que o profissional esteja profundamente envolvido na realização dos desejos do
+                cliente.</p>
+              <p>Mesquita (2017) menciona algumas estratégias para melhorar a comunicação entre o profissional e o
+                cliente, como ter conhecimento amplo sobre o assunto em questão, evitar discursos inseguros, manter um
+                vocabulário formal, ser objetivo e demonstrar as ideias claramente, além de saber ouvir atentamente o
+                cliente.</p>
+              <p>Além disso, Pratini (2018) salienta a importância de estabelecer uma comunicação eficaz desde o
+                primeiro contato com o cliente, que, muitas vezes, tem pouca clareza sobre suas necessidades e apresenta
+                dúvidas sobre técnicas, custos e organização. Nesse sentido, uma comunicação eficaz é crucial para
+                colaborar na definição dessas questões fundamentais, que direcionarão a proposta futura.</p>
+              <p>• <b>Exploração de modos de trabalho e programa de necessidades</b></p>
+              <p>Conheça o modo de vida dos funcionários, clientes ou usuários finais do espaço. Isso ajuda a adaptar o
+                design para atender às necessidades práticas e estéticas. </p>
+              <p>Rodrigues e Scopel (2018) afirmam que, no início do processo, é essencial que o profissional solicite
+                ao cliente uma lista detalhada dos ambientes desejados para o espaço comercial, denominada <b>programa
+                  de necessidades</b>. Essa lista serve de base para entender as atividades a serem realizadas no local,
+                possibilitando discutir se os ambientes propostos são suficientes, adequados ao orçamento e viáveis de
+                serem incluídos no projeto. Além disso, a comunicação entre profissional e cliente busca compreender
+                outros aspectos, como o estilo de vida do cliente e a finalidade do estabelecimento comercial.</p>
+              <p>• <b>Identificação de problemas e desafios</b> </p>
+              <p>Descubra quais são os problemas ou desafios enfrentados atualmente no espaço existente – falta de
+                funcionalidade, problemas de fluxo ou questões estéticas.</p>
+              <p>Pratini (2018) enfatiza que o profissional não deve impor seus gostos e suas preferências no resultado
+                do projeto, mas, sim, buscar compreender e resolver os aspectos do problema de forma adequada. O autor
+                destaca que um bom profissional prestará atenção em todos os detalhes e criará um projeto funcional,
+                esteticamente agradável e economicamente viável, zelando pelo investimento do cliente.</p>
+              <p><b>Elaboração do <i>briefing</i></b></p>
+              <p>A elaboração de um <i>briefing</i> para um projeto de <i>design</i> de interiores corporativo é um
+                passo importante que estabelece as bases e direciona todo o processo de criação. Esse documento, de
+                natureza informativa e estratégica, é fundamental para compreender as necessidades, os desejos e as
+                expectativas do cliente em relação ao espaço corporativo a ser projetado.</p>
+              <p>Para a elaboração desse <i>briefing</i>, é essencial conduzir uma abordagem meticulosa e detalhada,
+                buscando capturar não apenas os aspectos estéticos desejados, mas também as funcionalidades práticas e a
+                identidade da empresa. O <i>briefing</i> funciona como um guia que orienta o <i>designer</i> a alinhar
+                sua visão criativa com os objetivos e valores da organização.</p>
+              <p>A criação de um <i>briefing</i> para <i>design</i> de interiores corporativo não apenas delineia as
+                diretrizes do projeto, mas também estabelece uma base sólida para a colaboração entre o cliente e o
+                <i>designer</i>, garantindo que as expectativas sejam claramente comunicadas e compreendidas. É um
+                documento que evolui com as interações entre as partes, refletindo os valores da empresa e moldando-se
+                para atender às suas necessidades específicas ao longo do processo criativo.
+              </p>
+              <p>Nesse contexto, questões pertinentes sobre a cultura empresarial, as atividades realizadas no espaço, o
+                estilo desejado, as restrições orçamentárias e temporais, bem como a preocupação com a sustentabilidade
+                e o bem-estar, são abordadas de forma minuciosa. Por meio de um diálogo aberto e estruturado, busca-se
+                compreender a essência da empresa para traduzi-la em um ambiente físico que harmonize funcionalidade,
+                estética e identidade corporativa.</p>
+              <p>Na condução da coleta de informações, são necessários alguns direcionamentos, os quais você poderá
+                conferir a seguir.</p>
+            </div>
+            <p class="no-print" aria-hidden="true">Clique ou toque no botão de <i>play</i> para ouvir o áudio ou no
+              botão de transcrição para ler o conteúdo.</p>
+            <div class="div-podcast no-print" aria-hidden="true">
+              <div class="row">
+                <div class="col-md-4 col-lg-4 col-sm-4">
+                  <img src="./imgs/audio_feminino.png" class="img-responsive center-block personagem-audio">
+                </div>
+                <div class="col-md-8 col-lg-8 col-sm-8 col-xs-12">
+                  <audio controls="" class="controle-audio">
+                    <source src="./podcast/PODCAST_TDI_UC11_ELABORACAO_DE_BRIEFING.mp3" type="audio/mpeg">
+                  </audio>
+                  <div class="ico-transcricao" data-toggle="modal" data-target="#modal-transcricao"></div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <p>• <b>Documentação detalhada</b>: registre todas as informações obtidas durante a entrevista de maneira
+                clara e organizada. Isso se tornará a base para o <i>briefing</i> do projeto.</p>
+              <p>• <b>Objetivos claros e mensuráveis</b>: defina os objetivos do projeto de forma clara e tangível. Por
+                exemplo, aumento de vendas, melhoria da produtividade ou criação de uma atmosfera específica.</p>
+              <p>• <b>Restrições e limitações</b>: identifique restrições orçamentárias, limitações de tempo,
+                regulamentações legais ou quaisquer outras restrições que possam afetar o projeto.</p>
+              <p>• <b>Referências visuais</b>: se possível, peça ao cliente para fornecer referências visuais, como
+                imagens, fotografias ou exemplos de <i>design</i> que eles gostem ou desaprovem. Isso ajuda a entender
+                melhor as preferências estéticas dele.</p>
+              <p>• <b><i>Feedback</i> contínuo</b>: mantenha um canal de comunicação aberto para garantir que o
+                <i>briefing</i> esteja alinhado com as expectativas do cliente. Esteja preparado para ajustar e refinar
+                conforme necessário.
+              </p>
+              <p><b>Modelo de <i>briefing</i> para <i>design</i> de interiores corporativo</b></p>
+              <p>Ao combinar técnicas de entrevista eficazes com uma elaboração minuciosa do <i>briefing</i>, você pode
+                garantir que o projeto atenda precisamente às necessidades e expectativas do cliente. Um <i>briefing</i>
+                bem elaborado é fundamental para entender as necessidades e expectativas do cliente em um projeto de
+                <i>design</i> de interiores corporativo. Aqui estão algumas perguntas e questões essenciais que não
+                devem faltar em um <i>briefing</i> para esse tipo de projeto:
+              </p>
+              <p>1. <b>Informações da empresa</b>
+              <p>• Nome da empresa e setor de atuação</p>
+              <p>• Valores e cultura corporativa que devem ser refletidos no<i> design</i></p>
+              </p>
+              <p>2. <b>Informações de contato</b>
+              <P>• Nome e cargo do responsável pelo projeto na empresa</P>
+              <p>• Informações de contato (<i>e-mail</i>, telefone) para comunicação durante o desenvolvimento do
+                projeto</p>
+              </p>
+              <p>3. <b>Objetivos e visão geral</b>
+              <p>Qual é o objetivo principal do projeto de <i>design</i> de interiores corporativo?</p>
+              <p>Como você visualiza o espaço corporativo após a conclusão do projeto?</p>
+              <p>Há alguma mensagem específica ou imagem que a empresa deseja transmitir por meio do <i>design</i>?</p>
+              <p>Qual é a finalidade do espaço a ser projetado (ex.: escritório, área de recepção, sala de reuniões
+                etc.)?</p>
+              </p>
+              <p>4. <b>Descrição do espaço</b></p>
+              <p>Tem planta baixa ou metragem do espaço a ser projetado?</p>
+              <p>É próprio ou alugado?</p>
+              <p>Há espaço para copa e setor de descompressão?</p>
+              <p>5. <b>Levantamento das preexistências e outras informações dos cômodos</b></p>
+              <p>Há mobiliários, infraestrutura (pontos hidráulicos, elétricos ou de gás), revestimentos, louças e
+                metais de copa e banheiros?</p>
+              <p>Há algo nos espaços que pode ser aproveitado no projeto?</p>
+              <p>6. <b>Espaços específicos</b></p>
+              <p>Há áreas específicas no espaço corporativo que exigem atenção especial (sala de reuniões, áreas de
+                descanso, escritórios individuais etc.)?</p>
+              <p>Existem requisitos específicos para áreas como recepção, salas de espera ou áreas de convivência?</p>
+              <p>7. <b>Gestão de espaço e leiaute</b></p>
+              <p>Existe uma preferência em relação ao leiaute do espaço (espaço aberto, leiaute tradicional, espaços
+                colaborativos etc.)?</p>
+              <p>A empresa tem preferências quanto à distribuição de áreas públicas e privadas?</p>
+              <p>8. <b>Experiência do usuário e fluxo de trabalho</b></p>
+              <p>Como você imagina a jornada dos funcionários e visitantes pelo espaço?</p>
+              <p>Existem áreas de tráfego intenso que precisam ser consideradas para otimizar o fluxo de pessoas?</p>
+              <p>9. <b>Natureza da colaboração e interação</b></p>
+              <p>Como os diferentes departamentos ou equipes interagem entre si no espaço corporativo?</p>
+              <p>Existe alguma necessidade específica de promover a colaboração entre os funcionários?</p>
+              <p>10. <b>Mobiliário e equipamentos</b></p>
+              <p>Há mobiliário existente que deve ser mantido ou integrado ao novo <i>design</i>?</p>
+              <p>Existe algum equipamento ou alguma tecnologia específica que precisa ser considerado no projeto?</p>
+              <p>11. <b>Necessidades funcionais e práticas</b></p>
+              <p>Quantas pessoas utilizarão esse espaço?</p>
+              <P>Quais são as atividades principais realizadas nesse ambiente corporativo?</P>
+              <P>Existem necessidades específicas de mobiliário, armazenamento, tecnologia ou outras funcionalidades?
+              </P>
+              <P>12. <b>Necessidades técnicas</b></P>
+              <P>Existem requisitos especiais de ergonomia a serem considerados?</P>
+              <P>Quais são as necessidades de conectividade e tecnologia para o espaço (tomadas, cabos, sistemas de
+                comunicação etc.)?</P>
+              <p>13. <b>Acessibilidade e inclusão</b></p>
+              <p>A empresa tem diretrizes específicas para garantir acessibilidade e inclusão no espaço?</p>
+              <p>Há necessidades específicas para tornar o ambiente acessível a todos?</p>
+              <p>14. <b>Iluminação e ambiente</b></p>
+              <p>Existe preferência por iluminação natural ou artificial em determinadas áreas?</p>
+              <p>Há necessidade de controle específico da iluminação para diferentes atividades?</p>
+              <p>15. <b>Acústica e privacidade</b></p>
+              <p>Quais são as preocupações em relação à privacidade e ao isolamento acústico em determinadas áreas?</p>
+              <p>Existem áreas que exigem maior privacidade e isolamento sonoro?</p>
+              <p>16. <b>Experiência do cliente e dos funcionários</b></p>
+              <p>Como a empresa deseja que os clientes se sintam ao entrar no espaço?</p>
+              <p>Quais são as expectativas em relação à experiência dos funcionários ao trabalhar nesse ambiente?</p>
+              <p>Como a empresa gostaria que seus funcionários se sentissem ao entrar nesse espaço?</p>
+              <p>17. <b>Identidade e cultura corporativa</b></p>
+              <p>Quais são os valores e a cultura da empresa?</p>
+              <p>Há elementos de identidade corporativa que devem ser refletidos no <i>design</i> (cores, logotipos,
+                símbolos)?</p>
+              <p>18. <b>Personalização e elementos de destaque</b></p>
+              <p>Existe um conceito ou tema específico que a empresa gostaria de ver refletido no <i>design</i>? Se sim,
+                quais são os detalhes desse conceito?</p>
+              <p>A empresa tem interesse em elementos personalizados ou únicos no <i>design</i> (arte, peças de
+                destaque, elementos decorativos personalizados etc.)?</p>
+              <p>Há algo específico que a empresa deseje destacar no ambiente?</p>
+              <p>19. <b>Mobilidade e flexibilidade</b></p>
+              <p>É necessário que o espaço seja flexível para possíveis mudanças futuras?</p>
+              <p>Existe a necessidade de áreas multifuncionais ou móveis modulares?</p>
+              <p>20. <b>Restrições e orçamento</b></p>
+              <p>Qual é o orçamento disponível para o projeto?</p>
+              <p>Existem limitações de tempo ou restrições de espaço que precisam ser consideradas?</p>
+              <p>Existem regulamentações ou requisitos legais a que o projeto precisa atender?</p>
+              <p>21. <b>Estilo e preferências estéticas</b></p>
+              <p>Existe algum estilo de <i>design</i> preferido (moderno, clássico, minimalista etc.)?</p>
+              <p>Há cores ou paletas específicas que a empresa prefere?</p>
+              <p>Algum tipo de inspiração visual que possa servir de referência para o projeto?</p>
+              <p>Existe um conceito ou tema específico que a empresa gostaria de ver refletido no <i>design</i>? Se sim,
+                quais são os detalhes desse conceito?</p>
+              <p>22. <b>Gerenciamento de cores e materiais</b></p>
+              <p>Há preferência por materiais específicos no <i>design</i> (madeira, metal, vidro etc.)?</p>
+              <p>Existem cores que devem ser enfatizadas ou evitadas no projeto?</p>
+              <p>23. <b>Sustentabilidade e bem-estar</b></p>
+              <p>A empresa tem preocupações ambientais ou deseja incorporar elementos sustentáveis ao projeto?</p>
+              <p>Há considerações específicas de bem-estar e conforto que devem ser levadas em conta?</p>
+              <p>24. <b>Expectativas de prazos e revisões</b></p>
+              <p>Qual é o prazo desejado para a conclusão do projeto?</p>
+              <p>Como será o processo de revisão e aprovação das propostas?</p>
+              <p>25. <b>Após a entrega do projeto</b></p>
+              <p>Existe a expectativa de manutenção ou suporte pós-entrega do projeto?</p>
+              <p>A empresa planeja realizar atualizações ou expansões futuras no espaço?</p>
+              <p>26. <b>Expectativas em relação ao <i>design</i> final</b></p>
+              <p>Como a empresa medirá o sucesso do projeto? Quais são as expectativas em relação aos resultados?</p>
+              <p>Existe alguma área específica em que a empresa deseje que o <i>design</i> se destaque?</p>
+              <p>27. <b>Observações adicionais</b></p>
+              <p>Inclua aqui qualquer outra informação relevante que ainda não tenha sido mencionada, mas que seja
+                importante para o projeto.</p>
+              <p>Essas perguntas ajudarão a criar um <i>briefing</i> abrangente, permitindo ao <i>designer</i> entender
+                profundamente as necessidades e os desejos do cliente para o projeto de <i>design</i> de interiores
+                corporativo.</p>
+              <p>No universo do <i>design</i> de interiores corporativo, a arte de compreender e traduzir as aspirações
+                do cliente em espaços tangíveis e inspiradores é o cerne de todo projeto.</p>
             </div>
           </div>
-
+        </div>
+        <div class="bloco bloco3">
+          <div class="container">
+            <h3 class="titulo">Encerramento</h3>
+            <p>Ao longo deste conteúdo, você pôde compreender as técnicas de entrevista e a elaboração do
+              <i>briefing</i>, mergulhando na importância do perfil de necessidades do cliente, reconhecendo a base
+              sólida que a técnica de entrevista e a elaboração detalhada do <i>briefing</i> representam para o sucesso
+              de um projeto de <i>design</i> corporativo.
+            </p>
+            <p>A técnica de entrevista e a elaboração cuidadosa do <i>briefing</i> são os pilares iniciais do processo.
+              Ao explorar a grande importância do perfil das necessidades do cliente no <i>design</i> corporativo,
+              destaca-se a relevância de métodos estruturados de coleta de informações, análise precisa das expectativas
+              e formulação do escopo do projeto.</p>
+            <p>Continue a valorizar o poder da escuta ativa e das perguntas pertinentes, pois são habilidades-chave para
+              moldar espaços que atendam às expectativas do cliente.</p>
+          </div>
         </div>
 
-      </section>
-      <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
-      <footer class="text-center no-print">
-        <!--
+      </div>
+
+    </section>
+    <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+    <footer class="text-center no-print">
+      <!--
           <ul class="pagination">
 
           </ul>
           -->
-      </footer>
-    </div>
+    </footer>
+  </div>
 
-    <!-- Modais -->
-    <div class="modal fade" id="modal-transcricao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-live="polite" aria-atomic="true" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content no-print">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <h4 class="modal-title" id="myModalLabel"></h4>
-          </div>
-          <div class="modal-body">
-            
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-          </div>
+  <!-- Modais -->
+  <div class="modal fade" id="modal-transcricao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-live="polite" aria-atomic="true" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content no-print">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">Transcrição</h4>
+        </div>
+        <div class="modal-body">
+          <h4>Suzane Miritz</h4>
+          <p> Olá, estudante do curso Técnico em <i>Design</i> de Interiores. Seja bem-vindo!</p>
+          <p> Eu sou a Suzane Miritz, tutora do curso de <i>Design</i> de Interiores, e, neste <i>podcast</i>, vamos
+            falar sobre
+            a
+            elaboração de <i>briefing</i> para o <i>design</i> de interiores corporativo.</p>
+          <p> E para falar um pouco sobre esse tema simples, porém extenso, temos uma convidada superespecial, a
+            arquiteta Laís Martini.</p>
+          <p>Seja bem-vinda, Laís!</p>
+          <h4> Laís Martini</h4>
+          <p> Obrigada, Suzane! É um prazer estar aqui participando deste <i>podcast</i>. Eu sou arquiteta e urbanista,
+            especialista em <i>design</i> de interiores e tutora do curso Técnico em <i>design</i> de Interiores do
+            Senac EAD.
+          </p>
+          <h4>Suzane Miritz</h4>
+          <p>Bom, Laís, já sabemos que o <i>briefing</i> estabelece a base para o projeto. É muito importante ter
+            estabelecido o que o cliente quer, entender a cultura da empresa, saber as atividades que serão
+            realizadas nos espaços, as restrições e principalmente a sustentabilidade e o bem-estar dos usuários
+            no
+            ambiente.</p>
+          <p> Poderia nos explicar melhor essas questões?</p>
+          <h4>Laís Martini</h4>
+          <p>Bom, o <i>briefing</i> é o ponto de partida para o projeto. Em um primeiro momento, é muito importante nós
+            termos uma documentação detalhada, que é onde nós iremos fazer todo o registro das informações que
+            servirão de base para esse projeto. E nesse documento também ter os objetivos bem estabelecidos,
+            claros,
+            mensuráveis, para que consigamos atingir os objetivos nesse projeto. Entender também um pouquinho
+            sobre
+            as restrições, as limitações que às vezes englobam questões de orçamento, de tempo, se é necessária
+            alguma regulamentação legal, enfim, questões técnicas mesmo. E entender também como o cliente imagina
+            esse espaço, mapear, por meio de referências visuais, apresentando fotos, vídeos, exemplos de <i>design</i>,
+            para justamente compreender os seus desejos para esse espaço. E manter também um canal de comunicação
+            aberto com o cliente, sempre possibilitando um <i>feedback</i> contínuo, justamente para que o
+            <i>briefing</i>
+            atenda
+            às necessidades de projeto para esse espaço.
+          </p>
+          <h4> Suzane Miritz</h4>
+          <p> Legal!</p>
+          <p> Laís, no <i>briefing</i>, devemos colocar todas as informações, desde dados da empresa do cliente até os
+            mínimos detalhes do <i>design</i>.</p>
+          <p>Podemos começar pelas informações básicas?</p>
+          <h4>Laís Martini</h4>
+          <p>Sim, as informações básicas são o ponto de partida. No primeiro momento, precisamos saber o nome da
+            empresa na qual iremos desenvolver o projeto e também o setor de atuação, que é o que vai impactar o
+            espaço, o desenvolvimento desse espaço. Então, entender questão de valor e de cultura da empresa é
+            muito
+            importante, porque isso vai se refletir no projeto de <i>design</i>.</p>
+          <p> Também apresentar as informações de contato para que o cliente tenha essa informação, para que possa
+            entrar em contato sempre que possível por <i>e-mail</i> ou telefone; quem é o responsável por esse projeto
+            também.</p>
+          <p>E, também, para finalizar, a questão dos objetivos: qual é a finalidade desse projeto, se tem uma
+            mensagem que a empresa quer passar e que nós podemos atender a isso por meio de um projeto de <i>design</i>,
+            também é um fator muito importante.</p>
+          <h4> Suzane Miritz</h4>
+          <p> Entendi. E depois passa pelas informações dos espaços, não é?</p>
+          <h4> Laís Martini</h4>
+          <p>Exatamente. O projeto é desenvolvido dentro de um espaço. Então, em um primeiro momento, precisamos
+            ter
+            as informações básicas, por exemplo: tem uma planta baixa já desse espaço, o qual pode seguir de base
+            para a organização de um levantamento métrico, por exemplo?</p>
+          <p>Entender também se o espaço é próprio ou alugado, porque isso também impacta as tomadas de decisão;
+            se é
+            um ambiente alugado, pode ser que os investimentos em relação a acabamentos e materiais seja menor do
+            que em um próprio, que vai se manter por mais tempo nesse espaço.</p>
+          <p>Depois, na parte do levantamento métrico, avaliar sempre as preexistências: como esse espaço está
+            organizado, se existem pontos elétricos, hidráulicos, de gás que vão ser utilizados ou precisam ser
+            adaptados.</p>
+          <p>Avaliar a questão dos revestimentos, louças e metais: como está a qualidade desses elementos dentro
+            do
+            espaço; se podem ser mantidos, se precisam ser adaptados, substituídos. E também em relação a
+            mobiliário: se a empresa já existe, se vai ser reaproveitada a questão de mobiliário ou não.</p>
+          <p>Tudo isso precisa ser avaliado junto com o cliente.</p>
+          <p>E, a partir disso, verificar a questão dos espaços específicos. O que essa empresa precisa? Qual é o
+            programa de necessidade para esse espaço? Como a empresa trabalha? Ela precisa de salas individuais ou
+            de salas coletivas de trabalho? Precisa de sala de reunião, recepção?</p>
+          <p>A partir dessas informações, nós conseguimos fazer a gestão do espaço e propor um leiaute específico
+            que
+            vai atender a esse programa de necessidades.</p>
+          <p>Então isso pode variar, pode ser um espaço mais aberto, estilo <i>coworking</i>, que é mais contemporâneo,
+            ou
+            pode ser um leiaute supertradicional, onde as salas ficam delimitadas. Isso depende muito de como a
+            empresa tem a sua organização interna.</p>
+          <p>E, também, dependendo dessa organização da empresa, também os funcionários: a quantidade de
+            funcionários
+            que se tem esse espaço; como é o fluxo de trabalho; como esses funcionários interagem entre si para
+            executar suas tarefas.</p>
+          <p>Tudo isso a gente precisa avaliar no <i>briefing</i> junto ao cliente justamente para atender a essas
+            necessidades dele dentro do espaço.</p>
+          <h4> Suzane Miritz</h4>
+          <p>Que interessante. E quanto às necessidades mais específicas dos ambientes: mobiliários e
+            equipamentos,
+            Laís?</p>
+          <h4> Laís Martini</h4>
+          <p>Bom, é importante sempre avaliar se a empresa já existe em determinado espaço ou vai sofrer alguma
+            mudança, repaginação, ou vai ser tudo novo, porque isso impacta; se esses móveis e equipamentos serão
+            mantidos e integrados a esse novo <i>design</i> ou se vão ser repaginados totalmente. Isso depende muito das
+            necessidades funcionais e práticas desse espaço e as atividades que serão desempenhadas.</p>
+          <p>Então, sempre avaliar o tipo de mobiliário e equipamento que necessita e, a partir disso, pela
+            especificação do leiaute, também avaliar as necessidades técnicas. Então, por exemplo, se se criam
+            ilhas
+            de trabalho, precisamos pensar que essas ilhas provavelmente terão computadores, então precisam ter
+            cabos de conexão, de tecnologia, tomadas. Tudo isso vai impactar diretamente o posicionamento desses
+            mobiliários e dos equipamentos também.</p>
+          <p>E a questão de entender como essa empresa se vê a um curto ou longo prazo, se se pensa em ter
+            mudanças
+            futuras, aí precisamos pensar em uma flexibilidade maior em relação a móveis modulares ou
+            reorganização
+            do espaço.</p>
+          <p>Então, todas essas informações se dão por meio dessa conversa no <i>briefing</i>.</p>
+          <p>E um ponto superimportante também é pensar na acessibilidade e na inclusão; entender que esse espaço
+            vai
+            atender a vários públicos diferentes, então a gente precisa pensar em um <i>design</i> universal, que vá
+            atender a todas as pessoas que vão estar participando e usufruindo desse espaço.</p>
+          <h4> Suzane Miritz</h4>
+          <p>E é importante também levarmos em consideração questões ambientais relacionadas à iluminação e
+            acústica,
+            principalmente para o bem-estar dos funcionários. Como se pode especificar isso, Laís?</p>
+          <h4> Laís Martini</h4>
+          <p>Bom, a iluminação é base, tanto que a iluminação artificial tem uma normativa técnica que é a [NBR]
+            8995, que nós já estudamos, e é o que nos direciona, nos dá as diretrizes para o desenvolvimento do
+            projeto luminotécnico. O ambiente de trabalho tem uma diretriz de iluminação mínima que seja eficiente
+            para cumprir diferentes tarefas. Então é sempre importante respeitar e se guiar por essa norma
+            técnica.
+            Já em relação à iluminação natural, é interessante porque gera bem-estar, mas, ao mesmo tempo, também
+            precisa ter um cuidado em relação, daqui a pouco, a uma insolação em demasia, enfim, que pode
+            prejudicar
+            o conforto térmico dentro da edificação para os colaboradores.</p>
+          <p>Então, sempre que possível, avaliar se é necessário fazer algum controle de iluminação, que pode ser
+            por
+            meio de persianas, cortinas ou climatizadores também.</p>
+          <p>E outra questão que é bem importante em espaços corporativos é pensar na questão acústica. Apesar de
+            os
+            espaços muitas vezes serem integrados, sempre é importante pensar que se tenha algum espaço de
+            privacidade, justamente para que algumas conversas ou alinhamentos possam ser desenvolvidos com
+            privacidade em um local específico, então sempre pensar também nessas questões, que são importantes.
+          </p>
+          <h4> Suzane Miritz</h4>
+          <p>Maravilha! E o que mais, com relação a funcionários e clientes, podemos levar em consideração no
+            momento
+            de planejar o <i>design</i> dos ambientes?</p>
+          <h4> Laís Martini</h4>
+          <p>É importante entender como os funcionários fazem uso desse espaço e como é a experiência no dia a
+            dia:
+            entender fluxos, como se organizam em relação ao espaço, as atividades... Tudo isso gera uma
+            experiência
+            positiva para esses usuários.</p>
+          <h4> Suzane Miritz</h4>
+          <p> Laís, é importante que o <i>designer</i> aproveite os valores e a cultura da empresa no <i>design</i>.
+            Como isso
+            pode
+            ser feito?</p>
+          <h4>Laís Martini</h4>
+          <p> Normalmente, quando se inicia um projeto para um espaço corporativo, essa empresa já tem algumas
+            marcas
+            em relação a logo, identidade visual, paleta de cores. Isso reflete diretamente na cultura corporativa
+            da empresa. Então sempre pensar em como adicionar isso no projeto, que pode ser feito por meio de
+            personalização, elementos de destaque que se integrem ao <i>design</i> corporativo. E aí também relacionar
+            com
+            a questão de estilo e preferência estética, que vão estar na definição de cores, as referências,
+            alguns
+            conceitos também, e isso pode estar aplicado por meio de materiais específicos, por exemplo, madeira,
+            metal, vidro ou alguma paleta de cores; tudo isso interligado com a marca, que vai transparecer essa
+            cultura.</p>
+          <h4>Suzane Miritz</h4>
+          <p> Interessante. E é possível também agregar conceitos sustentáveis ao <i>design</i>?</p>
+          <h4> Laís Martini</h4>
+          <p> A sustentabilidade é uma preocupação muito atual e as empresas trazem isso com mais força nos
+            últimos
+            tempos. Então é importante absorver isso sim em relação ao <i>design</i> e também entender como a empresa
+            quer
+            transparecer essa imagem justamente para fornecer um espaço que tenha um bem-estar maior aos usuários.
+          </p>
+          <h4> Suzane Miritz</h4>
+          <p>E quanto às restrições, com o que o <i>designer</i> pode se deparar?</p>
+          <h4> Laís Martini</h4>
+          <p> Normalmente, as maiores restrições são em relação a orçamento e também prazo. O orçamento: entender
+            qual
+            é o orçamento disponível, porque isso pode limitar algumas questões; e também em relação a prazo: as
+            revisões que precisam ser desenvolvidas na conclusão do projeto, as aprovações de proposta. Tudo isso
+            precisa estar muito bem alinhado com o cliente em relação ao projeto e ao espaço para que atenda a
+            essa
+            demanda.</p>
+          <h4> Suzane Miritz</h4>
+          <p> Perfeito.</p>
+          <p> Laís, e agora, então, para finalizar, quais são os processos após a entrega do projeto?</p>
+          <h4>Laís Martini</h4>
+          <p>Depois que se finaliza o projeto, é sempre importante fazer uma manutenção, um suporte pós-entrega
+            justamente para ficar disponível, caso seja necessária expansão futura ou alguma atualização, então é
+            importante fazer esse acompanhamento. E também fazer uma avaliação com o cliente: se as expectativas
+            foram alcançadas, se os resultados estão de acordo com o que eles esperavam. Tudo isso é importante e
+            relevante ao projeto, porque o projeto sempre está em processo de desenvolvimento e ampliação. Então,
+            como <i>designer</i>, é importante ter esse <i>feedback</i> para um crescimento profissional também.</p>
+          <h4>Suzane Miritz</h4>
+          <p> Muito legal, Laís! Muito obrigada pela sua contribuição. Foi excelente esse momento aqui contigo.
+          </p>
+          <h4> Laís Martini</h4>
+          <p>Obrigada, Suzane! Foi muito bom ter participado desse momento. Espero que eu tenha conseguido ajudar
+            um
+            pouquinho em relação a esse tema tão importante que é o <i>briefing</i>.</p>
+          <h4> Suzane Miritz</h4>
+          <p> Com certeza. E você, estudante, não deixe de pesquisar e praticar com exercícios de projetos.
+            Lembre-se
+            de que, caso você tenha alguma dúvida, os tutores estarão prontos para ajudá-lo.</p>
+          <p>Bons estudos e até a próxima!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Modais 100% -->
-    
+  <!-- Modais 100% -->
 
 
-    <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+
+  <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
     <footer>
     </footer>
     -->
-    <!-- carrega todas as imagens dos icones nesta div
+  <!-- carrega todas as imagens dos icones nesta div
  caso queira adicionar mais imagens de novos icones do css,
  ou qualquer imagem que deva ser contabilizada durante a fase
  de loading, referenciar aqui.
  -->
-    <div class="ico-div-loader">
-      <img src="../template/images/atencao.png" />
-      <img src="../template/images/bg-content.jpg" />
-      <img src="../template/images/bg-topo.jpg" />
-      <img src="../template/images/black-zoom-in-256.png" />
-      <img src="../template/images/concluindo.png" />
-      <img src="../template/images/curtir.png" />
-      <img src="../template/images/desafio.png" />
-      <img src="../template/images/dica.png" />
-      <img src="../template/images/doc.png" />
-      <img src="../template/images/fundamental.png" />
-      <img src="../template/images/icon-03.png" />
-      <img src="../template/images/importante.png" />
-      <img src="../template/images/lightbulb.png" />
-      <img src="../template/images/link.png" />
-      <img src="../template/images/link_pdf_hover.png" />
-      <img src="../template/images/link_pdf_normal.png" />
-      <img src="../template/images/logo-senac.png" />
-      <img src="../template/images/mark-icon.png" />
-      <img src="../template/images/mark-icon02.png" />
-      <img src="../template/images/midia.png" />
-      <img src="../template/images/monitor.png" />
-      <img src="../template/images/nao_curtir.png" />
-      <img src="../template/images/pergunta.png" />
-      <img src="../template/images/pesquisa.png" />
-      <img src="../template/images/play.png" />
-      <img src="../template/images/radio_flat.png" />
-      <img src="../template/images/refletir.png" />
-      <img src="../template/images/saiba_mais.png" />
-      <img src="../template/images/senac_loader.png" />
-      <img src="../template/images/tanamidia.png" />
-      <img src="../template/images/transcricao.png" />
-      <img src="../template/images/transcricao_small.png" />
-      <img src="../template/images/tv.png" />
-      <img src="../template/images/tv_bottom.png" />
-      <img src="../template/images/zoom.png" />
-      <img src="../template/images/zoom_ie.cur" />
-      <img src="../template/images/zoom_ie.png" />
-      <!-- adicionar as imagens customizadas aqui abaixo -->
-    </div>
+  <div class="ico-div-loader">
+    <img src="../template/images/atencao.png" />
+    <img src="../template/images/bg-content.jpg" />
+    <img src="../template/images/bg-topo.jpg" />
+    <img src="../template/images/black-zoom-in-256.png" />
+    <img src="../template/images/concluindo.png" />
+    <img src="../template/images/curtir.png" />
+    <img src="../template/images/desafio.png" />
+    <img src="../template/images/dica.png" />
+    <img src="../template/images/doc.png" />
+    <img src="../template/images/fundamental.png" />
+    <img src="../template/images/icon-03.png" />
+    <img src="../template/images/importante.png" />
+    <img src="../template/images/lightbulb.png" />
+    <img src="../template/images/link.png" />
+    <img src="../template/images/link_pdf_hover.png" />
+    <img src="../template/images/link_pdf_normal.png" />
+    <img src="../template/images/logo-senac.png" />
+    <img src="../template/images/mark-icon.png" />
+    <img src="../template/images/mark-icon02.png" />
+    <img src="../template/images/midia.png" />
+    <img src="../template/images/monitor.png" />
+    <img src="../template/images/nao_curtir.png" />
+    <img src="../template/images/pergunta.png" />
+    <img src="../template/images/pesquisa.png" />
+    <img src="../template/images/play.png" />
+    <img src="../template/images/radio_flat.png" />
+    <img src="../template/images/refletir.png" />
+    <img src="../template/images/saiba_mais.png" />
+    <img src="../template/images/senac_loader.png" />
+    <img src="../template/images/tanamidia.png" />
+    <img src="../template/images/transcricao.png" />
+    <img src="../template/images/transcricao_small.png" />
+    <img src="../template/images/tv.png" />
+    <img src="../template/images/tv_bottom.png" />
+    <img src="../template/images/zoom.png" />
+    <img src="../template/images/zoom_ie.cur" />
+    <img src="../template/images/zoom_ie.png" />
+    <!-- adicionar as imagens customizadas aqui abaixo -->
+  </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="../template/js/jquery.min.js"></script>
-    <script src="../template/js/bootstrap.min.js"></script>
-    <script src="../template/js/jquery.magnific-popup.min.js"></script>
-    <script src="../template/js/print.js"></script>
-    <script src="../template/js/template.config.js"></script>
-    <script src="../template/js/images.loader.js"></script>
-    <script src="../template/js/highlight.min.js"></script>
-    <script src="../template/js/parallax.min.js"></script>
-    <noscript>
-      <style media="screen">
-        .over-loader {
-          display: none;
-        }
-      </style>
-    </noscript>
-  </body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../template/js/jquery.min.js"></script>
+  <script src="../template/js/bootstrap.min.js"></script>
+  <script src="../template/js/jquery.magnific-popup.min.js"></script>
+  <script src="../template/js/print.js"></script>
+  <script src="../template/js/template.config.js"></script>
+  <script src="../template/js/images.loader.js"></script>
+  <script src="../template/js/highlight.min.js"></script>
+  <script src="../template/js/parallax.min.js"></script>
+  <noscript>
+    <style media="screen">
+      .over-loader {
+        display: none;
+      }
+    </style>
+  </noscript>
+</body>
+
 </html>
 <script>
   document.addEventListener("DOMContentLoaded", (event) => {
@@ -426,28 +738,28 @@
   });
 
   $(document).ready(function () {
-    $("#heading01").on('click', function(){
+    $("#heading01").on('click', function () {
       $(this).toggleClass('active');
       $("#heading02").removeClass('active');
       $("#heading03").removeClass('active');
       $("#heading04").removeClass('active');
     })
 
-    $("#heading02").on('click', function(){
+    $("#heading02").on('click', function () {
       $(this).toggleClass('active');
       $("#heading01").removeClass('active');
       $("#heading03").removeClass('active');
       $("#heading04").removeClass('active');
     })
 
-    $("#heading03").on('click', function(){
+    $("#heading03").on('click', function () {
       $(this).toggleClass('active');
       $("#heading01").removeClass('active');
       $("#heading02").removeClass('active');
       $("#heading04").removeClass('active');
     })
 
-    $("#heading04").on('click', function(){
+    $("#heading04").on('click', function () {
       $(this).toggleClass('active');
       $("#heading01").removeClass('active');
       $("#heading02").removeClass('active');

@@ -19,7 +19,9 @@ header {
 .grupo-imprimir {
   margin-top: 45px;
 }
-
+.personagem-audio{
+  width: 50%;
+}
 
 .divisoria_bege1{
   width: 100%;
@@ -273,9 +275,8 @@ header {
 
 .div-podcast {
   margin: 50px auto;
-  width: 380px;
+  width: 650px;
 }
-
 .div-podcast audio {
   filter: drop-shadow(#565656 0px 0px 5px);
   position: relative;
@@ -406,17 +407,15 @@ button.close{
     width: 100%;
     text-align: center;
   }
-
   .div-podcast audio {
     width: 100%;
     margin: 5px auto;
   }
-
   .ico-transcricao {
     width: 80px;
     height: 80px;
     margin: 10px auto;
     float: none;
   }
-
+  .personagem-audio{display: none;}
 }
