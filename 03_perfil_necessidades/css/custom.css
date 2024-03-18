@@ -290,7 +290,6 @@ header {
   transition: all 0.2s;
   position: relative;
   float: right;
-  margin-top: 20%;
 }
 .ico-transcricao:hover {
   transform: scale(1.06);
